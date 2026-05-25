@@ -9,7 +9,10 @@ import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
-from ..core.transcribe import cookies_args, fetch_youtube_autosubs, transcribe_audio_via_openai
+from ..core.transcribe import (
+    cookies_args, fetch_transcript_via_api,
+    fetch_youtube_autosubs, transcribe_audio_via_openai,
+)
 from ._base import FetchResult, NormalizedItem, SourceAdapter
 
 log = logging.getLogger(__name__)
@@ -72,7 +75,10 @@ class YouTubeAdapter(SourceAdapter):
                 channel = v.get("channel") or v.get("uploader") or source["name"]
                 url = f"https://youtu.be/{vid}"
 
-                transcript = fetch_youtube_autosubs(vid, private=source.get("private", False))
+                transcript = fetch_transcript_via_api(vid)
+                if not transcript:
+                    log.info("youtube-transcript-api missed %s; trying yt-dlp autosubs", vid)
+                    transcript = fetch_youtube_autosubs(vid, private=source.get("private", False))
                 if not transcript:
                     log.info("No autosubs for %s; trying Whisper", vid)
                     transcript = transcribe_audio_via_openai(vid, private=source.get("private", False))

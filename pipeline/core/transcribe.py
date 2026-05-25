@@ -15,6 +15,38 @@ log = logging.getLogger(__name__)
 YTDLP_BIN = os.environ.get("YTDLP_BIN", "yt-dlp")
 
 
+def fetch_transcript_via_api(video_id: str) -> str | None:
+    """Use youtube-transcript-api — different endpoint than yt-dlp, friendlier to data-center IPs."""
+    try:
+        from youtube_transcript_api import YouTubeTranscriptApi
+        from youtube_transcript_api._errors import (
+            TranscriptsDisabled, NoTranscriptFound, VideoUnavailable,
+        )
+    except ImportError:
+        return None
+    try:
+        # Prefer manually-uploaded English; fall back to auto-generated en; then any.
+        try:
+            entries = YouTubeTranscriptApi.get_transcript(video_id, languages=["en"])
+        except NoTranscriptFound:
+            transcripts = YouTubeTranscriptApi.list_transcripts(video_id)
+            # Try any English variant or any language as last resort
+            try:
+                t = transcripts.find_transcript(["en", "en-US", "en-GB"])
+            except NoTranscriptFound:
+                t = next(iter(transcripts), None)
+                if not t:
+                    return None
+            entries = t.fetch()
+        text = " ".join(e.get("text", "") for e in entries).strip()
+        return text or None
+    except (TranscriptsDisabled, NoTranscriptFound, VideoUnavailable):
+        return None
+    except Exception as e:
+        log.warning("youtube-transcript-api failed for %s: %s", video_id, e)
+        return None
+
+
 def cookies_args(private_source: bool = False) -> list[str]:
     """yt-dlp cookie args.
 
