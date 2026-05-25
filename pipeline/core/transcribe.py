@@ -111,26 +111,34 @@ def transcribe_audio_via_openai(audio_url_or_video_id: str, private: bool = Fals
 
     tmp = Path(tempfile.mkdtemp())
     try:
-        # download audio
+        # Download whatever bestaudio is available. OpenAI Whisper accepts
+        # mp3, mp4, mpeg, mpga, m4a, wav, webm. Forcing mp3 needs ffmpeg
+        # conversion AND fails when YouTube serves a stripped manifest to
+        # data-center IPs. Just take what we can get.
+        url = audio_url_or_video_id if audio_url_or_video_id.startswith("http") \
+            else f"https://youtu.be/{audio_url_or_video_id}"
         dl_cmd = [
-            YTDLP_BIN, "-x", "--audio-format", "mp3", "--no-warnings",
+            YTDLP_BIN, "-f", "bestaudio[ext=m4a]/bestaudio[ext=webm]/bestaudio",
+            "--no-warnings", "--extractor-args", "youtube:player_client=android,web",
             "-o", str(tmp / "%(id)s.%(ext)s"),
             *cookies_args(private),
-            f"https://youtu.be/{audio_url_or_video_id}"
-            if not audio_url_or_video_id.startswith("http")
-            else audio_url_or_video_id,
+            url,
         ]
         r = subprocess.run(dl_cmd, capture_output=True, text=True, timeout=300)
         if r.returncode != 0:
             log.warning("yt-dlp audio dl failed: %s", r.stderr[:200])
             return None
-        mp3 = next(iter(tmp.glob("*.mp3")), None)
-        if not mp3:
+        audio = next(
+            (p for p in tmp.iterdir()
+             if p.is_file() and p.suffix.lower() in {".m4a", ".webm", ".mp3", ".mp4", ".mpga", ".wav"}),
+            None,
+        )
+        if not audio:
             return None
 
         from openai import OpenAI
         client = OpenAI(api_key=api_key)
-        with open(mp3, "rb") as f:
+        with open(audio, "rb") as f:
             resp = client.audio.transcriptions.create(
                 model="whisper-1",
                 file=f,
