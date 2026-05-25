@@ -16,7 +16,7 @@ YTDLP_BIN = os.environ.get("YTDLP_BIN", "yt-dlp")
 
 
 def fetch_transcript_via_api(video_id: str) -> str | None:
-    """Use youtube-transcript-api — different endpoint than yt-dlp, friendlier to data-center IPs."""
+    """Use youtube-transcript-api (1.x instance-based) — different endpoint than yt-dlp, friendlier to data-center IPs."""
     try:
         from youtube_transcript_api import YouTubeTranscriptApi
         from youtube_transcript_api._errors import (
@@ -25,20 +25,19 @@ def fetch_transcript_via_api(video_id: str) -> str | None:
     except ImportError:
         return None
     try:
-        # Prefer manually-uploaded English; fall back to auto-generated en; then any.
+        ytt = YouTubeTranscriptApi()
         try:
-            entries = YouTubeTranscriptApi.get_transcript(video_id, languages=["en"])
+            fetched = ytt.fetch(video_id, languages=["en", "en-US", "en-GB"])
         except NoTranscriptFound:
-            transcripts = YouTubeTranscriptApi.list_transcripts(video_id)
-            # Try any English variant or any language as last resort
+            transcripts = ytt.list(video_id)
+            # Last resort — first available transcript in any language.
             try:
-                t = transcripts.find_transcript(["en", "en-US", "en-GB"])
-            except NoTranscriptFound:
-                t = next(iter(transcripts), None)
-                if not t:
-                    return None
-            entries = t.fetch()
-        text = " ".join(e.get("text", "") for e in entries).strip()
+                t = next(iter(transcripts))
+            except StopIteration:
+                return None
+            fetched = t.fetch()
+        # FetchedTranscript yields snippets with .text
+        text = " ".join(getattr(s, "text", "") for s in fetched).strip()
         return text or None
     except (TranscriptsDisabled, NoTranscriptFound, VideoUnavailable):
         return None
@@ -90,9 +89,11 @@ def fetch_youtube_autosubs(video_id: str, private: bool = False) -> str | None:
             *cookies_args(private),
             f"https://youtu.be/{video_id}",
         ]
-        subprocess.run(cmd, capture_output=True, timeout=60)
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=60)
         vtt_files = list(tmp.glob("*.vtt"))
         if not vtt_files:
+            if r.returncode != 0 and r.stderr:
+                log.info("yt-dlp autosubs no VTT for %s: %s", video_id, r.stderr[:200])
             return None
         return _clean_vtt(vtt_files[0].read_text(errors="ignore")) or None
     except Exception as e:
