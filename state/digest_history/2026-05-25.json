@@ -30,6 +30,21 @@
         }
       },
       "digest_map": {}
+    },
+    {
+      "run_at": "2026-05-25T20:47:55.560647+00:00",
+      "tg_message_ids": [
+        2
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "kept": 0,
+          "errors": []
+        }
+      },
+      "digest_map": {}
     }
   ]
 }
