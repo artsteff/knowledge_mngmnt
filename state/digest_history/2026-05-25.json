@@ -60,6 +60,78 @@
         }
       },
       "digest_map": {}
+    },
+    {
+      "run_at": "2026-05-25T21:02:23.676184+00:00",
+      "tg_message_ids": [
+        4
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "kept": 0,
+          "errors": [
+            "transcript-missing:j2knrqAzYVY",
+            "transcript-missing:INGOC6-LLv0",
+            "transcript-missing:D4XTefP3Lsc",
+            "transcript-missing:N5yJJA0NCU0",
+            "transcript-missing:nvbq39yVYRk",
+            "transcript-missing:5KTHvKCrQ00",
+            "transcript-missing:Uh98_aGhAuY",
+            "transcript-missing:PLyCki2K0Lg",
+            "transcript-missing:_jjSS0qGFbI",
+            "transcript-missing:tJP6SKfo49c",
+            "transcript-missing:I9aGC6Ui3eE",
+            "transcript-missing:GJ5jTgcbRHA",
+            "transcript-missing:0vZ_UVLhSQQ",
+            "transcript-missing:fOxC44g8vig",
+            "transcript-missing:lvMMZLYoDr4",
+            "transcript-missing:OwMu0pyYZBc",
+            "transcript-missing:AY3lif2E4zI",
+            "transcript-missing:NGOAUJtdk-4",
+            "transcript-missing:CBneTpXF1CQ",
+            "transcript-missing:a8PmR-fNQ_0",
+            "transcript-missing:sHImlfVM9r4",
+            "transcript-missing:Yiy0cU6ChSw",
+            "transcript-missing:NfoFdsc2ODQ",
+            "transcript-missing:uhJJgc-0iTQ",
+            "transcript-missing:aZLr962R6Ag",
+            "transcript-missing:Yct0MvNtdfU",
+            "transcript-missing:XuvKFsktX0Q",
+            "transcript-missing:5zd7m3Rh5B0",
+            "transcript-missing:6eBSHbLKuN0",
+            "transcript-missing:oDks2gVHu4k",
+            "transcript-missing:nZCy8E5jlok",
+            "transcript-missing:EvtPBaaykdo",
+            "transcript-missing:kYJO0y8fVTA",
+            "transcript-missing:mM9TY91FECI",
+            "transcript-missing:5_X2FNtIBEc",
+            "transcript-missing:Fzr_ztRD9dI",
+            "transcript-missing:wpmlqPQQy5s",
+            "transcript-missing:lUF_bjBSgXM",
+            "transcript-missing:LrOMUaj91hE",
+            "transcript-missing:k6sx_ZmthCw",
+            "transcript-missing:RCKo7OdjrCw",
+            "transcript-missing:NIvnT5ug7Dk",
+            "transcript-missing:liimqYe09U4",
+            "transcript-missing:w0eYAGPEHuA",
+            "transcript-missing:9aiEirEqSwc",
+            "transcript-missing:nms47NKdlQM",
+            "transcript-missing:QY9gfEsk2PM",
+            "transcript-missing:SO43O_7jqzk",
+            "transcript-missing:_Ka_AgmGW48",
+            "transcript-missing:Ta5kUdng7Zc",
+            "transcript-missing:xgXHayDOB7Q",
+            "transcript-missing:MKKC1qFbG0I",
+            "transcript-missing:5G0zohzSeeI",
+            "transcript-missing:fccqAteps4Q",
+            "transcript-missing:FbAxP2-Jfps",
+            "transcript-missing:uWnP5V_eGz8"
+          ]
+        }
+      },
+      "digest_map": {}
     }
   ]
 }
