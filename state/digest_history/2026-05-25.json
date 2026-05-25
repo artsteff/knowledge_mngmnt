@@ -132,6 +132,21 @@
         }
       },
       "digest_map": {}
+    },
+    {
+      "run_at": "2026-05-25T21:12:06.652538+00:00",
+      "tg_message_ids": [
+        5
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "kept": 0,
+          "errors": []
+        }
+      },
+      "digest_map": {}
     }
   ]
 }
