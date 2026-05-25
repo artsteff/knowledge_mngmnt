@@ -1,0 +1,35 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-05-25T19:54:08.867691+00:00",
+      "tg_message_ids": [],
+      "tg_post_ok": false,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "kept": 0,
+          "errors": [
+            "transcript-missing:X_JsIHUfUjc",
+            "transcript-missing:ProtYDAMe24",
+            "transcript-missing:4E-tK7RvxTc",
+            "transcript-missing:-tdNsYi8AXs",
+            "transcript-missing:c9-0X04cUNE",
+            "transcript-missing:Ubwb6NzegyA",
+            "transcript-missing:NKwIX3CiRgU",
+            "transcript-missing:t4359sKBu4w",
+            "transcript-missing:7gujZrJ9L5I",
+            "transcript-missing:WRBNDpUhsJQ",
+            "transcript-missing:F1DYkY1BlfM",
+            "transcript-missing:owH1f0N-keY",
+            "transcript-missing:dyHpnnlkTc8",
+            "transcript-missing:VaS2h-dY1-4",
+            "transcript-missing:JomVvNDjGb8",
+            "transcript-missing:7VKliOQXQ9M",
+            "transcript-missing:h0bhNm6kwT8"
+          ]
+        }
+      },
+      "digest_map": {}
+    }
+  ]
+}
