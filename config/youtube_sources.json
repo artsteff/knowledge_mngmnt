@@ -1,0 +1,34 @@
+{
+  "sources": [
+    {
+      "name": "AI news",
+      "url": "https://www.youtube.com/playlist?list=PLq6SeflPQSia6EOz0kXU_ItQv6UQQsNis",
+      "private": false
+    },
+    {
+      "name": "Watch Later",
+      "url": "https://www.youtube.com/playlist?list=WL",
+      "private": true
+    },
+    {
+      "name": "Peter Yang",
+      "url": "https://www.youtube.com/@PeterYangYT",
+      "private": false
+    },
+    {
+      "name": "How I AI",
+      "url": "https://www.youtube.com/@howiaipodcast",
+      "private": false
+    },
+    {
+      "name": "AI Engineer",
+      "url": "https://www.youtube.com/@aiDotEngineer",
+      "private": false
+    },
+    {
+      "name": "Y Combinator",
+      "url": "https://www.youtube.com/@ycombinator",
+      "private": false
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.local
+*.log
+state/digest_history/archive-*.json.tmp
+.DS_Store
+.idea/
+.vscode/

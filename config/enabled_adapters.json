@@ -1,0 +1,4 @@
+{
+  "enabled": ["youtube"],
+  "_comment": "Phase 1 ships YouTube only. Add 'gmail' and 'direct_link' as those adapters land."
+}

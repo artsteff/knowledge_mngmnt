@@ -1,0 +1,65 @@
+name: respond
+
+on:
+  repository_dispatch:
+    types: [user-reply]
+  workflow_dispatch:
+    inputs:
+      payload:
+        description: "JSON payload to test the responder locally"
+        required: true
+
+jobs:
+  respond:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout knowledge_mngmnt
+        uses: actions/checkout@v4
+        with:
+          path: knowledge_mngmnt
+
+      - name: Checkout second-brain
+        uses: actions/checkout@v4
+        with:
+          repository: artsteff/second-brain
+          path: second-brain
+          ssh-key: ${{ secrets.SECOND_BRAIN_DEPLOY_KEY }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: knowledge_mngmnt/requirements.txt
+
+      - name: Install Python deps
+        run: pip install -r knowledge_mngmnt/requirements.txt
+
+      - name: Configure git
+        run: |
+          git -C knowledge_mngmnt config user.name "Knowledge Mgmt Bot"
+          git -C knowledge_mngmnt config user.email "bot@users.noreply.github.com"
+          git -C second-brain     config user.name "Knowledge Mgmt Bot"
+          git -C second-brain     config user.email "bot@users.noreply.github.com"
+
+      - name: Pick payload
+        id: pick
+        run: |
+          if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            echo "payload=$(jq -c . <<< '${{ toJson(github.event.client_payload) }}')" >> "$GITHUB_OUTPUT"
+          else
+            echo "payload=${{ inputs.payload }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run responder
+        working-directory: knowledge_mngmnt
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TELEGRAM_CAPTURE_BOT_TOKEN: ${{ secrets.TELEGRAM_CAPTURE_BOT_TOKEN }}
+          TELEGRAM_CAPTURE_CHANNEL_ID: ${{ secrets.TELEGRAM_CAPTURE_CHANNEL_ID }}
+          SECOND_BRAIN_PATH: ${{ github.workspace }}/second-brain
+          VAULT_PATH: ${{ github.workspace }}/second-brain
+        run: python -m pipeline.responder --payload '${{ steps.pick.outputs.payload }}'

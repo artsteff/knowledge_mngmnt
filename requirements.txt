@@ -1,0 +1,7 @@
+anthropic>=0.40
+openai>=1.50
+requests>=2.32
+python-dotenv>=1.0
+google-api-python-client>=2.150
+google-auth>=2.35
+google-auth-oauthlib>=1.2

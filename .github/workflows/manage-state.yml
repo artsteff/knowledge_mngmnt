@@ -1,0 +1,65 @@
+name: manage-state
+
+on:
+  schedule:
+    - cron: "0 2 * * 0"   # Sundays 04:00 Amsterdam (02:00 UTC summer)
+  workflow_dispatch: {}
+
+jobs:
+  manage:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Prune state
+        run: |
+          python - <<'PY'
+          import json, sys
+          from datetime import date, timedelta
+          from pathlib import Path
+
+          state_dir = Path("state")
+          changed = []
+
+          for f in state_dir.glob("*.json"):
+              data = json.loads(f.read_text())
+              if "seen" in data and len(data["seen"]) > 1000:
+                  data["seen"] = data["seen"][-1000:]
+                  f.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+                  changed.append(str(f))
+
+          history = state_dir / "digest_history"
+          cutoff = date.today() - timedelta(days=30)
+          archived = []
+          for f in history.glob("*.json"):
+              try:
+                  d = date.fromisoformat(f.stem)
+              except ValueError:
+                  continue
+              if d < cutoff:
+                  archive = history / f"archive-{d.strftime('%Y-%m')}.json"
+                  existing = json.loads(archive.read_text()) if archive.exists() else {}
+                  existing[f.stem] = json.loads(f.read_text())
+                  archive.write_text(json.dumps(existing, indent=2, ensure_ascii=False))
+                  f.unlink()
+                  archived.append(f.stem)
+                  changed.append(str(archive))
+
+          print("Changed:", changed, "Archived:", archived)
+          PY
+
+      - name: Commit if changed
+        run: |
+          git config user.name "Knowledge Mgmt Bot"
+          git config user.email "bot@users.noreply.github.com"
+          if ! git diff --quiet; then
+            git add -A
+            git commit -m "state: weekly housekeeping"
+            git push
+          fi

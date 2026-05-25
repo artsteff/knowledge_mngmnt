@@ -1,0 +1,8 @@
+name = "capture-webhook"
+main = "cloudflare-worker.ts"
+compatibility_date = "2026-05-25"
+
+# Set in Cloudflare dashboard (Settings → Variables) as plaintext or secrets:
+#   GH_DISPATCH_TOKEN          (secret)
+#   WEBHOOK_SHARED_SECRET      (secret)
+#   TELEGRAM_CAPTURE_CHANNEL_ID
