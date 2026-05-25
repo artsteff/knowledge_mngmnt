@@ -29,6 +29,11 @@
       "name": "Y Combinator",
       "url": "https://www.youtube.com/@ycombinator",
       "private": false
+    },
+    {
+      "name": "Anthropic",
+      "url": "https://www.youtube.com/@anthropic-ai",
+      "private": false
     }
   ]
 }
