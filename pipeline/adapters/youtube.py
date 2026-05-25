@@ -9,7 +9,7 @@ import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
-from ..core.transcribe import fetch_youtube_autosubs, transcribe_audio_via_openai
+from ..core.transcribe import cookies_args, fetch_youtube_autosubs, transcribe_audio_via_openai
 from ._base import FetchResult, NormalizedItem, SourceAdapter
 
 log = logging.getLogger(__name__)
@@ -32,9 +32,8 @@ class YouTubeAdapter(SourceAdapter):
         cmd = [
             YTDLP_BIN, "--flat-playlist", "--dump-json", "--no-warnings",
             "--playlist-end", str(PLAYLIST_END),
+            *cookies_args(source.get("private", False)),
         ]
-        if source.get("private"):
-            cmd += ["--cookies-from-browser", "chrome"]
         cmd.append(source["url"])
         try:
             r = subprocess.run(cmd, capture_output=True, text=True, timeout=120)

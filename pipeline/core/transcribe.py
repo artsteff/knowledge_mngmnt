@@ -15,6 +15,22 @@ log = logging.getLogger(__name__)
 YTDLP_BIN = os.environ.get("YTDLP_BIN", "yt-dlp")
 
 
+def cookies_args(private_source: bool = False) -> list[str]:
+    """yt-dlp cookie args.
+
+    Priority:
+      1. YT_COOKIES_FILE env var (cloud / CI) — used for ALL calls
+      2. --cookies-from-browser chrome — local Mac, only for sources marked private
+      3. nothing
+    """
+    cookies_file = os.environ.get("YT_COOKIES_FILE")
+    if cookies_file and Path(cookies_file).exists():
+        return ["--cookies", cookies_file]
+    if private_source:
+        return ["--cookies-from-browser", "chrome"]
+    return []
+
+
 def _clean_vtt(raw: str) -> str:
     """Dedupe VTT lines into clean prose. Ported from scripts/youtube/youtube_monitor.py."""
     lines, seen = [], set()
@@ -39,10 +55,9 @@ def fetch_youtube_autosubs(video_id: str, private: bool = False) -> str | None:
             YTDLP_BIN, "--write-auto-subs", "--skip-download",
             "--sub-langs", "en", "--sub-format", "vtt",
             "--no-warnings", "-o", str(tmp / "%(id)s"),
+            *cookies_args(private),
             f"https://youtu.be/{video_id}",
         ]
-        if private:
-            cmd += ["--cookies-from-browser", "chrome"]
         subprocess.run(cmd, capture_output=True, timeout=60)
         vtt_files = list(tmp.glob("*.vtt"))
         if not vtt_files:
@@ -68,12 +83,11 @@ def transcribe_audio_via_openai(audio_url_or_video_id: str, private: bool = Fals
         dl_cmd = [
             YTDLP_BIN, "-x", "--audio-format", "mp3", "--no-warnings",
             "-o", str(tmp / "%(id)s.%(ext)s"),
+            *cookies_args(private),
             f"https://youtu.be/{audio_url_or_video_id}"
             if not audio_url_or_video_id.startswith("http")
             else audio_url_or_video_id,
         ]
-        if private:
-            dl_cmd += ["--cookies-from-browser", "chrome"]
         r = subprocess.run(dl_cmd, capture_output=True, text=True, timeout=300)
         if r.returncode != 0:
             log.warning("yt-dlp audio dl failed: %s", r.stderr[:200])

@@ -53,6 +53,23 @@ jobs:
           git -C second-brain     config user.name "Knowledge Mgmt Bot"
           git -C second-brain     config user.email "bot@users.noreply.github.com"
 
+      - name: Materialize YouTube cookies (if provided)
+        env:
+          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
+        run: |
+          if [ -n "$YOUTUBE_COOKIES" ]; then
+            mkdir -p /tmp/yt
+            printf '%s' "$YOUTUBE_COOKIES" > /tmp/yt/cookies.txt
+            chmod 600 /tmp/yt/cookies.txt
+            if head -1 /tmp/yt/cookies.txt | grep -q "Netscape"; then
+              echo "Cookies file looks valid ($(wc -l < /tmp/yt/cookies.txt) lines)."
+            else
+              echo "::warning::YOUTUBE_COOKIES does not start with the Netscape header — may not work."
+            fi
+          else
+            echo "No YOUTUBE_COOKIES secret set; proceeding without cookies."
+          fi
+
       - name: Run orchestrator
         working-directory: knowledge_mngmnt
         env:
@@ -61,6 +78,7 @@ jobs:
           TELEGRAM_CAPTURE_BOT_TOKEN: ${{ secrets.TELEGRAM_CAPTURE_BOT_TOKEN }}
           TELEGRAM_CAPTURE_CHANNEL_ID: ${{ secrets.TELEGRAM_CAPTURE_CHANNEL_ID }}
           SECOND_BRAIN_PATH: ${{ github.workspace }}/second-brain
+          YT_COOKIES_FILE: /tmp/yt/cookies.txt
         run: |
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             python -m pipeline.orchestrator --from-config --dry-run
