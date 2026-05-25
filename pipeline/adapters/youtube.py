@@ -77,10 +77,21 @@ class YouTubeAdapter(SourceAdapter):
                     log.info("No autosubs for %s; trying Whisper", vid)
                     transcript = transcribe_audio_via_openai(vid, private=source.get("private", False))
                 if not transcript:
-                    log.warning("No transcript for %s (%s)", vid, title[:60])
+                    # Don't mark seen on failure — let the next cron retry.
+                    # Cap retries via state['failed'] counter; after MAX_FAIL attempts, give up.
+                    fails = state.setdefault("failed", {})
+                    fails[vid] = fails.get(vid, 0) + 1
+                    if fails[vid] >= 3:
+                        log.warning("Giving up on %s after %d attempts (%s)", vid, fails[vid], title[:60])
+                        seen.add(vid)
+                        del fails[vid]
+                    else:
+                        log.warning("No transcript for %s (attempt %d/3): %s", vid, fails[vid], title[:60])
                     errors.append(f"transcript-missing:{vid}")
-                    seen.add(vid)   # don't retry indefinitely
                     continue
+                # Success — clear any retry counter
+                if "failed" in state and vid in state["failed"]:
+                    del state["failed"][vid]
 
                 items.append(NormalizedItem(
                     source_id=vid,
