@@ -11,7 +11,7 @@ on:
 
 jobs:
   respond:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, macOS]
     timeout-minutes: 20
     permissions:
       contents: write
@@ -32,8 +32,6 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: pip
-          cache-dependency-path: knowledge_mngmnt/requirements.txt
 
       - name: Install Python deps
         run: pip install -r knowledge_mngmnt/requirements.txt

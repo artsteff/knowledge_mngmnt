@@ -13,8 +13,8 @@ on:
 
 jobs:
   poll:
-    runs-on: ubuntu-latest
-    timeout-minutes: 25
+    runs-on: [self-hosted, macOS]
+    timeout-minutes: 30
     permissions:
       contents: write
     steps:
@@ -34,14 +34,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-          cache: pip
-          cache-dependency-path: knowledge_mngmnt/requirements.txt
 
-      - name: Install yt-dlp + ffmpeg
-        run: |
-          sudo apt-get update -y
-          sudo apt-get install -y ffmpeg
-          pip install --upgrade yt-dlp
+      - name: Upgrade yt-dlp
+        run: pip install --upgrade yt-dlp
 
       - name: Install Python deps
         run: pip install -r knowledge_mngmnt/requirements.txt
