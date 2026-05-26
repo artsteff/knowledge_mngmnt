@@ -57,8 +57,12 @@ def commit_and_push(repo: Path, message: str, paths: list[Path]) -> bool:
              "--author=Knowledge Mgmt Bot <bot@users.noreply.github.com>"],
             check=True,
         )
-        # Only push when in GH Actions; locally let the user push manually
-        if os.environ.get("GITHUB_ACTIONS") == "true":
+        # Push when in GH Actions, or when KM_GIT_PUSH=1 (local launchd jobs).
+        should_push = (
+            os.environ.get("GITHUB_ACTIONS") == "true"
+            or os.environ.get("KM_GIT_PUSH") == "1"
+        )
+        if should_push:
             subprocess.run(["git", "-C", str(repo), "push"], check=True)
         return True
     except subprocess.CalledProcessError as e:

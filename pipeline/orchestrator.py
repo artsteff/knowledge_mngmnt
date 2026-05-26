@@ -14,11 +14,14 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+from dotenv import load_dotenv
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+load_dotenv(REPO_ROOT / ".env")  # local launchd / manual runs read secrets from .env
+
 from .adapters._base import NormalizedItem, SourceAdapter
 from .adapters.youtube import YouTubeAdapter
 from .core import digest, git_io, score, summarize
-
-REPO_ROOT = Path(__file__).resolve().parents[1]
 STATE_DIR = REPO_ROOT / "state"
 DIGEST_HISTORY = STATE_DIR / "digest_history"
 CONFIG_DIR = REPO_ROOT / "config"

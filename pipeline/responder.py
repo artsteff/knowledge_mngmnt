@@ -10,12 +10,16 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
+from dotenv import load_dotenv
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+load_dotenv(REPO_ROOT / ".env")
+
 import requests
 from anthropic import Anthropic
 
 from .core import deep_dive, git_io, intent_router
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
 STATE_DIR = REPO_ROOT / "state"
 DIGEST_HISTORY = STATE_DIR / "digest_history"
 VAULT_PATH = Path(os.environ.get("VAULT_PATH", str(Path.home() / "Documents" / "vault")))
