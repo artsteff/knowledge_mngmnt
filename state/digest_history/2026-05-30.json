@@ -1,0 +1,132 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-05-30T21:08:02.307434+00:00",
+      "tg_message_ids": [
+        9
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 24,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "vy7o1g2iHY8",
+          "url": "https://youtu.be/vy7o1g2iHY8",
+          "title": "How I deleted 95% of my agent skills and got better results — Nick Nisi, WorkOS",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Multi-agent orchestration with enforced state gates (verifier → reviewer → implementer loop) and cryptographic proof of work completion solves both context collapse and agent hallucination better than scaling a single agent.",
+          "card_slug": "how-i-deleted-95-of-my-agent-skills-and-got-better-results-n"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "AGkzpxMdPn8",
+          "url": "https://youtu.be/AGkzpxMdPn8",
+          "title": "When MVPs take 2 weeks but Prod takes 12 months — Jess Grogan-Avignon & Jack Wang, Accenture",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Enterprise AI deployment bottleneck isn't technical (2-week MVP) but organizational — 12 months to production because security, governance, data, infrastructure teams operate in serial human-speed processes designed before AI's code velocity (1B commits/year, agents turning non-engineers into builders).",
+          "card_slug": "when-mvps-take-2-weeks-but-prod-takes-12-months-jess-grogan-"
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "3_gYbhABcAE",
+          "url": "https://youtu.be/3_gYbhABcAE",
+          "title": "Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Agent development is fundamentally iterative (prompt-observe-adjust) rather than deterministic (spec-code-deploy), requiring engineers to shift from \"traffic controller\" mindset (controlling every step) to \"dispatcher\" mindset (defining goals, letting the model choose paths).",
+          "card_slug": "why-senior-engineers-struggle-to-build-ai-agents-philipp-sch"
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "iDfmDUka4CQ",
+          "url": "https://youtu.be/iDfmDUka4CQ",
+          "title": "Claude built a 3D home model from just a floorplan",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Claude (via Cospace) inferred 3D structure and spatial reasoning from a 2D floorplan, then autonomously integrated external data (email furniture purchases) without explicit instruction — a concrete example of agentic UX reducing user friction.",
+          "card_slug": "claude-built-a-3d-home-model-from-just-a-floorplan"
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "FFYy3yVo7sc",
+          "url": "https://youtu.be/FFYy3yVo7sc",
+          "title": "Claude Opus 4.8: where it excels and where it falls short",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Claude Opus 4.8 can autonomously code a full feature in one shot with correct architecture, but consistently fails on the same types of problems in the last 10%—the gap is not random but systematic.",
+          "card_slug": "claude-opus-48-where-it-excels-and-where-it-falls-short"
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "XHPI9FPnndg",
+          "url": "https://youtu.be/XHPI9FPnndg",
+          "title": "Codex Goals enable the model to work autonomously for hours without supervision",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Claude's /goal feature lets agentic systems work autonomously on unbounded problem spaces (e.g., \"fix all errors in logs\") rather than requiring task-by-task human orchestration, which changes both quality outcomes and the shape of agent UX.",
+          "card_slug": "codex-goals-enable-the-model-to-work-autonomously-for-hours-"
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "phchDt63qAA",
+          "url": "https://youtu.be/phchDt63qAA",
+          "title": "How We Built Zeta2: Training an Edit Prediction Model in Production — Ben Kunkle, Zed",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Zed's production training loop uses frontier model distillation + settled data filtering (running student checkpoints 50x instead of teacher 1M times) to generate high-signal training examples at scale, turning opt-in editor telemetry into self-improving datasets.",
+          "card_slug": "how-we-built-zeta2-training-an-edit-prediction-model-in-prod"
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "2wLJl9A2CnA",
+          "url": "https://youtu.be/2wLJl9A2CnA",
+          "title": "I let Codex run for 6 hours. Here’s what happened.",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Goals in Claude Code enable multi-hour autonomous task loops by continuously working toward a measurable outcome (verify → decide next step → loop) rather than waiting for turn-by-turn prompts — the first time the author sustained a 5h45m uninterrupted agent run.",
+          "card_slug": "i-let-codex-run-for-6-hours-heres-what-happened"
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "vbChRIIlSPE",
+          "url": "https://youtu.be/vbChRIIlSPE",
+          "title": "I Stopped Using PowerPoint After Building This Claude Code Skill (Full Tutorial + 3 Templates)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Claude Code skill that converts outline → animated HTML deck in minutes, with 12 templated slide formats, interactive charts, and QA pass via image rendering — showing a concrete pattern for AI-native tooling that replaces manual UI work.",
+          "card_slug": "i-stopped-using-powerpoint-after-building-this-claude-code-s"
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "h0gZf1hL4D4",
+          "url": "https://youtu.be/h0gZf1hL4D4",
+          "title": "No hype Claude Opus 4.8 review—my real experience",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Opus 4.8 excels at one-shot feature building from spec but fails consistently on edge cases, bug-fixing loops, and hallucination under follow-up prompts—even on high effort mode.",
+          "card_slug": "no-hype-claude-opus-48-reviewmy-real-experience"
+        }
+      }
+    }
+  ]
+}
