@@ -1,0 +1,66 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-05-31T00:00:50.537027+00:00",
+      "tg_message_ids": [
+        11
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 4,
+          "posting": 4,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "2Ap1dnv-GXA",
+          "url": "https://youtu.be/2Ap1dnv-GXA",
+          "title": "Giga: Finding A Billion Dollar Market After Three Pivots",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Founder pivoted from edtech LLM idea to customer support AI agents after YC partner rejected the domain, then scaled to 60–70% deflection rates (vs 10–15% baseline) with top-tier customers like telecom providers and crypto exchanges.",
+          "card_slug": "giga-finding-a-billion-dollar-market-after-three-pivots"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "wE1ZgJdt4uM",
+          "url": "https://youtu.be/wE1ZgJdt4uM",
+          "title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Inference speed is becoming a capability lever, not just a cost optimization — systems that think longer deliver higher peak intelligence, making tokens-per-second a direct proxy for model capability.",
+          "card_slug": "inference-diffusion-world-models-and-more-yc-paper-club"
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "B246K_G7mHU",
+          "url": "https://youtu.be/B246K_G7mHU",
+          "title": "Inside YC's AI Playbook",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "YC replaced deterministic software loops with agentic tools—finance team now encodes workflows as English prompts instead of waiting for engineers to build purpose-built software; started with SQL agents, expanded to general agent infrastructure across the org.",
+          "card_slug": "inside-ycs-ai-playbook"
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "W-SX_srBa3Y",
+          "url": "https://youtu.be/W-SX_srBa3Y",
+          "title": "Let's Talk About FOMAT: Fear of Missing Agent Time — Michael Richman, Cmd+Ctrl",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Agent sessions now run 5+ hours/days unpredictably, so the UX problem shifts from \"when to check back\" to \"knowing when the agent needs you without being at your machine\" — and monitoring/notification infrastructure becomes critical product work.",
+          "card_slug": "lets-talk-about-fomat-fear-of-missing-agent-time-michael-ric"
+        }
+      }
+    }
+  ]
+}
