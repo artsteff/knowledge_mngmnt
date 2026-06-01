@@ -131,6 +131,83 @@
           "card_slug": "why-leaderboard-rankings-disagree-and-what-to-use-instead-be"
         }
       }
+    },
+    {
+      "run_at": "2026-06-01T22:02:06.764661+00:00",
+      "tg_message_ids": [
+        13
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 7,
+          "posting": 5,
+          "errors": [
+            "transcript-missing:yUohoaC8_Hs",
+            "transcript-missing:xCd9ykretlg",
+            "transcript-missing:k-H4nsOTuxU"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "N7b1PJc7SFc",
+          "url": "https://youtu.be/N7b1PJc7SFc",
+          "title": "500ms is the cliff: engineering voice agents that don't lose callers — Rishabh Bhargava, Together AI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Voice agent latency has a hard cliff at 500ms — beyond that, callers perceive delay and disengage; the dominant production pattern is a pipeline (STT → LLM → TTS) that must solve latency, intelligence, naturalness, and scale simultaneously.",
+          "card_slug": "500ms-is-the-cliff-engineering-voice-agents-that-dont-lose-c"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "4D3hDmGhFhA",
+          "url": "https://youtu.be/4D3hDmGhFhA",
+          "title": "AI predictions: Job markets, Codex beats Claude, and the death of org charts | Dan Shipper",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Non-technical people using Claude Code for everyday work (file sorting, text processing) is becoming the primary interface for knowledge work, not engineering—and agents increase SaaS users rather than replacing them.",
+          "card_slug": "ai-predictions-job-markets-codex-beats-claude-and-the-death-"
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "NuePCNMpWGc",
+          "url": "https://youtu.be/NuePCNMpWGc",
+          "title": "Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "LLMs pass functional correctness evals (80%+) but fail on enterprise readiness — Sonar's analysis of 4,444 Java assignments found Claude Sonnet generates 627K LOC with 300 security issues per million lines, GPT-4 generates 1.2M LOC, revealing hidden bugs and mixed-quality training data that evals don't measure.",
+          "card_slug": "can-llms-generate-enterprise-quality-code-prasenjit-sarkar-s"
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "PoJ1vTdHpks",
+          "url": "https://youtu.be/PoJ1vTdHpks",
+          "title": "How Anthropic, Costco, and Patagonia all build incorruptible companies  | Eric Ries",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Anthropic's board structure (external trustees with AI safety expertise, no equity) is a concrete mechanism for preventing founder capture and maintaining principled decisions even when they cost money — Ries argues \"harder is easier\" when you embed principles into governance, not just culture.",
+          "card_slug": "how-anthropic-costco-and-patagonia-all-build-incorruptible-c"
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "G5WTgB87rYQ",
+          "url": "https://youtu.be/G5WTgB87rYQ",
+          "title": "Why the next AI boom is physical AI | Caitlin Kalinowski (ex-OpenAI, Meta, Apple)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Physical AI (robotics, manufacturing) is the next frontier after digital AI saturates; VR/AR R&D (SLAM, depth sensing, spatial understanding) is proving foundational infrastructure for robotics, not a dead end.",
+          "card_slug": "why-the-next-ai-boom-is-physical-ai-caitlin-kalinowski-ex-op"
+        }
+      }
     }
   ]
 }
