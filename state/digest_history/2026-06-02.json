@@ -43,6 +43,37 @@
           "card_slug": "how-to-win-when-software-is-not-a-moat-evan-spiegel-snapchat"
         }
       }
+    },
+    {
+      "run_at": "2026-06-02T14:00:54.787082+00:00",
+      "tg_message_ids": [
+        15
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": [
+            "transcript-missing:tJ-BJtJPtH0"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "4fg6DfW__i8",
+          "url": "https://youtu.be/4fg6DfW__i8",
+          "title": "Why a beginners mindset is an AI advantage",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
