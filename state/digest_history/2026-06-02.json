@@ -1,0 +1,48 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-06-02T02:01:29.206618+00:00",
+      "tg_message_ids": [
+        14
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": [
+            "transcript-missing:yUohoaC8_Hs",
+            "transcript-missing:xCd9ykretlg",
+            "transcript-missing:k-H4nsOTuxU"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "mCO-D3pkviM",
+          "url": "https://youtu.be/mCO-D3pkviM",
+          "title": "AI era skills: Why cultivating agency matters more than job titles | Max Schoening (Notion)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "AI changes the first 10% of product development from hard to free; the skill that matters most now is \"agency\" — the ability to iterate and ship without permission, not technical depth.",
+          "card_slug": "ai-era-skills-why-cultivating-agency-matters-more-than-job-t"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "-7Yol5vX5xw",
+          "url": "https://youtu.be/-7Yol5vX5xw",
+          "title": "How to win when software is not a moat | Evan Spiegel (Snapchat CEO)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "\"Software is not a moat\" — Snapchat learned this 15 years ago; the real differentiator in consumer is distribution (network effects, subsidies, platform leverage) and continuous innovation velocity (small design team shipping daily).",
+          "card_slug": "how-to-win-when-software-is-not-a-moat-evan-spiegel-snapchat"
+        }
+      }
+    }
+  ]
+}
