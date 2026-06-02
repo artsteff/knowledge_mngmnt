@@ -127,6 +127,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-06-02T22:14:31.937971+00:00",
+      "tg_message_ids": [
+        17
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 5,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "KA5kPbdkK2E",
+          "url": "https://youtu.be/KA5kPbdkK2E",
+          "title": "How Lovable taught its agent to surface its own blockers — Benjamin Verbeek, Lovable",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Lovable uses LLM judges to detect when non-technical users get stuck (repeated requests, explicit failures, session abandonment) and classifies blockers into solvable-with-better-prompting vs. product-structural, then learns from each category to reduce friction points.",
+          "card_slug": "how-lovable-taught-its-agent-to-surface-its-own-blockers-ben"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "HvZXAOZ3iv8",
+          "url": "https://youtu.be/HvZXAOZ3iv8",
+          "title": "What Lies Beneath the API — Benjamin Cowen, Modal",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Fine-tuning becomes economically viable when frontier API costs exceed customer willingness to pay or when you hit eval plateaus — signals include \"caveman mode\" prompts no longer cutting costs, latency/throughput constraints, and custom business logic that generalist models won't optimize for.",
+          "card_slug": "what-lies-beneath-the-api-benjamin-cowen-modal"
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "YYH0DMQr30A",
+          "url": "https://youtu.be/YYH0DMQr30A",
+          "title": "Why your RL training data is producing noise — Kobie Crawdord, Snorkel",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Task quality in agentic RL training correlates with measurable performance signals (2x tool calls, lower pass rates, more reasoning tokens) — and can be validated through structured acceptance criteria before training begins.",
+          "card_slug": "why-your-rl-training-data-is-producing-noise-kobie-crawdord-"
+        }
+      }
     }
   ]
 }
