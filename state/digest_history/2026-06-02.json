@@ -74,6 +74,59 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-06-02T18:01:12.607441+00:00",
+      "tg_message_ids": [
+        16
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": [
+            "transcript-missing:tJ-BJtJPtH0"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "KA5kPbdkK2E",
+          "url": "https://youtu.be/KA5kPbdkK2E",
+          "title": "How Lovable taught its agent to surface its own blockers — Benjamin Verbeek, Lovable",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "Dcvl4mseZ6c",
+          "url": "https://youtu.be/Dcvl4mseZ6c",
+          "title": "Launches are still terrifying for me…what if zero people care?",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "YYH0DMQr30A",
+          "url": "https://youtu.be/YYH0DMQr30A",
+          "title": "Why your RL training data is producing noise — Kobie Crawdord, Snorkel",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
