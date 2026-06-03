@@ -28,6 +28,48 @@
           "card_slug": "ai-engineer-melbourne-2026-keynote-livestream-day-1"
         }
       }
+    },
+    {
+      "run_at": "2026-06-03T14:01:43.670625+00:00",
+      "tg_message_ids": [
+        19
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": [
+            "transcript-missing:tuY2ChJIx48"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "504PvfXou5Y",
+          "url": "https://youtu.be/504PvfXou5Y",
+          "title": "BDD, ADR, PRD, WTF: Capturing Decisions for Humans and AI Alike — Michal Cichra, Safe Intelligence",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "ADRs (architecture decision records) + BDD (behavior-driven development) + design system enforcement create a machine-readable audit trail that lets agents understand *why* a system exists, not just *what* it does — closing the gap between spec and actual behavior.",
+          "card_slug": "bdd-adr-prd-wtf-capturing-decisions-for-humans-and-ai-alike-"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "uT3EQPVIEb0",
+          "url": "https://youtu.be/uT3EQPVIEb0",
+          "title": "Full Tutorial: Build Self-Improving Claude Skills in 20 Min (Eval + Memory)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Separating skill.md from examples/context files lets Claude load only relevant context per invocation, reducing token overhead and shareability friction.",
+          "card_slug": "full-tutorial-build-self-improving-claude-skills-in-20-min-e"
+        }
+      }
     }
   ]
 }
