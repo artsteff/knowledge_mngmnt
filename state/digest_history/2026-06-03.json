@@ -70,6 +70,59 @@
           "card_slug": "full-tutorial-build-self-improving-claude-skills-in-20-min-e"
         }
       }
+    },
+    {
+      "run_at": "2026-06-03T18:01:52.914179+00:00",
+      "tg_message_ids": [
+        20
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": [
+            "transcript-missing:tuY2ChJIx48"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "zKk7sDMGDEQ",
+          "url": "https://youtu.be/zKk7sDMGDEQ",
+          "title": "Benchmarking semantic code retrieval on Claude Code — Kuba Rogut, Turbopuffer",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Semantic code retrieval in agents trades upfront indexing cost for cached embeddings that reduce per-query token spend and improve accuracy 2–2.6% in production (Cursor's data), making it worth the infrastructure investment at scale.",
+          "card_slug": "benchmarking-semantic-code-retrieval-on-claude-code-kuba-rog"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "hCMrEfPG2Yg",
+          "url": "https://youtu.be/hCMrEfPG2Yg",
+          "title": "Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Three UI paradigms for agent-generated interfaces — static components (predefined React mapped to tool calls), declarative (LLM generates structured specs), and generative (LLM writes raw UI code) — each with different tradeoffs for MCP apps and agent products.",
+          "card_slug": "beyond-components-designing-generative-ui-for-mcp-apps-ruben"
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "gSNFJbgoaHI",
+          "url": "https://youtu.be/gSNFJbgoaHI",
+          "title": "How to Build an AI-Native Services Company",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "AI-native services companies displace existing vendors in low-trust, high-regulation markets (tax, audit, insurance) where the work can be decomposed into automatable + judgment tasks, creating a new business model where the AI+human operation *is* the product, not a co-pilot.",
+          "card_slug": "how-to-build-an-ai-native-services-company"
+        }
+      }
     }
   ]
 }
