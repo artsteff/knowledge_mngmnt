@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-06-03T06:00:37.132920+00:00",
+      "tg_message_ids": [
+        18
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "wjXowoQ7E8c",
+          "url": "https://youtu.be/wjXowoQ7E8c",
+          "title": "AI Engineer Melbourne 2026 Keynote Livestream | Day 1",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Claude Opus 4.8 now leads the intelligence benchmark; the real story is model selection driven by cost/speed/latency tradeoffs, not just capability rankings.",
+          "card_slug": "ai-engineer-melbourne-2026-keynote-livestream-day-1"
+        }
+      }
+    }
+  ]
+}
