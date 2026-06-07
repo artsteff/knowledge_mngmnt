@@ -135,6 +135,79 @@
           "card_slug": "your-benchmark-uses-headset-audio-your-users-dont-hervé-bred"
         }
       }
+    },
+    {
+      "run_at": "2026-06-07T22:02:49.370655+00:00",
+      "tg_message_ids": [
+        23
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 6,
+          "scored_to_backlog": 4,
+          "backlog_size": 5,
+          "posting": 5,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "fQmlML9Lay4",
+          "url": "https://youtu.be/fQmlML9Lay4",
+          "title": "Conductor CEO Charlie Holtz Walks Us Through His AI Coding Setup",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Conductor's workflow pattern — voice-triggered agent kickoff → async execution in sidebar → review/iterate/merge — shows a concrete UI model for \"agent as executor with human-in-the-loop review\" rather than agent-as-oracle.",
+          "card_slug": "conductor-ceo-charlie-holtz-walks-us-through-his-ai-coding-s"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "yyXCQHX55N4",
+          "url": "https://youtu.be/yyXCQHX55N4",
+          "title": "Emergent: How Six Months of Tinkering Led To A $100M ARR Company",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "AI-native platform (8.5M users, $100M ARR in 9 months) ships by removing the coding bottleneck entirely—users build by chatting with agents, platform handles hosting/deployment/maintenance.",
+          "card_slug": "emergent-how-six-months-of-tinkering-led-to-a-100m-arr-compa"
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "JsCCrBF7F1g",
+          "url": "https://youtu.be/JsCCrBF7F1g",
+          "title": "LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Observability for agents requires OpenTelemetry traces + distributional views across agent paths/branches (not just individual execution audits), and trajectory evals need to catch regressions introduced by fixes in non-deterministic systems.",
+          "card_slug": "llm-observability-evaluation-experimentation-platform-dat-ng"
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "iNkFlCiij0U",
+          "url": "https://youtu.be/iNkFlCiij0U",
+          "title": "The Art & Science of Benchmarking Agents — Vincent Chen, Snorkel AI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Open benchmarks shape agent capability progress and define the field's goalpost; closing the gap between agent capabilities and measurement infrastructure is currently the constraint, not raw model performance.",
+          "card_slug": "the-art-science-of-benchmarking-agents-vincent-chen-snorkel-"
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "RJjl1TwyfWM",
+          "url": "https://youtu.be/RJjl1TwyfWM",
+          "title": "Tony Fadell: How to build real taste (and why AI makes it matter more)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Tony Fadell argues that \"taste\" — the ability to ship intentional, well-thought-through products rather than prompt-and-ship — becomes the differentiator in an AI-native world; he frames it as a hardware-software integration problem (the iPhone keyboard case study) applied to decision-making under speed.",
+          "card_slug": "tony-fadell-how-to-build-real-taste-and-why-ai-makes-it-matt"
+        }
+      }
     }
   ]
 }

@@ -236,6 +236,7 @@
     "JhJPeF8DGL0",
     "JomVvNDjGb8",
     "Jp4PC7POf98",
+    "JsCCrBF7F1g",
     "K46ZNekw2Tk",
     "K5JoLAauzq4",
     "KA5kPbdkK2E",
@@ -324,6 +325,7 @@
     "R7A8rX-09Zw",
     "RBqT2PHWdBg",
     "RCKo7OdjrCw",
+    "RJjl1TwyfWM",
     "RQiMP_GtcnU",
     "RR5le0K4Wtw",
     "RaBw5SRjWLE",
@@ -474,6 +476,7 @@
     "fFqZm_dJXdw",
     "fLUtUkqYHnQ",
     "fOxC44g8vig",
+    "fQmlML9Lay4",
     "fcFOYzMeG7U",
     "fccqAteps4Q",
     "flDnFgnmqQM",
@@ -557,6 +560,7 @@
     "mZzhfPle9QU",
     "mcXrvjPKJas",
     "mimG7P6I8ho",
+    "mjmswQurIU4",
     "msWFarwD-fU",
     "n1E9IZfvGMA",
     "nGLmpKi-jRU",
@@ -697,6 +701,8 @@
     "ykyIvql7iKw",
     "ynJyIKwjonM",
     "ypzNhwpmOD4",
+    "ywS7Ytkx3A0",
+    "yyXCQHX55N4",
     "z4zXicOAF28",
     "zKk7sDMGDEQ",
     "zN9-Atf4Og8",
@@ -707,20 +713,5 @@
     "zvMfA1VtUi0"
   ],
   "failed": {},
-  "backlog": [
-    {
-      "source_id": "iNkFlCiij0U",
-      "title": "The Art & Science of Benchmarking Agents — Vincent Chen, Snorkel AI",
-      "author": "AI Engineer",
-      "url": "https://youtu.be/iNkFlCiij0U",
-      "source_type": "video",
-      "date": "2026-06-07",
-      "raw_text": "Hey everybody. How's it going? Lovely. Well, I'm very excited to be here hailing from San Francisco. It's a little bit of a trek over, but I'm super excited to to uh chat with you all um today after the talk uh and beyond. Uh my name is Vincent. I'm a research fellow and a co-founder at Snorkel AI. And uh you know, today I'm going to be talking about um some meta evaluations for building benchmarks. The art and science of what we found to be really useful when building effective benchmarks. I have the great privilege at Snorkel of working with both our researchers, uh great collaborators in academia, industry, uh and the open source community to build great benchmarks. And I wanted to share some of the learnings that we've had over the, you know, last few years on on what really makes for benchmarks that uh shape the field and and move it forward. So, a little bit about us. Uh we're a frontier AI data lab. Uh we have, you know, labs both at uh at academic settings. You know, our our co-founders uh have have labs at Stanford, U Dub, Wisconsin. We have an internal team uh for deployed engineers, applied engineers. And uh I mention this because we get a lot of exposure to both, you know, the academic frontier, work with frontier labs, and also real enterprises and and companies who are deploying in practice. So, our focus as a company is on building the best data sets and environments to define and advance future AI capabilities. And we are in a fortunate spot where we get to play at this unique intersection of both, you know, the frontier academically, but also um uh uh to contact reality with our deployments um in enterprises. So, today I wanted to talk about an asymmetry that we see in our real-world deployments. There's real excitement around agents today. You know, we see it at every person in this room, I'm sure has has played with these these these agents and we see a real progress marked by, you know, hill climbing on model cards. We see the vibes are improving, right? And truly shifting, especially in coding. But when you ask individuals and enterprises or these, you know, large-scale organizations if they're fully ready to let these agents loose and, you know, deploy them in high-stakes environments, you you get a little bit of hesitation. And that's not to say the capabilities aren't there, but our ability to actually measure these agents in practice that is falling behind of where the capabilities actually are. This is one of the challenges and research questions that I think are actually one of the most important in the field and one of the ones that we're very interested in here at Snorkel. So, closing that gap, that evaluation gap, we believe requires a toolkit, right? As I mentioned earlier, we're strong believers in field deployments, right? So, this is you know, actually deploying engineers, researchers on our teams to again contact reality and and and work with folks to deploy these models in real production settings where the stakes are high, right? These are finance settings, insurance, you know, healthcare settings where it's not just about a number, it's about real outcomes. And we're also big fans of other eval tools, right? This is red teaming, private human evals, crowdsource labeling, a lot of the the themes that we saw talked about today, which which has been awesome to see. But one of the things that we feel most strongly about is that benchmarks, open benchmarks in particular, remain a really critical piece of the measurement toolkit. The best open benchmarks aren't just about, you know, taking a snapshot of progress looking backwards. They're actually about defining progress and shaping the field and setting a goalpost about where capabilities need to go. And, you know, even looking at the last few months, right? Benchmarks like Terminal Bench, uh Meters Long Horizon benchmark, uh RKG I, these are really exciting and critical guideposts for where the field is going and and and as a result, the path to safe, trustworthy agents um will will really depend on more of these benchmarks in practice. So, what are we doing at Snorkel? One of the things that again I'm I'm very fortunate to to be able to be a part of is uh the Open Benchmarks grants. We recently, a few weeks ago, a month ago, uh deployed $3 million to commit to Open Benchmarks. And this is a really fun job. I get to work with the best academic teams, you know, builders, uh to really accelerate and fund um the next wave of benchmarks that's going to really steer and and and guide where uh the field is going. We've had a wild reception so far. I'm a little admittedly behind on some some reviews. Uh but we've been really excited to see what the community has come up with so far. And in this talk in particular, you know, we've reviewed I think over 120 applications so far spanning academia and industry labs. We wanted to share a few perspectives, a few learnings um over the fast past few months about what we view as one table stakes for for useful benchmarks, right? How do you actually build good empirical measuring sticks that are actually useful, you know, to to measuring progress? And two, what really separates, you know, those benchmarks that are shaping the frontier, right? What what is the art and and the the the science, if you will, of building really efficient effective benchmarks at the end of the day. So, as I'm doing this, I'll have a fun opportunity, maybe this is a little too American, but to pull a Timothy Chalamet and honor some of the greats, you know, some of the great benchmarks of the last few years that have really shaped the field in talking about some of these axes. And I hope that these, you know, themes resonate with you and also inspire a bit of, you know, kind of new thinking about, hey, how how can we actually deploy some of the learnings we're we're all kind of driving towards in our day-to-day work to, you know, shape the field and and move it forward. So, two themes here again on the science side, you know, how do we actually build effective measuring sticks? We'll talk about task quality, distributional control, robust evals in general. Um and on the on the art side, right, really the the differentiators for great benchmarks, um how do you build benchmarks with a thesis on where the field is going that inspire new road maps, um and that critically are are built for this audience, right, a researcher audience, a builder audience so that adoption is is something that is a way smoother um and and a first-class citizen uh for a bunch of these benchmarks. So, let's start with the science. Uh this is again what makes for really effective measuring sticks as we've seen them in in practice and in the the deployments that we see uh in industry and academia and with Frontier Labs. So, the first thing I want to talk about is individual task quality. Right, this is the idea that individual tasks need to be exceptionally, rigorously validated, right? They need to represent real-world complexity. They need uh well-posed, well-structured instructions. Um they need verifiable solutions uh that ideally have been um actually validated by real-world domain experts. Um one of the the benchmarks here, GPQA, is one of my favorites, um not just because it's been a very lasting and enduring benchmark that captures, you know, uh graduate-level and professional knowledge uh even to this day, right, you kind of still still see this on model cards. But, one of my favorite contributions is actually tucked away in the appendix. GPQA uh introduced one new adversarial uh quality control mechanism. So, the idea was that not only do these tasks need to be well-posed, um they need to be tractable for other experts to solve. So, they had a very very rigorous multi-reviewer protocol where there was an original author, you know, there were there were reviewers and adjudicators in the loop. There was opportunity for revision. Right, these were tasks that were really pushing the frontier of knowledge and it was non-trivial for any single expert to say, \"Yeah, this is actually good task or not.\" And so, developing this sort of rigorous adversarial quality control mechanism was one of the contributions I was most excited about here. And if you read the appendix, you also see that they introduce new incentive mechanisms, right? Payouts are actually based on whether there was certain agreement and, you know, uh uh coming from academia, you know, there's there's uh some inspiration here from the peer review process as as flawed as that is, but, you know, this type of innovation around how you actually get really rigorous, you know, multi-expert quality control um leads to the type of outcomes that we see around individual task quality that um we we see as a a key foundation for any benchmark that matters at the end of the day. Two is uh distributional diversity, right? This is the idea that for any benchmark that really matters, you want to define a clear taxonomy for the domain, for real-world tasks, and distribute those tasks uh intentionally. So, this might be, \"Hey, I I captured a a trace or or a kind of real-world stream of um traffic along um, you know, how my agent is operating in the real world, and I want to really represent that distribution.\" It could also mean, \"Hey, I'm specifically characterizing and taxonomizing the failure modes that are, you know, paradoxically rare, but you know, disproportionately important in in production, right? If you take classic self-driving settings, right? Yellow lights or, you know, pedestrians or uh motorcyclists, right? Might actually show up way less than other other types of scenarios but are disproportionately important, you know, to get right in these settings. And so, defining that taxonomy, being really intentional about distributing tasks across it is one of the home hallmarks of uh great benchmarks in our view. Um MMLU, um few years old now, uh constructed a a quite ambitious taxonomy of,",
-      "score": 2,
-      "hook": "Open benchmarks shape agent capability progress and define the field's goalpost; closing the gap between agent capabilities and measurement infrastructure is currently the constraint, not raw model performance.",
-      "adapter": "youtube",
-      "source_name": "AI Engineer",
-      "added_at": "2026-06-07T18:05:15.074342+00:00"
-    }
-  ]
+  "backlog": []
 }
