@@ -1,0 +1,140 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-06-07T18:23:51.973800+00:00",
+      "tg_message_ids": [
+        21,
+        22
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 11,
+          "posting": 10,
+          "errors": [
+            "transcript-missing:JsCCrBF7F1g",
+            "transcript-missing:yyXCQHX55N4",
+            "transcript-missing:mjmswQurIU4",
+            "transcript-missing:fQmlML9Lay4",
+            "transcript-missing:ywS7Ytkx3A0",
+            "circuit-breaker-tripped"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "88B6DimMD2g",
+          "url": "https://youtu.be/88B6DimMD2g",
+          "title": "Agentic Engineering, Clearly Explained in 60 Min by an Ex-Meta L8 Engineer | Kun Chen",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Planning → Code → Validate is a loop; the key leverage is spending more time in planning (detailed spec + measurable goal) so agents can run autonomously longer, plus parallelizing sessions so you're never idle while agents work.",
+          "card_slug": "agentic-engineering-clearly-explained-in-60-min-by-an-ex-met"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "_B4Pv9ttFgY",
+          "url": "https://youtu.be/_B4Pv9ttFgY",
+          "title": "Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents — Michael Hablich, Google",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Agents are a separate user class with different cognitive bottlenecks than humans — they share intent but think differently, requiring interfaces optimized for effectiveness (task completion) and efficiency (tokens/tool calls) rather than visual complexity.",
+          "card_slug": "building-agent-interfaces-lessons-from-chrome-devtools-mcp-f"
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "wcUJWP6WpGM",
+          "url": "https://youtu.be/wcUJWP6WpGM",
+          "title": "SWE-rebench: Lessons from Evaluating Coding Agents — Ibragim Badertdinov, Nebius",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Monthly freshly-collected real-world SWE tasks with time-splits prevent benchmark contamination; eval design matters more than model count because infrastructure noise, test overfitting, and task balance determine signal quality.",
+          "card_slug": "swe-rebench-lessons-from-evaluating-coding-agents-ibragim-ba"
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "_xIwFcnHqp4",
+          "url": "https://youtu.be/_xIwFcnHqp4",
+          "title": "Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "MCP apps let servers return rich interactive UI components (rendered in sandboxed iframes) that users can interact with live, turning text-only tool results into explorable dashboards — concrete pattern for how AI agents surface data without forcing chat-based Q&A loops.",
+          "card_slug": "building-interactive-uis-in-vs-code-with-mcp-apps-marlene-mh"
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "KLSuFPj2ld0",
+          "url": "https://youtu.be/KLSuFPj2ld0",
+          "title": "Building safe Payment Infrastructure for the autonomous economy — Steve Kaliski, Stripe",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Agents require deterministic payment infrastructure (API-driven credentials with spend limits, not browser automation) to safely transact; the separation of discovery (non-deterministic LLM reasoning) from checkout (deterministic execution) is the critical architectural constraint.",
+          "card_slug": "building-safe-payment-infrastructure-for-the-autonomous-econ"
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "pmoDeA3RBZY",
+          "url": "https://youtu.be/pmoDeA3RBZY",
+          "title": "Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Autonomous agents at scale flip the bottleneck from execution (engineer hands) to taste/judgment (which commits to ship, which directions to explore), requiring new QA and review patterns instead of traditional PR workflows.",
+          "card_slug": "dark-factory-openclaw-ships-faster-than-you-can-read-the-dif"
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "QuuIywMG4s8",
+          "url": "https://youtu.be/QuuIywMG4s8",
+          "title": "Evals Are Broken, Use Them Anyway — Ara Khan, Cline",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Evals are broken as objective comparators (benchmark maxing is real; published numbers don't transfer to real-world performance), but they're essential for improving your own agents — the skill is learning to read them right, not dismissing them.",
+          "card_slug": "evals-are-broken-use-them-anyway-ara-khan-cline"
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "zTZ0qunQXnM",
+          "url": "https://youtu.be/zTZ0qunQXnM",
+          "title": "From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Agents can maintain self-healing data pipelines by validating outputs every 30 minutes and auto-fixing failures without human intervention — turning weeks of scraper maintenance into 5-minute agent repairs.",
+          "card_slug": "from-mcp-to-scale-pipelines-that-build-themselves-rafael-lev"
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "r305-aQTaU0",
+          "url": "https://youtu.be/r305-aQTaU0",
+          "title": "The model that corrects its own mistakes mid-sentence — Brendon Dillon, Google DeepMind",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Diffusion-based text generation can do self-correcting generation mid-sequence by attending to future tokens, and adaptively spend more compute on harder problems — tradeoff is lower batch throughput vs. autoregressive's cost efficiency at scale.",
+          "card_slug": "the-model-that-corrects-its-own-mistakes-mid-sentence-brendo"
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "mFLlVpnGpds",
+          "url": "https://youtu.be/mFLlVpnGpds",
+          "title": "Your benchmark uses headset audio. Your users don't. — Hervé Bredin, pyannoteAI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Speaker diarization (who said what, when, how) is a foundational layer for conversation understanding that most AI products built on transcription alone are skipping — and it unlocks entirely different product surfaces (dubbing, podcast tracking, interruption detection, emotional state inference).",
+          "card_slug": "your-benchmark-uses-headset-audio-your-users-dont-hervé-bred"
+        }
+      }
+    }
+  ]
+}
