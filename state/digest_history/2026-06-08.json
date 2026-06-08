@@ -90,6 +90,46 @@
           "card_slug": "why-this-ex-meta-l8-engineer-stopped-reviewing-his-own-code"
         }
       }
+    },
+    {
+      "run_at": "2026-06-08T18:01:48.625815+00:00",
+      "tg_message_ids": [
+        26
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "TUnPNY4E2fw",
+          "url": "https://youtu.be/TUnPNY4E2fw",
+          "title": "The Memory Stack Behind 5 Million Token Transformers — Max Ryabinin, Together AI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "DeepSpeed Ulysses distributes attention head computation across GPUs to break the quadratic memory bottleneck in long-context training, reducing memory usage ~8x while maintaining Flash Attention optimizations.",
+          "card_slug": "the-memory-stack-behind-5-million-token-transformers-max-rya"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "EcqMYoIV57A",
+          "url": "https://youtu.be/EcqMYoIV57A",
+          "title": "Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "LLMs exhibit a U-curve attention pattern (strong on initial and final context, weak on middle), which means dumping more context doesn't help agents decide what's important—you need deliberate context optimization (hierarchal summarization, knowledge graphs, context engines) instead.",
+          "card_slug": "why-more-context-makes-your-agent-dumber-and-what-to-do-abou"
+        }
+      }
     }
   ]
 }
