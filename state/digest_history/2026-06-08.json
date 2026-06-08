@@ -39,6 +39,57 @@
           "card_slug": "what-ai-native-product-team-members-created-demo-day"
         }
       }
+    },
+    {
+      "run_at": "2026-06-08T17:50:11.512050+00:00",
+      "tg_message_ids": [
+        25
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "SKDJo2CopRs",
+          "url": "https://youtu.be/SKDJo2CopRs",
+          "title": "Building AI Agents at the Edge — Sunil Pai & Matt Carrie, Cloudflare",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Durable Objects as a stateful compute unit for AI agents — addressable, long-running, persistent, hibernating — turns out to be the right architectural primitive for agent workloads at scale.",
+          "card_slug": "building-ai-agents-at-the-edge-sunil-pai-matt-carrie-cloudfl"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "OOPganyUinE",
+          "url": "https://youtu.be/OOPganyUinE",
+          "title": "She built a Claude shopping assistant to stop buying cheap junk",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Using Claude with persistent project context (instructions + memory) to automate decision-making on high-judgment purchases — delegating the research layer while keeping the judgment call human.",
+          "card_slug": "she-built-a-claude-shopping-assistant-to-stop-buying-cheap-j"
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "F_PP19EGhsM",
+          "url": "https://youtu.be/F_PP19EGhsM",
+          "title": "Why this ex-Meta L8 engineer stopped reviewing his own code",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Peter Yang built \"No Mistakes\" — an agent-based code review tool trained via parallel testing (human review vs. agent review) until agent performance matched his own catch rate, eliminating the bottleneck of manual review.",
+          "card_slug": "why-this-ex-meta-l8-engineer-stopped-reviewing-his-own-code"
+        }
+      }
     }
   ]
 }
