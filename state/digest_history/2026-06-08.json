@@ -1,0 +1,44 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-06-08T02:01:40.133027+00:00",
+      "tg_message_ids": [
+        24
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "je95KXv1QlA",
+          "url": "https://youtu.be/je95KXv1QlA",
+          "title": "12 Claude Plugins, Skills & MCP's I Can't Live Without",
+          "author": "Ben AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "CLIs are more token-efficient than MCPs for the same integrations because they don't auto-load full API context into every new chat, and they unlock capabilities (like creating Google Sheets) that standard MCPs deliberately restrict.",
+          "card_slug": "12-claude-plugins-skills-mcps-i-cant-live-without"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "nSNhYNk1_Xs",
+          "url": "https://youtu.be/nSNhYNk1_Xs",
+          "title": "What AI-Native Product Team members created | Demo Day",
+          "author": "Bayram Annakov",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Non-technical founder built three working agent systems (Telegram bot with database access, multi-source data analyst agent, Ray Dalio business advisor agent) in ~10 weeks using Claude Code, showing concrete patterns for agent composition and context management.",
+          "card_slug": "what-ai-native-product-team-members-created-demo-day"
+        }
+      }
+    }
+  ]
+}
