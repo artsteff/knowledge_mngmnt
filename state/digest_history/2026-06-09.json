@@ -1,0 +1,55 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-06-09T18:01:19.325623+00:00",
+      "tg_message_ids": [
+        27
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "Bc6Ojl2XS1w",
+          "url": "https://youtu.be/Bc6Ojl2XS1w",
+          "title": "From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Gemini 3.1 Flash can extract structured metadata (speaker identity, emotion, language, timestamps) from raw audio in a single API request — not just transcription but semantic understanding at scale.",
+          "card_slug": "from-transcription-to-live-music-geminis-audio-stack-thor-sc"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "UM6sFg_jdlE",
+          "url": "https://youtu.be/UM6sFg_jdlE",
+          "title": "RAG is dead, right?? — Kuba Rogut, Turbopuffer",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Semantic search + full-text search + agentic iteration (not just vector search alone) drives 12–24% accuracy gains in code completion; Cursor uses Merkle trees to amortize embedding costs across team codebases.",
+          "card_slug": "rag-is-dead-right-kuba-rogut-turbopuffer"
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "8AYFNXFnB1s",
+          "url": "https://youtu.be/8AYFNXFnB1s",
+          "title": "Why engineering teams are about to break",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "AI-driven productivity (10x PRs/month) breaks existing code review and team composition processes designed for 10-15 PRs/month; teams are actively experimenting with new practices to adapt.",
+          "card_slug": "why-engineering-teams-are-about-to-break"
+        }
+      }
+    }
+  ]
+}
