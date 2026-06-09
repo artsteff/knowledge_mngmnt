@@ -50,6 +50,46 @@
           "card_slug": "why-engineering-teams-are-about-to-break"
         }
       }
+    },
+    {
+      "run_at": "2026-06-09T22:00:56.249333+00:00",
+      "tg_message_ids": [
+        28
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "IREnr4I89Ho",
+          "url": "https://youtu.be/IREnr4I89Ho",
+          "title": "Claude Fable 5 - is this Mythos model worth the wait?",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Fable 5's \"engineer's engineer\" behavior—thorough investigation, 120% verification—can actually slow product work; sometimes you need a \"slightly dumber\" model that ships faster, not one that over-optimizes every corner.",
+          "card_slug": "claude-fable-5-is-this-mythos-model-worth-the-wait"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "zDGHt0LB-dA",
+          "url": "https://youtu.be/zDGHt0LB-dA",
+          "title": "GPU Cloud Deployment Without Leaving Your IDE — Audry Hsu, RunPod",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Flash SDK eliminates the commit-push-Docker-pull-deploy cycle for GPU inference by letting developers deploy async Python functions directly from their IDE with hot-reload, collapsing iteration time from minutes to seconds.",
+          "card_slug": "gpu-cloud-deployment-without-leaving-your-ide-audry-hsu-runp"
+        }
+      }
     }
   ]
 }
