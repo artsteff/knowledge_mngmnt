@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-06-10T14:00:51.119335+00:00",
+      "tg_message_ids": [
+        29
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "zMiSRliEzv4",
+          "url": "https://youtu.be/zMiSRliEzv4",
+          "title": "Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "PostHog is building an agent pipeline that converts product signals (errors, session replays, analytics anomalies) directly into reviewed/shipped PRs, skipping the human dashboard-reading step entirely — with concrete implementation details on signal ingestion, grouping, research agents, and safety filtering.",
+          "card_slug": "self-driving-products-product-signals-to-pull-requests-joshu"
+        }
+      }
+    }
+  ]
+}
