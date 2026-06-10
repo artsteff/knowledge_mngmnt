@@ -28,6 +28,57 @@
           "card_slug": "self-driving-products-product-signals-to-pull-requests-joshu"
         }
       }
+    },
+    {
+      "run_at": "2026-06-10T18:01:29.109858+00:00",
+      "tg_message_ids": [
+        30
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "SS-A8sE7hkw",
+          "url": "https://youtu.be/SS-A8sE7hkw",
+          "title": "Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Gemma 2 (26B/31B) achieves 4th/7th ranked open-model performance while being 2–20× smaller than competitors, with the 31B running on a single GPU vs. competitors needing 4–5 GPUs—concrete efficiency metric for cost-aware deployment decisions.",
+          "card_slug": "sovereign-escape-velocity-ownership-w-open-models-gus-martin"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "TNwJ1LMiENk",
+          "url": "https://youtu.be/TNwJ1LMiENk",
+          "title": "Stop Making Models Bigger, Make Them Behave — Kobie Crawdord, Snorkel",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Making a 4B parameter model outperform a 235B model on tool-use tasks through high-quality data + RL, not scale — demonstrates the data-quality-as-leverage pattern in production AI systems.",
+          "card_slug": "stop-making-models-bigger-make-them-behave-kobie-crawdord-sn"
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "mPAHvz8kW24",
+          "url": "https://youtu.be/mPAHvz8kW24",
+          "title": "The Most AI-Pilled CEO We Know",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Pedro's insight that \"good AI products are agentic loops with tools\" — and the shift from treating LLMs as precious/constrained (half a million lines of Rails for control) to \"free the claw\" (maximal context, token-generative agents) — maps directly to how Brex built their own AI product layer.",
+          "card_slug": "the-most-ai-pilled-ceo-we-know"
+        }
+      }
     }
   ]
 }
