@@ -79,6 +79,46 @@
           "card_slug": "the-most-ai-pilled-ceo-we-know"
         }
       }
+    },
+    {
+      "run_at": "2026-06-10T22:01:20.414074+00:00",
+      "tg_message_ids": [
+        31
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "WTkEFAxgCI0",
+          "url": "https://youtu.be/WTkEFAxgCI0",
+          "title": "Claude Code Guide for Beginner by Claude Code Engineer Boris Cherny",
+          "author": "BLD-Buluduo",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Claude Code works fully agentic at feature/function/file scope with zero setup (no indexing, code stays local), and Anthropic reduced technical onboarding from 2–3 weeks to 2–3 days by having hires do codebase Q&A first.",
+          "card_slug": "claude-code-guide-for-beginner-by-claude-code-engineer-boris"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "LQNf8v8EW_4",
+          "url": "https://youtu.be/LQNf8v8EW_4",
+          "title": "How AI Is Changing Code - Programmer Paul Ford | The Most Interesting Thing in AI",
+          "author": "Nicholas Thompson and Atlantic Re:think",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Paul Ford contrasts how coding fundamentally changed in the last year (embraced AI tooling across the stack) vs. writing (mostly rejected it), and maps the shift from traditional spec→backend→frontend→QA workflows to AI-native iterative building where scope collapses and cost structure flips.",
+          "card_slug": "how-ai-is-changing-code-programmer-paul-ford-the-most-intere"
+        }
+      }
     }
   ]
 }
