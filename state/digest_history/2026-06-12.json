@@ -1,0 +1,44 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-06-12T03:58:07.546558+00:00",
+      "tg_message_ids": [
+        33
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "iUWwcG-C8OU",
+          "url": "https://youtu.be/iUWwcG-C8OU",
+          "title": "Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "WorkOS built an agent-based internal tool (Studio) that lets non-technical teams query databases through natural language, using LangGraph + Opus + a guidance layer to enforce schema context and join logic, dramatically cutting the request-answer-clarify cycle.",
+          "card_slug": "why-cant-anyone-answer-questions-about-the-business-garrett-"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "ghJmWQCIHRM",
+          "url": "https://youtu.be/ghJmWQCIHRM",
+          "title": "The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "WebMCP gives AI agents a structured \"menu\" of tools (instead of parsing DOM/screenshots/clicks), reducing token spend and brittleness—but only worth implementing after semantic HTML, accessibility, and performance foundations are solid.",
+          "card_slug": "the-agent-ready-web-simplify-user-actions-with-webmcp-tara-a"
+        }
+      }
+    }
+  ]
+}
