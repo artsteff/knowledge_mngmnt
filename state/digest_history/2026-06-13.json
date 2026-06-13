@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-06-13T10:00:36.286799+00:00",
+      "tg_message_ids": [
+        35
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "vTRgFql4X9w",
+          "url": "https://youtu.be/vTRgFql4X9w",
+          "title": "Fable 5 works like a \"seasoned engineer\"",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "\"Sometimes you want a slightly less thorough engineer\" — intelligence-to-task fit matters more than raw capability when building with agents.",
+          "card_slug": "fable-5-works-like-a-seasoned-engineer"
+        }
+      }
+    }
+  ]
+}
