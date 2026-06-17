@@ -147,6 +147,123 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-06-17T15:17:46.604105+00:00",
+      "tg_message_ids": [
+        37
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 12,
+          "scored_to_backlog": 9,
+          "backlog_size": 9,
+          "posting": 9,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "ObBAxL2dFzw",
+          "url": "https://youtu.be/ObBAxL2dFzw",
+          "title": "How Groww Turned Full Transparency Into India's Largest Investing Platform",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Groww discovered product-market fit by inverting robo-advisor logic — full transparency + customer choice (showing everything, letting users decide) outperformed algorithmic curation, which shifts the unit economics of fintech from advice-margin to platform-volume.",
+          "card_slug": "how-groww-turned-full-transparency-into-indias-largest-inves"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "H29laIK8q7M",
+          "url": "https://youtu.be/H29laIK8q7M",
+          "title": "How I Turned Codex Into My AI Life Coach in 13 Minutes (5-Step Tutorial)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Personal context files (skill.md, plan.md, learnings.md, eval) + MCP integration (Mercury for bank data) as a system for building AI advisors that improve over time through conversation and structured feedback loops.",
+          "card_slug": "how-i-turned-codex-into-my-ai-life-coach-in-13-minutes-5-ste"
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "aR20FWCCjAs",
+          "url": "https://youtu.be/aR20FWCCjAs",
+          "title": "Ilya Sutskever – We're moving from the age of scaling to the age of research",
+          "author": "Dwarkesh Patel",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Models are superhuman on evals but fail at basic real-world tasks (repeating bugs, poor generalization) — likely because RL training is reward-hacked toward eval performance rather than actual capability.",
+          "card_slug": "ilya-sutskever-were-moving-from-the-age-of-scaling-to-the-ag"
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "JoXbk2fm7jM",
+          "url": "https://youtu.be/JoXbk2fm7jM",
+          "title": "Loop engineering for beginners",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "A \"loop\" is automated agent self-prompting via heartbeats (scheduled intervals), crons (set times), hooks (event-triggered), or goals (outcome-validated runs) — distinct from turn-based human prompting and core to agent-as-product design.",
+          "card_slug": "loop-engineering-for-beginners"
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "EJo-7V2pSoM",
+          "url": "https://youtu.be/EJo-7V2pSoM",
+          "title": "The agent line keeps going up—and you need to identify what's below it.",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Practical walkthrough of building a documentation Q&A agent using GPT-4o Mini + MCP servers (BrainTrust), with explicit comparison of MCP-augmented vs. zero-shot model performance on real product questions.",
+          "card_slug": "the-agent-line-keeps-going-upand-you-need-to-identify-whats-"
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "7eh9C3TUotc",
+          "url": "https://youtu.be/7eh9C3TUotc",
+          "title": "The hidden pattern behind successful products | Mark Pincus (FarmVille, Words with Friends, & more)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "\"Your instincts are right 95% of the time. Your ideas are wrong 75% of the time\"—the insight that gut pattern-recognition beats conscious ideation, so isolate the signal (instinct) and test many execution ideas around it (Proven Better New framework).",
+          "card_slug": "the-hidden-pattern-behind-successful-products-mark-pincus-fa"
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "gHs5ZiY80PM",
+          "url": "https://youtu.be/gHs5ZiY80PM",
+          "title": "You Might Not Need 50 Diffusion Steps — Ziv Ilan, Nvidia",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Quantization, caching, and distillation are borrowable optimization patterns from LLM inference that work on diffusion models—but with lower impact because diffusion is attention-heavy, not compute-heavy like transformers.",
+          "card_slug": "you-might-not-need-50-diffusion-steps-ziv-ilan-nvidia"
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "btxGmN8RvNU",
+          "url": "https://youtu.be/btxGmN8RvNU",
+          "title": "Your Agent's Biggest Lie: \"I Searched the Web\" — Rafael Levi, Bright Data",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "LLMs hallucinate web access by default and fail silently on blocked sites (CAPTCHAs, Cloudflare), then confabulate answers instead of reporting inability — and a properly built MCP (66 tools: real search, markdown scraping, remote browser with fingerprint rotation) solves this systematically with 5/5 vs 0/5 success on heavy anti-bot sites.",
+          "card_slug": "your-agents-biggest-lie-i-searched-the-web-rafael-levi-brigh"
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "J7YTh0uftSk",
+          "url": "https://youtu.be/J7YTh0uftSk",
+          "title": "Быть лидером без формальной власти — как влиять на решения коллег и руководства / Колосок",
+          "author": "Колосок",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Influence without formal authority in cross-functional environments requires reframing the relationship as a peer negotiation (\"before the deal\") rather than a status play — you must solve *their* constraints, not assert your project's importance.",
+          "card_slug": "быть-лидером-без-формальной-власти-как-влиять-на-решения-кол"
+        }
+      }
     }
   ]
 }
