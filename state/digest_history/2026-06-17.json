@@ -1,0 +1,79 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-06-17T07:41:03.217649+00:00",
+      "tg_message_ids": [],
+      "tg_post_ok": false,
+      "adapters": {
+        "youtube": {
+          "fetched": 5,
+          "scored_to_backlog": 5,
+          "backlog_size": 5,
+          "posting": 5,
+          "errors": [
+            "transcript-missing:1MLUD9iXp7Y",
+            "transcript-missing:gHs5ZiY80PM",
+            "transcript-missing:ObBAxL2dFzw"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "QE_1hRLsehM",
+          "url": "https://youtu.be/QE_1hRLsehM",
+          "title": "Braintrust CEO: Evals are the new PRD for AI products",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "eJrPjd9fWYI",
+          "url": "https://youtu.be/eJrPjd9fWYI",
+          "title": "Build a feedback loop that automatically turns real-world data into evals",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "JAGvMtiJA7w",
+          "url": "https://youtu.be/JAGvMtiJA7w",
+          "title": "Claude Fable 5: when to use it (and when not to)",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "BxEf3RqIHkw",
+          "url": "https://youtu.be/BxEf3RqIHkw",
+          "title": "How This Non-Technical Founder Used AI Agents to Become an Open Source Legend | Matt Van Horn",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "c-2eEv2ou7Y",
+          "url": "https://youtu.be/c-2eEv2ou7Y",
+          "title": "Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
