@@ -28,6 +28,35 @@
           "card_slug": "an-llm-evaluation-framework-for-high-stakes-ai"
         }
       }
+    },
+    {
+      "run_at": "2026-06-18T11:00:52.845106+00:00",
+      "tg_message_ids": [
+        39
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "1nfJM_6CIX0",
+          "url": "https://youtu.be/1nfJM_6CIX0",
+          "title": "Evals are the modern PRD—they define \"what\" success looks like, not \"how\" to achieve it",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Evals are the modern PRD—they define success criteria (the \"what\") rather than implementation (the \"how\"), mirroring how ML shifts programming from prescriptive code to outcome specification.",
+          "card_slug": "evals-are-the-modern-prdthey-define-what-success-looks-like-"
+        }
+      }
     }
   ]
 }
