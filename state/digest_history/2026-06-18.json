@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-06-18T08:14:04.236431+00:00",
+      "tg_message_ids": [
+        38
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "ql2ZdyktmOA",
+          "url": "https://youtu.be/ql2ZdyktmOA",
+          "title": "An LLM Evaluation Framework for High-Stakes AI",
+          "author": "Software Engineering Institute | Carnegie Mellon University",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Formal eval frameworks for LLMs must define task-specific bounds of capability rather than relying on general benchmarks, especially when augmenting models with tools and agentic abilities.",
+          "card_slug": "an-llm-evaluation-framework-for-high-stakes-ai"
+        }
+      }
+    }
+  ]
+}
