@@ -57,6 +57,35 @@
           "card_slug": "evals-are-the-modern-prdthey-define-what-success-looks-like-"
         }
       }
+    },
+    {
+      "run_at": "2026-06-18T15:00:58.201618+00:00",
+      "tg_message_ids": [
+        40
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "ObTPqBGsEbA",
+          "url": "https://youtu.be/ObTPqBGsEbA",
+          "title": "£85K Burned on a Failed PoC: What Actually Gets Agents to Production — Sandipan Bhaumik, Databricks",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Production AI fails not because of model choice, but because teams skip evaluation definition, observability/tracing, and governance before writing code — the \"three gaps\" framework (evaluation, observability, governance) predicts failure better than model selection does.",
+          "card_slug": "85k-burned-on-a-failed-poc-what-actually-gets-agents-to-prod"
+        }
+      }
     }
   ]
 }
