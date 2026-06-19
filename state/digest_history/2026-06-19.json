@@ -1,0 +1,44 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-06-19T15:01:04.931740+00:00",
+      "tg_message_ids": [
+        41
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "yJPXFBSmZp0",
+          "url": "https://youtu.be/yJPXFBSmZp0",
+          "title": "Stop Prompting. Start Looping.",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Design agent workflows as jobs with clear success criteria and scheduling (e.g., \"every Friday, review calendar and send Slack\"), not one-off prompts — this is how you move from chatbot to autonomous worker.",
+          "card_slug": "stop-prompting-start-looping"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "8OOuCnZB-4o",
+          "url": "https://youtu.be/8OOuCnZB-4o",
+          "title": "The Age Of The 40-Year-Old Solo Founder Is Here",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Bryant Chou (Webflow CTO-turned-founder) is building Ploy — an AI-native website platform that auto-generates modern sites from old websites + runs marketing/ads/SEO on autopilot, showing concrete product-market fit for founder-with-deep-domain-expertise building AI-native tools.",
+          "card_slug": "the-age-of-the-40-year-old-solo-founder-is-here"
+        }
+      }
+    }
+  ]
+}
