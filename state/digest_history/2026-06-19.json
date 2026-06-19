@@ -39,6 +39,35 @@
           "card_slug": "the-age-of-the-40-year-old-solo-founder-is-here"
         }
       }
+    },
+    {
+      "run_at": "2026-06-19T19:00:43.888004+00:00",
+      "tg_message_ids": [
+        42
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "2TYBMvYxyVc",
+          "url": "https://youtu.be/2TYBMvYxyVc",
+          "title": "Just launch, even if no ones cares",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Ship imperfect things to unblock your own workflow, even if they have zero external users — the value is internal leverage, not validation.",
+          "card_slug": "just-launch-even-if-no-ones-cares"
+        }
+      }
     }
   ]
 }
