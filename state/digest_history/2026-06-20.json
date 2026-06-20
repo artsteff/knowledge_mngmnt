@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-06-20T15:00:47.248916+00:00",
+      "tg_message_ids": [
+        43
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "z7yPBgWnTsI",
+          "url": "https://youtu.be/z7yPBgWnTsI",
+          "title": "My Loop System That Replaced 40 PRs of Manual Babysitting",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Using an agent in a loop to automate PR triage and enforcement — flagging stale PRs, spinning up babysitting threads, and async-messaging the team to unblock merges — reduces manual oversight burden at scale.",
+          "card_slug": "my-loop-system-that-replaced-40-prs-of-manual-babysitting"
+        }
+      }
+    }
+  ]
+}
