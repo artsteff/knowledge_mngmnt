@@ -50,6 +50,46 @@
           "card_slug": "problems-with-loops"
         }
       }
+    },
+    {
+      "run_at": "2026-06-22T23:01:01.633873+00:00",
+      "tg_message_ids": [
+        45
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "Idjt53tTv2U",
+          "url": "https://youtu.be/Idjt53tTv2U",
+          "title": "How Claude Mythos found a 15-year-old bug in Mozilla Firefox",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Firefox's security bug discovery spiked not primarily because of a better model (Mythos), but because they built a custom harness that lets agents exhaustively search constrained problem spaces with test case validation — turning cheap-to-generate reports into verified, actionable findings.",
+          "card_slug": "how-claude-mythos-found-a-15-year-old-bug-in-mozilla-firefox"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "x3myFn_wOrw",
+          "url": "https://youtu.be/x3myFn_wOrw",
+          "title": "Why HeyGen built their AI video agent on HTML",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "LLMs lack visual intelligence when working with JSON/XML; HTML/CSS/JavaScript as LLM-native format unlocks visual reasoning and lets agents produce aesthetically coherent outputs without post-processing.",
+          "card_slug": "why-heygen-built-their-ai-video-agent-on-html"
+        }
+      }
     }
   ]
 }
