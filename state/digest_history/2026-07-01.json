@@ -1,0 +1,139 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-07-01T18:06:10.263989+00:00",
+      "tg_message_ids": [
+        47
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 17,
+          "scored_to_backlog": 14,
+          "backlog_size": 14,
+          "posting": 10,
+          "errors": [
+            "transcript-missing:dRmWYHuIJxM",
+            "transcript-missing:uiP88SpCi1Q",
+            "transcript-missing:akk6KRlcwW4",
+            "transcript-missing:OXMMN-XbxwA",
+            "transcript-missing:whue9_YquGA",
+            "circuit-breaker-tripped"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "UNzCG3lw6O0",
+          "url": "https://youtu.be/UNzCG3lw6O0",
+          "title": "Building Great Agent Skills: The Missing Manual",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Skills need explicit design decisions on trigger (user-invoked vs model-invoked), internal structure, steering mechanism, and pruning — and there's a concrete checklist to evaluate them against.",
+          "card_slug": "building-great-agent-skills-the-missing-manual"
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "APh1Vx0oLmQ",
+          "url": "https://youtu.be/APh1Vx0oLmQ",
+          "title": "Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Never let the model directly control production systems — separate proposal generation from validation/approval/execution via a policy engine and execution gateway, turning infrastructure into the reliability layer rather than the model.",
+          "card_slug": "deterministic-infra-for-non-deterministic-ai-agents-nishant-"
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "5FKBkUCaLa8",
+          "url": "https://youtu.be/5FKBkUCaLa8",
+          "title": "Gusto’s CTO deleted everything and replaced it with Claude Code - here’s what happened",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "A 1000-person R&D org rebuilt a tier-one product (Co-founder) in 10 weeks with 4 engineers + 1 designer using Claude Code + Cloudflare Workers + Vercel AI SDK, shipping with zero meetings, no Jira, no design debt — treating code as disposable and rebuilding from scratch as reasonable.",
+          "card_slug": "gustos-cto-deleted-everything-and-replaced-it-with-claude-co"
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "DqtmZE6Hl0g",
+          "url": "https://youtu.be/DqtmZE6Hl0g",
+          "title": "The Prompt is the Platform - Dominik Tornow, Resonate HQ",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Agents don't jump from abstract spec to concrete implementation in one step — they need a deterministic simulation layer first to discover correct algorithms under failure, then emit a concrete spec, then production code.",
+          "card_slug": "the-prompt-is-the-platform-dominik-tornow-resonate-hq"
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "P3KDebPTUrw",
+          "url": "https://youtu.be/P3KDebPTUrw",
+          "title": "Why OpenAI is merging Codex and ChatGPT and the future of knowledge work | Andrew Ambrosino",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 1,
+          "hook": "At OpenAI, the cost inversion is real — implementation via LLMs is now cheap; the expensive part is taste/curation. This flips product process: instead of derisk-through-design-upfront, teams now build 90 uncoordinated explorations and synthesize afterward.",
+          "card_slug": "why-openai-is-merging-codex-and-chatgpt-and-the-future-of-kn"
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "Lc8zRh9muoY",
+          "url": "https://youtu.be/Lc8zRh9muoY",
+          "title": "Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Agent bugs in production aren't reproducible because determinism isn't the constraint—replayability (recording inputs/outputs at system boundaries, not network layer) is; this shifts debugging from \"make the model deterministic\" to \"make the run observable and replayable without model calls.\"",
+          "card_slug": "your-agent-failed-in-prod-good-luck-reproducing-it-tisha-cha"
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "sHzkDArM5dk",
+          "url": "https://youtu.be/sHzkDArM5dk",
+          "title": "Every employee should be a one-person startup",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Individual agent augmentation (one person + agents doing work that previously required cross-team requests) unlocks autonomy and creative output faster than optimizing multi-team processes, and should be the sequencing foundation before tackling org-wide workflows.",
+          "card_slug": "every-employee-should-be-a-one-person-startup"
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "fWXJM-J0ZB8",
+          "url": "https://youtu.be/fWXJM-J0ZB8",
+          "title": "Frontier results, on device - RL Nabors, Arize",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Small language models (SLMs) running on-device can eliminate most inference costs (security, latency, connectivity, token spend) while consuming equal or less energy than frontier models for task-specific work.",
+          "card_slug": "frontier-results-on-device-rl-nabors-arize"
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "yJ-1LB2hF-Q",
+          "url": "https://youtu.be/yJ-1LB2hF-Q",
+          "title": "I benchmarked the NEW Sonnet 5. The results shocked me.",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Building repeatable, human-graded benchmarks for model evaluation using Claude Code and past session history as context—moving from one-off vibe checks to systematic eval design.",
+          "card_slug": "i-benchmarked-the-new-sonnet-5-the-results-shocked-me"
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "b7zAlI4g7wE",
+          "url": "https://youtu.be/b7zAlI4g7wE",
+          "title": "The \"Trash Can Method\" for software development",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Cost of code is so low with AI that you can validate product-market fit with a throwaway V1, then rebuild from scratch in a V2 branch rather than iterate on flawed architecture.",
+          "card_slug": "the-trash-can-method-for-software-development"
+        }
+      }
+    }
+  ]
+}
