@@ -35,6 +35,8 @@ log = logging.getLogger("responder_listener")
 
 BOT_TOKEN = os.environ.get("TELEGRAM_CAPTURE_BOT_TOKEN")
 CHANNEL_ID = os.environ.get("TELEGRAM_CAPTURE_CHANNEL_ID")
+DISCUSSION_GROUP_ID = os.environ.get("TELEGRAM_CAPTURE_DISCUSSION_GROUP_ID")
+ALLOWED_CHAT_IDS = {str(x) for x in (CHANNEL_ID, DISCUSSION_GROUP_ID) if x}
 LONG_POLL_TIMEOUT = int(os.environ.get("KM_TG_POLL_TIMEOUT", "0"))  # 0 = short poll
 
 
@@ -70,7 +72,23 @@ def fetch_updates(offset: int) -> list:
 
 def is_capture_chat(msg: dict) -> bool:
     chat_id = str(msg.get("chat", {}).get("id", ""))
-    return chat_id == str(CHANNEL_ID)
+    return chat_id in ALLOWED_CHAT_IDS
+
+
+def is_auto_forwarded_digest(msg: dict) -> bool:
+    """True if this message is the bot's own channel post auto-forwarded to the
+    linked discussion group. These look like user replies but they're our own
+    digest — dispatching them makes the intent router hallucinate dive commands.
+    """
+    if msg.get("is_automatic_forward"):
+        return True
+    sender_chat = msg.get("sender_chat") or {}
+    if sender_chat.get("type") == "channel":
+        return True
+    forward_origin = msg.get("forward_origin") or {}
+    if forward_origin.get("type") == "channel":
+        return True
+    return False
 
 
 def dispatch_message(msg: dict) -> None:
@@ -100,8 +118,8 @@ def dispatch_message(msg: dict) -> None:
 
 
 def main() -> None:
-    if not BOT_TOKEN or not CHANNEL_ID:
-        log.error("TELEGRAM_CAPTURE_BOT_TOKEN or TELEGRAM_CAPTURE_CHANNEL_ID missing")
+    if not BOT_TOKEN or not ALLOWED_CHAT_IDS:
+        log.error("TELEGRAM_CAPTURE_BOT_TOKEN missing or no chat IDs configured")
         sys.exit(1)
 
     offset = load_offset()
@@ -114,6 +132,9 @@ def main() -> None:
         highest = max(highest, u["update_id"])
         msg = u.get("message") or u.get("edited_message") or u.get("channel_post") or u.get("edited_channel_post")
         if not msg or not is_capture_chat(msg):
+            continue
+        if is_auto_forwarded_digest(msg):
+            log.info("Skipping auto-forwarded digest (message_id=%s)", msg.get("message_id"))
             continue
         try:
             dispatch_message(msg)

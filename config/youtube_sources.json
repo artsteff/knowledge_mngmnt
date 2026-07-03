@@ -34,6 +34,13 @@
       "name": "Anthropic",
       "url": "https://www.youtube.com/@anthropic-ai",
       "private": false
+    },
+    {
+      "name": "Lenny's Podcast",
+      "url": "https://www.youtube.com/@LennysPodcast/videos",
+      "private": false,
+      "fetch_limit": 10,
+      "max_per_digest": 3
     }
   ]
 }

@@ -12,7 +12,7 @@ from .prompts import load_prompt
 
 log = logging.getLogger(__name__)
 
-MODEL = "claude-sonnet-4-6"
+MODEL = "claude-haiku-4-5-20251001"
 
 
 def slugify(text: str, max_len: int = 60) -> str:
@@ -30,7 +30,7 @@ def write_summary_card(
     """Returns the card markdown body. Caller writes it to disk."""
     client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     prompt = load_prompt(
-        "summary.sonnet",
+        "summary.haiku",
         title=title,
         author=author,
         source_type=source_type,

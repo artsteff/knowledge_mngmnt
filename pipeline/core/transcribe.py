@@ -13,6 +13,10 @@ from pathlib import Path
 log = logging.getLogger(__name__)
 
 YTDLP_BIN = os.environ.get("YTDLP_BIN", "yt-dlp")
+LOCAL_WHISPER_BIN = os.environ.get(
+    "LOCAL_WHISPER_BIN", "/Users/artur/Documents/scripts/.venv/bin/whisper"
+)
+LOCAL_WHISPER_MODEL = os.environ.get("LOCAL_WHISPER_MODEL", "base")
 
 
 def fetch_transcript_via_api(video_id: str) -> str | None:
@@ -51,15 +55,15 @@ def cookies_args(private_source: bool = False) -> list[str]:
 
     Priority:
       1. YT_COOKIES_FILE env var (cloud / CI) — used for ALL calls
-      2. --cookies-from-browser chrome — local Mac, only for sources marked private
-      3. nothing
+      2. --cookies-from-browser chrome — local Mac, always (logged-in user view
+         bypasses YouTube's bot heuristics: auto-subs HTTP 429s and stripped
+         audio manifests). The `private_source` flag is kept for API
+         compatibility but no longer changes behavior.
     """
     cookies_file = os.environ.get("YT_COOKIES_FILE")
     if cookies_file and Path(cookies_file).exists():
         return ["--cookies", cookies_file]
-    if private_source:
-        return ["--cookies-from-browser", "chrome"]
-    return []
+    return ["--cookies-from-browser", "chrome"]
 
 
 def _clean_vtt(raw: str) -> str:
@@ -98,6 +102,66 @@ def fetch_youtube_autosubs(video_id: str, private: bool = False) -> str | None:
         return _clean_vtt(vtt_files[0].read_text(errors="ignore")) or None
     except Exception as e:
         log.warning("yt-dlp autosubs failed for %s: %s", video_id, e)
+        return None
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def transcribe_audio_via_local_whisper(video_id: str, private: bool = False) -> str | None:
+    """Free fallback: yt-dlp downloads audio, local Whisper CLI transcribes.
+
+    Reuses the binary from scripts/.venv (independent of which venv calls it).
+    Slow on CPU: a 30-min video on `base` model takes ~5-10 min.
+    """
+    if not Path(LOCAL_WHISPER_BIN).exists():
+        log.warning("Local whisper not found at %s; skipping", LOCAL_WHISPER_BIN)
+        return None
+
+    tmp = Path(tempfile.mkdtemp())
+    try:
+        url = f"https://youtu.be/{video_id}"
+        dl_cmd = [
+            YTDLP_BIN, "-f", "bestaudio[ext=m4a]/bestaudio[ext=webm]/bestaudio",
+            "--no-warnings", "--extractor-args", "youtube:player_client=android,web",
+            "-o", str(tmp / "%(id)s.%(ext)s"),
+            *cookies_args(private),
+            url,
+        ]
+        r = subprocess.run(dl_cmd, capture_output=True, text=True, timeout=300)
+        if r.returncode != 0:
+            log.warning("yt-dlp audio dl failed for %s: %s", video_id, r.stderr[:200])
+            return None
+        audio = next(
+            (p for p in tmp.iterdir()
+             if p.is_file() and p.suffix.lower() in {".m4a", ".webm", ".mp3", ".mp4", ".wav", ".opus"}),
+            None,
+        )
+        if not audio:
+            return None
+
+        wh_cmd = [
+            LOCAL_WHISPER_BIN, str(audio),
+            "--model", LOCAL_WHISPER_MODEL,
+            "--language", "en",
+            "--output_format", "txt",
+            "--output_dir", str(tmp),
+            "--fp16", "False",
+        ]
+        wh = subprocess.run(wh_cmd, capture_output=True, text=True, timeout=900)
+        if wh.returncode != 0:
+            log.warning("Local whisper failed for %s: %s", video_id, wh.stderr[:200])
+            return None
+        txt_files = list(tmp.glob("*.txt"))
+        if not txt_files:
+            return None
+        text = " ".join(txt_files[0].read_text(errors="ignore").split())
+        log.info("Local whisper produced %d chars for %s", len(text), video_id)
+        return text or None
+    except subprocess.TimeoutExpired:
+        log.warning("Local whisper timed out for %s", video_id)
+        return None
+    except Exception as e:
+        log.warning("Local whisper error for %s: %s", video_id, e)
         return None
     finally:
         shutil.rmtree(tmp, ignore_errors=True)

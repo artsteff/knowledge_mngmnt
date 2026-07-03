@@ -4,6 +4,7 @@ __pycache__/
 .env
 .env.local
 *.log
+logs/
 state/digest_history/archive-*.json.tmp
 .DS_Store
 .idea/

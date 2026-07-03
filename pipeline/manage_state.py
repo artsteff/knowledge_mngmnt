@@ -8,7 +8,7 @@ from __future__ import annotations
 import json
 import logging
 import sys
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -17,6 +17,7 @@ DIGEST_HISTORY = STATE_DIR / "digest_history"
 
 SEEN_RETAIN = 1000
 HISTORY_RETAIN_DAYS = 30
+BACKLOG_RETAIN_DAYS = 14
 
 logging.basicConfig(
     level=logging.INFO,
@@ -42,6 +43,37 @@ def prune_seen() -> list[Path]:
             f.write_text(json.dumps(data, indent=2, ensure_ascii=False))
             changed.append(f)
             log.info("Pruned %s: %d -> %d seen IDs", f.name, before, len(data["seen"]))
+    return changed
+
+
+def prune_backlog() -> list[Path]:
+    """Drop backlog entries older than BACKLOG_RETAIN_DAYS so stuck items don't linger."""
+    changed: list[Path] = []
+    cutoff = datetime.now(timezone.utc) - timedelta(days=BACKLOG_RETAIN_DAYS)
+    for f in STATE_DIR.glob("*.json"):
+        if f.name == "telegram_offset.json":
+            continue
+        try:
+            data = json.loads(f.read_text())
+        except json.JSONDecodeError:
+            continue
+        if not isinstance(data, dict) or not isinstance(data.get("backlog"), list):
+            continue
+        before = len(data["backlog"])
+        kept = []
+        for entry in data["backlog"]:
+            added_at = entry.get("added_at")
+            try:
+                ts = datetime.fromisoformat(added_at) if added_at else None
+            except ValueError:
+                ts = None
+            if ts is None or ts >= cutoff:
+                kept.append(entry)
+        if len(kept) != before:
+            data["backlog"] = kept
+            f.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+            changed.append(f)
+            log.info("Pruned %s backlog: %d -> %d entries", f.name, before, len(kept))
     return changed
 
 
@@ -71,9 +103,10 @@ def archive_history() -> list[Path]:
 
 def main() -> None:
     pruned = prune_seen()
+    backlog_pruned = prune_backlog()
     archived = archive_history()
-    log.info("Done. Pruned %d state file(s); archived %d digest file(s).",
-             len(pruned), len(archived))
+    log.info("Done. Pruned %d seen list(s); pruned %d backlog(s); archived %d digest file(s).",
+             len(pruned), len(backlog_pruned), len(archived))
 
 
 if __name__ == "__main__":
