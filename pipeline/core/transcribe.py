@@ -14,7 +14,7 @@ log = logging.getLogger(__name__)
 
 YTDLP_BIN = os.environ.get("YTDLP_BIN", "yt-dlp")
 LOCAL_WHISPER_BIN = os.environ.get(
-    "LOCAL_WHISPER_BIN", "/Users/artur/Documents/scripts/.venv/bin/whisper"
+    "LOCAL_WHISPER_BIN", "/Users/artur/GitHub/scripts/.venv/bin/whisper"
 )
 LOCAL_WHISPER_MODEL = os.environ.get("LOCAL_WHISPER_MODEL", "base")
 

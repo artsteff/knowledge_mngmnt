@@ -30,7 +30,7 @@ After writing the wiki entries, evaluate against Artur's 5 brand pillars:
 4. Platform partnerships (Meta-scale, from a small company)
 5. IC-vs-leader choice
 
-A source matches when it makes a claim Artur could **agree with, push back on, or extend with Manychat experience**. If matched, APPEND ONE Medium-confidence entry to `vault/04-projects/Personal Brand/ideas.md` using this exact format:
+A source matches when it makes a claim Artur could **agree with, push back on, or extend with Manychat experience**. If matched, APPEND ONE Medium-confidence entry to `vault/03-projects/Personal Brand/ideas.md` using this exact format:
 
 ```
 ## {YYYY-MM-DD} — {one-line idea title}
@@ -79,7 +79,7 @@ UPDATE wiki/concepts/{existing-slug}.md
 <append-only block>
 >>>
 
-APPEND vault/04-projects/Personal Brand/ideas.md
+APPEND vault/03-projects/Personal Brand/ideas.md
 <<<
 <one Medium-confidence entry, only if pillar match>
 >>>

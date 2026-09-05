@@ -38,7 +38,7 @@ Message appears in the channel.
 
 ```bash
 gh repo create artsteff/knowledge_mngmnt --private --confirm
-cd ~/Documents/knowledge_mngmnt
+cd ~/GitHub/scripts/knowledge_mngmnt
 git init -b main
 git add -A
 git commit -m "initial: capture & synthesis pipeline scaffolding"
@@ -123,7 +123,7 @@ cat > ~/Library/LaunchAgents/com.artur.second-brain.pull.plist <<'PLIST'
   <array>
     <string>/usr/bin/git</string>
     <string>-C</string>
-    <string>/Users/artur/Documents/vault/10-second-brain</string>
+    <string>/Users/artur/GitHub/second-brain</string>
     <string>pull</string>
     <string>--ff-only</string>
   </array>
@@ -170,11 +170,11 @@ Once you've seen the cloud pipeline post a digest in step 6, you can safely reti
 
 ```bash
 # Archive local scripts
-mkdir -p ~/Documents/scripts/youtube/_archived/2026-05-25
-mv ~/Documents/scripts/youtube/{youtube_monitor.py,youtube_daily_summary.py,youtube_ingest.py,telegram_ingest_listener.py,telegram_offset.json} \
-   ~/Documents/scripts/youtube/_archived/2026-05-25/
-cp ~/Documents/scripts/youtube/seen_videos.json \
-   ~/Documents/scripts/youtube/_archived/2026-05-25/seen_videos.snapshot.json
+mkdir -p ~/GitHub/scripts/youtube/_archived/2026-05-25
+mv ~/GitHub/scripts/youtube/{youtube_monitor.py,youtube_daily_summary.py,youtube_ingest.py,telegram_ingest_listener.py,telegram_offset.json} \
+   ~/GitHub/scripts/youtube/_archived/2026-05-25/
+cp ~/GitHub/scripts/youtube/seen_videos.json \
+   ~/GitHub/scripts/youtube/_archived/2026-05-25/seen_videos.snapshot.json
 
 # Unload launchd jobs
 mkdir -p ~/Library/LaunchAgents/_disabled
@@ -185,7 +185,7 @@ for j in fetch send daily-summary ingest-listener; do
 done
 ```
 
-Mark the old project doc closed by adding to the top of `vault/04-projects/Project - YouTube Monitor.md`:
+Mark the old project doc closed by adding to the top of `vault/03-projects/Project - YouTube Monitor.md`:
 
 ```markdown
 > **Superseded by `github.com/artsteff/knowledge_mngmnt` on 2026-05-25.**

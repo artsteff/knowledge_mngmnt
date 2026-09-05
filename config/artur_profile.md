@@ -20,7 +20,7 @@ Active work program: **AI Native transformation at Manychat** — deadline **Jun
 
 ## Career bets
 
-- **Job search** — actively looking at Principal/Staff PM roles at AI companies. Tracked in `vault/04-projects/New Job 2026/`.
+- **Job search** — actively looking at Principal/Staff PM roles at AI companies. Tracked in `vault/03-projects/New Job 2026/`.
 - **Personal brand** — building authority as a senior IC PM at AI companies; LinkedIn, X, Telegram.
 - **Second brain** — knowledge management as a system; AI-augmented personal workflows.
 
