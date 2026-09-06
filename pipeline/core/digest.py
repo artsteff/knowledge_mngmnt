@@ -32,6 +32,9 @@ class DigestItem:
     source_id: str              # adapter source id
     adapter: str                # adapter name
     card_slug: str | None = None  # set after summary card is written
+    description: str = ""       # the author's own words, straight from the source
+    duration_s: int = 0
+    date: str = ""
 
 
 def _html(text: str) -> str:
@@ -42,13 +45,48 @@ def _icon(score: int) -> str:
     return {1: "⭐", 2: "📌"}.get(score, "·")
 
 
+DESC_CHARS = 320
+
+
+def _clip(text: str, limit: int = DESC_CHARS) -> str:
+    """First sentences of the description, up to a limit, cut on a word."""
+    text = " ".join((text or "").split())
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    return cut[:cut.rfind(" ")].rstrip(" ,;:—-") + "…"
+
+
+def _human_duration(seconds: int) -> str:
+    if not seconds:
+        return ""
+    h, m = divmod(int(seconds) // 60, 60)
+    return f"{h}h {m:02d}m" if h else f"{m} min"
+
+
 def _block(item: DigestItem) -> str:
+    """One entry.
+
+    The description is the point of this digest: it is written by whoever made
+    the video, costs nothing to obtain, and is what Artur reads to decide
+    whether the video is worth a transcript. The scorer's hook sits underneath
+    it when there is one - and there is none when the Anthropic key is out of
+    credit, which is exactly when the description has to carry the entry on its
+    own.
+    """
     icon = _icon(item.score)
-    return (
-        f'\n{icon} <b>{item.ref}. <a href="{item.url}">{_html(item.title)}</a></b>'
-        f"\n{_html(item.author)} · {_html(item.source_type)}"
-        f"\n{_html(item.hook)}"
-    )
+    meta = " · ".join(x for x in (
+        _html(item.author), _human_duration(item.duration_s), item.date,
+    ) if x)
+    lines = [
+        f'\n{icon} <b>{item.ref}. <a href="{item.url}">{_html(item.title)}</a></b>',
+        meta,
+    ]
+    if item.hook:
+        lines.append(f"<i>{_html(item.hook)}</i>")
+    if item.description:
+        lines.append(_html(_clip(item.description)))
+    return "\n".join(lines)
 
 
 def build_messages(items: list[DigestItem], header_date: str) -> list[str]:

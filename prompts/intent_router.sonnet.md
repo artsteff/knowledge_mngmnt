@@ -18,14 +18,21 @@ Artur replied to a digest message in the "Knowledge Capture" channel. Interpret 
 
 ## Possible actions per ref
 
-- `dive` — Artur wants the full deep ingest (wiki sources + entities + concepts).
-- `ingest` — keep the summary card, no deep wiki work. (Rare; usually implied by skipping all OTHER items.)
+- `ingest` — Artur wants this one. The digest is a list of what is new, built
+  from titles and descriptions only; nothing has been transcribed or summarised
+  yet. `ingest` is what fetches the transcript and writes the summary card, so
+  it is the normal, expected action, not a rare one. Anything that reads as
+  "this one looks interesting", "take 2 and 5", "давай второе", "нужно" →
+  `ingest`.
+- `dive` — the full deep ingest on top of that (wiki sources + entities +
+  concepts). Requires a card, so it implies `ingest` first if none exists.
 - `skip` — Artur dismisses. State moves pending → seen.
 - `ask` — Artur is asking a question about an item. The orchestrator will run another Sonnet call to answer in-channel with citations to existing wiki pages. No wiki write.
 
 ## Interpretation rules
 
 - Match natural phrasing to actions, not literal keywords. Examples:
+  - "1, 4 и 7", "второе и пятое", "take 2 and 5", "these look useful: 3, 6" → `ingest` on each
   - "dive into 3", "deep dive #3", "tell me more about 3", "the Karpathy one — go deep", "give me the full breakdown of 2" → `dive`
   - "skip", "skip the rest", "nothing", "boring", "не нужно", "не интересно" → `skip`
   - "what does X mean?", "wait, how does this connect to Manychat?", "is this the same as Y?", "почему он так считает?" → `ask`

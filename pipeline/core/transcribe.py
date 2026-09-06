@@ -50,6 +50,61 @@ def fetch_transcript_via_api(video_id: str) -> str | None:
         return None
 
 
+APIFY_ACTOR = os.environ.get("APIFY_TRANSCRIPT_ACTOR", "johnvc~YoutubeTranscripts")
+APIFY_TIMEOUT = int(os.environ.get("APIFY_TIMEOUT_SECONDS", "180"))
+
+
+def fetch_transcript_via_apify(video_id: str, private: bool = False) -> str | None:
+    """YouTube's own captions, fetched from Apify's IPs instead of this one.
+
+    This is the cheapest and best path by a wide margin, and it exists because
+    the caption endpoint is IP-blocked here: youtube-transcript-api returns
+    IpBlocked and yt-dlp gets HTTP 429, from a residential Ziggo line, on every
+    video. Apify is not blocked.
+
+    Measured 2026-09-06: $0.000011 per video, ~5 s each, and the text comes back
+    properly punctuated - "How I AI. I'm Claire Vo" where local Whisper `base`
+    heard "how I am Clarevo". Cheaper than Groq by three orders of magnitude and
+    better than local Whisper, so it goes first.
+
+    Returns None when the video has no captions at all; the audio-plus-Whisper
+    paths exist for exactly that case.
+    """
+    token = os.environ.get("APIFY_TOKEN")
+    if not token:
+        return None
+    try:
+        import requests
+        r = requests.post(
+            f"https://api.apify.com/v2/acts/{APIFY_ACTOR}/run-sync-get-dataset-items",
+            params={"token": token},
+            json={
+                "youtube_url": [f"https://youtu.be/{video_id}"],
+                "languages": ["en"],
+                "output_formats": ["text"],
+                "include_metadata": False,
+            },
+            timeout=APIFY_TIMEOUT,
+        )
+        if r.status_code >= 400:
+            log.warning("Apify returned %s for %s: %s", r.status_code, video_id, r.text[:200])
+            return None
+        items = r.json()
+        if not items:
+            return None
+        item = items[0]
+        if not item.get("success"):
+            log.info("Apify has no transcript for %s", video_id)
+            return None
+        text = " ".join((item.get("non_timestamped") or item.get("text") or "").split())
+        if text:
+            log.info("Apify produced %d chars for %s", len(text), video_id)
+        return text or None
+    except Exception as e:
+        log.warning("Apify failed for %s: %s", video_id, e)
+        return None
+
+
 def cookies_args(private_source: bool = False) -> list[str]:
     """yt-dlp cookie args — ONLY for sources that genuinely need a login.
 
@@ -305,3 +360,41 @@ def transcribe_audio_via_openai(video_id: str, private: bool = False) -> str | N
         model=os.environ.get("OPENAI_WHISPER_MODEL", "whisper-1"),
         label="OpenAI whisper",
     )
+
+
+# --- the ladder ------------------------------------------------------------
+#
+# Cheapest and best first. Apify leads because it returns YouTube's own
+# captions - properly punctuated, $0.000011 a video - from IPs that are not
+# blocked, while this machine's are. The paid audio paths are for videos that
+# genuinely have no captions.
+#
+# Called on demand, when Artur picks a video out of the discovery digest.
+# Nothing here runs for videos he did not ask for.
+TRANSCRIPT_LADDER = [
+    ("Apify captions", fetch_transcript_via_apify),
+    ("YouTube captions API", lambda vid, private=False: fetch_transcript_via_api(vid)),
+    ("yt-dlp autosubs", fetch_youtube_autosubs),
+    ("Groq whisper", transcribe_audio_via_groq),
+    ("OpenAI whisper", transcribe_audio_via_openai),
+    ("local whisper", transcribe_audio_via_local_whisper),
+]
+
+
+def fetch_transcript(video_id: str, private: bool = False) -> tuple[str | None, str | None]:
+    """Walk the ladder until something returns text.
+
+    Returns (transcript, name of the step that produced it).
+    """
+    for name, fn in TRANSCRIPT_LADDER:
+        try:
+            text = fn(video_id, private)
+        except Exception as e:
+            log.warning("%s raised for %s: %s", name, video_id, e)
+            continue
+        if text:
+            log.info("Transcript for %s came from %s (%d chars)", video_id, name, len(text))
+            return text, name
+        log.info("%s had nothing for %s", name, video_id)
+    log.warning("No transcript for %s from any source", video_id)
+    return None, None

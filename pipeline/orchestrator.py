@@ -151,6 +151,8 @@ def main() -> None:
                     "hook": s.hook,
                     "adapter": adapter_name,
                     "source_name": item.source_meta.get("playlist_source") or item.author,
+                    "duration_s": item.source_meta.get("duration_s") or 0,
+                    "private_source": bool(item.source_meta.get("private_source")),
                     "added_at": datetime.now(timezone.utc).isoformat(),
                 })
                 added_to_backlog += 1
@@ -191,23 +193,14 @@ def main() -> None:
             "errors": result.errors,
         }
 
-        # 5. Lazy Sonnet — summary card ONLY for items being posted this run.
-        #    Skip entirely on dry-run.
-        if not args.dry_run:
-            for entry in to_post:
-                try:
-                    card = summarize.write_summary_card(
-                        title=entry["title"], author=entry["author"],
-                        source_type=entry["source_type"], url=entry["url"],
-                        date=entry["date"], content=entry["raw_text"],
-                    )
-                    slug = summarize.slugify(entry["title"])
-                    target = git_io.write_summary_card(slug, card)
-                    new_card_paths.append(target)
-                    entry["card_slug"] = slug
-                    entry["card_path"] = str(target.relative_to(git_io.second_brain_path()))
-                except Exception as e:
-                    log.exception("Summary card failed for %s: %s", entry["source_id"], e)
+        # 5. No summary card here any more.
+        #
+        # A card used to be written for everything posted, which meant paying a
+        # model to summarise videos Artur had not asked for - and doing it from
+        # a transcript that had already cost time or money to obtain. The digest
+        # is now a list of what is new, built from titles and descriptions
+        # alone. The transcript and the card are produced on demand, when he
+        # replies picking an item: see responder.handle_ingest.
 
         # 6. Collect digest items
         for entry in to_post:
@@ -222,6 +215,9 @@ def main() -> None:
                 source_id=entry["source_id"],
                 adapter=adapter_name,
                 card_slug=entry.get("card_slug"),
+                description=entry.get("raw_text", ""),
+                duration_s=entry.get("duration_s") or 0,
+                date=entry.get("date", ""),
             ))
 
     # Sort across adapters, cap, assign refs

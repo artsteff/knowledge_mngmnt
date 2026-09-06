@@ -11,11 +11,7 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-from ..core.transcribe import (
-    cookies_args, fetch_transcript_via_api,
-    fetch_youtube_autosubs, transcribe_audio_via_groq,
-    transcribe_audio_via_local_whisper, transcribe_audio_via_openai,
-)
+from ..core.transcribe import cookies_args
 from ._base import FetchResult, NormalizedItem, SourceAdapter
 
 log = logging.getLogger(__name__)
@@ -33,14 +29,11 @@ INTER_VIDEO_SLEEP = float(os.environ.get("KM_VIDEO_SLEEP_SECONDS", "5"))
 # failures count against a video's retry budget is decided separately, at the
 # end of fetch(), by whether anything succeeded at all.
 MAX_CONSECUTIVE_FAILURES = int(os.environ.get("KM_CIRCUIT_BREAKER_THRESHOLD", "5"))
-# Ceiling on videos transcribed per run. --max-items caps how many get POSTED;
-# nothing capped how many were fetched, because the circuit breaker always
-# aborted first. With the breaker no longer tripping on Shorts, a first run
-# against a fresh backlog would attempt every candidate - 120 of them on
-# 2026-09-06 - which is hours of Whisper and exactly the request volume that
-# earns an IP block. Anything not reached stays unseen and is picked up by the
-# next run four hours later.
-MAX_TRANSCRIBE_PER_RUN = int(os.environ.get("KM_MAX_TRANSCRIBE_PER_RUN", "12"))
+# Ceiling on videos looked up per run. This used to cap transcription, which was
+# the expensive step; now the run only reads metadata (about 1.6 s per video, no
+# model, no money), so it can be much higher. Anything not reached stays unseen
+# and is picked up by the next run.
+MAX_DISCOVER_PER_RUN = int(os.environ.get("KM_MAX_DISCOVER_PER_RUN", "40"))
 # Upper bound on video length. The queue on 2026-09-06 held 119 videos with a
 # median of 27 minutes - and a mean of 47, because sixteen multi-hour
 # conference recordings (the longest 9h11m) carried 44 of the 93 hours between
@@ -183,120 +176,83 @@ class YouTubeAdapter(SourceAdapter):
                     del by_source[name]
         return ordered
 
+    def _fetch_metadata(self, video_id: str, private: bool = False) -> dict | None:
+        """One yt-dlp metadata call - description, upload date, view count.
+
+        Measured at about 1.6 seconds and no download. This is all discovery
+        needs: the description is what Artur reads to decide whether a video is
+        worth a transcript, and --flat-playlist does not return it.
+        """
+        cmd = [
+            YTDLP_BIN, "--dump-json", "--skip-download", "--no-warnings",
+            *cookies_args(private), f"https://youtu.be/{video_id}",
+        ]
+        try:
+            r = subprocess.run(cmd, capture_output=True, text=True, timeout=90)
+            if r.returncode != 0 or not r.stdout.strip():
+                log.warning("metadata failed for %s: %s", video_id, r.stderr[:150])
+                return None
+            return json.loads(r.stdout.splitlines()[0])
+        except Exception as e:
+            log.warning("metadata error for %s: %s", video_id, e)
+            return None
+
     def fetch(self, state: dict) -> FetchResult:
+        """Discovery only - no transcripts, no models, no spend.
+
+        The pipeline used to transcribe everything it found and decide what was
+        worth keeping afterwards, which meant paying for videos Artur never
+        wanted. Now a run lists what is new and describes it; the transcript is
+        fetched later, on demand, only for the videos he picks out of the
+        digest. See core.transcribe.fetch_transcript.
+        """
         seen = set(state.get("seen", []))
         items: list[NormalizedItem] = []
         errors: list[str] = []
-        # Pending failure increments. Committed only when the run proves the
-        # network path works - see the comment at the commit step below.
-        pending_failed: list[tuple[str, str]] = []  # (vid, title)
-        consecutive_failures = 0
-        breaker_tripped = False
 
         candidates = self._interleave(self._list_candidates(state, seen))
-        if len(candidates) > MAX_TRANSCRIBE_PER_RUN:
-            log.info("%d candidates; taking %d this run, rest next time",
-                     len(candidates), MAX_TRANSCRIBE_PER_RUN)
-            candidates = candidates[:MAX_TRANSCRIBE_PER_RUN]
+        if len(candidates) > MAX_DISCOVER_PER_RUN:
+            log.info("%d candidates; describing %d this run, rest next time",
+                     len(candidates), MAX_DISCOVER_PER_RUN)
+            candidates = candidates[:MAX_DISCOVER_PER_RUN]
 
         for cand in candidates:
-            if breaker_tripped:
-                break
             v, source = cand["video"], cand["source"]
             vid = v["id"]
-            duration = v.get("duration") or 0
-
-            # Rate-limit guard: space out per-video processing.
-            if INTER_VIDEO_SLEEP > 0:
-                time.sleep(INTER_VIDEO_SLEEP)
-
-            title = v.get("title", "Untitled")
-            channel = v.get("channel") or v.get("uploader") or source["name"]
-            url = f"https://youtu.be/{vid}"
             private = source.get("private", False)
 
-            # Captions first - free and instant when the IP is not blocked.
-            # Then the cloud, cheapest first. Local Whisper is last and off by
-            # default: transcription in the cloud is the whole point, this
-            # laptop should not be pegged for hours.
-            transcript = fetch_transcript_via_api(vid)
-            if not transcript:
-                log.info("youtube-transcript-api missed %s; trying yt-dlp autosubs", vid)
-                transcript = fetch_youtube_autosubs(vid, private=private)
-            if not transcript:
-                log.info("No autosubs for %s; trying Groq", vid)
-                transcript = transcribe_audio_via_groq(vid, private=private)
-            if not transcript:
-                log.info("Groq missed %s; trying OpenAI Whisper API", vid)
-                transcript = transcribe_audio_via_openai(vid, private=private)
-            if not transcript:
-                log.info("OpenAI missed %s; trying local Whisper (usually disabled)", vid)
-                transcript = transcribe_audio_via_local_whisper(vid, private=private)
-
-            if not transcript:
-                consecutive_failures += 1
-                pending_failed.append((vid, title))
-                errors.append(f"transcript-missing:{vid}")
-                log.warning("No transcript for %s (consecutive=%d): %s",
-                            vid, consecutive_failures, title[:60])
-                if consecutive_failures >= MAX_CONSECUTIVE_FAILURES:
-                    log.error(
-                        "🚨 Circuit breaker tripped after %d consecutive failures — "
-                        "aborting run. Likely YouTube IP rate limit.",
-                        consecutive_failures,
-                    )
-                    breaker_tripped = True
-                    break
+            meta = self._fetch_metadata(vid, private)
+            if meta is None:
+                # Leave it unseen so the next run retries; a metadata failure is
+                # usually transient and costs nothing to repeat.
+                errors.append(f"metadata-missing:{vid}")
                 continue
 
-            # Success — clear any prior retry counter and reset streak.
-            consecutive_failures = 0
-            if "failed" in state and vid in state["failed"]:
-                del state["failed"][vid]
+            duration = meta.get("duration") or v.get("duration") or 0
+            upload = meta.get("upload_date") or ""
+            date = (f"{upload[:4]}-{upload[4:6]}-{upload[6:]}" if len(upload) == 8
+                    else datetime.now(timezone.utc).date().isoformat())
 
             items.append(NormalizedItem(
                 source_id=vid,
-                url=url,
-                title=title,
-                author=channel,
-                date=datetime.now(timezone.utc).date().isoformat(),
-                raw_text=transcript[:10000],
+                url=f"https://youtu.be/{vid}",
+                title=meta.get("title") or v.get("title", "Untitled"),
+                author=meta.get("channel") or meta.get("uploader") or source["name"],
+                date=date,
+                # The description stands in for the transcript until Artur asks
+                # for one. It is enough for Haiku to rank the item and enough
+                # for a human to decide.
+                raw_text=(meta.get("description") or "")[:10000],
                 source_type="video",
                 source_meta={
                     "playlist_source": source["name"],
                     "duration_s": duration,
+                    "view_count": meta.get("view_count"),
+                    "private_source": private,
+                    "needs_transcript": True,
                 },
             ))
             seen.add(vid)
 
-        # Commit failures only when at least one video succeeded this run.
-        #
-        # One success proves the network path works, so the failures that
-        # accompanied it are about those particular videos and deserve to count
-        # against their retry budget. Zero successes means the whole run was
-        # blocked, and penalising videos for that would retire good ones.
-        #
-        # The previous rule - never commit when the breaker trips - looked
-        # safer and deadlocked instead: five permanently undownloadable videos
-        # tripped the breaker every run, so their counters were never touched,
-        # they were never retired, and `failed` sat empty while the same five
-        # blocked every run forever.
-        run_proved_working = bool(items)
-        if run_proved_working:
-            fails = state.setdefault("failed", {})
-            for vid, title in pending_failed:
-                fails[vid] = fails.get(vid, 0) + 1
-                if fails[vid] >= 3:
-                    log.warning("Giving up on %s after %d attempts (%s)", vid, fails[vid], title[:60])
-                    seen.add(vid)
-                    del fails[vid]
-        elif pending_failed:
-            log.warning(
-                "%d failure(s) and no successes — treating as a systemic block, "
-                "retry counters untouched.", len(pending_failed),
-            )
-
         state["seen"] = sorted(seen)
-        if breaker_tripped:
-            errors.append("circuit-breaker-tripped")
         return FetchResult(new_items=items, errors=errors)

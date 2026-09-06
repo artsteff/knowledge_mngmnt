@@ -19,7 +19,7 @@ load_dotenv(REPO_ROOT / ".env")
 import requests
 from anthropic import Anthropic
 
-from .core import deep_dive, git_io, intent_router
+from .core import deep_dive, git_io, intent_router, summarize, transcribe
 
 STATE_DIR = REPO_ROOT / "state"
 DIGEST_HISTORY = STATE_DIR / "digest_history"
@@ -123,6 +123,81 @@ def handle_skip(ref: str, digest_map: dict, source_state_paths: list[Path]) -> N
     source_state_paths.append(state_path)
 
 
+def _record_card_slug(ref: str, source_id: str, slug: str, card_path: str) -> Path | None:
+    """Write the card slug back into the digest history.
+
+    The digest is written before any card exists now, so `dive` and `ask` -
+    which both look up item["card_slug"] - would find nothing unless ingest
+    records it. Newest file first: that is the one the ref came from.
+    """
+    files = sorted(
+        (f for f in DIGEST_HISTORY.glob("*.json") if not f.stem.startswith("archive-")),
+        reverse=True,
+    )
+    for f in files:
+        try:
+            data = json.loads(f.read_text())
+        except json.JSONDecodeError:
+            continue
+        touched = False
+        for run in data.get("runs", []):
+            entry = run.get("digest_map", {}).get(ref)
+            if entry and entry.get("source_id") == source_id:
+                entry["card_slug"] = slug
+                entry["card_path"] = card_path
+                touched = True
+        if touched:
+            f.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+            return f
+    return None
+
+
+def handle_ingest(ref: str, digest_map: dict) -> tuple[list[Path], str]:
+    """Fetch the transcript and write the summary card - on demand, for one item.
+
+    This is where the money is spent, and only here. The digest that offered
+    this item cost nothing beyond a metadata lookup; the transcript ladder runs
+    because Artur asked for this particular video.
+    """
+    item = digest_map.get(ref)
+    if not item:
+        return [], f"#{ref} is not in the recent digests."
+
+    source_id = item.get("source_id", "")
+    title = item.get("title", "Untitled")
+
+    if item.get("card_slug"):
+        return [], f"<b>#{ref}</b> already ingested - [[{item['card_slug']}]]"
+
+    transcript, origin = transcribe.fetch_transcript(
+        source_id, private=bool(item.get("private_source")),
+    )
+    if not transcript:
+        return [], (f"<b>#{ref}</b> {_html(title)}\n"
+                    "No transcript available from any source - captions, Apify "
+                    "or audio. Nothing to summarise.")
+
+    card = summarize.write_summary_card(
+        title=title, author=item.get("author", ""),
+        source_type=item.get("source_type", "video"),
+        url=item.get("url", ""), date=item.get("date", ""),
+        content=transcript,
+    )
+    slug = summarize.slugify(title)
+    target = git_io.write_summary_card(slug, card)
+
+    sb = git_io.second_brain_path()
+    history = _record_card_slug(ref, source_id, slug,
+                                str(target.relative_to(sb)))
+    item["card_slug"] = slug
+
+    touched = [target] + ([history] if history else [])
+    body = _md_to_telegram_html(_strip_frontmatter(card))[:TG_MAX_LEN]
+    msg = (f"<b>#{ref} {_html(title)}</b>\n"
+           f"<i>transcript via {origin}, {len(transcript)} chars</i>\n\n{body}")
+    return touched, msg
+
+
 def _html(text: str) -> str:
     return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
@@ -216,7 +291,14 @@ def handle_dive(ref: str, digest_map: dict) -> tuple[list[Path], str | None]:
 
     card_slug = item.get("card_slug")
     if not card_slug:
-        log.warning("dive: ref %s has no card_slug; skipping", ref)
+        # Cards are no longer written at digest time, so a dive on an item Artur
+        # has not ingested yet has nothing to read. Ingest it first rather than
+        # making him ask twice.
+        log.info("dive: ref %s has no card yet; ingesting first", ref)
+        handle_ingest(ref, digest_map)
+        card_slug = item.get("card_slug")
+    if not card_slug:
+        log.warning("dive: ref %s still has no card_slug; skipping", ref)
         return [], None
     card_path = sb / "summaries" / f"{card_slug}.md"
     card_content = card_path.read_text() if card_path.exists() else ""
@@ -411,8 +493,11 @@ def main() -> None:
             tg_react(chat_id, message_id, "💬")
             tg_send(chat_id, f"<b>re: #{inst.ref}</b>\n{answer}", reply_to=message_id)
         elif inst.action == "ingest" and inst.ref:
-            # Phase-1 cards are already written; nothing to do here for now
+            paths, msg = handle_ingest(inst.ref, digest_map)
+            touched_paths.extend(paths)
             tg_react(chat_id, message_id, "✅")
+            if msg:
+                tg_send(chat_id, msg, reply_to=message_id)
 
     # Commit (one combined commit at the end is fine — file ops were already applied)
     if touched_paths:
