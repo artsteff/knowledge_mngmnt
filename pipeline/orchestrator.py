@@ -299,10 +299,23 @@ def main() -> None:
             state_paths + [history_path],
         )
 
+    total_fetched = sum(r["fetched"] for r in snapshot_runs.values())
+    total_errors = sum(len(r["errors"]) for r in snapshot_runs.values())
     log.info("Done. Fetched %d, posted %d (of %d in backlogs).",
-             sum(r["fetched"] for r in snapshot_runs.values()),
-             len(digest_items),
+             total_fetched, len(digest_items),
              sum(r["backlog_size"] for r in snapshot_runs.values()))
+
+    # Errors with nothing fetched is a systemic block, not a quiet day. Exit
+    # non-zero so the launchd wrapper reports it.
+    #
+    # This run used to exit 0 no matter what: between 2026-09-06 00:00 and 08:00
+    # it logged "0 new fetched, 6 errors" three times in a row, tripped its
+    # circuit breaker every time, and still reported success. Nobody was told.
+    # A quiet day - no errors, nothing new - stays a clean exit.
+    if total_errors and not total_fetched:
+        log.error("%d error(s) and nothing fetched — treating the run as failed.",
+                  total_errors)
+        sys.exit(1)
 
 
 if __name__ == "__main__":

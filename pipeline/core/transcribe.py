@@ -51,19 +51,25 @@ def fetch_transcript_via_api(video_id: str) -> str | None:
 
 
 def cookies_args(private_source: bool = False) -> list[str]:
-    """yt-dlp cookie args.
+    """yt-dlp cookie args — ONLY for sources that genuinely need a login.
 
-    Priority:
-      1. YT_COOKIES_FILE env var (cloud / CI) — used for ALL calls
-      2. --cookies-from-browser chrome — local Mac, always (logged-in user view
-         bypasses YouTube's bot heuristics: auto-subs HTTP 429s and stripped
-         audio manifests). The `private_source` flag is kept for API
-         compatibility but no longer changes behavior.
+    Sending cookies used to help: a logged-in view bypassed YouTube's bot
+    heuristics. As of 2026-09-06 the opposite is true. Measured on the five
+    videos this pipeline had been stuck on, all five behaved identically:
+
+        no cookies                  -> format resolved, audio downloads
+        --cookies-from-browser      -> "The page needs to be reloaded"
+
+    A logged-in session is now the thing YouTube challenges, so cookies are
+    reserved for private playlists (Watch Later), which cannot be read without
+    them. YT_COOKIES_FILE still wins when set, for cloud/CI runs.
     """
     cookies_file = os.environ.get("YT_COOKIES_FILE")
     if cookies_file and Path(cookies_file).exists():
         return ["--cookies", cookies_file]
-    return ["--cookies-from-browser", "chrome"]
+    if private_source:
+        return ["--cookies-from-browser", "chrome"]
+    return []
 
 
 def _clean_vtt(raw: str) -> str:
@@ -121,8 +127,12 @@ def transcribe_audio_via_local_whisper(video_id: str, private: bool = False) -> 
     try:
         url = f"https://youtu.be/{video_id}"
         dl_cmd = [
+            # No --extractor-args: pinning player_client=android,web is what
+            # produced "Requested format is not available" on every download.
+            # YouTube retired the android client; letting yt-dlp pick its own
+            # client order resolves formats again (verified 5/5, 2026-09-06).
             YTDLP_BIN, "-f", "bestaudio[ext=m4a]/bestaudio[ext=webm]/bestaudio",
-            "--no-warnings", "--extractor-args", "youtube:player_client=android,web",
+            "--no-warnings",
             "-o", str(tmp / "%(id)s.%(ext)s"),
             *cookies_args(private),
             url,
@@ -183,8 +193,12 @@ def transcribe_audio_via_openai(audio_url_or_video_id: str, private: bool = Fals
         url = audio_url_or_video_id if audio_url_or_video_id.startswith("http") \
             else f"https://youtu.be/{audio_url_or_video_id}"
         dl_cmd = [
+            # No --extractor-args: pinning player_client=android,web is what
+            # produced "Requested format is not available" on every download.
+            # YouTube retired the android client; letting yt-dlp pick its own
+            # client order resolves formats again (verified 5/5, 2026-09-06).
             YTDLP_BIN, "-f", "bestaudio[ext=m4a]/bestaudio[ext=webm]/bestaudio",
-            "--no-warnings", "--extractor-args", "youtube:player_client=android,web",
+            "--no-warnings",
             "-o", str(tmp / "%(id)s.%(ext)s"),
             *cookies_args(private),
             url,
