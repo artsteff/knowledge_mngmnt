@@ -113,12 +113,128 @@ def fetch_youtube_autosubs(video_id: str, private: bool = False) -> str | None:
         shutil.rmtree(tmp, ignore_errors=True)
 
 
-def transcribe_audio_via_local_whisper(video_id: str, private: bool = False) -> str | None:
-    """Free fallback: yt-dlp downloads audio, local Whisper CLI transcribes.
+AUDIO_EXTS = {".m4a", ".webm", ".mp3", ".mp4", ".mpga", ".wav", ".opus", ".ogg"}
+# Both OpenAI and Groq reject uploads over 25 MB. A 47-minute video - the
+# average in this pipeline - is about 45 MB of m4a, so the upload path was
+# silently unusable for most of the queue. Whisper resamples everything to
+# 16 kHz mono anyway, so encoding to that before upload costs no accuracy and
+# cuts the file roughly twentyfold.
+API_UPLOAD_LIMIT_MB = 25
 
-    Reuses the binary from scripts/.venv (independent of which venv calls it).
-    Slow on CPU: a 30-min video on `base` model takes ~5-10 min.
+
+def _download_audio(video_id: str, tmp: Path, private: bool = False) -> Path | None:
+    """Fetch bestaudio into `tmp`. Returns the file, or None."""
+    cmd = [
+        # No --extractor-args: pinning player_client=android,web is what
+        # produced "Requested format is not available" on every download.
+        YTDLP_BIN, "-f", "bestaudio[ext=m4a]/bestaudio[ext=webm]/bestaudio",
+        "--no-warnings", "-o", str(tmp / "%(id)s.%(ext)s"),
+        *cookies_args(private),
+        f"https://youtu.be/{video_id}",
+    ]
+    r = subprocess.run(cmd, capture_output=True, text=True, timeout=300)
+    if r.returncode != 0:
+        log.warning("yt-dlp audio dl failed for %s: %s", video_id, r.stderr[:200])
+        return None
+    return next((p for p in tmp.iterdir()
+                 if p.is_file() and p.suffix.lower() in AUDIO_EXTS), None)
+
+
+def _shrink_for_upload(audio: Path, tmp: Path) -> Path:
+    """Re-encode to 16 kHz mono Opus when the file is too big to upload.
+
+    Returns the original path if it already fits or if ffmpeg is unavailable -
+    an oversized upload that gets rejected is no worse than not trying.
     """
+    size_mb = audio.stat().st_size / 1_000_000
+    if size_mb < API_UPLOAD_LIMIT_MB:
+        return audio
+    if not shutil.which("ffmpeg"):
+        log.warning("%s is %.0f MB and ffmpeg is missing; uploading as-is",
+                    audio.name, size_mb)
+        return audio
+    out = tmp / f"{audio.stem}.16k.ogg"
+    r = subprocess.run(
+        ["ffmpeg", "-y", "-loglevel", "error", "-i", str(audio),
+         "-ac", "1", "-ar", "16000", "-c:a", "libopus", "-b:a", "16k", str(out)],
+        capture_output=True, text=True, timeout=600,
+    )
+    if r.returncode != 0 or not out.exists():
+        log.warning("ffmpeg shrink failed for %s: %s", audio.name, r.stderr[:200])
+        return audio
+    log.info("Shrunk %s: %.0f MB -> %.1f MB", audio.name, size_mb,
+             out.stat().st_size / 1_000_000)
+    return out
+
+
+def _transcribe_via_openai_compatible(
+    video_id: str, private: bool, *, api_key: str, base_url: str | None,
+    model: str, label: str,
+) -> str | None:
+    """Download the audio locally, transcribe it in the cloud.
+
+    The download has to happen here: YouTube blocks data-centre IPs, which is
+    why running the whole pipeline on a VPS does not work. The transcription is
+    the expensive part and that is what goes to the cloud - deliberately, so
+    this laptop is not pegged for hours.
+    """
+    tmp = Path(tempfile.mkdtemp())
+    try:
+        audio = _download_audio(video_id, tmp, private)
+        if not audio:
+            return None
+        audio = _shrink_for_upload(audio, tmp)
+
+        from openai import OpenAI
+        client = OpenAI(api_key=api_key, base_url=base_url) if base_url \
+            else OpenAI(api_key=api_key)
+        with open(audio, "rb") as f:
+            resp = client.audio.transcriptions.create(
+                model=model, file=f, response_format="text",
+            )
+        text = resp if isinstance(resp, str) else getattr(resp, "text", "")
+        text = " ".join(text.split())
+        if text:
+            log.info("%s produced %d chars for %s", label, len(text), video_id)
+        return text or None
+    except Exception as e:
+        log.warning("%s failed for %s: %s", label, video_id, e)
+        return None
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def transcribe_audio_via_groq(video_id: str, private: bool = False) -> str | None:
+    """Groq whisper-large-v3-turbo - the cheap, fast cloud path.
+
+    About $0.04 per hour of audio against OpenAI's $0.36, and roughly 200x
+    real-time, with large-v3 quality instead of the local `base` model. Skipped
+    silently when GROQ_API_KEY is unset.
+    """
+    api_key = os.environ.get("GROQ_API_KEY")
+    if not api_key:
+        return None
+    return _transcribe_via_openai_compatible(
+        video_id, private, api_key=api_key,
+        base_url="https://api.groq.com/openai/v1",
+        model=os.environ.get("GROQ_WHISPER_MODEL", "whisper-large-v3-turbo"),
+        label="Groq whisper",
+    )
+
+
+def transcribe_audio_via_local_whisper(video_id: str, private: bool = False) -> str | None:
+    """Local Whisper CLI. OFF by default - set KM_ALLOW_LOCAL_WHISPER=1 to enable.
+
+    Free, but it pegs this laptop: measured at roughly 10 seconds of CPU per
+    minute of audio, which is about 15 hours for the 92-hour queue that existed
+    on 2026-09-06. Transcription belongs in the cloud; the audio download stays
+    local because YouTube blocks data-centre IPs.
+
+    Kept as a last resort for when there is no API key at all.
+    """
+    if os.environ.get("KM_ALLOW_LOCAL_WHISPER", "0") not in ("1", "true", "yes"):
+        log.info("Local Whisper is disabled (KM_ALLOW_LOCAL_WHISPER unset); skipping")
+        return None
     if not Path(LOCAL_WHISPER_BIN).exists():
         log.warning("Local whisper not found at %s; skipping", LOCAL_WHISPER_BIN)
         return None
@@ -177,57 +293,15 @@ def transcribe_audio_via_local_whisper(video_id: str, private: bool = False) -> 
         shutil.rmtree(tmp, ignore_errors=True)
 
 
-def transcribe_audio_via_openai(audio_url_or_video_id: str, private: bool = False) -> str | None:
-    """Fallback: yt-dlp downloads audio, OpenAI Whisper transcribes."""
+def transcribe_audio_via_openai(video_id: str, private: bool = False) -> str | None:
+    """OpenAI whisper-1. Works out of the box (the key is already configured),
+    but costs about nine times what Groq does for the same audio."""
     api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
         log.warning("OPENAI_API_KEY not set; cannot use Whisper fallback")
         return None
-
-    tmp = Path(tempfile.mkdtemp())
-    try:
-        # Download whatever bestaudio is available. OpenAI Whisper accepts
-        # mp3, mp4, mpeg, mpga, m4a, wav, webm. Forcing mp3 needs ffmpeg
-        # conversion AND fails when YouTube serves a stripped manifest to
-        # data-center IPs. Just take what we can get.
-        url = audio_url_or_video_id if audio_url_or_video_id.startswith("http") \
-            else f"https://youtu.be/{audio_url_or_video_id}"
-        dl_cmd = [
-            # No --extractor-args: pinning player_client=android,web is what
-            # produced "Requested format is not available" on every download.
-            # YouTube retired the android client; letting yt-dlp pick its own
-            # client order resolves formats again (verified 5/5, 2026-09-06).
-            YTDLP_BIN, "-f", "bestaudio[ext=m4a]/bestaudio[ext=webm]/bestaudio",
-            "--no-warnings",
-            "-o", str(tmp / "%(id)s.%(ext)s"),
-            *cookies_args(private),
-            url,
-        ]
-        r = subprocess.run(dl_cmd, capture_output=True, text=True, timeout=300)
-        if r.returncode != 0:
-            log.warning("yt-dlp audio dl failed: %s", r.stderr[:200])
-            return None
-        audio = next(
-            (p for p in tmp.iterdir()
-             if p.is_file() and p.suffix.lower() in {".m4a", ".webm", ".mp3", ".mp4", ".mpga", ".wav"}),
-            None,
-        )
-        if not audio:
-            return None
-
-        from openai import OpenAI
-        client = OpenAI(api_key=api_key)
-        with open(audio, "rb") as f:
-            resp = client.audio.transcriptions.create(
-                model="whisper-1",
-                file=f,
-                response_format="text",
-            )
-        text = resp if isinstance(resp, str) else getattr(resp, "text", "")
-        log.info("Whisper produced %d chars for %s", len(text), audio_url_or_video_id)
-        return " ".join(text.split()) or None
-    except Exception as e:
-        log.warning("Whisper fallback error for %s: %s", audio_url_or_video_id, e)
-        return None
-    finally:
-        shutil.rmtree(tmp, ignore_errors=True)
+    return _transcribe_via_openai_compatible(
+        video_id, private, api_key=api_key, base_url=None,
+        model=os.environ.get("OPENAI_WHISPER_MODEL", "whisper-1"),
+        label="OpenAI whisper",
+    )

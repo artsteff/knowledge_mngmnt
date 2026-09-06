@@ -13,7 +13,7 @@ from pathlib import Path
 
 from ..core.transcribe import (
     cookies_args, fetch_transcript_via_api,
-    fetch_youtube_autosubs,
+    fetch_youtube_autosubs, transcribe_audio_via_groq,
     transcribe_audio_via_local_whisper, transcribe_audio_via_openai,
 )
 from ._base import FetchResult, NormalizedItem, SourceAdapter
@@ -41,6 +41,13 @@ MAX_CONSECUTIVE_FAILURES = int(os.environ.get("KM_CIRCUIT_BREAKER_THRESHOLD", "5
 # earns an IP block. Anything not reached stays unseen and is picked up by the
 # next run four hours later.
 MAX_TRANSCRIBE_PER_RUN = int(os.environ.get("KM_MAX_TRANSCRIBE_PER_RUN", "12"))
+# Upper bound on video length. The queue on 2026-09-06 held 119 videos with a
+# median of 27 minutes - and a mean of 47, because sixteen multi-hour
+# conference recordings (the longest 9h11m) carried 44 of the 93 hours between
+# them. A nine-hour livestream does not compress into a summary card, and it
+# costs more to transcribe than everything it sits next to. 90 minutes keeps
+# full-length podcast episodes.
+MAX_VIDEO_SECONDS = int(os.environ.get("KM_MAX_VIDEO_SECONDS", "5400"))
 
 
 class YouTubeAdapter(SourceAdapter):
@@ -151,6 +158,13 @@ class YouTubeAdapter(SourceAdapter):
                 if self._is_short(v):
                     seen.add(vid)
                     continue
+                duration = v.get("duration") or 0
+                if MAX_VIDEO_SECONDS and duration > MAX_VIDEO_SECONDS:
+                    log.info("Skipping %s (%d min, over the %d min cap): %s",
+                             vid, duration // 60, MAX_VIDEO_SECONDS // 60,
+                             (v.get("title") or "")[:50])
+                    seen.add(vid)
+                    continue
                 candidates.append({"video": v, "source": source})
         return candidates
 
@@ -201,16 +215,23 @@ class YouTubeAdapter(SourceAdapter):
             url = f"https://youtu.be/{vid}"
             private = source.get("private", False)
 
+            # Captions first - free and instant when the IP is not blocked.
+            # Then the cloud, cheapest first. Local Whisper is last and off by
+            # default: transcription in the cloud is the whole point, this
+            # laptop should not be pegged for hours.
             transcript = fetch_transcript_via_api(vid)
             if not transcript:
                 log.info("youtube-transcript-api missed %s; trying yt-dlp autosubs", vid)
                 transcript = fetch_youtube_autosubs(vid, private=private)
             if not transcript:
-                log.info("No autosubs for %s; trying local Whisper", vid)
-                transcript = transcribe_audio_via_local_whisper(vid, private=private)
+                log.info("No autosubs for %s; trying Groq", vid)
+                transcript = transcribe_audio_via_groq(vid, private=private)
             if not transcript:
-                log.info("Local Whisper missed %s; trying OpenAI Whisper API", vid)
+                log.info("Groq missed %s; trying OpenAI Whisper API", vid)
                 transcript = transcribe_audio_via_openai(vid, private=private)
+            if not transcript:
+                log.info("OpenAI missed %s; trying local Whisper (usually disabled)", vid)
+                transcript = transcribe_audio_via_local_whisper(vid, private=private)
 
             if not transcript:
                 consecutive_failures += 1
