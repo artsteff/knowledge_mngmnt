@@ -774,6 +774,112 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-07T21:19:09.337660+00:00",
+      "tg_message_ids": [
+        70
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 28,
+          "posting": 8,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "bMjlRrWjdT0",
+          "url": "https://youtu.be/bMjlRrWjdT0",
+          "title": "AI Evals for Cross-Functional Teams — Nachiket Paranjape & Swaroop Chitlur Haridas, DoorDash",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "ZIYYsAzaLlA",
+          "url": "https://youtu.be/ZIYYsAzaLlA",
+          "title": "Building the Engine While Flying the Plane: Launching the Figma MCP Server — Jesse Lumarie, Figma",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "EL123UNokkI",
+          "url": "https://youtu.be/EL123UNokkI",
+          "title": "Building uReview, Uber’s Multi-Agent Code Review Engine — Will Bond & Ameya Ketkar, Uber",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "sG5aB79TE44",
+          "url": "https://youtu.be/sG5aB79TE44",
+          "title": "How Supabase Became One Of The Fastest Growing DevTool Companies In The World",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "qdAkxLoYNI8",
+          "url": "https://youtu.be/qdAkxLoYNI8",
+          "title": "How to Generate Mergeable Code with a Context Engine — Peter Werry, Unblocked",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "ALJQHSgCl2E",
+          "url": "https://youtu.be/ALJQHSgCl2E",
+          "title": "Why Ambitious Startup Ideas Are Actually Easier To Sell",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "qz4GQ0zUFRw",
+          "url": "https://youtu.be/qz4GQ0zUFRw",
+          "title": "World Models, JEPA And The Path To Sample-Efficient RL",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "VbqaL_eHhKY",
+          "url": "https://youtu.be/VbqaL_eHhKY",
+          "title": "YC's Head of Design Shows You How To Design With AI",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
