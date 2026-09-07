@@ -641,6 +641,136 @@
           "source_type": "video",
           "score": 2,
           "hook": "",
+          "card_slug": "your-code-has-bugs-lean4-has-proofs-formal-verification-for-",
+          "card_path": "summaries/your-code-has-bugs-lean4-has-proofs-formal-verification-for-.md"
+        }
+      }
+    },
+    {
+      "run_at": "2026-09-07T21:13:20.972337+00:00",
+      "tg_message_ids": [
+        68,
+        69
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 38,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "pqlWNihgdjI",
+          "url": "https://youtu.be/pqlWNihgdjI",
+          "title": "From AI-Assisted to AI-Native: Building a Frontier Development Team — Clare Liguori, AWS",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "_O6x4ktK6JA",
+          "url": "https://youtu.be/_O6x4ktK6JA",
+          "title": "He Built the World's #1 Open-Source Coding Agent",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "B0fjR3yaZFU",
+          "url": "https://youtu.be/B0fjR3yaZFU",
+          "title": "How do you diffuse AI into the real world? — Varun Shenoy, Long Lake",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "RgYCO87ghRY",
+          "url": "https://youtu.be/RgYCO87ghRY",
+          "title": "How Photoroom Trained Themselves To Dream Bigger",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "mJqwmmOx4WA",
+          "url": "https://youtu.be/mJqwmmOx4WA",
+          "title": "How to avoid disaster when vibe-coding a billing engine — Andrew Garvin, Stripe",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "5Bn0xro2ol8",
+          "url": "https://youtu.be/5Bn0xro2ol8",
+          "title": "How to Get Your Org to Adopt Coding Agents (Without Shipping Garbage) — Eyal Blum, Figma",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "zrZ1amZBSPw",
+          "url": "https://youtu.be/zrZ1amZBSPw",
+          "title": "Productionizing LLM Gateways: Architecture, Tradeoffs and Hard Lessons — Kanish Manuja, Twilio",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "DbBnd9PYob4",
+          "url": "https://youtu.be/DbBnd9PYob4",
+          "title": "The Model-Agnostic AI Platform Betting That No Single Lab Will Win",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "vb1Gcn10enw",
+          "url": "https://youtu.be/vb1Gcn10enw",
+          "title": "What Top AI Labs Are Really Doing With Observability",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "F3INH9wZXoQ",
+          "url": "https://youtu.be/F3INH9wZXoQ",
+          "title": "Why Physical AI Is the Next Platform Shift",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
           "card_slug": null
         }
       }
