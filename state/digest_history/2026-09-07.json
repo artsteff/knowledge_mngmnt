@@ -771,7 +771,8 @@
           "source_type": "video",
           "score": 2,
           "hook": "",
-          "card_slug": null
+          "card_slug": "why-physical-ai-is-the-next-platform-shift",
+          "card_path": "summaries/why-physical-ai-is-the-next-platform-shift.md"
         }
       }
     },
@@ -811,7 +812,8 @@
           "source_type": "video",
           "score": 2,
           "hook": "",
-          "card_slug": null
+          "card_slug": "building-the-engine-while-flying-the-plane-launching-the-fig",
+          "card_path": "summaries/building-the-engine-while-flying-the-plane-launching-the-fig.md"
         },
         "3": {
           "adapter": "youtube",
@@ -877,7 +879,8 @@
           "source_type": "video",
           "score": 2,
           "hook": "",
-          "card_slug": null
+          "card_slug": "ycs-head-of-design-shows-you-how-to-design-with-ai",
+          "card_path": "summaries/ycs-head-of-design-shows-you-how-to-design-with-ai.md"
         }
       }
     }
