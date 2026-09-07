@@ -883,6 +883,135 @@
           "card_path": "summaries/ycs-head-of-design-shows-you-how-to-design-with-ai.md"
         }
       }
+    },
+    {
+      "run_at": "2026-09-07T22:00:47.372764+00:00",
+      "tg_message_ids": [
+        71,
+        72
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 20,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "pOvWgX7IJsc",
+          "url": "https://youtu.be/pOvWgX7IJsc",
+          "title": "Can LLMs Write Fast Multi-GPU Kernels? — Simran Arora, Together AI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "e5-6rEwzxLs",
+          "url": "https://youtu.be/e5-6rEwzxLs",
+          "title": "Dot Plots: How to Actually See What Your Users Are Doing",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "Qw_tC68KKes",
+          "url": "https://youtu.be/Qw_tC68KKes",
+          "title": "How AI Agents Let GTM Teams Scale — Justin Joyce, Cloudflare",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "qqrk7CtkuIw",
+          "url": "https://youtu.be/qqrk7CtkuIw",
+          "title": "How Anthropic Builds: Lessons from Labs — Mike Krieger, Anthropic",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "Ju8LVdvuxGM",
+          "url": "https://youtu.be/Ju8LVdvuxGM",
+          "title": "India Can Create The Largest AI Companies",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "YXowceUKYJI",
+          "url": "https://youtu.be/YXowceUKYJI",
+          "title": "KV Cache-Aware Routing and P/D Disaggregation on Kubernetes — Yuchen Fama & Ashish Kamra, Red Hat",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "xpeRVyFFy_Q",
+          "url": "https://youtu.be/xpeRVyFFy_Q",
+          "title": "Solving the Blank Canvas Problem: Gusto's AI Co-Founder",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "G7cgLjZtmMU",
+          "url": "https://youtu.be/G7cgLjZtmMU",
+          "title": "The Agentic Commerce Stack — Ahnaf Prio, Best Buy",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "Lrw0jqBNaw0",
+          "url": "https://youtu.be/Lrw0jqBNaw0",
+          "title": "The Death of Developer Advocates — Stephanie Jarmak, Sourcegraph",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "oHwUD9b9_pg",
+          "url": "https://youtu.be/oHwUD9b9_pg",
+          "title": "Zynga Founder: Consumer Is Not Investible Right Now - Thats Why You Should Build It",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
