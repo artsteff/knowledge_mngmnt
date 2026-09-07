@@ -111,10 +111,42 @@ def dispatch_message(msg: dict) -> None:
     except SystemExit as e:
         if e.code not in (None, 0):
             log.warning("responder exited with code %s", e.code)
-    except Exception:
+            _report_failure(payload, f"responder exited with code {e.code}")
+    except Exception as e:
         log.exception("responder raised for message_id=%s", payload["message_id"])
+        _report_failure(payload, f"{type(e).__name__}: {e}")
     finally:
         sys.argv = saved_argv
+
+
+def _report_failure(payload: dict, reason: str) -> None:
+    """Tell Artur his request died, in the chat where he made it.
+
+    The offset advances whether or not a message was handled, so a failed
+    request is consumed and never retried. On 2026-09-06 two deep-dive replies
+    were lost exactly this way - the Anthropic key was out of credit, the
+    responder raised, and from his side nothing happened at all. Silence is the
+    worst possible answer to a request that was received.
+    """
+    chat_id = payload.get("chat_id")
+    if not (BOT_TOKEN and chat_id):
+        return
+    reason = reason.replace("<", "&lt;").replace(">", "&gt;")[:600]
+    try:
+        requests.post(
+            f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage",
+            json={
+                "chat_id": chat_id,
+                "reply_to_message_id": payload.get("message_id"),
+                "parse_mode": "HTML",
+                "text": ("⚠️ Couldn't handle that — the request is lost, "
+                         "please send it again once this is fixed.\n\n"
+                         f"<code>{reason}</code>"),
+            },
+            timeout=20,
+        )
+    except Exception:
+        log.exception("Could not report the failure back to Telegram")
 
 
 def main() -> None:
