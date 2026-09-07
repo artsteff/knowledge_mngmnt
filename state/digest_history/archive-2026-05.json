@@ -1,0 +1,747 @@
+{
+  "2026-05-25": {
+    "runs": [
+      {
+        "run_at": "2026-05-25T19:54:08.867691+00:00",
+        "tg_message_ids": [],
+        "tg_post_ok": false,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "kept": 0,
+            "errors": [
+              "transcript-missing:X_JsIHUfUjc",
+              "transcript-missing:ProtYDAMe24",
+              "transcript-missing:4E-tK7RvxTc",
+              "transcript-missing:-tdNsYi8AXs",
+              "transcript-missing:c9-0X04cUNE",
+              "transcript-missing:Ubwb6NzegyA",
+              "transcript-missing:NKwIX3CiRgU",
+              "transcript-missing:t4359sKBu4w",
+              "transcript-missing:7gujZrJ9L5I",
+              "transcript-missing:WRBNDpUhsJQ",
+              "transcript-missing:F1DYkY1BlfM",
+              "transcript-missing:owH1f0N-keY",
+              "transcript-missing:dyHpnnlkTc8",
+              "transcript-missing:VaS2h-dY1-4",
+              "transcript-missing:JomVvNDjGb8",
+              "transcript-missing:7VKliOQXQ9M",
+              "transcript-missing:h0bhNm6kwT8"
+            ]
+          }
+        },
+        "digest_map": {}
+      },
+      {
+        "run_at": "2026-05-25T20:47:55.560647+00:00",
+        "tg_message_ids": [
+          2
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "kept": 0,
+            "errors": []
+          }
+        },
+        "digest_map": {}
+      },
+      {
+        "run_at": "2026-05-25T20:58:42.778046+00:00",
+        "tg_message_ids": [
+          3
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "kept": 0,
+            "errors": []
+          }
+        },
+        "digest_map": {}
+      },
+      {
+        "run_at": "2026-05-25T21:02:23.676184+00:00",
+        "tg_message_ids": [
+          4
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "kept": 0,
+            "errors": [
+              "transcript-missing:j2knrqAzYVY",
+              "transcript-missing:INGOC6-LLv0",
+              "transcript-missing:D4XTefP3Lsc",
+              "transcript-missing:N5yJJA0NCU0",
+              "transcript-missing:nvbq39yVYRk",
+              "transcript-missing:5KTHvKCrQ00",
+              "transcript-missing:Uh98_aGhAuY",
+              "transcript-missing:PLyCki2K0Lg",
+              "transcript-missing:_jjSS0qGFbI",
+              "transcript-missing:tJP6SKfo49c",
+              "transcript-missing:I9aGC6Ui3eE",
+              "transcript-missing:GJ5jTgcbRHA",
+              "transcript-missing:0vZ_UVLhSQQ",
+              "transcript-missing:fOxC44g8vig",
+              "transcript-missing:lvMMZLYoDr4",
+              "transcript-missing:OwMu0pyYZBc",
+              "transcript-missing:AY3lif2E4zI",
+              "transcript-missing:NGOAUJtdk-4",
+              "transcript-missing:CBneTpXF1CQ",
+              "transcript-missing:a8PmR-fNQ_0",
+              "transcript-missing:sHImlfVM9r4",
+              "transcript-missing:Yiy0cU6ChSw",
+              "transcript-missing:NfoFdsc2ODQ",
+              "transcript-missing:uhJJgc-0iTQ",
+              "transcript-missing:aZLr962R6Ag",
+              "transcript-missing:Yct0MvNtdfU",
+              "transcript-missing:XuvKFsktX0Q",
+              "transcript-missing:5zd7m3Rh5B0",
+              "transcript-missing:6eBSHbLKuN0",
+              "transcript-missing:oDks2gVHu4k",
+              "transcript-missing:nZCy8E5jlok",
+              "transcript-missing:EvtPBaaykdo",
+              "transcript-missing:kYJO0y8fVTA",
+              "transcript-missing:mM9TY91FECI",
+              "transcript-missing:5_X2FNtIBEc",
+              "transcript-missing:Fzr_ztRD9dI",
+              "transcript-missing:wpmlqPQQy5s",
+              "transcript-missing:lUF_bjBSgXM",
+              "transcript-missing:LrOMUaj91hE",
+              "transcript-missing:k6sx_ZmthCw",
+              "transcript-missing:RCKo7OdjrCw",
+              "transcript-missing:NIvnT5ug7Dk",
+              "transcript-missing:liimqYe09U4",
+              "transcript-missing:w0eYAGPEHuA",
+              "transcript-missing:9aiEirEqSwc",
+              "transcript-missing:nms47NKdlQM",
+              "transcript-missing:QY9gfEsk2PM",
+              "transcript-missing:SO43O_7jqzk",
+              "transcript-missing:_Ka_AgmGW48",
+              "transcript-missing:Ta5kUdng7Zc",
+              "transcript-missing:xgXHayDOB7Q",
+              "transcript-missing:MKKC1qFbG0I",
+              "transcript-missing:5G0zohzSeeI",
+              "transcript-missing:fccqAteps4Q",
+              "transcript-missing:FbAxP2-Jfps",
+              "transcript-missing:uWnP5V_eGz8"
+            ]
+          }
+        },
+        "digest_map": {}
+      },
+      {
+        "run_at": "2026-05-25T21:12:06.652538+00:00",
+        "tg_message_ids": [
+          5
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "kept": 0,
+            "errors": []
+          }
+        },
+        "digest_map": {}
+      },
+      {
+        "run_at": "2026-05-25T21:20:18.043971+00:00",
+        "tg_message_ids": [
+          6
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "kept": 0,
+            "errors": [
+              "transcript-missing:X_JsIHUfUjc",
+              "transcript-missing:ProtYDAMe24",
+              "transcript-missing:ProtYDAMe24",
+              "transcript-missing:4E-tK7RvxTc",
+              "transcript-missing:-tdNsYi8AXs",
+              "transcript-missing:c9-0X04cUNE",
+              "transcript-missing:Ubwb6NzegyA",
+              "transcript-missing:NKwIX3CiRgU",
+              "transcript-missing:t4359sKBu4w",
+              "transcript-missing:7gujZrJ9L5I",
+              "transcript-missing:WRBNDpUhsJQ",
+              "transcript-missing:F1DYkY1BlfM",
+              "transcript-missing:owH1f0N-keY",
+              "transcript-missing:dyHpnnlkTc8",
+              "transcript-missing:VaS2h-dY1-4",
+              "transcript-missing:JomVvNDjGb8",
+              "transcript-missing:7VKliOQXQ9M",
+              "transcript-missing:X_JsIHUfUjc",
+              "transcript-missing:h0bhNm6kwT8",
+              "transcript-missing:j2knrqAzYVY",
+              "transcript-missing:INGOC6-LLv0",
+              "transcript-missing:D4XTefP3Lsc",
+              "transcript-missing:N5yJJA0NCU0",
+              "transcript-missing:nvbq39yVYRk",
+              "transcript-missing:5KTHvKCrQ00",
+              "transcript-missing:Uh98_aGhAuY",
+              "transcript-missing:PLyCki2K0Lg",
+              "transcript-missing:_jjSS0qGFbI",
+              "transcript-missing:tJP6SKfo49c",
+              "transcript-missing:I9aGC6Ui3eE",
+              "transcript-missing:GJ5jTgcbRHA",
+              "transcript-missing:0vZ_UVLhSQQ",
+              "transcript-missing:fOxC44g8vig",
+              "transcript-missing:lvMMZLYoDr4",
+              "transcript-missing:OwMu0pyYZBc",
+              "transcript-missing:AY3lif2E4zI",
+              "transcript-missing:NGOAUJtdk-4",
+              "transcript-missing:CBneTpXF1CQ",
+              "transcript-missing:a8PmR-fNQ_0",
+              "transcript-missing:sHImlfVM9r4",
+              "transcript-missing:Yiy0cU6ChSw",
+              "transcript-missing:NfoFdsc2ODQ",
+              "transcript-missing:uhJJgc-0iTQ",
+              "transcript-missing:aZLr962R6Ag",
+              "transcript-missing:Yct0MvNtdfU",
+              "transcript-missing:XuvKFsktX0Q",
+              "transcript-missing:5zd7m3Rh5B0",
+              "transcript-missing:6eBSHbLKuN0",
+              "transcript-missing:oDks2gVHu4k",
+              "transcript-missing:nZCy8E5jlok",
+              "transcript-missing:EvtPBaaykdo",
+              "transcript-missing:kYJO0y8fVTA",
+              "transcript-missing:mM9TY91FECI",
+              "transcript-missing:5_X2FNtIBEc",
+              "transcript-missing:Fzr_ztRD9dI",
+              "transcript-missing:wpmlqPQQy5s",
+              "transcript-missing:lUF_bjBSgXM",
+              "transcript-missing:LrOMUaj91hE",
+              "transcript-missing:k6sx_ZmthCw",
+              "transcript-missing:RCKo7OdjrCw",
+              "transcript-missing:NIvnT5ug7Dk",
+              "transcript-missing:liimqYe09U4",
+              "transcript-missing:w0eYAGPEHuA",
+              "transcript-missing:9aiEirEqSwc",
+              "transcript-missing:nms47NKdlQM",
+              "transcript-missing:QY9gfEsk2PM",
+              "transcript-missing:SO43O_7jqzk",
+              "transcript-missing:_Ka_AgmGW48",
+              "transcript-missing:Ta5kUdng7Zc",
+              "transcript-missing:xgXHayDOB7Q",
+              "transcript-missing:MKKC1qFbG0I",
+              "transcript-missing:5G0zohzSeeI",
+              "transcript-missing:fccqAteps4Q",
+              "transcript-missing:FbAxP2-Jfps",
+              "transcript-missing:uWnP5V_eGz8"
+            ]
+          }
+        },
+        "digest_map": {}
+      },
+      {
+        "run_at": "2026-05-25T21:27:36.029072+00:00",
+        "tg_message_ids": [
+          7
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "kept": 0,
+            "errors": [
+              "transcript-missing:X_JsIHUfUjc",
+              "transcript-missing:ProtYDAMe24",
+              "transcript-missing:4E-tK7RvxTc",
+              "transcript-missing:-tdNsYi8AXs",
+              "transcript-missing:c9-0X04cUNE",
+              "transcript-missing:Ubwb6NzegyA",
+              "transcript-missing:NKwIX3CiRgU",
+              "transcript-missing:t4359sKBu4w",
+              "transcript-missing:7gujZrJ9L5I",
+              "transcript-missing:WRBNDpUhsJQ",
+              "transcript-missing:F1DYkY1BlfM",
+              "transcript-missing:owH1f0N-keY",
+              "transcript-missing:dyHpnnlkTc8",
+              "transcript-missing:VaS2h-dY1-4",
+              "transcript-missing:JomVvNDjGb8",
+              "transcript-missing:7VKliOQXQ9M",
+              "transcript-missing:h0bhNm6kwT8",
+              "transcript-missing:j2knrqAzYVY",
+              "transcript-missing:INGOC6-LLv0",
+              "transcript-missing:D4XTefP3Lsc",
+              "transcript-missing:N5yJJA0NCU0",
+              "transcript-missing:nvbq39yVYRk",
+              "transcript-missing:5KTHvKCrQ00",
+              "transcript-missing:Uh98_aGhAuY",
+              "transcript-missing:PLyCki2K0Lg",
+              "transcript-missing:_jjSS0qGFbI",
+              "transcript-missing:tJP6SKfo49c",
+              "transcript-missing:I9aGC6Ui3eE",
+              "transcript-missing:GJ5jTgcbRHA",
+              "transcript-missing:0vZ_UVLhSQQ",
+              "transcript-missing:fOxC44g8vig",
+              "transcript-missing:lvMMZLYoDr4",
+              "transcript-missing:OwMu0pyYZBc",
+              "transcript-missing:AY3lif2E4zI",
+              "transcript-missing:NGOAUJtdk-4",
+              "transcript-missing:CBneTpXF1CQ",
+              "transcript-missing:a8PmR-fNQ_0",
+              "transcript-missing:sHImlfVM9r4",
+              "transcript-missing:Yiy0cU6ChSw",
+              "transcript-missing:NfoFdsc2ODQ",
+              "transcript-missing:uhJJgc-0iTQ",
+              "transcript-missing:aZLr962R6Ag",
+              "transcript-missing:Yct0MvNtdfU",
+              "transcript-missing:XuvKFsktX0Q",
+              "transcript-missing:5zd7m3Rh5B0",
+              "transcript-missing:6eBSHbLKuN0",
+              "transcript-missing:oDks2gVHu4k",
+              "transcript-missing:nZCy8E5jlok",
+              "transcript-missing:EvtPBaaykdo",
+              "transcript-missing:kYJO0y8fVTA",
+              "transcript-missing:mM9TY91FECI",
+              "transcript-missing:5_X2FNtIBEc",
+              "transcript-missing:Fzr_ztRD9dI",
+              "transcript-missing:wpmlqPQQy5s",
+              "transcript-missing:lUF_bjBSgXM",
+              "transcript-missing:LrOMUaj91hE",
+              "transcript-missing:k6sx_ZmthCw",
+              "transcript-missing:RCKo7OdjrCw",
+              "transcript-missing:NIvnT5ug7Dk",
+              "transcript-missing:liimqYe09U4",
+              "transcript-missing:w0eYAGPEHuA",
+              "transcript-missing:9aiEirEqSwc",
+              "transcript-missing:nms47NKdlQM",
+              "transcript-missing:QY9gfEsk2PM",
+              "transcript-missing:SO43O_7jqzk",
+              "transcript-missing:_Ka_AgmGW48",
+              "transcript-missing:Ta5kUdng7Zc",
+              "transcript-missing:xgXHayDOB7Q",
+              "transcript-missing:MKKC1qFbG0I",
+              "transcript-missing:5G0zohzSeeI",
+              "transcript-missing:fccqAteps4Q",
+              "transcript-missing:FbAxP2-Jfps",
+              "transcript-missing:uWnP5V_eGz8"
+            ]
+          }
+        },
+        "digest_map": {}
+      },
+      {
+        "run_at": "2026-05-25T21:34:37.498732+00:00",
+        "tg_message_ids": [
+          8
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "kept": 0,
+            "errors": [
+              "transcript-missing:4E-tK7RvxTc",
+              "transcript-missing:-tdNsYi8AXs",
+              "transcript-missing:c9-0X04cUNE",
+              "transcript-missing:Ubwb6NzegyA",
+              "transcript-missing:NKwIX3CiRgU",
+              "transcript-missing:t4359sKBu4w",
+              "transcript-missing:7gujZrJ9L5I",
+              "transcript-missing:WRBNDpUhsJQ",
+              "transcript-missing:F1DYkY1BlfM",
+              "transcript-missing:owH1f0N-keY",
+              "transcript-missing:dyHpnnlkTc8",
+              "transcript-missing:VaS2h-dY1-4",
+              "transcript-missing:JomVvNDjGb8",
+              "transcript-missing:7VKliOQXQ9M",
+              "transcript-missing:h0bhNm6kwT8",
+              "transcript-missing:j2knrqAzYVY",
+              "transcript-missing:INGOC6-LLv0",
+              "transcript-missing:D4XTefP3Lsc",
+              "transcript-missing:N5yJJA0NCU0",
+              "transcript-missing:nvbq39yVYRk",
+              "transcript-missing:5KTHvKCrQ00",
+              "transcript-missing:Uh98_aGhAuY",
+              "transcript-missing:PLyCki2K0Lg",
+              "transcript-missing:_jjSS0qGFbI",
+              "transcript-missing:tJP6SKfo49c",
+              "transcript-missing:I9aGC6Ui3eE",
+              "transcript-missing:GJ5jTgcbRHA",
+              "transcript-missing:0vZ_UVLhSQQ",
+              "transcript-missing:fOxC44g8vig",
+              "transcript-missing:lvMMZLYoDr4",
+              "transcript-missing:OwMu0pyYZBc",
+              "transcript-missing:AY3lif2E4zI",
+              "transcript-missing:NGOAUJtdk-4",
+              "transcript-missing:CBneTpXF1CQ",
+              "transcript-missing:a8PmR-fNQ_0",
+              "transcript-missing:sHImlfVM9r4",
+              "transcript-missing:Yiy0cU6ChSw",
+              "transcript-missing:NfoFdsc2ODQ",
+              "transcript-missing:uhJJgc-0iTQ",
+              "transcript-missing:aZLr962R6Ag",
+              "transcript-missing:Yct0MvNtdfU",
+              "transcript-missing:XuvKFsktX0Q",
+              "transcript-missing:5zd7m3Rh5B0",
+              "transcript-missing:6eBSHbLKuN0",
+              "transcript-missing:oDks2gVHu4k",
+              "transcript-missing:nZCy8E5jlok",
+              "transcript-missing:EvtPBaaykdo",
+              "transcript-missing:kYJO0y8fVTA",
+              "transcript-missing:mM9TY91FECI",
+              "transcript-missing:5_X2FNtIBEc",
+              "transcript-missing:Fzr_ztRD9dI",
+              "transcript-missing:wpmlqPQQy5s",
+              "transcript-missing:lUF_bjBSgXM",
+              "transcript-missing:LrOMUaj91hE",
+              "transcript-missing:k6sx_ZmthCw",
+              "transcript-missing:RCKo7OdjrCw",
+              "transcript-missing:NIvnT5ug7Dk",
+              "transcript-missing:liimqYe09U4",
+              "transcript-missing:w0eYAGPEHuA",
+              "transcript-missing:9aiEirEqSwc",
+              "transcript-missing:nms47NKdlQM",
+              "transcript-missing:QY9gfEsk2PM",
+              "transcript-missing:SO43O_7jqzk",
+              "transcript-missing:_Ka_AgmGW48",
+              "transcript-missing:Ta5kUdng7Zc",
+              "transcript-missing:xgXHayDOB7Q",
+              "transcript-missing:MKKC1qFbG0I",
+              "transcript-missing:5G0zohzSeeI",
+              "transcript-missing:fccqAteps4Q",
+              "transcript-missing:FbAxP2-Jfps",
+              "transcript-missing:uWnP5V_eGz8"
+            ]
+          }
+        },
+        "digest_map": {}
+      }
+    ]
+  },
+  "2026-05-30": {
+    "runs": [
+      {
+        "run_at": "2026-05-30T21:08:02.307434+00:00",
+        "tg_message_ids": [
+          9
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 24,
+            "posting": 10,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "vy7o1g2iHY8",
+            "url": "https://youtu.be/vy7o1g2iHY8",
+            "title": "How I deleted 95% of my agent skills and got better results — Nick Nisi, WorkOS",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Multi-agent orchestration with enforced state gates (verifier → reviewer → implementer loop) and cryptographic proof of work completion solves both context collapse and agent hallucination better than scaling a single agent.",
+            "card_slug": "how-i-deleted-95-of-my-agent-skills-and-got-better-results-n"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "AGkzpxMdPn8",
+            "url": "https://youtu.be/AGkzpxMdPn8",
+            "title": "When MVPs take 2 weeks but Prod takes 12 months — Jess Grogan-Avignon & Jack Wang, Accenture",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Enterprise AI deployment bottleneck isn't technical (2-week MVP) but organizational — 12 months to production because security, governance, data, infrastructure teams operate in serial human-speed processes designed before AI's code velocity (1B commits/year, agents turning non-engineers into builders).",
+            "card_slug": "when-mvps-take-2-weeks-but-prod-takes-12-months-jess-grogan-"
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "3_gYbhABcAE",
+            "url": "https://youtu.be/3_gYbhABcAE",
+            "title": "Why (Senior) Engineers Struggle to Build AI Agents — Philipp Schmid, Google DeepMind",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Agent development is fundamentally iterative (prompt-observe-adjust) rather than deterministic (spec-code-deploy), requiring engineers to shift from \"traffic controller\" mindset (controlling every step) to \"dispatcher\" mindset (defining goals, letting the model choose paths).",
+            "card_slug": "why-senior-engineers-struggle-to-build-ai-agents-philipp-sch"
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "iDfmDUka4CQ",
+            "url": "https://youtu.be/iDfmDUka4CQ",
+            "title": "Claude built a 3D home model from just a floorplan",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Claude (via Cospace) inferred 3D structure and spatial reasoning from a 2D floorplan, then autonomously integrated external data (email furniture purchases) without explicit instruction — a concrete example of agentic UX reducing user friction.",
+            "card_slug": "claude-built-a-3d-home-model-from-just-a-floorplan"
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "FFYy3yVo7sc",
+            "url": "https://youtu.be/FFYy3yVo7sc",
+            "title": "Claude Opus 4.8: where it excels and where it falls short",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Claude Opus 4.8 can autonomously code a full feature in one shot with correct architecture, but consistently fails on the same types of problems in the last 10%—the gap is not random but systematic.",
+            "card_slug": "claude-opus-48-where-it-excels-and-where-it-falls-short"
+          },
+          "6": {
+            "adapter": "youtube",
+            "source_id": "XHPI9FPnndg",
+            "url": "https://youtu.be/XHPI9FPnndg",
+            "title": "Codex Goals enable the model to work autonomously for hours without supervision",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Claude's /goal feature lets agentic systems work autonomously on unbounded problem spaces (e.g., \"fix all errors in logs\") rather than requiring task-by-task human orchestration, which changes both quality outcomes and the shape of agent UX.",
+            "card_slug": "codex-goals-enable-the-model-to-work-autonomously-for-hours-"
+          },
+          "7": {
+            "adapter": "youtube",
+            "source_id": "phchDt63qAA",
+            "url": "https://youtu.be/phchDt63qAA",
+            "title": "How We Built Zeta2: Training an Edit Prediction Model in Production — Ben Kunkle, Zed",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Zed's production training loop uses frontier model distillation + settled data filtering (running student checkpoints 50x instead of teacher 1M times) to generate high-signal training examples at scale, turning opt-in editor telemetry into self-improving datasets.",
+            "card_slug": "how-we-built-zeta2-training-an-edit-prediction-model-in-prod"
+          },
+          "8": {
+            "adapter": "youtube",
+            "source_id": "2wLJl9A2CnA",
+            "url": "https://youtu.be/2wLJl9A2CnA",
+            "title": "I let Codex run for 6 hours. Here’s what happened.",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Goals in Claude Code enable multi-hour autonomous task loops by continuously working toward a measurable outcome (verify → decide next step → loop) rather than waiting for turn-by-turn prompts — the first time the author sustained a 5h45m uninterrupted agent run.",
+            "card_slug": "i-let-codex-run-for-6-hours-heres-what-happened"
+          },
+          "9": {
+            "adapter": "youtube",
+            "source_id": "vbChRIIlSPE",
+            "url": "https://youtu.be/vbChRIIlSPE",
+            "title": "I Stopped Using PowerPoint After Building This Claude Code Skill (Full Tutorial + 3 Templates)",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Claude Code skill that converts outline → animated HTML deck in minutes, with 12 templated slide formats, interactive charts, and QA pass via image rendering — showing a concrete pattern for AI-native tooling that replaces manual UI work.",
+            "card_slug": "i-stopped-using-powerpoint-after-building-this-claude-code-s"
+          },
+          "10": {
+            "adapter": "youtube",
+            "source_id": "h0gZf1hL4D4",
+            "url": "https://youtu.be/h0gZf1hL4D4",
+            "title": "No hype Claude Opus 4.8 review—my real experience",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Opus 4.8 excels at one-shot feature building from spec but fails consistently on edge cases, bug-fixing loops, and hallucination under follow-up prompts—even on high effort mode.",
+            "card_slug": "no-hype-claude-opus-48-reviewmy-real-experience"
+          }
+        }
+      },
+      {
+        "run_at": "2026-05-30T22:01:39.431890+00:00",
+        "tg_message_ids": [
+          10
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 14,
+            "posting": 10,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "abvQEhvRI_c",
+            "url": "https://youtu.be/abvQEhvRI_c",
+            "title": "Context Graphs for Explainable, Decision-Aware AI Agents — Andreas Kollegger & Zaid Zaim, Neo4j",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Context graphs add decision-making rules and policies on top of knowledge graphs, shifting agents from \"what can you do\" to \"why should you do it\" — using memory architectures (short-term conversation, long-term entity/org, reasoning) to make agents policy-aware.",
+            "card_slug": "context-graphs-for-explainable-decision-aware-ai-agents-andr"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "XBaznoTRDFI",
+            "url": "https://youtu.be/XBaznoTRDFI",
+            "title": "How agent o11y differs from traditional o11y — Phil Hetzel, Braintrust",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Agent observability requires measuring non-deterministic behavior (outcome quality, reasoning paths, token efficiency) rather than just uptime and latency — the building blocks are the same (metrics, traces, spans) but the scope fundamentally differs.",
+            "card_slug": "how-agent-o11y-differs-from-traditional-o11y-phil-hetzel-bra"
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "V-L0INGTEOg",
+            "url": "https://youtu.be/V-L0INGTEOg",
+            "title": "Reverse engineering a Viking VOIP phone protocol with Claude Code — Boris Starkov, Eleven Labs",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Claude Code can reverse-engineer undocumented hardware protocols through iterative exploration (port scanning → command enumeration → brute force → state persistence debugging), turning a year-old unsolved problem into a working integration in days.",
+            "card_slug": "reverse-engineering-a-viking-voip-phone-protocol-with-claude"
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "ESbWpPT_9-o",
+            "url": "https://youtu.be/ESbWpPT_9-o",
+            "title": "Run Frontier AI at Home — Alex Cheema, EXO Labs",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "EXO Labs is systematizing inference optimization across the full stack (models, software, hardware) to run frontier models locally—focusing on inference-specific hardware design rather than training-optimized chips, with early wins on Apple silicon quantization showing theoretical speedups not yet realized in practice.",
+            "card_slug": "run-frontier-ai-at-home-alex-cheema-exo-labs"
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "BiG2ssibKGc",
+            "url": "https://youtu.be/BiG2ssibKGc",
+            "title": "Stop babysitting your agents... — Brandon Waselnuk, Unblocked",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "The gap in agentic systems isn't intelligence—it's context; a \"context engine\" that pulls both static organizational knowledge and runtime data at query time is what separates babysitting agents from autonomous ones.",
+            "card_slug": "stop-babysitting-your-agents-brandon-waselnuk-unblocked"
+          },
+          "6": {
+            "adapter": "youtube",
+            "source_id": "li0SaBt9RDM",
+            "url": "https://youtu.be/li0SaBt9RDM",
+            "title": "The AI Skill I Rely On Daily — Priscila Andre de Oliveira, Sentry",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Senior engineer at scale (Sentry, 100k orgs, 15+ years codebase, 100 PRs/day) stopped coding in Dec 2025 and now ships features via prompt-only workflow with Claude, treating code understanding (not code writing) as the bottleneck skill.",
+            "card_slug": "the-ai-skill-i-rely-on-daily-priscila-andre-de-oliveira-sent"
+          },
+          "7": {
+            "adapter": "youtube",
+            "source_id": "FB-MLPhL9Ms",
+            "url": "https://youtu.be/FB-MLPhL9Ms",
+            "title": "The maturity phases of running evals — Phil Hetzel, Braintrust",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Evals mature through four discrete stages as agent complexity grows — starting from high-level failure modes (not exhaustive unit tests) and moving toward production observability as a continuous eval problem.",
+            "card_slug": "the-maturity-phases-of-running-evals-phil-hetzel-braintrust"
+          },
+          "8": {
+            "adapter": "youtube",
+            "source_id": "7CrPrHgoEYk",
+            "url": "https://youtu.be/7CrPrHgoEYk",
+            "title": "What the Best Agents Share — Mardu Swanepoel, Flinn AI",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Four concrete agent UX patterns — focus modes (constrained action spaces), transparent execution (showing process not just results), personalization (injecting user context/principles), and one more — that shift from delegation to collaboration.",
+            "card_slug": "what-the-best-agents-share-mardu-swanepoel-flinn-ai"
+          },
+          "9": {
+            "adapter": "youtube",
+            "source_id": "ugUeZ8-b-u0",
+            "url": "https://youtu.be/ugUeZ8-b-u0",
+            "title": "Why Rust is the Ideal Language for Vibe-Coding — Daniel Szoke, Sentry",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Rust's strong type system and compile-time guarantees catch LLM errors that dynamic languages (Python, TypeScript, JS) miss because they're too flexible — making the language itself a guard rail against agentic mistakes, not the tests.",
+            "card_slug": "why-rust-is-the-ideal-language-for-vibe-coding-daniel-szoke-"
+          },
+          "10": {
+            "adapter": "youtube",
+            "source_id": "B9h9ovW5H9U",
+            "url": "https://youtu.be/B9h9ovW5H9U",
+            "title": "Why your agents need decision traces, not just documents — Zach Blumenfeld, Neo4j",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Context graphs augment agent decision-making by storing decision traces, precedents, and causal chains alongside entity data—enabling agents to reason from \"why past decisions were made\" rather than just retrieving facts.",
+            "card_slug": "why-your-agents-need-decision-traces-not-just-documents-zach"
+          }
+        }
+      }
+    ]
+  },
+  "2026-05-31": {
+    "runs": [
+      {
+        "run_at": "2026-05-31T00:00:50.537027+00:00",
+        "tg_message_ids": [
+          11
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 4,
+            "posting": 4,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "2Ap1dnv-GXA",
+            "url": "https://youtu.be/2Ap1dnv-GXA",
+            "title": "Giga: Finding A Billion Dollar Market After Three Pivots",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Founder pivoted from edtech LLM idea to customer support AI agents after YC partner rejected the domain, then scaled to 60–70% deflection rates (vs 10–15% baseline) with top-tier customers like telecom providers and crypto exchanges.",
+            "card_slug": "giga-finding-a-billion-dollar-market-after-three-pivots"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "wE1ZgJdt4uM",
+            "url": "https://youtu.be/wE1ZgJdt4uM",
+            "title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Inference speed is becoming a capability lever, not just a cost optimization — systems that think longer deliver higher peak intelligence, making tokens-per-second a direct proxy for model capability.",
+            "card_slug": "inference-diffusion-world-models-and-more-yc-paper-club"
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "B246K_G7mHU",
+            "url": "https://youtu.be/B246K_G7mHU",
+            "title": "Inside YC's AI Playbook",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "YC replaced deterministic software loops with agentic tools—finance team now encodes workflows as English prompts instead of waiting for engineers to build purpose-built software; started with SQL agents, expanded to general agent infrastructure across the org.",
+            "card_slug": "inside-ycs-ai-playbook"
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "W-SX_srBa3Y",
+            "url": "https://youtu.be/W-SX_srBa3Y",
+            "title": "Let's Talk About FOMAT: Fear of Missing Agent Time — Michael Richman, Cmd+Ctrl",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Agent sessions now run 5+ hours/days unpredictably, so the UX problem shifts from \"when to check back\" to \"knowing when the agent needs you without being at your machine\" — and monitoring/notification infrastructure becomes critical product work.",
+            "card_slug": "lets-talk-about-fomat-fear-of-missing-agent-time-michael-ric"
+          }
+        }
+      }
+    ]
+  }
+}

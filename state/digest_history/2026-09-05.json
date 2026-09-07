@@ -1,0 +1,274 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-05T18:04:35.853068+00:00",
+      "tg_message_ids": [
+        48
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 18,
+          "scored_to_backlog": 18,
+          "backlog_size": 27,
+          "posting": 10,
+          "errors": [
+            "transcript-missing:CfSJ93_1kcE",
+            "transcript-missing:zXO8VdxE4f0",
+            "transcript-missing:FGnKVRMfOek",
+            "transcript-missing:aPszaqE6oeg",
+            "transcript-missing:LGVZKldNCiA",
+            "circuit-breaker-tripped"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "4mKtJzfGj0U",
+          "url": "https://youtu.be/4mKtJzfGj0U",
+          "title": "5 Rules for Building AI Agents That Work in Production | Nan Yu & Jacob Shumway",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Agent-as-product isn't just \"LLM in a loop\" — it's a packaged system with schedulers, context-loading tools, and a facade (chat/UI), and the design shift from \"give it boring work\" to \"give it the right workflow shape\" determines whether it augments or replaces human judgment.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "G9o8eoHzpxc",
+          "url": "https://youtu.be/G9o8eoHzpxc",
+          "title": "Full Tutorial: From Idea to App with Claude Design and Claude Code in 25 Minutes",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Design-first AI app building workflow (problem → design.md → Claude Design prototypes → HTML spec → build) that treats design principles as machine-readable context to avoid generic \"Claude slop\".",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "iDrEXFOvFUc",
+          "url": "https://youtu.be/iDrEXFOvFUc",
+          "title": "GPT-6 Astra: 4 Amazing Games You Can Build with Blender and Godot",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "UWjh5Z4s8jY",
+          "url": "https://youtu.be/UWjh5Z4s8jY",
+          "title": "Hermes Co-Founder on Building an AI Agent That Improves Itself | Karan Malhotra",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Hermes' differentiation is twofold — a self-improvement system that adapts to individual users, and deliberate removal of safety guardrails/arbitrary policy constraints that limit model capability, allowing the model to be \"as capable or powerful as you need for your task.\"",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "N34zz1-RSGw",
+          "url": "https://youtu.be/N34zz1-RSGw",
+          "title": "How I Run My 1.5M+ Follower Content Business With Codex | Riley Brown",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Riley Brown uses Codex's computer-use capability + local-only storage + custom skills (YouTube researcher, image puller via SerpAPI, Remotion plugin) to automate ideation, research, and asset generation across a 1.5M-follower content business — keeping quality high by treating batching as a moat-killer, not a feature.",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "pSto5YaNGUo",
+          "url": "https://youtu.be/pSto5YaNGUo",
+          "title": "The Agentic AI Engineer - Benedikt Sanftl, Mutagent",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "The \"agentic AI engineer\" — agents that autonomously handle the offline loop (spec → build → eval → ship) and online loop (monitor → diagnose → optimize) — collapses manual human review from weeks to hours by treating agent development itself as an agentic problem.",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "rKV5JcALQoQ",
+          "url": "https://youtu.be/rKV5JcALQoQ",
+          "title": "The different levels of how Claude thinks",
+          "author": "Anthropic",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Claude has a detectable \"J-space\" — a neural workspace for reasoning and control — that can be monitored to catch when the model is reasoning about something different from what it outputs, including deception.",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "spNAUEgq_A8",
+          "url": "https://youtu.be/spNAUEgq_A8",
+          "title": "The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Domain-specific agents succeed because businesses need custom data integration into AI, not because generic LLMs are insufficient — the constraint is orchestration and durable execution, not model capability.",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "65X0pQ6Lmbg",
+          "url": "https://youtu.be/65X0pQ6Lmbg",
+          "title": "Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Voice-in-visuals-out is more tractable than voice-in-voice-out; the latency ceiling for natural conversation (200ms) is nearly impossible, but visual responses forgive ~1000ms, making agent-as-product via voice input viable now.",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "6bmM45jkMDY",
+          "url": "https://youtu.be/6bmM45jkMDY",
+          "title": "You Can't Prompt the Room: The Last Skill AI Won't Replace - Balázs Horváth, VisualLabs",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "The real bottleneck in AI-native product development isn't code generation—it's eliciting requirements from stakeholders; story mapping and user story structures are the tools that make AI output actually valuable instead of replicating the average.",
+          "card_slug": null
+        }
+      }
+    },
+    {
+      "run_at": "2026-09-05T22:01:49.963874+00:00",
+      "tg_message_ids": [
+        49
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 17,
+          "posting": 10,
+          "errors": [
+            "transcript-missing:CfSJ93_1kcE",
+            "transcript-missing:zXO8VdxE4f0",
+            "transcript-missing:FGnKVRMfOek",
+            "transcript-missing:aPszaqE6oeg",
+            "transcript-missing:LGVZKldNCiA",
+            "circuit-breaker-tripped"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "nAhQs8Fd_9g",
+          "url": "https://youtu.be/nAhQs8Fd_9g",
+          "title": "ChatGPT vs Claude vs Grok vs Gemini: The Best AI for 10 Use Cases (August 2026)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "ydTeb_I0b94",
+          "url": "https://youtu.be/ydTeb_I0b94",
+          "title": "ChatGPT Work + Codex Tutorial: My Complete System at OpenAI | Jason Liu",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "8mY9wx_iMSU",
+          "url": "https://youtu.be/8mY9wx_iMSU",
+          "title": "GPT-5.6 vs Claude Fable 5: I Tested 6 Real Use Cases (Here’s the Winner)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "aVO6E181cNU",
+          "url": "https://youtu.be/aVO6E181cNU",
+          "title": "How I Plan, Build, and Run Loops with Claude Code in 40 Minutes | Thariq Shihipar",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "WLg9qWOf6zw",
+          "url": "https://youtu.be/WLg9qWOf6zw",
+          "title": "How I Use ChatGPT Work and GPT-5.6 to Do Everything (Beginner Tutorial)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "JAh8Wv1lQrw",
+          "url": "https://youtu.be/JAh8Wv1lQrw",
+          "title": "How Non-Coders Are Vibe Coding $100K+ Businesses with AI | Amol Jain",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "0YeeJHYy-Vc",
+          "url": "https://youtu.be/0YeeJHYy-Vc",
+          "title": "How to Build AI Agents That Check Their Own Work | Jared Zoneraich",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "bdMHQLvtVaQ",
+          "url": "https://youtu.be/bdMHQLvtVaQ",
+          "title": "How to Build Better AI Evals with Claude Code in 5 Steps | Shreya & Hamel",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "fAdFE7y6K2o",
+          "url": "https://youtu.be/fAdFE7y6K2o",
+          "title": "Inside How OpenAI Uses Codex to Do Product Work | Rohan Varma",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "6Yeo6M8-W_8",
+          "url": "https://youtu.be/6Yeo6M8-W_8",
+          "title": "Instinct vs Grok Bot vs ChatGPT vs Hermes: Which AI Agent Can You Trust?",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}

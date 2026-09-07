@@ -1,0 +1,495 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-06T02:01:45.686180+00:00",
+      "tg_message_ids": [
+        50
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 7,
+          "posting": 7,
+          "errors": [
+            "transcript-missing:CfSJ93_1kcE",
+            "transcript-missing:zXO8VdxE4f0",
+            "transcript-missing:FGnKVRMfOek",
+            "transcript-missing:aPszaqE6oeg",
+            "transcript-missing:LGVZKldNCiA",
+            "circuit-breaker-tripped"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "dWuS8OURo1g",
+          "url": "https://youtu.be/dWuS8OURo1g",
+          "title": "A $100K quote vs. a 3-day build",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "5CBnWGP5vIs",
+          "url": "https://youtu.be/5CBnWGP5vIs",
+          "title": "Claude Fable 5 Is Finally Back: 5 Must-Try Use Cases Before July 12",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "ACEHVbR0b6c",
+          "url": "https://youtu.be/ACEHVbR0b6c",
+          "title": "How a non-coder made $60K",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "vXex3N8BdqY",
+          "url": "https://youtu.be/vXex3N8BdqY",
+          "title": "How to security-check a vibe-coded app",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "NDTWK6vIgmM",
+          "url": "https://youtu.be/NDTWK6vIgmM",
+          "title": "I Tested Gemini Spark: What Google’s AI Agent Can Actually Do in 21 Minutes",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": "i-tested-gemini-spark-what-googles-ai-agent-can-actually-do-",
+          "card_path": "summaries/i-tested-gemini-spark-what-googles-ai-agent-can-actually-do-.md"
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "c78JezyOQNQ",
+          "url": "https://youtu.be/c78JezyOQNQ",
+          "title": "The right way to improve Codex skills",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": "the-right-way-to-improve-codex-skills",
+          "card_path": "summaries/the-right-way-to-improve-codex-skills.md"
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "TNpEp-soPWM",
+          "url": "https://youtu.be/TNpEp-soPWM",
+          "title": "Turn voice notes into 80% of your diagrams",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
+    },
+    {
+      "run_at": "2026-09-06T14:01:53.864921+00:00",
+      "tg_message_ids": [
+        52,
+        53
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 40,
+          "scored_to_backlog": 40,
+          "backlog_size": 42,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "QBmgF1kJSK4",
+          "url": "https://youtu.be/QBmgF1kJSK4",
+          "title": "7 Grok Bot agents I use every day",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "NsVayi42I0I",
+          "url": "https://youtu.be/NsVayi42I0I",
+          "title": "AI Makes Cheating Easy. Here’s How It Can Make Kids Smarter Instead | Sue Khim",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "P1zBiAQU1IA",
+          "url": "https://youtu.be/P1zBiAQU1IA",
+          "title": "AI models can now help run physical science experiments",
+          "author": "Anthropic",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "xxfMT-bPEmU",
+          "url": "https://youtu.be/xxfMT-bPEmU",
+          "title": "From coding to Knowledge work agents — Karan Vaidya, Composio",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "AniiF8rOu9c",
+          "url": "https://youtu.be/AniiF8rOu9c",
+          "title": "GPT-6 Astra: computer use + coding is UNREAL",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "p2qmX6TM0kw",
+          "url": "https://youtu.be/p2qmX6TM0kw",
+          "title": "I built a Claude Cowork system that does a week of PM work in a day",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "rY0wnfFHYbs",
+          "url": "https://youtu.be/rY0wnfFHYbs",
+          "title": "Open Models Change The Economics of AI",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "5Cxe5dv2Xlw",
+          "url": "https://youtu.be/5Cxe5dv2Xlw",
+          "title": "Why AI Agents Need Million-Token Context — Thomas Wolf & Olive Song, MiniMax",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "LdIyXiq2DTY",
+          "url": "https://youtu.be/LdIyXiq2DTY",
+          "title": "Why companies are becoming a series of loops | Anish Acharya (a16z)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "0uC6u0lJJl4",
+          "url": "https://youtu.be/0uC6u0lJJl4",
+          "title": "Your company brain will leak secrets: how we stopped it for big banks — Tanmai Gopal, PromptQL",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
+    },
+    {
+      "run_at": "2026-09-06T18:02:16.396171+00:00",
+      "tg_message_ids": [
+        54,
+        55
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 40,
+          "scored_to_backlog": 40,
+          "backlog_size": 72,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "YS9In813jJ0",
+          "url": "https://youtu.be/YS9In813jJ0",
+          "title": "84 minutes of enterprise sales alpha | Jen Abel",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "REascnFlq_8",
+          "url": "https://youtu.be/REascnFlq_8",
+          "title": "Agents' next frontier: agent-to-agent and network effects — Jean-Denis Greze, Town",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "zMvBMfj4cSQ",
+          "url": "https://youtu.be/zMvBMfj4cSQ",
+          "title": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (OpenAI’s product lead)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "8ONFvAtboZ4",
+          "url": "https://youtu.be/8ONFvAtboZ4",
+          "title": "Grok Bot + Grok 4.6  + Cursor Origin - is Claude Code dead?",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "zPfxlcVpFgs",
+          "url": "https://youtu.be/zPfxlcVpFgs",
+          "title": "How I manage 15 AI agents 24/7 as a solo founder | Ryan Carson",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "iF5IWjOWcA4",
+          "url": "https://youtu.be/iF5IWjOWcA4",
+          "title": "How Icelanders are thinking about AI",
+          "author": "Anthropic",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "o0ORPbSEgd8",
+          "url": "https://youtu.be/o0ORPbSEgd8",
+          "title": "Max Junestrand: You Need The Willingness To Learn Faster Than Anyone Else",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "5bxp78i96S8",
+          "url": "https://youtu.be/5bxp78i96S8",
+          "title": "Paul Graham On Startups, Ambition, and Great Founders",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "wCIYViPd4SU",
+          "url": "https://youtu.be/wCIYViPd4SU",
+          "title": "Tethered: Our Agents Are Us — Shu Fang, Two Sigma",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "nM86DBOqgPM",
+          "url": "https://youtu.be/nM86DBOqgPM",
+          "title": "The World’s Largest Electric Aircraft Just Flew",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
+    },
+    {
+      "run_at": "2026-09-06T22:01:20.758218+00:00",
+      "tg_message_ids": [
+        56,
+        57
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 34,
+          "scored_to_backlog": 34,
+          "backlog_size": 96,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "tE2z8-hqoLY",
+          "url": "https://youtu.be/tE2z8-hqoLY",
+          "title": "Beyond the Lethal Trifecta: Agentic Commerce on the Open Internet — David Levine, Kiduna Club",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "BV0hy6NET-U",
+          "url": "https://youtu.be/BV0hy6NET-U",
+          "title": "Chatbots are not the final interface: OpenAI’s Head of Design on what’s next | Ian Silber",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "o_eg2TtXAO0",
+          "url": "https://youtu.be/o_eg2TtXAO0",
+          "title": "Claude runs my entire business",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "Qr15lGAGKpo",
+          "url": "https://youtu.be/Qr15lGAGKpo",
+          "title": "Everyone Gets A Software Company — Benjamin Guo, Zo Computer",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "IfoPg2QefF8",
+          "url": "https://youtu.be/IfoPg2QefF8",
+          "title": "Going In Deep On Data | YC Paper Club",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "P03ZNceXe2A",
+          "url": "https://youtu.be/P03ZNceXe2A",
+          "title": "How I use ChatGPT to run my fashion business",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "cmATJGbA8bI",
+          "url": "https://youtu.be/cmATJGbA8bI",
+          "title": "I built an AI code review bot in 30 minutes - here’s how",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "zLUZclThLhU",
+          "url": "https://youtu.be/zLUZclThLhU",
+          "title": "Michael Kratsios: Inside the White House's AI Strategy",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "ruvis-VWg2s",
+          "url": "https://youtu.be/ruvis-VWg2s",
+          "title": "This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "t0GiTyz4syY",
+          "url": "https://youtu.be/t0GiTyz4syY",
+          "title": "Why Netflix is betting on systems thinkers—not specialists—in the AI era | Elizabeth Stone (CPTO)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}

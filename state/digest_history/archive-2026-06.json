@@ -1,0 +1,1954 @@
+{
+  "2026-06-12": {
+    "runs": [
+      {
+        "run_at": "2026-06-12T03:58:07.546558+00:00",
+        "tg_message_ids": [
+          33
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 2,
+            "backlog_size": 2,
+            "posting": 2,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "iUWwcG-C8OU",
+            "url": "https://youtu.be/iUWwcG-C8OU",
+            "title": "Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "WorkOS built an agent-based internal tool (Studio) that lets non-technical teams query databases through natural language, using LangGraph + Opus + a guidance layer to enforce schema context and join logic, dramatically cutting the request-answer-clarify cycle.",
+            "card_slug": "why-cant-anyone-answer-questions-about-the-business-garrett-"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "ghJmWQCIHRM",
+            "url": "https://youtu.be/ghJmWQCIHRM",
+            "title": "The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "WebMCP gives AI agents a structured \"menu\" of tools (instead of parsing DOM/screenshots/clicks), reducing token spend and brittleness—but only worth implementing after semantic HTML, accessibility, and performance foundations are solid.",
+            "card_slug": "the-agent-ready-web-simplify-user-actions-with-webmcp-tara-a"
+          }
+        }
+      },
+      {
+        "run_at": "2026-06-12T18:01:00.986998+00:00",
+        "tg_message_ids": [
+          34
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 2,
+            "backlog_size": 2,
+            "posting": 2,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "3rWSvrFahIY",
+            "url": "https://youtu.be/3rWSvrFahIY",
+            "title": "5 Papers That Show Where AI Research Is Heading Right Now",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Alpha Zero-style self-play (unbiased by human solutions) as a path to higher-capability systems, vs. training on known human solutions which bounds you to a typical set H and can't feasibly sample F minus H.",
+            "card_slug": "5-papers-that-show-where-ai-research-is-heading-right-now"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "9SfEOmH7yjU",
+            "url": "https://youtu.be/9SfEOmH7yjU",
+            "title": "Give yourself permission to build",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "The IC path is now legitimately rewarded at scale — even managers are expected to do hands-on building work, not just alignment theater.",
+            "card_slug": "give-yourself-permission-to-build"
+          }
+        }
+      }
+    ]
+  },
+  "2026-06-28": {
+    "runs": [
+      {
+        "run_at": "2026-06-28T21:22:47.224332+00:00",
+        "tg_message_ids": [
+          46
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 16,
+            "scored_to_backlog": 10,
+            "backlog_size": 10,
+            "posting": 10,
+            "errors": [
+              "transcript-missing:OXMMN-XbxwA",
+              "transcript-missing:whue9_YquGA",
+              "transcript-missing:JRTAtZ5iBkU",
+              "transcript-missing:tB9RKTrU-Ig",
+              "transcript-missing:IddXPepIAS4",
+              "circuit-breaker-tripped"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "T0HhO4YtTfE",
+            "url": "https://youtu.be/T0HhO4YtTfE",
+            "title": "AI System Design: From Idea to Production - Apoorva Joshi, MongoDB",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "\"Specs are the new code\" — the actual design work (product requirements, system design, eval criteria) is what determines whether AI systems work; coding is just execution.",
+            "card_slug": "ai-system-design-from-idea-to-production-apoorva-joshi-mongo"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "mvFDvGEU6Sg",
+            "url": "https://youtu.be/mvFDvGEU6Sg",
+            "title": "How Anthropic PMs use agents internally",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Anthropic PMs use agents to directly interrogate codebases and manage state without asking engineers, shortening the feedback loop from \"ask engineer\" to \"query agent\" — turning product understanding from async bottleneck into real-time capability.",
+            "card_slug": "how-anthropic-pms-use-agents-internally"
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "Akm1sqvWG4A",
+            "url": "https://youtu.be/Akm1sqvWG4A",
+            "title": "Bypassing the Multimodal Tax: Hybrid RAG, SQL RRF & UI Telemetry - Abed Matini, Ogilvy",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Hybrid RAG with SQL RRF + local embeddings + observability (LangFuse) reduces token waste on document upload and simplifies multi-tool complexity in production chatbots.",
+            "card_slug": "bypassing-the-multimodal-tax-hybrid-rag-sql-rrf-ui-telemetry"
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "OoUP5HU5qjQ",
+            "url": "https://youtu.be/OoUP5HU5qjQ",
+            "title": "Firefox's task verification system",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Task verification in AI systems requires explicit threat modeling and crisp success/failure criteria — Firefox uses fuzzing + address sanitizer for binary pass/fail, but most distributed systems need custom verification frameworks because outcomes aren't naturally measurable.",
+            "card_slug": "firefoxs-task-verification-system"
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "ZoBfQZ5utQk",
+            "url": "https://youtu.be/ZoBfQZ5utQk",
+            "title": "GLM 5.2 is SO GOOD (and almost free)",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "GLM 5.2 achieves Opus-level reasoning on coding tasks at a fraction of API cost via open weights + self-hosting, with full modern model ergonomics (reasoning mode, function calling, MCPs, structured output).",
+            "card_slug": "glm-52-is-so-good-and-almost-free"
+          },
+          "6": {
+            "adapter": "youtube",
+            "source_id": "xmlyiCexm-g",
+            "url": "https://youtu.be/xmlyiCexm-g",
+            "title": "GLM 5.2 on long-running autonomous tasks",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "GLM 5.2 shows measurable improvement on long-running autonomous tasks (HTML/CSS solid, React still problematic), revealing specific capability gaps in real-world agent workflows rather than abstract benchmarks.",
+            "card_slug": "glm-52-on-long-running-autonomous-tasks"
+          },
+          "7": {
+            "adapter": "youtube",
+            "source_id": "Xu5gz2qsaz8",
+            "url": "https://youtu.be/Xu5gz2qsaz8",
+            "title": "Inside Anthropic’s Bet on Claude Agents that Work While You Sleep | Jess Yan",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Model and harness must be developed together — testing a model in isolation from its deployment harness gives false performance signals, so Anthropic co-develops Claude with its agent scaffolding.",
+            "card_slug": "inside-anthropics-bet-on-claude-agents-that-work-while-you-s"
+          },
+          "8": {
+            "adapter": "youtube",
+            "source_id": "74mZ0E0SCuk",
+            "url": "https://youtu.be/74mZ0E0SCuk",
+            "title": "The Firefox security bug spike wasn't just about the model—it was about the harness",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "AI agents need better evaluation harnesses (tool access + measurable outcomes) to move from generating plausible-looking wrong answers to producing verifiable correct ones—Firefox security bugs became fixable when the harness could actually run and test the exploit.",
+            "card_slug": "the-firefox-security-bug-spike-wasnt-just-about-the-modelit-"
+          },
+          "9": {
+            "adapter": "youtube",
+            "source_id": "Mn8sCC2Jt1o",
+            "url": "https://youtu.be/Mn8sCC2Jt1o",
+            "title": "The verification loop is what eliminates false positives",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Multi-agent verification loops (agent reviewing agent output) drop false positives to near-zero by forcing exhaustive evaluation of edge cases humans would skip.",
+            "card_slug": "the-verification-loop-is-what-eliminates-false-positives"
+          },
+          "10": {
+            "adapter": "youtube",
+            "source_id": "XovaGv4f39A",
+            "url": "https://youtu.be/XovaGv4f39A",
+            "title": "When All Context Matters: Extended Cache Augmented Generation - Luis Romero-Sevilla, Orbis",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Cache augmented generation (CAG) — parallel context windows with a supervisor model routing questions to relevant buckets — trades off compute cost against speed and accuracy compared to GraphRAG or simple RAG, with no single solution for all problems.",
+            "card_slug": "when-all-context-matters-extended-cache-augmented-generation"
+          }
+        }
+      }
+    ]
+  },
+  "2026-06-08": {
+    "runs": [
+      {
+        "run_at": "2026-06-08T02:01:40.133027+00:00",
+        "tg_message_ids": [
+          24
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 2,
+            "backlog_size": 2,
+            "posting": 2,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "je95KXv1QlA",
+            "url": "https://youtu.be/je95KXv1QlA",
+            "title": "12 Claude Plugins, Skills & MCP's I Can't Live Without",
+            "author": "Ben AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "CLIs are more token-efficient than MCPs for the same integrations because they don't auto-load full API context into every new chat, and they unlock capabilities (like creating Google Sheets) that standard MCPs deliberately restrict.",
+            "card_slug": "12-claude-plugins-skills-mcps-i-cant-live-without"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "nSNhYNk1_Xs",
+            "url": "https://youtu.be/nSNhYNk1_Xs",
+            "title": "What AI-Native Product Team members created | Demo Day",
+            "author": "Bayram Annakov",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Non-technical founder built three working agent systems (Telegram bot with database access, multi-source data analyst agent, Ray Dalio business advisor agent) in ~10 weeks using Claude Code, showing concrete patterns for agent composition and context management.",
+            "card_slug": "what-ai-native-product-team-members-created-demo-day"
+          }
+        }
+      },
+      {
+        "run_at": "2026-06-08T17:50:11.512050+00:00",
+        "tg_message_ids": [
+          25
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 3,
+            "scored_to_backlog": 3,
+            "backlog_size": 3,
+            "posting": 3,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "SKDJo2CopRs",
+            "url": "https://youtu.be/SKDJo2CopRs",
+            "title": "Building AI Agents at the Edge — Sunil Pai & Matt Carrie, Cloudflare",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Durable Objects as a stateful compute unit for AI agents — addressable, long-running, persistent, hibernating — turns out to be the right architectural primitive for agent workloads at scale.",
+            "card_slug": "building-ai-agents-at-the-edge-sunil-pai-matt-carrie-cloudfl"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "OOPganyUinE",
+            "url": "https://youtu.be/OOPganyUinE",
+            "title": "She built a Claude shopping assistant to stop buying cheap junk",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Using Claude with persistent project context (instructions + memory) to automate decision-making on high-judgment purchases — delegating the research layer while keeping the judgment call human.",
+            "card_slug": "she-built-a-claude-shopping-assistant-to-stop-buying-cheap-j"
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "F_PP19EGhsM",
+            "url": "https://youtu.be/F_PP19EGhsM",
+            "title": "Why this ex-Meta L8 engineer stopped reviewing his own code",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Peter Yang built \"No Mistakes\" — an agent-based code review tool trained via parallel testing (human review vs. agent review) until agent performance matched his own catch rate, eliminating the bottleneck of manual review.",
+            "card_slug": "why-this-ex-meta-l8-engineer-stopped-reviewing-his-own-code"
+          }
+        }
+      },
+      {
+        "run_at": "2026-06-08T18:01:48.625815+00:00",
+        "tg_message_ids": [
+          26
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 2,
+            "backlog_size": 2,
+            "posting": 2,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "TUnPNY4E2fw",
+            "url": "https://youtu.be/TUnPNY4E2fw",
+            "title": "The Memory Stack Behind 5 Million Token Transformers — Max Ryabinin, Together AI",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "DeepSpeed Ulysses distributes attention head computation across GPUs to break the quadratic memory bottleneck in long-context training, reducing memory usage ~8x while maintaining Flash Attention optimizations.",
+            "card_slug": "the-memory-stack-behind-5-million-token-transformers-max-rya"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "EcqMYoIV57A",
+            "url": "https://youtu.be/EcqMYoIV57A",
+            "title": "Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "LLMs exhibit a U-curve attention pattern (strong on initial and final context, weak on middle), which means dumping more context doesn't help agents decide what's important—you need deliberate context optimization (hierarchal summarization, knowledge graphs, context engines) instead.",
+            "card_slug": "why-more-context-makes-your-agent-dumber-and-what-to-do-abou"
+          }
+        }
+      }
+    ]
+  },
+  "2026-06-09": {
+    "runs": [
+      {
+        "run_at": "2026-06-09T18:01:19.325623+00:00",
+        "tg_message_ids": [
+          27
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 3,
+            "scored_to_backlog": 3,
+            "backlog_size": 3,
+            "posting": 3,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "Bc6Ojl2XS1w",
+            "url": "https://youtu.be/Bc6Ojl2XS1w",
+            "title": "From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Gemini 3.1 Flash can extract structured metadata (speaker identity, emotion, language, timestamps) from raw audio in a single API request — not just transcription but semantic understanding at scale.",
+            "card_slug": "from-transcription-to-live-music-geminis-audio-stack-thor-sc"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "UM6sFg_jdlE",
+            "url": "https://youtu.be/UM6sFg_jdlE",
+            "title": "RAG is dead, right?? — Kuba Rogut, Turbopuffer",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Semantic search + full-text search + agentic iteration (not just vector search alone) drives 12–24% accuracy gains in code completion; Cursor uses Merkle trees to amortize embedding costs across team codebases.",
+            "card_slug": "rag-is-dead-right-kuba-rogut-turbopuffer"
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "8AYFNXFnB1s",
+            "url": "https://youtu.be/8AYFNXFnB1s",
+            "title": "Why engineering teams are about to break",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "AI-driven productivity (10x PRs/month) breaks existing code review and team composition processes designed for 10-15 PRs/month; teams are actively experimenting with new practices to adapt.",
+            "card_slug": "why-engineering-teams-are-about-to-break"
+          }
+        }
+      },
+      {
+        "run_at": "2026-06-09T22:00:56.249333+00:00",
+        "tg_message_ids": [
+          28
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 2,
+            "backlog_size": 2,
+            "posting": 2,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "IREnr4I89Ho",
+            "url": "https://youtu.be/IREnr4I89Ho",
+            "title": "Claude Fable 5 - is this Mythos model worth the wait?",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Fable 5's \"engineer's engineer\" behavior—thorough investigation, 120% verification—can actually slow product work; sometimes you need a \"slightly dumber\" model that ships faster, not one that over-optimizes every corner.",
+            "card_slug": "claude-fable-5-is-this-mythos-model-worth-the-wait"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "zDGHt0LB-dA",
+            "url": "https://youtu.be/zDGHt0LB-dA",
+            "title": "GPU Cloud Deployment Without Leaving Your IDE — Audry Hsu, RunPod",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Flash SDK eliminates the commit-push-Docker-pull-deploy cycle for GPU inference by letting developers deploy async Python functions directly from their IDE with hot-reload, collapsing iteration time from minutes to seconds.",
+            "card_slug": "gpu-cloud-deployment-without-leaving-your-ide-audry-hsu-runp"
+          }
+        }
+      }
+    ]
+  },
+  "2026-06-13": {
+    "runs": [
+      {
+        "run_at": "2026-06-13T10:00:36.286799+00:00",
+        "tg_message_ids": [
+          35
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "vTRgFql4X9w",
+            "url": "https://youtu.be/vTRgFql4X9w",
+            "title": "Fable 5 works like a \"seasoned engineer\"",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "\"Sometimes you want a slightly less thorough engineer\" — intelligence-to-task fit matters more than raw capability when building with agents.",
+            "card_slug": "fable-5-works-like-a-seasoned-engineer"
+          }
+        }
+      }
+    ]
+  },
+  "2026-06-18": {
+    "runs": [
+      {
+        "run_at": "2026-06-18T08:14:04.236431+00:00",
+        "tg_message_ids": [
+          38
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "ql2ZdyktmOA",
+            "url": "https://youtu.be/ql2ZdyktmOA",
+            "title": "An LLM Evaluation Framework for High-Stakes AI",
+            "author": "Software Engineering Institute | Carnegie Mellon University",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Formal eval frameworks for LLMs must define task-specific bounds of capability rather than relying on general benchmarks, especially when augmenting models with tools and agentic abilities.",
+            "card_slug": "an-llm-evaluation-framework-for-high-stakes-ai"
+          }
+        }
+      },
+      {
+        "run_at": "2026-06-18T11:00:52.845106+00:00",
+        "tg_message_ids": [
+          39
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "1nfJM_6CIX0",
+            "url": "https://youtu.be/1nfJM_6CIX0",
+            "title": "Evals are the modern PRD—they define \"what\" success looks like, not \"how\" to achieve it",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Evals are the modern PRD—they define success criteria (the \"what\") rather than implementation (the \"how\"), mirroring how ML shifts programming from prescriptive code to outcome specification.",
+            "card_slug": "evals-are-the-modern-prdthey-define-what-success-looks-like-"
+          }
+        }
+      },
+      {
+        "run_at": "2026-06-18T15:00:58.201618+00:00",
+        "tg_message_ids": [
+          40
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "ObTPqBGsEbA",
+            "url": "https://youtu.be/ObTPqBGsEbA",
+            "title": "£85K Burned on a Failed PoC: What Actually Gets Agents to Production — Sandipan Bhaumik, Databricks",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Production AI fails not because of model choice, but because teams skip evaluation definition, observability/tracing, and governance before writing code — the \"three gaps\" framework (evaluation, observability, governance) predicts failure better than model selection does.",
+            "card_slug": "85k-burned-on-a-failed-poc-what-actually-gets-agents-to-prod"
+          }
+        }
+      }
+    ]
+  },
+  "2026-06-22": {
+    "runs": [
+      {
+        "run_at": "2026-06-22T22:18:26.977267+00:00",
+        "tg_message_ids": [
+          44
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 4,
+            "scored_to_backlog": 3,
+            "backlog_size": 3,
+            "posting": 3,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "Ybrl4FYM57c",
+            "url": "https://youtu.be/Ybrl4FYM57c",
+            "title": "The woman behind Claude Code and Cowork on why coding is solved (and comes next) | Fiona Fung",
+            "author": "Lenny's Podcast",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Anthropic engineers ship 8x more code per quarter since 2025 because coding is no longer the bottleneck — the constraint has shifted to ambition, agency, and what you choose to build next.",
+            "card_slug": "the-woman-behind-claude-code-and-cowork-on-why-coding-is-sol"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "iqb5Rd6KKr8",
+            "url": "https://youtu.be/iqb5Rd6KKr8",
+            "title": "Full Tutorial: Make Professional Launch Videos for Free with Hyperframes | Bin Liu & Jake Moran",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "HyperFrames lets you generate production-quality launch videos directly from HTML/CSS/JS via Claude Code or coding agents—no video editing tool required, fully open-sourced skill available.",
+            "card_slug": "full-tutorial-make-professional-launch-videos-for-free-with-"
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "GCWUS-jhIWE",
+            "url": "https://youtu.be/GCWUS-jhIWE",
+            "title": "Problems with loops",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Loop-based agent validation can burn tokens catastrophically if validation criteria aren't tight — the cost problem isn't the loop itself but poorly bounded stopping conditions.",
+            "card_slug": "problems-with-loops"
+          }
+        }
+      },
+      {
+        "run_at": "2026-06-22T23:01:01.633873+00:00",
+        "tg_message_ids": [
+          45
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 2,
+            "backlog_size": 2,
+            "posting": 2,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "Idjt53tTv2U",
+            "url": "https://youtu.be/Idjt53tTv2U",
+            "title": "How Claude Mythos found a 15-year-old bug in Mozilla Firefox",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Firefox's security bug discovery spiked not primarily because of a better model (Mythos), but because they built a custom harness that lets agents exhaustively search constrained problem spaces with test case validation — turning cheap-to-generate reports into verified, actionable findings.",
+            "card_slug": "how-claude-mythos-found-a-15-year-old-bug-in-mozilla-firefox"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "x3myFn_wOrw",
+            "url": "https://youtu.be/x3myFn_wOrw",
+            "title": "Why HeyGen built their AI video agent on HTML",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 1,
+            "hook": "LLMs lack visual intelligence when working with JSON/XML; HTML/CSS/JavaScript as LLM-native format unlocks visual reasoning and lets agents produce aesthetically coherent outputs without post-processing.",
+            "card_slug": "why-heygen-built-their-ai-video-agent-on-html"
+          }
+        }
+      }
+    ]
+  },
+  "2026-06-02": {
+    "runs": [
+      {
+        "run_at": "2026-06-02T02:01:29.206618+00:00",
+        "tg_message_ids": [
+          14
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 2,
+            "posting": 2,
+            "errors": [
+              "transcript-missing:yUohoaC8_Hs",
+              "transcript-missing:xCd9ykretlg",
+              "transcript-missing:k-H4nsOTuxU"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "mCO-D3pkviM",
+            "url": "https://youtu.be/mCO-D3pkviM",
+            "title": "AI era skills: Why cultivating agency matters more than job titles | Max Schoening (Notion)",
+            "author": "Lenny's Podcast",
+            "source_type": "video",
+            "score": 2,
+            "hook": "AI changes the first 10% of product development from hard to free; the skill that matters most now is \"agency\" — the ability to iterate and ship without permission, not technical depth.",
+            "card_slug": "ai-era-skills-why-cultivating-agency-matters-more-than-job-t"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "-7Yol5vX5xw",
+            "url": "https://youtu.be/-7Yol5vX5xw",
+            "title": "How to win when software is not a moat | Evan Spiegel (Snapchat CEO)",
+            "author": "Lenny's Podcast",
+            "source_type": "video",
+            "score": 2,
+            "hook": "\"Software is not a moat\" — Snapchat learned this 15 years ago; the real differentiator in consumer is distribution (network effects, subsidies, platform leverage) and continuous innovation velocity (small design team shipping daily).",
+            "card_slug": "how-to-win-when-software-is-not-a-moat-evan-spiegel-snapchat"
+          }
+        }
+      },
+      {
+        "run_at": "2026-06-02T14:00:54.787082+00:00",
+        "tg_message_ids": [
+          15
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": [
+              "transcript-missing:tJ-BJtJPtH0"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "4fg6DfW__i8",
+            "url": "https://youtu.be/4fg6DfW__i8",
+            "title": "Why a beginners mindset is an AI advantage",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-06-02T18:01:12.607441+00:00",
+        "tg_message_ids": [
+          16
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 3,
+            "scored_to_backlog": 3,
+            "backlog_size": 3,
+            "posting": 3,
+            "errors": [
+              "transcript-missing:tJ-BJtJPtH0"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "KA5kPbdkK2E",
+            "url": "https://youtu.be/KA5kPbdkK2E",
+            "title": "How Lovable taught its agent to surface its own blockers — Benjamin Verbeek, Lovable",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "Dcvl4mseZ6c",
+            "url": "https://youtu.be/Dcvl4mseZ6c",
+            "title": "Launches are still terrifying for me…what if zero people care?",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "YYH0DMQr30A",
+            "url": "https://youtu.be/YYH0DMQr30A",
+            "title": "Why your RL training data is producing noise — Kobie Crawdord, Snorkel",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-06-02T22:14:31.937971+00:00",
+        "tg_message_ids": [
+          17
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 5,
+            "scored_to_backlog": 3,
+            "backlog_size": 3,
+            "posting": 3,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "KA5kPbdkK2E",
+            "url": "https://youtu.be/KA5kPbdkK2E",
+            "title": "How Lovable taught its agent to surface its own blockers — Benjamin Verbeek, Lovable",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Lovable uses LLM judges to detect when non-technical users get stuck (repeated requests, explicit failures, session abandonment) and classifies blockers into solvable-with-better-prompting vs. product-structural, then learns from each category to reduce friction points.",
+            "card_slug": "how-lovable-taught-its-agent-to-surface-its-own-blockers-ben"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "HvZXAOZ3iv8",
+            "url": "https://youtu.be/HvZXAOZ3iv8",
+            "title": "What Lies Beneath the API — Benjamin Cowen, Modal",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Fine-tuning becomes economically viable when frontier API costs exceed customer willingness to pay or when you hit eval plateaus — signals include \"caveman mode\" prompts no longer cutting costs, latency/throughput constraints, and custom business logic that generalist models won't optimize for.",
+            "card_slug": "what-lies-beneath-the-api-benjamin-cowen-modal"
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "YYH0DMQr30A",
+            "url": "https://youtu.be/YYH0DMQr30A",
+            "title": "Why your RL training data is producing noise — Kobie Crawdord, Snorkel",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Task quality in agentic RL training correlates with measurable performance signals (2x tool calls, lower pass rates, more reasoning tokens) — and can be validated through structured acceptance criteria before training begins.",
+            "card_slug": "why-your-rl-training-data-is-producing-noise-kobie-crawdord-"
+          }
+        }
+      }
+    ]
+  },
+  "2026-06-03": {
+    "runs": [
+      {
+        "run_at": "2026-06-03T06:00:37.132920+00:00",
+        "tg_message_ids": [
+          18
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "wjXowoQ7E8c",
+            "url": "https://youtu.be/wjXowoQ7E8c",
+            "title": "AI Engineer Melbourne 2026 Keynote Livestream | Day 1",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Claude Opus 4.8 now leads the intelligence benchmark; the real story is model selection driven by cost/speed/latency tradeoffs, not just capability rankings.",
+            "card_slug": "ai-engineer-melbourne-2026-keynote-livestream-day-1"
+          }
+        }
+      },
+      {
+        "run_at": "2026-06-03T14:01:43.670625+00:00",
+        "tg_message_ids": [
+          19
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 3,
+            "scored_to_backlog": 2,
+            "backlog_size": 2,
+            "posting": 2,
+            "errors": [
+              "transcript-missing:tuY2ChJIx48"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "504PvfXou5Y",
+            "url": "https://youtu.be/504PvfXou5Y",
+            "title": "BDD, ADR, PRD, WTF: Capturing Decisions for Humans and AI Alike — Michal Cichra, Safe Intelligence",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "ADRs (architecture decision records) + BDD (behavior-driven development) + design system enforcement create a machine-readable audit trail that lets agents understand *why* a system exists, not just *what* it does — closing the gap between spec and actual behavior.",
+            "card_slug": "bdd-adr-prd-wtf-capturing-decisions-for-humans-and-ai-alike-"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "uT3EQPVIEb0",
+            "url": "https://youtu.be/uT3EQPVIEb0",
+            "title": "Full Tutorial: Build Self-Improving Claude Skills in 20 Min (Eval + Memory)",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Separating skill.md from examples/context files lets Claude load only relevant context per invocation, reducing token overhead and shareability friction.",
+            "card_slug": "full-tutorial-build-self-improving-claude-skills-in-20-min-e"
+          }
+        }
+      },
+      {
+        "run_at": "2026-06-03T18:01:52.914179+00:00",
+        "tg_message_ids": [
+          20
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 4,
+            "scored_to_backlog": 3,
+            "backlog_size": 3,
+            "posting": 3,
+            "errors": [
+              "transcript-missing:tuY2ChJIx48"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "zKk7sDMGDEQ",
+            "url": "https://youtu.be/zKk7sDMGDEQ",
+            "title": "Benchmarking semantic code retrieval on Claude Code — Kuba Rogut, Turbopuffer",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Semantic code retrieval in agents trades upfront indexing cost for cached embeddings that reduce per-query token spend and improve accuracy 2–2.6% in production (Cursor's data), making it worth the infrastructure investment at scale.",
+            "card_slug": "benchmarking-semantic-code-retrieval-on-claude-code-kuba-rog"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "hCMrEfPG2Yg",
+            "url": "https://youtu.be/hCMrEfPG2Yg",
+            "title": "Beyond Components: Designing Generative UI for MCP Apps — Ruben Casas, Postman",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Three UI paradigms for agent-generated interfaces — static components (predefined React mapped to tool calls), declarative (LLM generates structured specs), and generative (LLM writes raw UI code) — each with different tradeoffs for MCP apps and agent products.",
+            "card_slug": "beyond-components-designing-generative-ui-for-mcp-apps-ruben"
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "gSNFJbgoaHI",
+            "url": "https://youtu.be/gSNFJbgoaHI",
+            "title": "How to Build an AI-Native Services Company",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "AI-native services companies displace existing vendors in low-trust, high-regulation markets (tax, audit, insurance) where the work can be decomposed into automatable + judgment tasks, creating a new business model where the AI+human operation *is* the product, not a co-pilot.",
+            "card_slug": "how-to-build-an-ai-native-services-company"
+          }
+        }
+      }
+    ]
+  },
+  "2026-06-19": {
+    "runs": [
+      {
+        "run_at": "2026-06-19T15:01:04.931740+00:00",
+        "tg_message_ids": [
+          41
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 2,
+            "backlog_size": 2,
+            "posting": 2,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "yJPXFBSmZp0",
+            "url": "https://youtu.be/yJPXFBSmZp0",
+            "title": "Stop Prompting. Start Looping.",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Design agent workflows as jobs with clear success criteria and scheduling (e.g., \"every Friday, review calendar and send Slack\"), not one-off prompts — this is how you move from chatbot to autonomous worker.",
+            "card_slug": "stop-prompting-start-looping"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "8OOuCnZB-4o",
+            "url": "https://youtu.be/8OOuCnZB-4o",
+            "title": "The Age Of The 40-Year-Old Solo Founder Is Here",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Bryant Chou (Webflow CTO-turned-founder) is building Ploy — an AI-native website platform that auto-generates modern sites from old websites + runs marketing/ads/SEO on autopilot, showing concrete product-market fit for founder-with-deep-domain-expertise building AI-native tools.",
+            "card_slug": "the-age-of-the-40-year-old-solo-founder-is-here"
+          }
+        }
+      },
+      {
+        "run_at": "2026-06-19T19:00:43.888004+00:00",
+        "tg_message_ids": [
+          42
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "2TYBMvYxyVc",
+            "url": "https://youtu.be/2TYBMvYxyVc",
+            "title": "Just launch, even if no ones cares",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Ship imperfect things to unblock your own workflow, even if they have zero external users — the value is internal leverage, not validation.",
+            "card_slug": "just-launch-even-if-no-ones-cares"
+          }
+        }
+      }
+    ]
+  },
+  "2026-06-20": {
+    "runs": [
+      {
+        "run_at": "2026-06-20T15:00:47.248916+00:00",
+        "tg_message_ids": [
+          43
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "z7yPBgWnTsI",
+            "url": "https://youtu.be/z7yPBgWnTsI",
+            "title": "My Loop System That Replaced 40 PRs of Manual Babysitting",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Using an agent in a loop to automate PR triage and enforcement — flagging stale PRs, spinning up babysitting threads, and async-messaging the team to unblock merges — reduces manual oversight burden at scale.",
+            "card_slug": "my-loop-system-that-replaced-40-prs-of-manual-babysitting"
+          }
+        }
+      }
+    ]
+  },
+  "2026-06-01": {
+    "runs": [
+      {
+        "run_at": "2026-06-01T20:55:28.248712+00:00",
+        "tg_message_ids": [
+          12
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 17,
+            "scored_to_backlog": 15,
+            "backlog_size": 17,
+            "posting": 10,
+            "errors": [
+              "transcript-missing:yUohoaC8_Hs",
+              "transcript-missing:xCd9ykretlg",
+              "transcript-missing:k-H4nsOTuxU"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "PplmzlgE0kg",
+            "url": "https://youtu.be/PplmzlgE0kg",
+            "title": "How Anthropic’s product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)",
+            "author": "Lenny's Podcast",
+            "source_type": "video",
+            "score": 1,
+            "hook": "The PM role at AI-native companies is shifting from \"coordinate slow feature releases\" to \"remove shipping barriers and iterate weekly\"—and the skill that matters most is taste (deciding what to build) not execution (how to build it).",
+            "card_slug": "how-anthropics-product-team-moves-faster-than-anyone-else-ca"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "UQKg0td-Bf4",
+            "url": "https://youtu.be/UQKg0td-Bf4",
+            "title": "Spec-Driven Testing for Agents With A Brain the Size of A Planet — Steven Willmott, SafeIntelligence",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Spec-driven validation for agents means defining what the system should NOT do (surface area, jailbreaks, unintended capabilities) independently of the training dataset—then testing against that spec, not just F1 scores.",
+            "card_slug": "spec-driven-testing-for-agents-with-a-brain-the-size-of-a-pl"
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "n1E9IZfvGMA",
+            "url": "https://youtu.be/n1E9IZfvGMA",
+            "title": "Dario Amodei — “We are near the end of the exponential”",
+            "author": "Dwarkesh Patel",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Dario's \"Big Blob of Compute Hypothesis\" (seven factors: compute, data quantity, data quality/distribution, training duration, scalable objective functions, numerical stability) remains predictive across pre-training and RL phases—suggesting the scaling story is unified, not bifurcated.",
+            "card_slug": "dario-amodei-we-are-near-the-end-of-the-exponential"
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "u-rJwPPU3QA",
+            "url": "https://youtu.be/u-rJwPPU3QA",
+            "title": "How to talk to statues — Joe Reeve, ElevenLabs",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Built a functional prototype in 2 hours using Claude/Cursor + OpenAI research + ElevenLabs voice design API + agents, shipped it in a day, hit 1.5M impressions — demonstrates the speed-to-viral in AI product when you chain APIs and skip the polish.",
+            "card_slug": "how-to-talk-to-statues-joe-reeve-elevenlabs"
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "I0tj4Y7xaOQ",
+            "url": "https://youtu.be/I0tj4Y7xaOQ",
+            "title": "Stanford CS224N: NLP w/ DL | Spring 2024 | Lecture 14 - Reasoning and Agents by Shikhar Murty",
+            "author": "AI news",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Chain of Thought and self-consistency prompting improve LLM reasoning on multi-step tasks through explicit step decomposition and majority voting across multiple reasoning paths — a concrete pattern for building deterministic reasoning into agent systems.",
+            "card_slug": "stanford-cs224n-nlp-w-dl-spring-2024-lecture-14-reasoning-an"
+          },
+          "6": {
+            "adapter": "youtube",
+            "source_id": "GdxLaeyu33c",
+            "url": "https://youtu.be/GdxLaeyu33c",
+            "title": "The Exact AI Skills This Solo Founder Uses to Build 5 Apps at Once | Josh Pigford",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Solo founder shipping 5 AI products in parallel uses Opus for bulk work + GPT-3.5 review pass to catch bugs Opus misses, then runs a \"But for Real\" prompt to bully the LLM into admitting mistakes — ships within 24 hours or same-day on each.",
+            "card_slug": "the-exact-ai-skills-this-solo-founder-uses-to-build-5-apps-a"
+          },
+          "7": {
+            "adapter": "youtube",
+            "source_id": "OlPnb9HhQKc",
+            "url": "https://youtu.be/OlPnb9HhQKc",
+            "title": "The skill that makes AI catch the bugs it missed",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "\"But for real\" — a systematic prompt pattern that forces LLM code review by explicitly calling out that bugs almost certainly exist, reliably surfacing 3–5 issues per pass.",
+            "card_slug": "the-skill-that-makes-ai-catch-the-bugs-it-missed"
+          },
+          "8": {
+            "adapter": "youtube",
+            "source_id": "BM2JX9hqsVQ",
+            "url": "https://youtu.be/BM2JX9hqsVQ",
+            "title": "What if the network was the sandbox? — Remy Guercio, Tailscale",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "WireGuard/Tailscale at the network layer provides identity-bound permissions (authN + authZ) for agent connections, preventing the credential exposure problem of API keys or OAuth tokens sitting inside agent sandboxes.",
+            "card_slug": "what-if-the-network-was-the-sandbox-remy-guercio-tailscale"
+          },
+          "9": {
+            "adapter": "youtube",
+            "source_id": "LjrJ7rdi5rw",
+            "url": "https://youtu.be/LjrJ7rdi5rw",
+            "title": "When NOT to use /goal in Codex",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Goals in Claude Code work best when they have three properties—durable objective, evidence-based finish line, and multi-turn investigation path—not for one-line fixes or vague outcomes.",
+            "card_slug": "when-not-to-use-goal-in-codex"
+          },
+          "10": {
+            "adapter": "youtube",
+            "source_id": "hqHC6Z_lXyo",
+            "url": "https://youtu.be/hqHC6Z_lXyo",
+            "title": "Why leaderboard rankings disagree: and what to use instead — Bertrand Charpentier, Pruna AI",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Public leaderboards rank models differently because they measure different things (task coverage, eval methodology, sample size); the real move is building use-case-specific evals that match your actual deployment constraints, not trusting aggregate scores.",
+            "card_slug": "why-leaderboard-rankings-disagree-and-what-to-use-instead-be"
+          }
+        }
+      },
+      {
+        "run_at": "2026-06-01T22:02:06.764661+00:00",
+        "tg_message_ids": [
+          13
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 7,
+            "posting": 5,
+            "errors": [
+              "transcript-missing:yUohoaC8_Hs",
+              "transcript-missing:xCd9ykretlg",
+              "transcript-missing:k-H4nsOTuxU"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "N7b1PJc7SFc",
+            "url": "https://youtu.be/N7b1PJc7SFc",
+            "title": "500ms is the cliff: engineering voice agents that don't lose callers — Rishabh Bhargava, Together AI",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Voice agent latency has a hard cliff at 500ms — beyond that, callers perceive delay and disengage; the dominant production pattern is a pipeline (STT → LLM → TTS) that must solve latency, intelligence, naturalness, and scale simultaneously.",
+            "card_slug": "500ms-is-the-cliff-engineering-voice-agents-that-dont-lose-c"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "4D3hDmGhFhA",
+            "url": "https://youtu.be/4D3hDmGhFhA",
+            "title": "AI predictions: Job markets, Codex beats Claude, and the death of org charts | Dan Shipper",
+            "author": "Lenny's Podcast",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Non-technical people using Claude Code for everyday work (file sorting, text processing) is becoming the primary interface for knowledge work, not engineering—and agents increase SaaS users rather than replacing them.",
+            "card_slug": "ai-predictions-job-markets-codex-beats-claude-and-the-death-"
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "NuePCNMpWGc",
+            "url": "https://youtu.be/NuePCNMpWGc",
+            "title": "Can LLMs generate Enterprise Quality Code? — Prasenjit Sarkar, Sonar",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "LLMs pass functional correctness evals (80%+) but fail on enterprise readiness — Sonar's analysis of 4,444 Java assignments found Claude Sonnet generates 627K LOC with 300 security issues per million lines, GPT-4 generates 1.2M LOC, revealing hidden bugs and mixed-quality training data that evals don't measure.",
+            "card_slug": "can-llms-generate-enterprise-quality-code-prasenjit-sarkar-s"
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "PoJ1vTdHpks",
+            "url": "https://youtu.be/PoJ1vTdHpks",
+            "title": "How Anthropic, Costco, and Patagonia all build incorruptible companies  | Eric Ries",
+            "author": "Lenny's Podcast",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Anthropic's board structure (external trustees with AI safety expertise, no equity) is a concrete mechanism for preventing founder capture and maintaining principled decisions even when they cost money — Ries argues \"harder is easier\" when you embed principles into governance, not just culture.",
+            "card_slug": "how-anthropic-costco-and-patagonia-all-build-incorruptible-c"
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "G5WTgB87rYQ",
+            "url": "https://youtu.be/G5WTgB87rYQ",
+            "title": "Why the next AI boom is physical AI | Caitlin Kalinowski (ex-OpenAI, Meta, Apple)",
+            "author": "Lenny's Podcast",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Physical AI (robotics, manufacturing) is the next frontier after digital AI saturates; VR/AR R&D (SLAM, depth sensing, spatial understanding) is proving foundational infrastructure for robotics, not a dead end.",
+            "card_slug": "why-the-next-ai-boom-is-physical-ai-caitlin-kalinowski-ex-op"
+          }
+        }
+      }
+    ]
+  },
+  "2026-06-17": {
+    "runs": [
+      {
+        "run_at": "2026-06-17T07:41:03.217649+00:00",
+        "tg_message_ids": [],
+        "tg_post_ok": false,
+        "adapters": {
+          "youtube": {
+            "fetched": 5,
+            "scored_to_backlog": 5,
+            "backlog_size": 5,
+            "posting": 5,
+            "errors": [
+              "transcript-missing:1MLUD9iXp7Y",
+              "transcript-missing:gHs5ZiY80PM",
+              "transcript-missing:ObBAxL2dFzw"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "QE_1hRLsehM",
+            "url": "https://youtu.be/QE_1hRLsehM",
+            "title": "Braintrust CEO: Evals are the new PRD for AI products",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "eJrPjd9fWYI",
+            "url": "https://youtu.be/eJrPjd9fWYI",
+            "title": "Build a feedback loop that automatically turns real-world data into evals",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "JAGvMtiJA7w",
+            "url": "https://youtu.be/JAGvMtiJA7w",
+            "title": "Claude Fable 5: when to use it (and when not to)",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "BxEf3RqIHkw",
+            "url": "https://youtu.be/BxEf3RqIHkw",
+            "title": "How This Non-Technical Founder Used AI Agents to Become an Open Source Legend | Matt Van Horn",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "c-2eEv2ou7Y",
+            "url": "https://youtu.be/c-2eEv2ou7Y",
+            "title": "Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-06-17T11:49:31.262246+00:00",
+        "tg_message_ids": [
+          36
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 5,
+            "posting": 5,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "QE_1hRLsehM",
+            "url": "https://youtu.be/QE_1hRLsehM",
+            "title": "Braintrust CEO: Evals are the new PRD for AI products",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "eJrPjd9fWYI",
+            "url": "https://youtu.be/eJrPjd9fWYI",
+            "title": "Build a feedback loop that automatically turns real-world data into evals",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "JAGvMtiJA7w",
+            "url": "https://youtu.be/JAGvMtiJA7w",
+            "title": "Claude Fable 5: when to use it (and when not to)",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "BxEf3RqIHkw",
+            "url": "https://youtu.be/BxEf3RqIHkw",
+            "title": "How This Non-Technical Founder Used AI Agents to Become an Open Source Legend | Matt Van Horn",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "c-2eEv2ou7Y",
+            "url": "https://youtu.be/c-2eEv2ou7Y",
+            "title": "Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-06-17T15:17:46.604105+00:00",
+        "tg_message_ids": [
+          37
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 12,
+            "scored_to_backlog": 9,
+            "backlog_size": 9,
+            "posting": 9,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "ObBAxL2dFzw",
+            "url": "https://youtu.be/ObBAxL2dFzw",
+            "title": "How Groww Turned Full Transparency Into India's Largest Investing Platform",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Groww discovered product-market fit by inverting robo-advisor logic — full transparency + customer choice (showing everything, letting users decide) outperformed algorithmic curation, which shifts the unit economics of fintech from advice-margin to platform-volume.",
+            "card_slug": "how-groww-turned-full-transparency-into-indias-largest-inves"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "H29laIK8q7M",
+            "url": "https://youtu.be/H29laIK8q7M",
+            "title": "How I Turned Codex Into My AI Life Coach in 13 Minutes (5-Step Tutorial)",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Personal context files (skill.md, plan.md, learnings.md, eval) + MCP integration (Mercury for bank data) as a system for building AI advisors that improve over time through conversation and structured feedback loops.",
+            "card_slug": "how-i-turned-codex-into-my-ai-life-coach-in-13-minutes-5-ste"
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "aR20FWCCjAs",
+            "url": "https://youtu.be/aR20FWCCjAs",
+            "title": "Ilya Sutskever – We're moving from the age of scaling to the age of research",
+            "author": "Dwarkesh Patel",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Models are superhuman on evals but fail at basic real-world tasks (repeating bugs, poor generalization) — likely because RL training is reward-hacked toward eval performance rather than actual capability.",
+            "card_slug": "ilya-sutskever-were-moving-from-the-age-of-scaling-to-the-ag"
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "JoXbk2fm7jM",
+            "url": "https://youtu.be/JoXbk2fm7jM",
+            "title": "Loop engineering for beginners",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "A \"loop\" is automated agent self-prompting via heartbeats (scheduled intervals), crons (set times), hooks (event-triggered), or goals (outcome-validated runs) — distinct from turn-based human prompting and core to agent-as-product design.",
+            "card_slug": "loop-engineering-for-beginners"
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "EJo-7V2pSoM",
+            "url": "https://youtu.be/EJo-7V2pSoM",
+            "title": "The agent line keeps going up—and you need to identify what's below it.",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Practical walkthrough of building a documentation Q&A agent using GPT-4o Mini + MCP servers (BrainTrust), with explicit comparison of MCP-augmented vs. zero-shot model performance on real product questions.",
+            "card_slug": "the-agent-line-keeps-going-upand-you-need-to-identify-whats-"
+          },
+          "6": {
+            "adapter": "youtube",
+            "source_id": "7eh9C3TUotc",
+            "url": "https://youtu.be/7eh9C3TUotc",
+            "title": "The hidden pattern behind successful products | Mark Pincus (FarmVille, Words with Friends, & more)",
+            "author": "Lenny's Podcast",
+            "source_type": "video",
+            "score": 2,
+            "hook": "\"Your instincts are right 95% of the time. Your ideas are wrong 75% of the time\"—the insight that gut pattern-recognition beats conscious ideation, so isolate the signal (instinct) and test many execution ideas around it (Proven Better New framework).",
+            "card_slug": "the-hidden-pattern-behind-successful-products-mark-pincus-fa"
+          },
+          "7": {
+            "adapter": "youtube",
+            "source_id": "gHs5ZiY80PM",
+            "url": "https://youtu.be/gHs5ZiY80PM",
+            "title": "You Might Not Need 50 Diffusion Steps — Ziv Ilan, Nvidia",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Quantization, caching, and distillation are borrowable optimization patterns from LLM inference that work on diffusion models—but with lower impact because diffusion is attention-heavy, not compute-heavy like transformers.",
+            "card_slug": "you-might-not-need-50-diffusion-steps-ziv-ilan-nvidia"
+          },
+          "8": {
+            "adapter": "youtube",
+            "source_id": "btxGmN8RvNU",
+            "url": "https://youtu.be/btxGmN8RvNU",
+            "title": "Your Agent's Biggest Lie: \"I Searched the Web\" — Rafael Levi, Bright Data",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "LLMs hallucinate web access by default and fail silently on blocked sites (CAPTCHAs, Cloudflare), then confabulate answers instead of reporting inability — and a properly built MCP (66 tools: real search, markdown scraping, remote browser with fingerprint rotation) solves this systematically with 5/5 vs 0/5 success on heavy anti-bot sites.",
+            "card_slug": "your-agents-biggest-lie-i-searched-the-web-rafael-levi-brigh"
+          },
+          "9": {
+            "adapter": "youtube",
+            "source_id": "J7YTh0uftSk",
+            "url": "https://youtu.be/J7YTh0uftSk",
+            "title": "Быть лидером без формальной власти — как влиять на решения коллег и руководства / Колосок",
+            "author": "Колосок",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Influence without formal authority in cross-functional environments requires reframing the relationship as a peer negotiation (\"before the deal\") rather than a status play — you must solve *their* constraints, not assert your project's importance.",
+            "card_slug": "быть-лидером-без-формальной-власти-как-влиять-на-решения-кол"
+          }
+        }
+      }
+    ]
+  },
+  "2026-06-10": {
+    "runs": [
+      {
+        "run_at": "2026-06-10T14:00:51.119335+00:00",
+        "tg_message_ids": [
+          29
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "zMiSRliEzv4",
+            "url": "https://youtu.be/zMiSRliEzv4",
+            "title": "Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "PostHog is building an agent pipeline that converts product signals (errors, session replays, analytics anomalies) directly into reviewed/shipped PRs, skipping the human dashboard-reading step entirely — with concrete implementation details on signal ingestion, grouping, research agents, and safety filtering.",
+            "card_slug": "self-driving-products-product-signals-to-pull-requests-joshu"
+          }
+        }
+      },
+      {
+        "run_at": "2026-06-10T18:01:29.109858+00:00",
+        "tg_message_ids": [
+          30
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 3,
+            "scored_to_backlog": 3,
+            "backlog_size": 3,
+            "posting": 3,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "SS-A8sE7hkw",
+            "url": "https://youtu.be/SS-A8sE7hkw",
+            "title": "Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Gemma 2 (26B/31B) achieves 4th/7th ranked open-model performance while being 2–20× smaller than competitors, with the 31B running on a single GPU vs. competitors needing 4–5 GPUs—concrete efficiency metric for cost-aware deployment decisions.",
+            "card_slug": "sovereign-escape-velocity-ownership-w-open-models-gus-martin"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "TNwJ1LMiENk",
+            "url": "https://youtu.be/TNwJ1LMiENk",
+            "title": "Stop Making Models Bigger, Make Them Behave — Kobie Crawdord, Snorkel",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Making a 4B parameter model outperform a 235B model on tool-use tasks through high-quality data + RL, not scale — demonstrates the data-quality-as-leverage pattern in production AI systems.",
+            "card_slug": "stop-making-models-bigger-make-them-behave-kobie-crawdord-sn"
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "mPAHvz8kW24",
+            "url": "https://youtu.be/mPAHvz8kW24",
+            "title": "The Most AI-Pilled CEO We Know",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Pedro's insight that \"good AI products are agentic loops with tools\" — and the shift from treating LLMs as precious/constrained (half a million lines of Rails for control) to \"free the claw\" (maximal context, token-generative agents) — maps directly to how Brex built their own AI product layer.",
+            "card_slug": "the-most-ai-pilled-ceo-we-know"
+          }
+        }
+      },
+      {
+        "run_at": "2026-06-10T22:01:20.414074+00:00",
+        "tg_message_ids": [
+          31
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 2,
+            "backlog_size": 2,
+            "posting": 2,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "WTkEFAxgCI0",
+            "url": "https://youtu.be/WTkEFAxgCI0",
+            "title": "Claude Code Guide for Beginner by Claude Code Engineer Boris Cherny",
+            "author": "BLD-Buluduo",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Claude Code works fully agentic at feature/function/file scope with zero setup (no indexing, code stays local), and Anthropic reduced technical onboarding from 2–3 weeks to 2–3 days by having hires do codebase Q&A first.",
+            "card_slug": "claude-code-guide-for-beginner-by-claude-code-engineer-boris"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "LQNf8v8EW_4",
+            "url": "https://youtu.be/LQNf8v8EW_4",
+            "title": "How AI Is Changing Code - Programmer Paul Ford | The Most Interesting Thing in AI",
+            "author": "Nicholas Thompson and Atlantic Re:think",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Paul Ford contrasts how coding fundamentally changed in the last year (embraced AI tooling across the stack) vs. writing (mostly rejected it), and maps the shift from traditional spec→backend→frontend→QA workflows to AI-native iterative building where scope collapses and cost structure flips.",
+            "card_slug": "how-ai-is-changing-code-programmer-paul-ford-the-most-intere"
+          }
+        }
+      }
+    ]
+  },
+  "2026-06-07": {
+    "runs": [
+      {
+        "run_at": "2026-06-07T18:23:51.973800+00:00",
+        "tg_message_ids": [
+          21,
+          22
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 11,
+            "posting": 10,
+            "errors": [
+              "transcript-missing:JsCCrBF7F1g",
+              "transcript-missing:yyXCQHX55N4",
+              "transcript-missing:mjmswQurIU4",
+              "transcript-missing:fQmlML9Lay4",
+              "transcript-missing:ywS7Ytkx3A0",
+              "circuit-breaker-tripped"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "88B6DimMD2g",
+            "url": "https://youtu.be/88B6DimMD2g",
+            "title": "Agentic Engineering, Clearly Explained in 60 Min by an Ex-Meta L8 Engineer | Kun Chen",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Planning → Code → Validate is a loop; the key leverage is spending more time in planning (detailed spec + measurable goal) so agents can run autonomously longer, plus parallelizing sessions so you're never idle while agents work.",
+            "card_slug": "agentic-engineering-clearly-explained-in-60-min-by-an-ex-met"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "_B4Pv9ttFgY",
+            "url": "https://youtu.be/_B4Pv9ttFgY",
+            "title": "Building Agent Interfaces: Lessons from Chrome DevTools (MCP) for Agents — Michael Hablich, Google",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Agents are a separate user class with different cognitive bottlenecks than humans — they share intent but think differently, requiring interfaces optimized for effectiveness (task completion) and efficiency (tokens/tool calls) rather than visual complexity.",
+            "card_slug": "building-agent-interfaces-lessons-from-chrome-devtools-mcp-f"
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "wcUJWP6WpGM",
+            "url": "https://youtu.be/wcUJWP6WpGM",
+            "title": "SWE-rebench: Lessons from Evaluating Coding Agents — Ibragim Badertdinov, Nebius",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Monthly freshly-collected real-world SWE tasks with time-splits prevent benchmark contamination; eval design matters more than model count because infrastructure noise, test overfitting, and task balance determine signal quality.",
+            "card_slug": "swe-rebench-lessons-from-evaluating-coding-agents-ibragim-ba"
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "_xIwFcnHqp4",
+            "url": "https://youtu.be/_xIwFcnHqp4",
+            "title": "Building Interactive UIs in VS Code with MCP Apps — Marlene Mhangami & Liam Hampton, GitHub",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "MCP apps let servers return rich interactive UI components (rendered in sandboxed iframes) that users can interact with live, turning text-only tool results into explorable dashboards — concrete pattern for how AI agents surface data without forcing chat-based Q&A loops.",
+            "card_slug": "building-interactive-uis-in-vs-code-with-mcp-apps-marlene-mh"
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "KLSuFPj2ld0",
+            "url": "https://youtu.be/KLSuFPj2ld0",
+            "title": "Building safe Payment Infrastructure for the autonomous economy — Steve Kaliski, Stripe",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Agents require deterministic payment infrastructure (API-driven credentials with spend limits, not browser automation) to safely transact; the separation of discovery (non-deterministic LLM reasoning) from checkout (deterministic execution) is the critical architectural constraint.",
+            "card_slug": "building-safe-payment-infrastructure-for-the-autonomous-econ"
+          },
+          "6": {
+            "adapter": "youtube",
+            "source_id": "pmoDeA3RBZY",
+            "url": "https://youtu.be/pmoDeA3RBZY",
+            "title": "Dark Factory: OpenClaw Ships Faster Than You Can Read the Diff — Vincent Koc, OpenClaw",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Autonomous agents at scale flip the bottleneck from execution (engineer hands) to taste/judgment (which commits to ship, which directions to explore), requiring new QA and review patterns instead of traditional PR workflows.",
+            "card_slug": "dark-factory-openclaw-ships-faster-than-you-can-read-the-dif"
+          },
+          "7": {
+            "adapter": "youtube",
+            "source_id": "QuuIywMG4s8",
+            "url": "https://youtu.be/QuuIywMG4s8",
+            "title": "Evals Are Broken, Use Them Anyway — Ara Khan, Cline",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Evals are broken as objective comparators (benchmark maxing is real; published numbers don't transfer to real-world performance), but they're essential for improving your own agents — the skill is learning to read them right, not dismissing them.",
+            "card_slug": "evals-are-broken-use-them-anyway-ara-khan-cline"
+          },
+          "8": {
+            "adapter": "youtube",
+            "source_id": "zTZ0qunQXnM",
+            "url": "https://youtu.be/zTZ0qunQXnM",
+            "title": "From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Agents can maintain self-healing data pipelines by validating outputs every 30 minutes and auto-fixing failures without human intervention — turning weeks of scraper maintenance into 5-minute agent repairs.",
+            "card_slug": "from-mcp-to-scale-pipelines-that-build-themselves-rafael-lev"
+          },
+          "9": {
+            "adapter": "youtube",
+            "source_id": "r305-aQTaU0",
+            "url": "https://youtu.be/r305-aQTaU0",
+            "title": "The model that corrects its own mistakes mid-sentence — Brendon Dillon, Google DeepMind",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Diffusion-based text generation can do self-correcting generation mid-sequence by attending to future tokens, and adaptively spend more compute on harder problems — tradeoff is lower batch throughput vs. autoregressive's cost efficiency at scale.",
+            "card_slug": "the-model-that-corrects-its-own-mistakes-mid-sentence-brendo"
+          },
+          "10": {
+            "adapter": "youtube",
+            "source_id": "mFLlVpnGpds",
+            "url": "https://youtu.be/mFLlVpnGpds",
+            "title": "Your benchmark uses headset audio. Your users don't. — Hervé Bredin, pyannoteAI",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Speaker diarization (who said what, when, how) is a foundational layer for conversation understanding that most AI products built on transcription alone are skipping — and it unlocks entirely different product surfaces (dubbing, podcast tracking, interruption detection, emotional state inference).",
+            "card_slug": "your-benchmark-uses-headset-audio-your-users-dont-hervé-bred"
+          }
+        }
+      },
+      {
+        "run_at": "2026-06-07T22:02:49.370655+00:00",
+        "tg_message_ids": [
+          23
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 6,
+            "scored_to_backlog": 4,
+            "backlog_size": 5,
+            "posting": 5,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "fQmlML9Lay4",
+            "url": "https://youtu.be/fQmlML9Lay4",
+            "title": "Conductor CEO Charlie Holtz Walks Us Through His AI Coding Setup",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Conductor's workflow pattern — voice-triggered agent kickoff → async execution in sidebar → review/iterate/merge — shows a concrete UI model for \"agent as executor with human-in-the-loop review\" rather than agent-as-oracle.",
+            "card_slug": "conductor-ceo-charlie-holtz-walks-us-through-his-ai-coding-s"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "yyXCQHX55N4",
+            "url": "https://youtu.be/yyXCQHX55N4",
+            "title": "Emergent: How Six Months of Tinkering Led To A $100M ARR Company",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "AI-native platform (8.5M users, $100M ARR in 9 months) ships by removing the coding bottleneck entirely—users build by chatting with agents, platform handles hosting/deployment/maintenance.",
+            "card_slug": "emergent-how-six-months-of-tinkering-led-to-a-100m-arr-compa"
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "JsCCrBF7F1g",
+            "url": "https://youtu.be/JsCCrBF7F1g",
+            "title": "LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Observability for agents requires OpenTelemetry traces + distributional views across agent paths/branches (not just individual execution audits), and trajectory evals need to catch regressions introduced by fixes in non-deterministic systems.",
+            "card_slug": "llm-observability-evaluation-experimentation-platform-dat-ng"
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "iNkFlCiij0U",
+            "url": "https://youtu.be/iNkFlCiij0U",
+            "title": "The Art & Science of Benchmarking Agents — Vincent Chen, Snorkel AI",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Open benchmarks shape agent capability progress and define the field's goalpost; closing the gap between agent capabilities and measurement infrastructure is currently the constraint, not raw model performance.",
+            "card_slug": "the-art-science-of-benchmarking-agents-vincent-chen-snorkel-"
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "RJjl1TwyfWM",
+            "url": "https://youtu.be/RJjl1TwyfWM",
+            "title": "Tony Fadell: How to build real taste (and why AI makes it matter more)",
+            "author": "Lenny's Podcast",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Tony Fadell argues that \"taste\" — the ability to ship intentional, well-thought-through products rather than prompt-and-ship — becomes the differentiator in an AI-native world; he frames it as a hardware-software integration problem (the iPhone keyboard case study) applied to decision-making under speed.",
+            "card_slug": "tony-fadell-how-to-build-real-taste-and-why-ai-makes-it-matt"
+          }
+        }
+      }
+    ]
+  },
+  "2026-06-11": {
+    "runs": [
+      {
+        "run_at": "2026-06-11T15:57:19.693783+00:00",
+        "tg_message_ids": [
+          32
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 3,
+            "scored_to_backlog": 2,
+            "backlog_size": 2,
+            "posting": 2,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "so9l_MwS2yg",
+            "url": "https://youtu.be/so9l_MwS2yg",
+            "title": "The Hard Constraint: Building Around Human Attention in an Agent-First World — Zack Proser, WorkOS",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Human attention is now the hard constraint in agent-first development—agents can scale infinitely via APIs, but developers burn out by 11am because verification, judgment, and knowing-something-is-actually-solved still require human cognition under load.",
+            "card_slug": "the-hard-constraint-building-around-human-attention-in-an-ag"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "49L8lVe_PVo",
+            "url": "https://youtu.be/49L8lVe_PVo",
+            "title": "How Meesho Became India’s Biggest Shopping App",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Meesho pivoted from a social commerce marketplace (version 1) to a direct-to-consumer platform (version 5) while keeping the same core mission—\"democratize internet commerce for a billion consumers\"—and achieved 250M monthly users buying 2.5B orders/year by obsessively solving for mass-market India, not metro India.",
+            "card_slug": "how-meesho-became-indias-biggest-shopping-app"
+          }
+        }
+      }
+    ]
+  }
+}

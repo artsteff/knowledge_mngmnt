@@ -1,0 +1,649 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-07T02:00:13.129827+00:00",
+      "tg_message_ids": [
+        58,
+        59
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 86,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "ZyGMqdIpPoE",
+          "url": "https://youtu.be/ZyGMqdIpPoE",
+          "title": "Agent Spending Without Controls — Rodrigo Coelho & Pranav Maheshwari, Edge & Node",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "cRZNwgvcWUg",
+          "url": "https://youtu.be/cRZNwgvcWUg",
+          "title": "Chelsea Finn: This is the State of the Art in Robotics",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "4YWO4sSRrTE",
+          "url": "https://youtu.be/4YWO4sSRrTE",
+          "title": "Circleback CEO Ali Haghani: Why Your Company Should Be Recording More Meetings",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "EgrI2rUmM48",
+          "url": "https://youtu.be/EgrI2rUmM48",
+          "title": "How this OpenAI engineer uses Codex + ChatGPT Work to automate everything",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "KCGKb3huDsY",
+          "url": "https://youtu.be/KCGKb3huDsY",
+          "title": "How this “non-coder” used Cursor to add AI to retro hardware",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "dfre9hN0HCs",
+          "url": "https://youtu.be/dfre9hN0HCs",
+          "title": "I hate Opus 5. It’s the best model, anyway.",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "YEvLKzsEwMw",
+          "url": "https://youtu.be/YEvLKzsEwMw",
+          "title": "Susan Kare: Designing Icons & Graphics For the Original Mac",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "QrMcNe2jjt8",
+          "url": "https://youtu.be/QrMcNe2jjt8",
+          "title": "The End of the Static Screen: Architecting Intent-Driven UX — Gus Iwanaga, commercetools",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "yQ_EWmtfWvQ",
+          "url": "https://youtu.be/yQ_EWmtfWvQ",
+          "title": "The rise of taste, human authenticity and judgment in an AI world | Adam Mosseri (Head of IG)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "h6mi88VrPtQ",
+          "url": "https://youtu.be/h6mi88VrPtQ",
+          "title": "x402 isn’t good (yet) — Jan Curn, Apify",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
+    },
+    {
+      "run_at": "2026-09-07T06:00:17.562181+00:00",
+      "tg_message_ids": [
+        60,
+        61
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 76,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "lk63Sl-LRKE",
+          "url": "https://youtu.be/lk63Sl-LRKE",
+          "title": "I let Codex use my computer. Here’s what it can actually do.",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "dAQsmhAiews",
+          "url": "https://youtu.be/dAQsmhAiews",
+          "title": "Local AI models explained: How to run a fleet of Mac Studios and GPUs at home",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "Xc4klGbq8v8",
+          "url": "https://youtu.be/Xc4klGbq8v8",
+          "title": "Max Hodak: Average Is Not Good Enough",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "AhQpRalYlyg",
+          "url": "https://youtu.be/AhQpRalYlyg",
+          "title": "Multimodal Collaborative Agents for Next-Gen Commerce — Nidhi Kaushik Vyas, Google DeepMind",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "whcfSGN6CAU",
+          "url": "https://youtu.be/whcfSGN6CAU",
+          "title": "Peter Steinberger: \"Fun Is Velocity\"",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "1_jlukb7gm4",
+          "url": "https://youtu.be/1_jlukb7gm4",
+          "title": "The AI content machine that turns ideas into posts that don't sound like slop | Alex Lieberman",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "qTZirYu9pr0",
+          "url": "https://youtu.be/qTZirYu9pr0",
+          "title": "When AI Agents Pay and Sellers Monetize: Building x402 Apps on AWS — Anil Nadiminti, AWS",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "myDCd0hNqQU",
+          "url": "https://youtu.be/myDCd0hNqQU",
+          "title": "Why Robotics Still Isn't Solved - But Could Be Soon | YC Paper Club",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "xKzU_3riL6s",
+          "url": "https://youtu.be/xKzU_3riL6s",
+          "title": "Why Your AI Agent Needs a Wallet: USDC and Nanopayments — Harshal Bhangale, Circle",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "vGn6N4-bxBY",
+          "url": "https://youtu.be/vGn6N4-bxBY",
+          "title": "Your Agent Just Authorized What?! — Jay Mok & Ben Coumes, Paypal",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
+    },
+    {
+      "run_at": "2026-09-07T10:00:17.225501+00:00",
+      "tg_message_ids": [
+        62,
+        63
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 66,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "eRrc1pUY5oU",
+          "url": "https://youtu.be/eRrc1pUY5oU",
+          "title": "Garry Tan: Own Your Intelligence",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "gAWbvEwUoiI",
+          "url": "https://youtu.be/gAWbvEwUoiI",
+          "title": "GPT-5.6 Sol: Better AND cheaper than Fable",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "KtmaWUVdnx4",
+          "url": "https://youtu.be/KtmaWUVdnx4",
+          "title": "How I run autonomous coding agents from my phone with OpenAI Symphony + Linear",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "P06RgnUKX_I",
+          "url": "https://youtu.be/P06RgnUKX_I",
+          "title": "How To Design In The Agent Era",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "KLDdXOw6jIc",
+          "url": "https://youtu.be/KLDdXOw6jIc",
+          "title": "SOTA Generative Media Panel — Dumitru Erhan, Shane Gu & Nicole Brichtova, Google DeepMind",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "A-zeQiYkmXk",
+          "url": "https://youtu.be/A-zeQiYkmXk",
+          "title": "Teaching agents to pay — Anna Spysz, Stripe",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "S6aSoQ6_u5A",
+          "url": "https://youtu.be/S6aSoQ6_u5A",
+          "title": "Tell the Robot What You Want — Sandhya Subramani, AWS",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "A9JDkiYEhfY",
+          "url": "https://youtu.be/A9JDkiYEhfY",
+          "title": "The Case For Data Centers In Space",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "Gp4zrV3-6N8",
+          "url": "https://youtu.be/Gp4zrV3-6N8",
+          "title": "Waymo Co-CEO Dmitri Dolgov: The Demo Is Only 1% Of The Work",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "ofS-4RRw9zw",
+          "url": "https://youtu.be/ofS-4RRw9zw",
+          "title": "What is an AI harness? I build one live in less than 30 minutes",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
+    },
+    {
+      "run_at": "2026-09-07T14:00:25.509219+00:00",
+      "tg_message_ids": [
+        64,
+        65
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 57,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "jebp4V0vh30",
+          "url": "https://youtu.be/jebp4V0vh30",
+          "title": "Agentic Sites: Building Hyper Personalized Websites — Carlos Sanchez, Adobe",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "32nrHU6zHU8",
+          "url": "https://youtu.be/32nrHU6zHU8",
+          "title": "Agents Are Where Microservices Were in 2015 — Roberto Milev & Uday Kanagala, Navan",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "hD9-V56FNRI",
+          "url": "https://youtu.be/hD9-V56FNRI",
+          "title": "AI Agents Are Just Distributed Systems Now — Salman Munaf, TikTok",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "sJ4VJWycX9M",
+          "url": "https://youtu.be/sJ4VJWycX9M",
+          "title": "Alexandr Wang: “This is a Once-in-a-Civilization Opportunity”",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "byAj35QlGbs",
+          "url": "https://youtu.be/byAj35QlGbs",
+          "title": "Blake Scholl: How 50 People Built a Supersonic Jet",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "CxXgV54KzpQ",
+          "url": "https://youtu.be/CxXgV54KzpQ",
+          "title": "Jeff Dean: The 1% Rule for Building in AI",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "n8dz2FX0_uY",
+          "url": "https://youtu.be/n8dz2FX0_uY",
+          "title": "Lessons From Training Composer At Cursor And Building Meta/Nvidia Compute Clusters | YC Paper Club",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "5d6y3poKwK4",
+          "url": "https://youtu.be/5d6y3poKwK4",
+          "title": "Patrick Collison: Is AI Breaking the Lean Startup Playbook?",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "1KOdiGgMtpY",
+          "url": "https://youtu.be/1KOdiGgMtpY",
+          "title": "The Signal Layer: What to Build When Anything Can Be Built — Lena Hall, Akamai",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "dQ-_i1tZiws",
+          "url": "https://youtu.be/dQ-_i1tZiws",
+          "title": "Tribal Dungeons of Global Shipping: AI Agents at Global Scale — Dmitry Buykin, Maersk",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
+    },
+    {
+      "run_at": "2026-09-07T18:00:57.673630+00:00",
+      "tg_message_ids": [
+        66,
+        67
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 48,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "M05vON8i0aI",
+          "url": "https://youtu.be/M05vON8i0aI",
+          "title": "AI-Native Organisations Run on Skills: How to Structure and Scale Them — Imad Touil, QuantumBlack",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "qyPCVqFUyDo",
+          "url": "https://youtu.be/qyPCVqFUyDo",
+          "title": "Boris Cherny: We Cut 80% of Claude Code’s Prompt",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "dSg0pu8d6qg",
+          "url": "https://youtu.be/dSg0pu8d6qg",
+          "title": "From Tokenmaxxing to Trusted Throughput — Mingsheng Hong, Ironclad",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "I4B37S1dyQQ",
+          "url": "https://youtu.be/I4B37S1dyQQ",
+          "title": "Jensen Huang: The Mindset That Built NVIDIA",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "ZIaOBAjvc38",
+          "url": "https://youtu.be/ZIaOBAjvc38",
+          "title": "Sam Altman: \"Never a Better Time to Do a Startup\"",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "sM1iYgz93HI",
+          "url": "https://youtu.be/sM1iYgz93HI",
+          "title": "The Half Life of Agent Infrastructure — Ben Kus, Box",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "99sPd15j3Zc",
+          "url": "https://youtu.be/99sPd15j3Zc",
+          "title": "What Actually Makes A Startup Durable",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "FVsgX0AdDTo",
+          "url": "https://youtu.be/FVsgX0AdDTo",
+          "title": "What Big Tech Missed And How Startups Can Still Win",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "7A65O-0lvKE",
+          "url": "https://youtu.be/7A65O-0lvKE",
+          "title": "Which AI startups actually land enterprise contracts? — Brian Lewis, Millennium",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "lRa9sPaMyy4",
+          "url": "https://youtu.be/lRa9sPaMyy4",
+          "title": "Your Code Has Bugs. Lean4 Has Proofs: Formal Verification for Engineers — Varun Pant, AWS",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
