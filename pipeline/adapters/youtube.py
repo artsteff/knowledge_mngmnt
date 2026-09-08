@@ -111,7 +111,7 @@ class YouTubeAdapter(SourceAdapter):
             return []
 
     @staticmethod
-    def _is_short(v: dict) -> bool:
+    def _is_short(v: dict, min_seconds: int = SHORTS_MAX_SECONDS) -> bool:
         """Shorts are not worth transcribing, and they cannot be detected by
         duration alone.
 
@@ -121,6 +121,12 @@ class YouTubeAdapter(SourceAdapter):
         Short sailed through into transcription. Shorts rarely have captions, so
         they failed, and five of them were enough to trip the circuit breaker on
         every single run (2026-09-06). The URL is the reliable signal.
+
+        `min_seconds` is per-source (`min_duration_s` in the sources file)
+        because the threshold is not universal: YouTube Creators publishes
+        official one- and two-minute Partner Program announcements that the
+        default 180 s would throw away as Shorts. A genuine Short is still
+        caught by its URL whatever the threshold.
         """
         url = v.get("url") or v.get("webpage_url") or ""
         if "/shorts/" in url:
@@ -128,7 +134,7 @@ class YouTubeAdapter(SourceAdapter):
         if (v.get("playlist_title") or "").endswith("- Shorts"):
             return True
         duration = v.get("duration")
-        return duration is not None and duration <= SHORTS_MAX_SECONDS
+        return duration is not None and duration <= min_seconds
 
     def _list_candidates(self, state: dict, seen: set) -> list[dict]:
         """Phase 1 - list every source before transcribing anything.
@@ -148,7 +154,7 @@ class YouTubeAdapter(SourceAdapter):
                 vid = v.get("id")
                 if not vid or vid in seen:
                     continue
-                if self._is_short(v):
+                if self._is_short(v, source.get("min_duration_s", SHORTS_MAX_SECONDS)):
                     seen.add(vid)
                     continue
                 duration = v.get("duration") or 0

@@ -44,6 +44,84 @@ def build_adapter(name: str) -> SourceAdapter:
     raise ValueError(f"unknown adapter: {name}")
 
 
+DEFAULT_MAX_PER_DIGEST = 3
+
+
+def _source_kinds(adapter: SourceAdapter) -> dict[str, str]:
+    """Return {source_name: "channel" | "playlist"}.
+
+    Derived from the URL rather than configured, so it cannot drift out of sync
+    when a source is added. An explicit "kind" in the sources file wins.
+    """
+    sources_file = getattr(adapter, "sources_file", None)
+    if not sources_file or not sources_file.exists():
+        return {}
+    try:
+        data = json.loads(sources_file.read_text())
+    except json.JSONDecodeError:
+        return {}
+    kinds = {}
+    for src in data.get("sources", []):
+        url = src.get("url", "")
+        kinds[src["name"]] = src.get(
+            "kind", "playlist" if "playlist" in url or "list=" in url else "channel"
+        )
+    return kinds
+
+
+def _pick_for_digest(
+    backlog: list[dict], limit: int,
+    caps: dict[str, int], kinds: dict[str, str],
+) -> list[dict]:
+    """Choose what goes in this digest: channels first, round-robin, capped.
+
+    Three rules, in order.
+
+    Channels before playlists. Playlists here are "AI news" and "Watch Later" -
+    things Artur put in a queue himself, which can wait; the channels are the
+    subscriptions he wants swept.
+
+    Round-robin across sources, so every source places its first item before any
+    source places its second. Straight (score, added_at) ordering produced a
+    digest of eight on 2026-09-07 in which two sources took all eight slots,
+    purely because they had been added to the backlog earliest - How I AI,
+    Anthropic and Peter Yang could not appear at all until those two drained.
+
+    At most `max_per_digest` from one source, default DEFAULT_MAX_PER_DIGEST.
+    """
+    by_source: dict[str, list[dict]] = {}
+    for entry in sorted(backlog, key=lambda x: (x["score"], x["added_at"])):
+        name = entry.get("source_name") or entry.get("author") or "unknown"
+        by_source.setdefault(name, []).append(entry)
+
+    # Within a kind, offer the source with the best-scoring head first.
+    def order(names: list[str]) -> list[str]:
+        return sorted(names, key=lambda n: (by_source[n][0]["score"],
+                                            by_source[n][0]["added_at"]))
+
+    channels = order([n for n in by_source if kinds.get(n, "channel") == "channel"])
+    playlists = order([n for n in by_source if kinds.get(n, "channel") == "playlist"])
+
+    picked: list[dict] = []
+    for group in (channels, playlists):
+        counts: dict[str, int] = {}
+        while group and len(picked) < limit:
+            progressed = False
+            for name in list(group):
+                if len(picked) >= limit:
+                    break
+                cap = caps.get(name, DEFAULT_MAX_PER_DIGEST)
+                if counts.get(name, 0) >= cap or not by_source[name]:
+                    group.remove(name)
+                    continue
+                picked.append(by_source[name].pop(0))
+                counts[name] = counts.get(name, 0) + 1
+                progressed = True
+            if not progressed:
+                break
+    return picked
+
+
 def _per_source_caps(adapter: SourceAdapter) -> dict[str, int]:
     """Return {source_name: max_per_digest} from the adapter's sources file.
 
@@ -166,18 +244,13 @@ def main() -> None:
 
         # 4. Pick top-N from backlog (lowest score first, then oldest),
         #    respecting per-source max_per_digest caps from config.
-        source_caps = _per_source_caps(adapter)
-        backlog.sort(key=lambda x: (x["score"], x["added_at"]))
-        to_post: list[dict] = []
+        to_post = _pick_for_digest(
+            backlog, args.max_items,
+            _per_source_caps(adapter), _source_kinds(adapter),
+        )
         source_counts: dict[str, int] = {}
-        for entry in backlog:
-            if len(to_post) >= args.max_items:
-                break
+        for entry in to_post:
             src = entry.get("source_name") or entry.get("author") or "unknown"
-            cap = source_caps.get(src)
-            if cap is not None and source_counts.get(src, 0) >= cap:
-                continue
-            to_post.append(entry)
             source_counts[src] = source_counts.get(src, 0) + 1
         log.info(
             "Backlog now %d; posting %d (per-source counts: %s)",

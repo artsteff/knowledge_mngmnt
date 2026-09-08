@@ -3,37 +3,44 @@
     {
       "name": "AI news",
       "url": "https://www.youtube.com/playlist?list=PLq6SeflPQSia6EOz0kXU_ItQv6UQQsNis",
-      "private": false
+      "private": false,
+      "max_per_digest": 3
     },
     {
       "name": "Watch Later",
       "url": "https://www.youtube.com/playlist?list=WL",
-      "private": true
+      "private": true,
+      "max_per_digest": 3
     },
     {
       "name": "Peter Yang",
       "url": "https://www.youtube.com/@PeterYangYT",
-      "private": false
+      "private": false,
+      "max_per_digest": 3
     },
     {
       "name": "How I AI",
       "url": "https://www.youtube.com/@howiaipodcast",
-      "private": false
+      "private": false,
+      "max_per_digest": 3
     },
     {
       "name": "AI Engineer",
       "url": "https://www.youtube.com/@aiDotEngineer",
-      "private": false
+      "private": false,
+      "max_per_digest": 3
     },
     {
       "name": "Y Combinator",
       "url": "https://www.youtube.com/@ycombinator",
-      "private": false
+      "private": false,
+      "max_per_digest": 3
     },
     {
       "name": "Anthropic",
       "url": "https://www.youtube.com/@anthropic-ai",
-      "private": false
+      "private": false,
+      "max_per_digest": 2
     },
     {
       "name": "Lenny's Podcast",
@@ -48,6 +55,22 @@
       "private": false,
       "fetch_limit": 10,
       "max_per_digest": 2
+    },
+    {
+      "name": "YouTube Creators",
+      "url": "https://www.youtube.com/@youtubecreators/videos",
+      "private": false,
+      "fetch_limit": 10,
+      "max_per_digest": 2,
+      "min_duration_s": 45
+    },
+    {
+      "name": "Creator Insider",
+      "url": "https://www.youtube.com/@creatorinsider",
+      "private": false,
+      "fetch_limit": 10,
+      "max_per_digest": 2,
+      "min_duration_s": 120
     }
   ]
 }
