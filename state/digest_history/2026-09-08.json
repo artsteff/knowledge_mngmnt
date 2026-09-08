@@ -310,6 +310,102 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-08T19:26:19.934083+00:00",
+      "tg_message_ids": [
+        78,
+        79
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 13,
+          "posting": 7,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "D7iVs62tkLs",
+          "url": "https://youtu.be/D7iVs62tkLs",
+          "title": "Changes to the YouTube Partner Program & New Ways to Earn",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube is changing YPP entry thresholds, Premium Lite revenue splits, and Shorts incentives effective February 2027 — official platform mechanism changes.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "35VzPlY1-kI",
+          "url": "https://youtu.be/35VzPlY1-kI",
+          "title": "YouTube for Artists Masterclass: Going Live on YouTube with Sheniece Charway",
+          "author": "YouTube Creators",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Official YouTube guidance on integrating livestreaming into artist release strategy, with control room walkthrough and case studies showing how the platform actually routes live content.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "BozYSBSLIp0",
+          "url": "https://youtu.be/BozYSBSLIp0",
+          "title": "YouTube Partner Program Changes - Explained!",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube is raising YPP entry thresholds and introducing a 10M Shorts baseline on Feb 1, 2027, with new early-stage creator incentive programs — direct from YouTube's VP of Creator Product.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "VTMhhYTl9Co",
+          "url": "https://youtu.be/VTMhhYTl9Co",
+          "title": "Collab with more Creators, Turn Playlists Into Shows, and more | Creator Roundup",
+          "author": "YouTube Creators",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Official YouTube platform announcements on creator collaboration tools, playlist-to-shows conversion, Communities updates, and monetization expansion.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "y2W4FNAuPEA",
+          "url": "https://youtu.be/y2W4FNAuPEA",
+          "title": "Deep dive on LLM Inference at Scale — Harshul Jain, Audible & Tanmay Sah, Independent AI Researcher",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "W5Irjxu1FVI",
+          "url": "https://youtu.be/W5Irjxu1FVI",
+          "title": "How Markiplier Made a Movie Hollywood Couldn’t Ignore",
+          "author": "Colin and Samir",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Markiplier financed, directed and starred in a $52M feature film, then released it on YouTube instead of keeping it in theaters—treating a Hollywood production like a YouTube video.",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "bpWG1fWeG1c",
+          "url": "https://youtu.be/bpWG1fWeG1c",
+          "title": "Mark Rober's $60 Million Dollar Experiment",
+          "author": "Colin and Samir",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Mark Rober is spending $60M on STEM content for teachers; the episode covers viral video mechanics, scaling a creator business, and YouTube vs. Netflix positioning.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
