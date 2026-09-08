@@ -41,6 +41,13 @@
       "private": false,
       "fetch_limit": 10,
       "max_per_digest": 3
+    },
+    {
+      "name": "Colin and Samir",
+      "url": "https://www.youtube.com/@ColinandSamir",
+      "private": false,
+      "fetch_limit": 10,
+      "max_per_digest": 2
     }
   ]
 }
