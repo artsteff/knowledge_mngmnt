@@ -212,6 +212,104 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-08T14:49:21.592512+00:00",
+      "tg_message_ids": [
+        76,
+        77
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 19,
+          "posting": 7,
+          "errors": [
+            "metadata-missing:y2W4FNAuPEA"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "Olq_R5oPnm8",
+          "url": "https://youtu.be/Olq_R5oPnm8",
+          "title": "New! Practice Mode, Copyright Email, Qualified Views, and Search Profiles Update",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube's new practice mode for vertical live, qualified views thresholds for Partner Program, and Search Console updates with lower access barriers.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "HI03HqWdX0k",
+          "url": "https://youtu.be/HI03HqWdX0k",
+          "title": "New! Updates to Public View Counts & Engaged Views Explained",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube is standardizing view counts across all formats (moving from exposure-based to a unified metric) and introducing \"engaged views\" as a distinct measure in Studio analytics.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "gdDctjC10SY",
+          "url": "https://youtu.be/gdDctjC10SY",
+          "title": "NEW: Updates to the YouTube Partner Program",
+          "author": "YouTube Creators",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube is changing YPP eligibility requirements, Shorts revenue distribution mechanics, and introducing Premium Lite + new ad formats — official announcement with specific policy changes.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "zmAyVXtPXT8",
+          "url": "https://youtu.be/zmAyVXtPXT8",
+          "title": "THE BRAND DEAL DESK LIVE FROM CANNES: Hide and Seek with Virgin Media O2 and The Sidemen",
+          "author": "YouTube Creators",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Behind-the-scenes breakdown of how the Sidemen-Virgin Media O2 partnership worked mechanically — from creative sprint to upload to metrics (retention, attentive watch time, brand lift).",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "cVT7MbRBiLY",
+          "url": "https://youtu.be/cVT7MbRBiLY",
+          "title": "We need to talk about the Hank Green situation",
+          "author": "Colin and Samir",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Colin and Samir break down creator backlash to AI use (Hank Green case), map generational trust gaps, and work through specific AI scenarios (thumbnails, scripting, outlines) to define where creators draw the line.",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "maSdsTLaMuU",
+          "url": "https://youtu.be/maSdsTLaMuU",
+          "title": "How we built Grok Bot in a month | Roman Ugarte (SpaceXAI)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "FjIZWCX9Qeo",
+          "url": "https://youtu.be/FjIZWCX9Qeo",
+          "title": "Overanalyzing The Most Shared TikTok Ever",
+          "author": "Colin and Samir",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Analysis of view-counting mechanics across platforms and how public view counts affect creator incentives and content quality.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
