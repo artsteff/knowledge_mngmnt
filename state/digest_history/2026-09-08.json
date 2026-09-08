@@ -1,0 +1,133 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-08T02:00:42.618093+00:00",
+      "tg_message_ids": [
+        73,
+        74
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 10,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "L4I7WgiEquo",
+          "url": "https://youtu.be/L4I7WgiEquo",
+          "title": "AI in GTM at Notion — Flora Liu",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "DrTdD-ttjCY",
+          "url": "https://youtu.be/DrTdD-ttjCY",
+          "title": "Building GTM AI Agents: Lessons from Deploying to 6,000 Users — Sait Izmit, Snowflake",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "UhCY231d0FQ",
+          "url": "https://youtu.be/UhCY231d0FQ",
+          "title": "GTM Engineering: The Technical Bits — Everett Berry, Clay",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "V_5bn4q-vAI",
+          "url": "https://youtu.be/V_5bn4q-vAI",
+          "title": "How We Got LLMs to Recommend Our Open Source Library — Christopher Burns, Inth",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "6pbQgnJ9Voc",
+          "url": "https://youtu.be/6pbQgnJ9Voc",
+          "title": "Knowledge Systems: The New GTM Stack — Jeffrey Wang, Exa",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "wdTRsfw0KG0",
+          "url": "https://youtu.be/wdTRsfw0KG0",
+          "title": "Reverse-Engineering the AI Buyer — Aliisa Rosenthal, Acrew Capital",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "n9xKblqyQ28",
+          "url": "https://youtu.be/n9xKblqyQ28",
+          "title": "Self-Improving Harnesses, Local Personal AI And YC's Agent For Work | YC Paper Club",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "AbZODZ_4VaM",
+          "url": "https://youtu.be/AbZODZ_4VaM",
+          "title": "Stripe built a company brain: Meet Kai",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "VjEP0xqTUI0",
+          "url": "https://youtu.be/VjEP0xqTUI0",
+          "title": "The Building Blocks of GTM Orchestration — Arman Vaziri, Ramp",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "XsvUhpnHepE",
+          "url": "https://youtu.be/XsvUhpnHepE",
+          "title": "The Missing Layer in Agentic AI — Giedrius Šteimantas, Oxylabs",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
