@@ -1118,38 +1118,6 @@
   "failed": {},
   "backlog": [
     {
-      "source_id": "evwBqYv_G4E",
-      "title": "10 harsh YouTube lessons we wish we knew at 21",
-      "author": "Colin and Samir",
-      "url": "https://youtu.be/evwBqYv_G4E",
-      "source_type": "video",
-      "date": "2026-04-18",
-      "raw_text": "Get clarity\nhttps://www.colinandsamir.com/vision\n\nCome to Press Publish LA\nhttps://www.presspublish.la",
-      "score": 2,
-      "hook": "Lessons from creators who built YouTube channels, positioning this as retrospective wisdom rather than current platform mechanics.",
-      "adapter": "youtube",
-      "source_name": "Colin and Samir",
-      "duration_s": 957,
-      "private_source": false,
-      "added_at": "2026-09-08T06:22:07.538839+00:00"
-    },
-    {
-      "source_id": "ht2DCc5OJEg",
-      "title": "How to Create a Timeline Effect in Effect Maker with @cloves_ar",
-      "author": "YouTube Creators",
-      "url": "https://youtu.be/ht2DCc5OJEg",
-      "source_type": "video",
-      "date": "2026-06-30",
-      "raw_text": "Get started with Effect Maker at https://effects.youtube.com\n\nSubscribe and hit the bell to see new videos: https://goo.gl/So4XIG\n\n► Check out our Help Center: https://goo.gl/fBzr7\n► Check out the Creator Insider channel: https://www.youtube.com/@creatorinsider",
-      "score": 2,
-      "hook": "Tutorial on creating timeline effects in YouTube's Effect Maker tool.",
-      "adapter": "youtube",
-      "source_name": "YouTube Creators",
-      "duration_s": 520,
-      "private_source": false,
-      "added_at": "2026-09-08T06:22:09.288968+00:00"
-    },
-    {
       "source_id": "vWmBhy_Kbv4",
       "title": "Embracing Influence, Variety, and Virality on YouTube w/ Doctor Mike",
       "author": "Creator Insider",
@@ -1166,22 +1134,6 @@
       "added_at": "2026-09-08T06:22:11.656441+00:00"
     },
     {
-      "source_id": "DhpJmXEqtSs",
-      "title": "Collabs on YouTube - How to Grow Views & Subs",
-      "author": "Creator Insider",
-      "url": "https://youtu.be/DhpJmXEqtSs",
-      "source_type": "video",
-      "date": "2026-07-29",
-      "raw_text": "If you’ve already used collabs - YouTube's feature that lets creators jump into each other's channels - you know that the video shows up on the host's channel but puts collaborators' branding right on the player, shows up in everyone’s subs feeds, makes everyone’s audience available for potential recommendations, and - optionally - lets everyone see the analytics\n\nBut creators still have questions about collabs, and here as some answers straight from YouTube!\n\n0:00 - What are collabs on YouTube?\n0:21 - How do collabs on YouTube work, actually?\n0:36.- Does channel size matter for collabs on YouTube?\n1:33 - Do collabs hurt regular video performance?\n1:47 - How do you get the most out of collabs on YouTube?\n2:59 - What's next for collabs on YouTube (spoilers!)?",
-      "score": 1,
-      "hook": "YouTube's official answers on how collabs affect video performance, channel size requirements, and upcoming changes to the feature.",
-      "adapter": "youtube",
-      "source_name": "Creator Insider",
-      "duration_s": 197,
-      "private_source": false,
-      "added_at": "2026-09-08T06:22:16.458107+00:00"
-    },
-    {
       "source_id": "HH1O6GOLI2I",
       "title": "Tom does Studio Beta Show and Tell",
       "author": "Creator Insider",
@@ -1196,22 +1148,6 @@
       "duration_s": 2636,
       "private_source": false,
       "added_at": "2026-09-08T06:22:18.864136+00:00"
-    },
-    {
-      "source_id": "XS38TAwB95w",
-      "title": "Live Stream - PAX East - How to Earn Money and Grow Your Communities on YouTube",
-      "author": "Creator Insider",
-      "url": "https://youtu.be/XS38TAwB95w",
-      "source_type": "video",
-      "date": "2019-03-29",
-      "raw_text": "Come and learn from your favorite YouTube Gaming Creators NickEh30, Aphmau, AbdallahSmash026, and CWA Mobile Gaming on how they’ve been using Super Chat and Memberships to earn revenue and tools like Premieres, Community and Stories to strengthen their community and audiences on YouTube.\n\nAphmau: https://www.youtube.com/channel/UCzYfz8uibvnB7Yc1LjePi4g\n\nNickeh30:\nhttps://www.youtube.com/channel/UCt9nYeSz90lnOnaVFjxFJzw\n\nAbdallahSmash026:\nhttps://www.youtube.com/channel/UCsDtTzkvGxxw95C4IOfZ7dw\n\nCWA Mobile Gaming:\nhttps://www.youtube.com/channel/UCTqoYXL5p_aOdsgDWzxRBzQ\n-------------------------------------------\n\n👕👚SWAG 🎽☕\n\nCheck out our merch here: https://teespring.com/stores/creatorinsider\n100% of the proceeds automatically support Red Cross\n\n-------------------------------------------\n\nPlease help transcribe and/or translate this video so more Creators \ncan benefit here: http://www.youtube.com/timedtext_cs_panel?c=UCGg-UqjRgzhYDPJMr-9HXCg&tab=2 \n\nThanks!\n\n-------------------------------------------\n\nCreator Insider is an informal YouTube channel to share information from the YouTube Creator technical team with the wider Creator community. We will feature different people talking about the products they work on and changes we are making so you have more context. Please note this is not an official YouTube channel and is an experiment.",
-      "score": 1,
-      "hook": "Four major gaming creators explain how they use Super Chat, Memberships, Premieres, Community, and Stories to monetize and build audience — direct from creators operating at scale.",
-      "adapter": "youtube",
-      "source_name": "Creator Insider",
-      "duration_s": 3566,
-      "private_source": false,
-      "added_at": "2026-09-08T06:22:21.064118+00:00"
     }
   ]
 }

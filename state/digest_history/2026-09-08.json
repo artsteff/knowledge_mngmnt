@@ -406,6 +406,68 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-08T22:00:14.058002+00:00",
+      "tg_message_ids": [
+        80
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 6,
+          "posting": 4,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "DhpJmXEqtSs",
+          "url": "https://youtu.be/DhpJmXEqtSs",
+          "title": "Collabs on YouTube - How to Grow Views & Subs",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube's official answers on how collabs affect video performance, channel size requirements, and upcoming changes to the feature.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "XS38TAwB95w",
+          "url": "https://youtu.be/XS38TAwB95w",
+          "title": "Live Stream - PAX East - How to Earn Money and Grow Your Communities on YouTube",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Four major gaming creators explain how they use Super Chat, Memberships, Premieres, Community, and Stories to monetize and build audience — direct from creators operating at scale.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "evwBqYv_G4E",
+          "url": "https://youtu.be/evwBqYv_G4E",
+          "title": "10 harsh YouTube lessons we wish we knew at 21",
+          "author": "Colin and Samir",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Lessons from creators who built YouTube channels, positioning this as retrospective wisdom rather than current platform mechanics.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "ht2DCc5OJEg",
+          "url": "https://youtu.be/ht2DCc5OJEg",
+          "title": "How to Create a Timeline Effect in Effect Maker with @cloves_ar",
+          "author": "YouTube Creators",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Tutorial on creating timeline effects in YouTube's Effect Maker tool.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
