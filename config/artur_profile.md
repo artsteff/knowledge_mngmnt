@@ -34,6 +34,13 @@ Content earns attention if it sharpens one of these threads:
 - **AI PM career:** principal-level scope, interview strategy, leveling at AI companies, IC-vs-leader choice.
 - **Personal brand for senior ICs at AI companies:** what works, what doesn't, examples.
 - **Knowledge management:** second brain, Zettelkasten, AI-augmented workflows.
+- **Creator economy and YouTube platform mechanics:** how the algorithm, view
+  counting, monetisation and Partner Program rules actually work; what changes
+  for creators and why. This is product research, not entertainment - he is
+  building a YouTube tool (`project-content-strategist` / `cs-app`, surfacing
+  content ideas from comments) and needs to understand the platform its users
+  live on. Official platform announcements count even when they are two minutes
+  long. Creator business analysis counts when it explains a mechanism.
 - **Founder + product dynamics at AI-native startups:** Manychat-scale lessons, not Series A theater.
 
 ## What he wants to skip
@@ -42,7 +49,9 @@ Content earns attention if it sharpens one of these threads:
 - Hype cycles, vibe pieces, "AI will change everything" without specifics.
 - Intro-level material (12 years PM experience — he knows the basics).
 - Off-domain (hardware, biotech, finance without tech relevance).
-- Reaction videos, vlogs, casual commentary.
+- Reaction videos, vlogs, casual commentary - *except* creator-economy analysis
+  that explains a platform mechanism or a monetisation change. The format looks
+  like commentary; judge the substance.
 - Re-explanations of last month's model releases.
 
 ## Life principles (deep)
