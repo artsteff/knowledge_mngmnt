@@ -128,6 +128,90 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-08T10:28:40.008684+00:00",
+      "tg_message_ids": [
+        75
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 24,
+          "posting": 6,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "v-U35n9L3h4",
+          "url": "https://youtu.be/v-U35n9L3h4",
+          "title": "Emergency Pod: YouTube Views Just Changed",
+          "author": "Colin and Samir",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube changed how views are counted, updated Partner Program monetization rules, and is taking action against Netflix — three platform mechanism changes affecting creator economics.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "8DgguXIU4L8",
+          "url": "https://youtu.be/8DgguXIU4L8",
+          "title": "New! Amazon Tags in YouTube Shopping, Views (Co-Viewed), Branded Content Updates",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube Shopping now supports Amazon Tags, a new co-viewed stat for TV audience measurement, and policy/auto-labeling updates for branded content deals.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "bo9IbQB6LS8",
+          "url": "https://youtu.be/bo9IbQB6LS8",
+          "title": "Tag Amazon Products in the YouTube Shopping Affiliate Program",
+          "author": "YouTube Creators",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Amazon products are now taggable in YouTube videos, Shorts, and livestreams through the Shopping Affiliate Program — a platform monetization mechanic change that affects creator economics.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "WyiGFFTnIS4",
+          "url": "https://youtu.be/WyiGFFTnIS4",
+          "title": "The New Rules of YouTube (2027)",
+          "author": "Colin and Samir",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube's device shift to TV, homepage layout changes, and the move from formats to shows — with specific case studies and metrics rethink for 2026–27.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "rHLjxrbXmmY",
+          "url": "https://youtu.be/rHLjxrbXmmY",
+          "title": "YouTube Algorithm 2026 - What Creators Need to Know",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube's growth director explains how the recommendation system actually ranks videos (individual viewer signals, not aggregate metrics) and debunks myths around subscribers and off-topic content.",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "2jFtOASCEfY",
+          "url": "https://youtu.be/2jFtOASCEfY",
+          "title": "YPP Updates, View Count Changes, and more | Creator Roundup",
+          "author": "YouTube Creators",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Official YouTube announcements on view count standards changes, YPP eligibility updates, and new creator tools (Amazon tagging, custom Shorts thumbnails).",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
