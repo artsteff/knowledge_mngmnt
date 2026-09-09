@@ -154,6 +154,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-09T22:00:16.318406+00:00",
+      "tg_message_ids": [
+        84
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "KcVkq5L-0f0",
+          "url": "https://youtu.be/KcVkq5L-0f0",
+          "title": "Your agents lack context: Here's how to fix \"You're absolutely right!\" — Brandon Waselnuk, Unblocked",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
