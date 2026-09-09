@@ -39,6 +39,59 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-09T14:00:39.929653+00:00",
+      "tg_message_ids": [
+        82
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": [
+            "metadata-missing:XzJD1bvXKjs"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "9wZpvF3QleU",
+          "url": "https://youtu.be/9wZpvF3QleU",
+          "title": "500 Skills, Zero Fine-Tuning: LinkedIn's Playbook for AI Agents — Ajay Prakash, LinkedIn 2026-09-09 16:00",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "9R--1tg45Jg",
+          "url": "https://youtu.be/9R--1tg45Jg",
+          "title": "Build-Time vs. Run-Time: Why Dev Tools Fail in Production — Averi Kitsch & Prerna Kakkar, Google",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "xo68uCibfm8",
+          "url": "https://youtu.be/xo68uCibfm8",
+          "title": "It’s Tokens All The Way Down: How RLMs are Different — Kevin Madura, AlixPartners",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
