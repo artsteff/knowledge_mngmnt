@@ -306,6 +306,7 @@
     "G9o8eoHzpxc",
     "GAb0aSUst54",
     "GCWUS-jhIWE",
+    "GFWRBvSe8c8",
     "GIRpQEfYf3U",
     "GJ5jTgcbRHA",
     "GTc2x5OSLnU",
@@ -1116,38 +1117,5 @@
     "zw9yxsMZCZc"
   ],
   "failed": {},
-  "backlog": [
-    {
-      "source_id": "vWmBhy_Kbv4",
-      "title": "Embracing Influence, Variety, and Virality on YouTube w/ Doctor Mike",
-      "author": "Creator Insider",
-      "url": "https://youtu.be/vWmBhy_Kbv4",
-      "source_type": "video",
-      "date": "2026-07-30",
-      "raw_text": "YouTube's most-subscribed medical creator, @DoctorMike sits down with Creator Insider @ReneRitchie to discuss the responsibilities of content creation as a career professional: How to balance entertainment with education, avoiding early virality traps, expanding into diverse content formats to reach broader audiences, combating online misinformation, and staying healthy while managing two demanding careers.\n\n0:00 – Introduction: Welcome Dr. Mike\n0:32 – With Great Audience Comes Great Responsibility\n2:21 – Balancing Virality vs. Important Medical Topics\n3:29 – The \"Spinach Muffin\" Strategy for Educational Content\n4:01 – Advice for Creators: Avoid Going Viral Too Soon\n4:51 – Redefining What It Means to Be an \"Influencer\"\n6:03 – Building Familiarity and Trust with Viewers\n6:56 – Why Dr. Mike Got Started on YouTube\n8:41 – The Challenge of Balancing Medicine & Content Creation\n9:16 – How to Translate Complex Science into Simple Ideas\n10:25 – Overcoming the Learning Curve of Being On Camera\n11:18 – Expanding Content Variety (Memes, Reactions, Interviews)\n13:06 – How Variety Content Shapes Watch History and Reach\n14:28 – The Professionals Media Academy & Building Personal Connection\n16:21 – Finding Purpose Beyond Views and Metrics\n17:45 – How YouTube Strengthens Professional Medical Practice\n18:42 – Using YouTube as an Advocacy Tool for Public Health\n19:39 – Common Mistakes Professionals Make on Social Media\n22:04 – Navigating Health Misinformation and Open Discourse\n24:05 – Preventing Burnout and Prioritizing Sleep\n25:34 – Documentaries, Drama Series, and Multiformat Content",
-      "score": 2,
-      "hook": "Doctor Mike discusses balancing virality traps, content variety, and building trust as a medical creator at scale on YouTube.",
-      "adapter": "youtube",
-      "source_name": "Creator Insider",
-      "duration_s": 1657,
-      "private_source": false,
-      "added_at": "2026-09-08T06:22:11.656441+00:00"
-    },
-    {
-      "source_id": "HH1O6GOLI2I",
-      "title": "Tom does Studio Beta Show and Tell",
-      "author": "Creator Insider",
-      "url": "https://youtu.be/HH1O6GOLI2I",
-      "source_type": "video",
-      "date": "2019-10-23",
-      "raw_text": "Wanted to do a quick livestream about Studio Beta including answers to common questions and from the live chat.",
-      "score": 2,
-      "hook": "YouTube Creator Insider discusses Studio Beta features and answers creator questions about the platform's new tools.",
-      "adapter": "youtube",
-      "source_name": "Creator Insider",
-      "duration_s": 2636,
-      "private_source": false,
-      "added_at": "2026-09-08T06:22:18.864136+00:00"
-    }
-  ]
+  "backlog": []
 }

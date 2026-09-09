@@ -1,0 +1,44 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-09T02:00:17.156440+00:00",
+      "tg_message_ids": [
+        81
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "vWmBhy_Kbv4",
+          "url": "https://youtu.be/vWmBhy_Kbv4",
+          "title": "Embracing Influence, Variety, and Virality on YouTube w/ Doctor Mike",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Doctor Mike discusses balancing virality traps, content variety, and building trust as a medical creator at scale on YouTube.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "HH1O6GOLI2I",
+          "url": "https://youtu.be/HH1O6GOLI2I",
+          "title": "Tom does Studio Beta Show and Tell",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 2,
+          "hook": "YouTube Creator Insider discusses Studio Beta features and answers creator questions about the platform's new tools.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
