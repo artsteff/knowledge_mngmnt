@@ -92,6 +92,68 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-09T18:01:11.558844+00:00",
+      "tg_message_ids": [
+        83
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 5,
+          "scored_to_backlog": 5,
+          "backlog_size": 5,
+          "posting": 4,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "Ak-YNIBqEjI",
+          "url": "https://youtu.be/Ak-YNIBqEjI",
+          "title": "11 Marketing Rules Every YouTuber Needs to Know",
+          "author": "Colin and Samir",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "XzJD1bvXKjs",
+          "url": "https://youtu.be/XzJD1bvXKjs",
+          "title": "How long can your skills be before your agent forgets what you told it? — Laurie Voss, Arize AI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "lbaXnx0KLA8",
+          "url": "https://youtu.be/lbaXnx0KLA8",
+          "title": "MCP Apps: Give the Model Data, Give the User a UI — Dustin Mihalik, Indeed",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "YkNulwcc5jk",
+          "url": "https://youtu.be/YkNulwcc5jk",
+          "title": "The Universal Remote Control for AI — Alex Hancock, Block",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
     }
   ]
 }

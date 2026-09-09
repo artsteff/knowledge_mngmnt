@@ -196,6 +196,7 @@
     "AcwK1Uuwc0U",
     "Afp90LAaXNw",
     "AhQpRalYlyg",
+    "Ak-YNIBqEjI",
     "Akm1sqvWG4A",
     "AniiF8rOu9c",
     "B0fjR3yaZFU",
@@ -383,6 +384,7 @@
     "KOr-xQuNK4A",
     "KTmxaMdUbHA",
     "KZeIEiBrT_w",
+    "KcVkq5L-0f0",
     "Kj22AmeIaqI",
     "KnbKKiBAXys",
     "KtmaWUVdnx4",
@@ -621,6 +623,7 @@
     "XsvUhpnHepE",
     "Xu5gz2qsaz8",
     "XuvKFsktX0Q",
+    "XzJD1bvXKjs",
     "Y6wiWlcH5jM",
     "Y9Wz2PV404E",
     "YBYUvGOuotE",
@@ -636,6 +639,7 @@
     "Ybrl4FYM57c",
     "Yct0MvNtdfU",
     "Yiy0cU6ChSw",
+    "YkNulwcc5jk",
     "YtTWNzOtkxU",
     "YxYY1Pkd4hw",
     "Z4L4ZqL1xqQ",
@@ -853,6 +857,7 @@
     "lUF_bjBSgXM",
     "lWmDiDGsLK4",
     "lbESr58-7DQ",
+    "lbaXnx0KLA8",
     "ldd3uy08vAQ",
     "leQ89XSHILw",
     "li0SaBt9RDM",
@@ -894,6 +899,7 @@
     "nSNhYNk1_Xs",
     "nTAUpKNjcp4",
     "nZCy8E5jlok",
+    "nirNVQ8-raU",
     "nmTQVj_s4Ms",
     "nms47NKdlQM",
     "ns9f1fjLD7Y",
@@ -1121,5 +1127,22 @@
     "zw9yxsMZCZc"
   ],
   "failed": {},
-  "backlog": []
+  "backlog": [
+    {
+      "source_id": "KcVkq5L-0f0",
+      "title": "Your agents lack context: Here's how to fix \"You're absolutely right!\" — Brandon Waselnuk, Unblocked",
+      "author": "AI Engineer",
+      "url": "https://youtu.be/KcVkq5L-0f0",
+      "source_type": "video",
+      "date": "2026-09-09",
+      "raw_text": "Unblocked ran the same prompt against the same model twice, once with a context engine behind it and once without. The run without it burned twenty one million tokens. The run with it burned ten point eight million and finished about two hours sooner. Brandon Waselnuk works in developer relations at Unblocked, and he opens with the standard his talk is named for: AI generated code should feel like it was written by someone who has been on your team for years. You became that person by asking questions, getting PRs rejected, sitting in meetings, and being on call the night production went down. An agent starts every session with none of it. Waselnuk traces how that gap compounds as teams move from tab completion toward parallel and background agents, turning into correction loops, wasted search tokens, and a review tax.\n\nHe then walks through two approaches that stall. First the curated context trap, where a team writes markdown files describing the project, then has to distribute them, watch them rot, and decide who has the taste to maintain them for everyone. Then the MCP plateau, where an agent may never call the server at all, or hits satisfaction of search bias and stops at the first plausible answer while last night's Slack thread saying to do the opposite goes unread. Access to information, he argues, is not understanding. The rest of the talk covers the six things a real engine owes you, among them conflict resolution, personalized relevance, and permission enforcement, and closes on three open source tools his team has released, including a workshop that builds a relational context engine from scratch.\n\nSpeaker info:\n- https://x.com/BrandonWaselnuk\n- https://ca.linkedin.com/in/brandonwaselnuk\n\nTimestamps:\n0:00 - Why AI code should feel like a teammate wrote it\n1:50 - How bad context compounds as agents scale\n4:20 - Two dead ends, curated context and the MCP plateau\n5:52 - What a context engine actually has to do\n7:26 - Inside the engine and its six characteristics\n9:16 - The same prompt with and without context\n10:11 - Three open source tools to try\n12:25 - Beyond code generation, and closing",
+      "score": 2,
+      "hook": "",
+      "adapter": "youtube",
+      "source_name": "AI Engineer",
+      "duration_s": 849,
+      "private_source": false,
+      "added_at": "2026-09-09T18:00:41.198168+00:00"
+    }
+  ]
 }
