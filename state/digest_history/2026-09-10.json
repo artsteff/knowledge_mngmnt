@@ -30,6 +30,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-10T18:00:54.065762+00:00",
+      "tg_message_ids": [
+        86
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 6,
+          "scored_to_backlog": 6,
+          "backlog_size": 6,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "Krzs8GeiWTc",
+          "url": "https://youtu.be/Krzs8GeiWTc",
+          "title": "Generative UI... in Python? — Jeremiah Lowin, Prefect",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Python DSL that compiles to serializable UI (JSON → React) lets agents generate and edit interfaces; streamed Python is 70% smaller than JSON on the wire.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "O1FN4awNEtM",
+          "url": "https://youtu.be/O1FN4awNEtM",
+          "title": "One Designer + AI. Hundreds of Deliverables. — Vincent Wendy, AI Engineer",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "One designer + AI agents scaled a 7,000-person conference (140 sponsors, 300 speakers, 600 sessions) using five concrete methods: design systems, reusable components, workflow automation, output validation, and friction removal — with named tools (Devin, GPT, Figma) and specific examples (speaker card generator, logo audits, photo matching).",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "sDMGWK4wZ_w",
+          "url": "https://youtu.be/sDMGWK4wZ_w",
+          "title": "Training Taste — Thais Castello Branco, Taste Labs",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Two million websites show the internet was homogenizing before AI, and Taste Labs built measurable \"probes\" (small classifiers) that detect slop better than asking an LLM to judge, plus products that let agents follow brand guidelines while breaking rules on purpose.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
