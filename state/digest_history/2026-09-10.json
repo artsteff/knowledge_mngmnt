@@ -1,0 +1,35 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-10T14:00:25.574161+00:00",
+      "tg_message_ids": [
+        85
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": [
+            "metadata-missing:O1FN4awNEtM"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "XWcXwnysmpY",
+          "url": "https://youtu.be/XWcXwnysmpY",
+          "title": "The Spatial Harness: Bringing Agents to the Canvas — Max Drake, tldraw 2026-09-10 16:00",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Teaching agents to understand spatial reasoning on a canvas by combining screenshots + JSON, then building visible multi-agent orchestration with dependency graphs and direct editor scripting.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
