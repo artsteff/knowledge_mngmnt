@@ -81,6 +81,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-10T22:00:15.862021+00:00",
+      "tg_message_ids": [
+        87
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "v42opQpCy60",
+          "url": "https://youtu.be/v42opQpCy60",
+          "title": "Design at the Speed of Adjectives — Paul Bakaus, Renaissance Geek, Inc.",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Paul Bakaus built Impeccable, a Claude Code–integrated design tool that steers output through loaded vocabulary (bolder, quieter, distill) rather than automating decisions, with a refusal to add automatic mode because taste requires iteration and context.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "8KkibGU_DDY",
+          "url": "https://youtu.be/8KkibGU_DDY",
+          "title": "Mousepower: agents that can’t be measured, can’t be managed. — Maximillian Piras, Yutori",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Framework for choosing which tasks to assign to agents based on step uncertainty vs. acceptance criteria uncertainty — framed as an entropy matrix where the sweet spot resembles NP problems (cheaper to verify than solve).",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "NW-jwOVr32w",
+          "url": "https://youtu.be/NW-jwOVr32w",
+          "title": "The Design-Code Roundtrip That Isn't — Jonathan Gordon, ReWeaver AI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "A 30-year IDE veteran built ReWeaver to close the design-to-code roundtrip with deterministic guardrails, showing how pure model output decayed to near zero fidelity while rule-based constraints held steady.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
