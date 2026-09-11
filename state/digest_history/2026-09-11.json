@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-11T22:00:19.318619+00:00",
+      "tg_message_ids": [
+        88
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "H7vFrcNWXzs",
+          "url": "https://youtu.be/H7vFrcNWXzs",
+          "title": "Building ambitious software — Jonathan Kelley, Dioxus Labs & Cognition",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "A founder details where AI agents excel at code generation (build plugins, docs, fuzzing) and where they fail (test quality, architecture), based on shipping a 37k-star Rust framework with agent-assisted development.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
