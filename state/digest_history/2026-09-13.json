@@ -1,0 +1,133 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-13T02:02:51.971239+00:00",
+      "tg_message_ids": [
+        89,
+        90
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 38,
+          "scored_to_backlog": 31,
+          "backlog_size": 31,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "4mKtJzfGj0U",
+          "url": "https://youtu.be/4mKtJzfGj0U",
+          "title": "5 Rules for Building AI Agents That Work in Production | Nan Yu & Jacob Shumway",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Linear's Nan Yu and Jacob Shumway walk through how they built a production agent end-to-end, including tool design, evals for reliability, and the specific mistake to avoid.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "5KTHvKCrQ00",
+          "url": "https://youtu.be/5KTHvKCrQ00",
+          "title": "Claude ran a business in our office",
+          "author": "Anthropic",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Claude autonomously ran a real business (vending operation) in Anthropic's office for most of 2025—managing sourcing, pricing, inventory, and customer interactions—with documented failures that reveal how AI agents break down in real-world constraints.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "5FKBkUCaLa8",
+          "url": "https://youtu.be/5FKBkUCaLa8",
+          "title": "How Gusto’s CTO uses Claude Code to ship like a startup",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "A $1B company's CTO shipped a net-new AI product (Gusto Cofounder) in 10 weeks with 5 people using Claude Code, eval-first workflows, and a \"trash-can method\" that replaces planning docs with shipping decisions.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "6Yeo6M8-W_8",
+          "url": "https://youtu.be/6Yeo6M8-W_8",
+          "title": "Instinct vs Grok Bot vs ChatGPT vs Hermes: Which AI Agent Can You Trust?",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "First-hand comparison of four AI agents (Instinct, Grok Bot, ChatGPT, Hermes) that can read emails, access documents, use logins, and make purchases — with specific coverage of prompt injection risks and trust tradeoffs.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "1_jlukb7gm4",
+          "url": "https://youtu.be/1_jlukb7gm4",
+          "title": "The AI content machine that turns ideas into posts that don't sound like slop | Alex Lieberman",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Six-step Claude-based content machine with voice codification in Markdown, Oracle for idea detection, and Interview Panel to catch AI slop at the ideation stage (not the draft).",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "5Cxe5dv2Xlw",
+          "url": "https://youtu.be/5Cxe5dv2Xlw",
+          "title": "Why AI Agents Need Million-Token Context — Thomas Wolf & Olive Song, MiniMax",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "MiniMax M3 achieves 1M-token context with sparse attention (designed by an intern) and trains multimodal from step one; the team uses agent harnesses to automate its own research loop.",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "0uC6u0lJJl4",
+          "url": "https://youtu.be/0uC6u0lJJl4",
+          "title": "Your company brain will leak secrets: how we stopped it for big banks — Tanmai Gopal, PromptQL",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Tanmai Gopal walks through how PromptQL deployed company brains across 15–20 orgs (startups to Fortune 100) and solved the leak problem by scoping wiki files, requiring human approval on writes, and injecting credentials per user at the HTTP/SQL layer.",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "2jFtOASCEfY",
+          "url": "https://youtu.be/2jFtOASCEfY",
+          "title": "YPP Updates, View Count Changes, and more | Creator Roundup",
+          "author": "YouTube Creators",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Official YouTube announcements on view count methodology changes, YPP eligibility updates, and new monetization features (Amazon tagging, Shorts thumbnails).",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "4YWO4sSRrTE",
+          "url": "https://youtu.be/4YWO4sSRrTE",
+          "title": "Circleback CEO Ali Haghani: Why Your Company Should Be Recording More Meetings",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "CEO of an AI meeting-recording tool discusses his setup, agent workflows in Telegram, and the case for why companies should record more meetings.",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "6eBSHbLKuN0",
+          "url": "https://youtu.be/6eBSHbLKuN0",
+          "title": "Mastering Claude Code in 30 minutes",
+          "author": "Anthropic",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Video on Claude Code features, shortcuts, and workflows — promises advanced techniques but no specific mechanism or use case named.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
