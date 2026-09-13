@@ -330,6 +330,7 @@
     "L4I7WgiEquo",
     "L89GzWEILkM",
     "LC1mKvLWZ2E",
+    "LE0LNULrsEM",
     "LGVZKldNCiA",
     "LJ1YZ3Uek3g",
     "LMbeDEQO6QM",
@@ -1073,22 +1074,5 @@
     "zw9yxsMZCZc"
   ],
   "failed": {},
-  "backlog": [
-    {
-      "source_id": "5qvr9Rzja2U",
-      "title": "AI Powered Product Skills for Executive Leaders & GMs",
-      "author": "Level Up: Make No BS Career Breakthroughs",
-      "url": "https://youtu.be/5qvr9Rzja2U",
-      "source_type": "video",
-      "date": "2026-03-25",
-      "raw_text": "What you'll learn:\n1/ How to become AI native yourself\n2/ How to drive AI adoption at your company\n\nWhy this topic matters: In the age of AI, leaders can no longer afford to be hands-off with product thinking. Whether or not you've been a PM, you must both use AI tools yourself and set sharp expectations for those who do. Your credibility, speed, and ability to lead innovation depend on bridging this gap — personally and through your teams.\n\nRead this article on what it means to \"Be AI+\" for Ethan's reference on building skills beyond AI: https://levelupwithethanevans.substack.com/p/be-ai-human-skills-for-the-machine\n\nWe recommend checking out more of Peter's free practical AI tutorials and interviews: \n-- Subscribe to Peter's YouTube channel - https://www.youtube.com/@PeterYangYT\n\n-- Sign up for Peter's newsletter - https://creatoreconomy.so/\n\nLimited time discounts for our upcoming courses:\n\n1/ Beyond Senior Manager - Break Through to Strategic Executive. Designed for current Senior Managers and Senior ICs who want to get promoted to Director. Join 1700+ alumni. Get 15% off (code: BreakthroughToday) - https://maven.com/ethan-evans/break-through-to-executive?promoCode=BreakthroughToday\n\n2/ Stronger Executive Presence: Be Visible, Gain Influence, & Drive Your Career. 50 seat limit to maximize live interaction and role-play. Get 15% off (code: BeVisibleToday) - https://maven.com/ethan-evans/executive-presence-influence?promoCode=BeVisibleToday\n\n3/ Get Promoted Faster: For ICs & Managers. Designed for ambitious go-getters with under 15 years work experience who want rapid growth. Top rated (4.9/5). Get 15% off (code: GetRapidCareerGrowthToday) - https://maven.com/ethan-evans/early-career-promotion-fast-track?promoCode=GetRapidCareerGrowthToday\n\n4/ Cracking the C-suite in the AI Economy. Designed for current Directors and VPs who want to learn the skills for CxO roles (50 seat limit). Get 10% off (code: 2026CSUITE10) - https://maven.com/ethan-evans/cracking-the-c-suite?promoCode=2026CSUITE10\n\n---------\nAbout Ethan Evans\nIn Ethan's 15+ years at Amazon, he led global teams of 800+ and invented well-known businesses and products such as Prime Video, Amazon Video, Amazon Appstore, Merch by Amazon, Prime Gaming (formerly Twitch Prime), and Twitch Commerce. \n\n-- 70+ patents. \n-- Reviewed 10,000+ resumes, conducted 2,500+ interviews, and 1,000+ hires. \n-- Was an Amazon Bar Raiser and Bar Raiser Core Leader, responsible for training and maintaining Amazon's group of interview outcome facilitators. \n-- Helped advocate for and draft the Amazon Leadership Principle (LP) “Ownership” — the words, “They never say ‘that’s not my job.’” are Ethan's. \n\nEthan's LinkedIn: https://www.linkedin.com/in/ethanevansvp/\n\nLevel Up Newsletter: https://levelupwithethanevans.substack.com/\n\nLeadership development courses https://maven.com/ethan-evans (live online) and https://ethan-evans.mykajabi.com/ (on-demand)\n\n---------\nAbout Peter Yang\nPeter has led products and teams at Roblox, Reddit, Amazon (Twitch), and Meta for 10+ years.\n\nHis popular newsletter helps 140K+ tech professionals save time with AI and ship better products: https://creatoreconomy.so/\n\nAnd his podcast features deep conversations with 30+ AI leaders from Anthropic, Google, Cursor, Replit, and more: https://www.youtube.com/@PeterYangYT\n\nPeter's LinkedIn: https://www.linkedin.com/in/petergyang/",
-      "score": 2,
-      "hook": "Video on how leaders need hands-on AI fluency and how to drive AI adoption across teams, featuring Peter Yang (ex-Meta/Reddit/Roblox product leader) and Ethan Evans (ex-Amazon exec who built Prime Video).",
-      "adapter": "youtube",
-      "source_name": "AI news",
-      "duration_s": 2409,
-      "private_source": false,
-      "added_at": "2026-09-13T02:01:18.379957+00:00"
-    }
-  ]
+  "backlog": []
 }

@@ -386,6 +386,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-13T14:00:23.130225+00:00",
+      "tg_message_ids": [
+        95
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "LE0LNULrsEM",
+          "url": "https://youtu.be/LE0LNULrsEM",
+          "title": "Stop Building AI Agents. Build AI Employees Instead (Live Demo) | Pedro Franceschi",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Live demo of how a $5B CEO structures AI as employees with specific jobs, skills, managers, and budgets — plus a named system (OpenClaw) he uses to run his business and life.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "5qvr9Rzja2U",
+          "url": "https://youtu.be/5qvr9Rzja2U",
+          "title": "AI Powered Product Skills for Executive Leaders & GMs",
+          "author": "Level Up: Make No BS Career Breakthroughs",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Video on how leaders need hands-on AI fluency and how to drive AI adoption across teams, featuring Peter Yang (ex-Meta/Reddit/Roblox product leader) and Ethan Evans (ex-Amazon exec who built Prime Video).",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
