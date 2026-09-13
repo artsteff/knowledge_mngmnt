@@ -128,6 +128,135 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-13T06:00:17.879516+00:00",
+      "tg_message_ids": [
+        91,
+        92
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 21,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "32nrHU6zHU8",
+          "url": "https://youtu.be/32nrHU6zHU8",
+          "title": "Agents Are Where Microservices Were in 2015 — Roberto Milev & Uday Kanagala, Navan",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Navan runs a single master agent that loads skills as pluggable units of context, with guardrails before/after tool calls and confidence scoring on trajectories instead of outputs.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "1B3Ffo8snfY",
+          "url": "https://youtu.be/1B3Ffo8snfY",
+          "title": "Full Tutorial: Connect Claude Code to Google, Slack, and Reddit in 40 Min (Skills + MCPs)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Tutorial on connecting Claude Code to Google Workspace, Slack, Reddit, and Linear via MCPs—with a working \"daily standup\" command pulling from multiple tools and a \"consult-the-council\" multi-agent skill.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "-tdNsYi8AXs",
+          "url": "https://youtu.be/-tdNsYi8AXs",
+          "title": "How the engineer behind Claude Cowork actually uses Claude | Felix Rieseberg (Anthropic)",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Engineering lead at Anthropic demonstrates concrete Claude workflows — 3D floor plan → interactive walkthrough, live dashboards with connectors, $20 hardware approval button — and explains the product philosophy (latency, abstraction layers, Opus vs. Sonnet tradeoffs).",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "0UnZnonMN9o",
+          "url": "https://youtu.be/0UnZnonMN9o",
+          "title": "How This Solo AI Founder Bootstrapped 5 Products to 1M+ / Month | Tibo Louis-Lucas",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Solo founder shares validated playbook for bootstrapping 5 AI products to $1M+/month, including specific pricing strategy, acquisition channels, and the pivot that unlocked $600K/month.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "0YeeJHYy-Vc",
+          "url": "https://youtu.be/0YeeJHYy-Vc",
+          "title": "How to Build AI Agents That Check Their Own Work | Jared Zoneraich",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Manager agent that breaks down tasks, directs 10 cloud agents, and validates work before human review — with a live demo.",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "2wLJl9A2CnA",
+          "url": "https://youtu.be/2wLJl9A2CnA",
+          "title": "I let Codex run for 6 hours. Here’s what happened.",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Six-hour autonomous agent run using Codex's /goal command to eliminate error logs, clean email, and organize tasks — with specifics on prompt structure and lifecycle management.",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "1KOdiGgMtpY",
+          "url": "https://youtu.be/1KOdiGgMtpY",
+          "title": "The Signal Layer: What to Build When Anything Can Be Built — Lena Hall, Akamai",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "When LLMs commoditize average solutions, the scarce skill becomes choosing which problem to attack — judgment about未-happened futures and relationships the model cannot observe.",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "5d6y3poKwK4",
+          "url": "https://youtu.be/5d6y3poKwK4",
+          "title": "Patrick Collison: Is AI Breaking the Lean Startup Playbook?",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Patrick Collison on whether AI is breaking the lean startup playbook, plus Stripe's data on founding timing in the AI economy.",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "3rWSvrFahIY",
+          "url": "https://youtu.be/3rWSvrFahIY",
+          "title": "Self-Play for LLMs, AI for Biology, Formal Verification, and More | YC Paper Club",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Panel covers self-play for LLMs (AlphaZero-style), streaming RAG for voice agents, and formal verification with Lean — plus a founder's take on agent programming as RTS strategy.",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "35VzPlY1-kI",
+          "url": "https://youtu.be/35VzPlY1-kI",
+          "title": "YouTube for Artists Masterclass: Going Live on YouTube with Sheniece Charway",
+          "author": "YouTube Creators",
+          "source_type": "video",
+          "score": 2,
+          "hook": "YouTube livestream setup and integration into release strategy, with case studies from artists.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
