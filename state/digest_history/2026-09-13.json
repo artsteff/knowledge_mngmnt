@@ -257,6 +257,135 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-13T10:00:28.506379+00:00",
+      "tg_message_ids": [
+        93,
+        94
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 11,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "6fFnh-xe4gc",
+          "url": "https://youtu.be/6fFnh-xe4gc",
+          "title": "How a non-technical founder built a $100K ARR meme company | Jason Levin (Memelord CEO)",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Non-technical founder scaled a meme company to $100K ARR on Bubble using AI agents as primary users, with agent-first product design (\"no UX is the best UX\") and free tools as lead magnets.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "0UArKLQ6bXA",
+          "url": "https://youtu.be/0UArKLQ6bXA",
+          "title": "How this PM Used Claude Code to Support 20 People",
+          "author": "Aakash Gupta",
+          "source_type": "video",
+          "score": 1,
+          "hook": "PM at DoorDash built a shared repo (\"Team OS\") where teams self-serve context through nested CLAUDE.md files and parallel agents, cutting context waste to 3% on customer queries after 1,500 hours of iteration.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "5Bn0xro2ol8",
+          "url": "https://youtu.be/5Bn0xro2ol8",
+          "title": "How to Get Your Org to Adopt Coding Agents (Without Shipping Garbage) — Eyal Blum, Figma",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Best engineers adopt agents last because they see failure modes first; the fix is a verification roadmap, not persuasion—and there are concrete costs (developer agency, attention tax) that need naming and designing around.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "71qvIkO9d_A",
+          "url": "https://youtu.be/71qvIkO9d_A",
+          "title": "If You Don’t Understand AI Evals, Don’t Build AI",
+          "author": "Aakash Gupta",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Live walkthrough of building an eval from scratch using Linear's MCP server, plus the data-task-scores framework Braintrust uses across Replit, Vercel, Notion.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "0_dSWLOHKng",
+          "url": "https://youtu.be/0_dSWLOHKng",
+          "title": "My Simple Claude Cowork System (for normal people)",
+          "author": "Jeff Su",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Three-level workspace hierarchy for Claude with persistent memory, instruction files, and concrete demos (Email HQ, spending trackers, newsletter drafts).",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "5CBnWGP5vIs",
+          "url": "https://youtu.be/5CBnWGP5vIs",
+          "title": "Claude Fable 5 Is Finally Back: 5 Must-Try Use Cases Before July 12",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Five specific use cases for Claude Fable 5 before the July 12 cutoff, including codebase refactoring and feature planning.",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "2WnxKCFAXAM",
+          "url": "https://youtu.be/2WnxKCFAXAM",
+          "title": "Cursor AI Beginner's Guide To AI Coding in 28 min (Claude AI, ChatGPT, GitHub, Firebase)",
+          "author": "corbin",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Step-by-step walkthrough of setting up Cursor AI with GitHub and Firebase, deploying a React app end-to-end.",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "2ZacwCbiLjg",
+          "url": "https://youtu.be/2ZacwCbiLjg",
+          "title": "Hermes Full Course: Build Your 24/7 AI Chief of Staff in 45 Minutes",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Step-by-step setup of an AI agent (Hermes) configured with integrations (email, calendar, Docs) and scheduled routines (morning briefing, health checks).",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "49L8lVe_PVo",
+          "url": "https://youtu.be/49L8lVe_PVo",
+          "title": "How Meesho Became India’s Biggest Shopping App",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Indian e-commerce founder explains pivoting from failed fashion app to social commerce via WhatsApp discovery, then scaling to 250M buyers and adapting to Jio's market disruption.",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "4ynbXUaKHHs",
+          "url": "https://youtu.be/4ynbXUaKHHs",
+          "title": "YC SUS: Eric Migicovsky hosts founder office hours",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Founder office hours with Y Combinator partner covering early-stage founder challenges and decision-making.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
