@@ -103,6 +103,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-14T22:00:19.599829+00:00",
+      "tg_message_ids": [
+        98
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 4,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "cI7zfqusmFU",
+          "url": "https://youtu.be/cI7zfqusmFU",
+          "title": "Every step you take, every call you make: the reliable agent stack — Giselle van Dongen, Restate",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Durable execution infrastructure for agents — journal-based recovery that replays to exact failure point, virtual objects for session isolation, mid-flight cancellation and signaling of live agent loops.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "hOWU0KPUp1k",
+          "url": "https://youtu.be/hOWU0KPUp1k",
+          "title": "Loophole: Adversarial Agents To Stress Test Your Morality — Brendan Rappazzo, Morgan Stanley",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Multi-agent system that translates moral principles into formal code, then uses adversarial agents to surface loopholes (legal-but-immoral) and overreach (moral-but-illegal), with concrete branches: chatbot constitutions, contract validation, and a Senate simulator that hill-climbs bills toward passage.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "4lXks428C9o",
+          "url": "https://youtu.be/4lXks428C9o",
+          "title": "We let an AI agent execute Bash and lived to talk about it — Sarah Sanders, PostHog",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Security audit of an agentic CLI (PostHog's Wizard) that executes bash commands at scale, revealing how attacks compose across innocent-looking layers and how to detect them without enforcement.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
