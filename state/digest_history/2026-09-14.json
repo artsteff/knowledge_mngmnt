@@ -1,0 +1,57 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-14T14:00:47.161734+00:00",
+      "tg_message_ids": [
+        96
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": [
+            "metadata-missing:9dYcwOkpCE8"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "l6cr7gy5l9E",
+          "url": "https://youtu.be/l6cr7gy5l9E",
+          "title": "11 Grok Bots I Still Use Every Day (Steal These Now)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Walk-through of 11 specialized bots (email delegation, content research, fitness tracking, advisor) that coordinate as a system, with the brutally-honest-advisor prompt included.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "zJEHbvT5_Yg",
+          "url": "https://youtu.be/zJEHbvT5_Yg",
+          "title": "How SpaceXAI designers use Grok Bot and Figma MCP to ship faster",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Two designers at xAI share concrete workflows—voice memos to Figma via MCP, self-updating websites via Grok Bot backend, shower-thought-to-prototype loops—showing how agents replace traditional design handoffs.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "PXj0p_mW9nI",
+          "url": "https://youtu.be/PXj0p_mW9nI",
+          "title": "Tokens Should Have Jobs — Katelyn Lesse & Angela Jiang, Anthropic 2026-09-14 16:00",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Agent architecture patterns that trade token allocation (advise/grade/dream strategies) for better reliability on tasks where 80% accuracy is useless — with benchmarked tradeoffs between single-run success and token efficiency.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
