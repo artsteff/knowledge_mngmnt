@@ -52,6 +52,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-14T18:02:49.784018+00:00",
+      "tg_message_ids": [
+        97
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 7,
+          "scored_to_backlog": 7,
+          "backlog_size": 7,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "fjF8EKnxKCU",
+          "url": "https://youtu.be/fjF8EKnxKCU",
+          "title": "Agents Without Code: Skills, YAML, and Filesystems Replaced Python — Philipp Schmid, Google DeepMind",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Agent orchestration moves from client-side Python loops to server-side sandboxes with credential injection and domain allowlists, shrinking harness code as model capability increases.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "9dYcwOkpCE8",
+          "url": "https://youtu.be/9dYcwOkpCE8",
+          "title": "How we Solved Agent Building — Andrew Qu, Vercel",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Chief of Software at Vercel walks through three iterations of an internal data agent (mega prompt → scoped agent chain → single agent with state management), with eval score doubling after switching to file system conventions instead of custom tools.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "jA_x7F8caHI",
+          "url": "https://youtu.be/jA_x7F8caHI",
+          "title": "No Memory, No Harness: Why the Database Is the Last Line of Defense — Kay Malcolm, Oracle",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "A senior PM at Oracle walks through five types of memory systems (short-term, long-term, episodic, procedural, semantic) for AI agents and argues the database choice is a team productivity multiplier, not just a technical detail—demonstrated with a live experiment showing how four different stores create reconciliation overhead.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
