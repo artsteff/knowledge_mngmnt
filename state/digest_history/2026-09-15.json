@@ -132,6 +132,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-15T22:00:14.593439+00:00",
+      "tg_message_ids": [
+        102
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 4,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "vblnYHzBgS4",
+          "url": "https://youtu.be/vblnYHzBgS4",
+          "title": "5 Voice Agent Failure Modes You'll Hit in Week One — Venky B, Plivo",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Production voice agents hit latency walls (750–1,200ms vs 550ms target) and half fail on data collection; Plivo's CEO shares five failure modes with concrete fixes (field-level validation instead of end-to-end transcription, sub-300ms model selection, synthesis normalization).",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "qStB9GbppMU",
+          "url": "https://youtu.be/qStB9GbppMU",
+          "title": "I Monitored Crime Audio. Voice Agents Scare Me More. — Sumanyu Sharma, Hamming AI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "A public safety engineer who monitored crime audio at scale now audits voice agents and finds ~10% failure rates; adversarial testing breaks 1 in 5 agents in production.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "xLUQOqjudtA",
+          "url": "https://youtu.be/xLUQOqjudtA",
+          "title": "Tolan: Voice-First AI Companion — Paula Dozsa, Tolan",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Voice-first LLM apps invalidate text-chat assumptions; specific engineering: turn detection at 60ms latency, per-turn routing by emotional stakes, context reassembly instead of caching, memory as retrieval not transcript.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
