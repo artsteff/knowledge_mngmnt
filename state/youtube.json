@@ -631,6 +631,7 @@
     "aVpG6JdtYNE",
     "aZLr962R6Ag",
     "abvQEhvRI_c",
+    "aetX0vbKPTo",
     "asalbJSHS8g",
     "b4idnfVqJJU",
     "b7zAlI4g7wE",
@@ -1085,22 +1086,5 @@
     "zw9yxsMZCZc"
   ],
   "failed": {},
-  "backlog": [
-    {
-      "source_id": "gxVZ_1tuuq4",
-      "title": "Harness Engineering: Building the Production Cage for Powerful Domain Agents — Mike Chambers, AWS",
-      "author": "AI Engineer",
-      "url": "https://youtu.be/gxVZ_1tuuq4",
-      "source_type": "video",
-      "date": "2026-09-14",
-      "raw_text": "Mike Chambers puts a dictionary entry on screen: a harness is a set of straps and fastenings used to control an animal. Swap animal for model and the definition holds. His working version is subtraction. Take an agent, remove the model, and everything left over is the harness. Chambers is a senior AI specialist developer advocate at AWS, and he splits the field in two. There are agents we use, coding assistants and productivity tools, where the harness is memory, skills, tools, MCP servers, and the standards your team deploys to everyone. Then there are agents we build, and those need far more: loop management, scaling, payments, identity, runtime, context management, and the item he lists last while insisting it should come first, observability and evaluation. Writing all of that into one container and scaling it is the wrong answer at thousands of users, because each piece needs to scale on its own. That separation is what he means by harness engineering.\n\nThe rest is live coding. He walks up from a bare SDK agent with a calculator tool, to one with a session manager that rehydrates conversation history between invocations, to a deployment where memory runs as its own managed infrastructure beside the agent rather than inside it. Along the way he argues against what he calls slop ops, the agent equivalent of clicking around a console, where an agent spins up cloud resources directly instead of writing infrastructure as code you still own. The reveal is saved for the end: one CLI option he skipped earlier turns the whole thing into a JSON file naming a model and a system prompt, with no agent code at all.\n\nSpeaker info:\n- https://blog.mikegchambers.com\n\nTimestamps:\n0:00 - Who he is and how he got here\n2:45 - Two kinds of agents: the ones we use, the ones we build\n4:24 - Defining a harness by subtraction\n5:16 - The harness around a coding assistant\n6:07 - No more slop ops\n6:57 - What an agent you build needs instead\n8:38 - Live coding: a bare agent with tools\n10:16 - Adding a session manager and memory\n12:50 - Deploying with the AgentCore CLI\n15:18 - Scaling out without writing multi tenant code\n16:59 - Talking to the running agent, local and deployed\n18:40 - The harness option he skipped",
-      "score": 1,
-      "hook": "Live walkthrough of separating agent concerns (memory, tools, scaling, observability) into independently scalable infrastructure components, with a concrete CLI example showing how configuration replaces agent code.",
-      "adapter": "youtube",
-      "source_name": "AI Engineer",
-      "duration_s": 1246,
-      "private_source": false,
-      "added_at": "2026-09-14T18:02:49.598683+00:00"
-    }
-  ]
+  "backlog": []
 }
