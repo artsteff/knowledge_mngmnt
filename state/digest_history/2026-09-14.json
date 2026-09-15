@@ -140,7 +140,8 @@
           "source_type": "video",
           "score": 1,
           "hook": "Multi-agent system that translates moral principles into formal code, then uses adversarial agents to surface loopholes (legal-but-immoral) and overreach (moral-but-illegal), with concrete branches: chatbot constitutions, contract validation, and a Senate simulator that hill-climbs bills toward passage.",
-          "card_slug": null
+          "card_slug": "loophole-adversarial-agents-to-stress-test-your-morality-bre",
+          "card_path": "summaries/loophole-adversarial-agents-to-stress-test-your-morality-bre.md"
         },
         "3": {
           "adapter": "youtube",
