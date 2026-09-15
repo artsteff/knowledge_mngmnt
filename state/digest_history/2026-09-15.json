@@ -28,6 +28,59 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-15T14:00:47.622011+00:00",
+      "tg_message_ids": [
+        100
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": [
+            "metadata-missing:qStB9GbppMU"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "18Um2VjMM_g",
+          "url": "https://youtu.be/18Um2VjMM_g",
+          "title": "Speech-to-Speech Model Research at Google DeepMind — Valeria Wu Fon & Tom Ouyang, Google DeepMind",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Speech-to-speech models trained end-to-end on multimodal data (audio, video, text) can preserve domain-specific terminology and intonation without explicit rules — and the field faces a three-way tension between latency, task intelligence, and multimodal input that can't be solved by turning up one knob.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "GeqYKAA7DyQ",
+          "url": "https://youtu.be/GeqYKAA7DyQ",
+          "title": "Unlocking the Business of Brand Deals on YouTube /w @hopescope",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube senior director and 8M-subscriber creator break down how automated midrolls, dynamic brand segments, and creator-brand matching actually work — with specific monetization mechanics.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "OpY6MmZFeHo",
+          "url": "https://youtu.be/OpY6MmZFeHo",
+          "title": "Voice Agents Can Just Do Things — Charlie Guo, OpenAI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Speech-to-action (voice triggering tool calls) is the neglected mode; your app's existing endpoints convert directly into tools a voice model can call.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
