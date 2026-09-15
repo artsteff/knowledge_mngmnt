@@ -81,6 +81,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-15T18:26:03.198318+00:00",
+      "tg_message_ids": [
+        101
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 7,
+          "scored_to_backlog": 7,
+          "backlog_size": 7,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "IDNfAZVKvPE",
+          "url": "https://youtu.be/IDNfAZVKvPE",
+          "title": "\"My name is... my name is...\": A Linguistic Map for Voice Agents — Midam Kim, ServiceNow",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "A structured linguistic framework (8-cell grid) that maps voice agent failures to specific architectural levels—sounds, words, interaction, mental model—showing why fixes to one layer don't hold without the others.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "Zd5b40Jbp_k",
+          "url": "https://youtu.be/Zd5b40Jbp_k",
+          "title": "Act, Confirm, or Stop? Smarter behavior for AI assistants, wearables & robots — Amit Desai, Roku",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "A framework (OUCH — Outcome User Cost Heuristic) for tuning confidence thresholds in voice/embodied AI by modeling the asymmetric cost of different failure modes, not by chasing accuracy alone.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "MBHOH1NmDqc",
+          "url": "https://youtu.be/MBHOH1NmDqc",
+          "title": "Realtime Voice Agents with Frontier Intelligence — Bohan Li, EliseAI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Three concrete optimization tricks for running voice agents on slow models without latency (speculative transcription, background tool calls with context injection, prefix-cached speech synthesis).",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
