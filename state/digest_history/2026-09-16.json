@@ -28,6 +28,70 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-16T14:00:58.121282+00:00",
+      "tg_message_ids": [
+        104
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 4,
+          "backlog_size": 4,
+          "posting": 4,
+          "errors": [
+            "metadata-missing:r9OwPx_HoV0"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "PZHBW6yld5U",
+          "url": "https://youtu.be/PZHBW6yld5U",
+          "title": "How I Automated 90% of My Content Workflow (With ChatGPT)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Built 8 specific AI skills (guest research, interview prep, editor briefs, newsletter writing, video packaging, social scheduling) connected into a single workflow that saves 5 hours/week.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "2UwemqPkJSQ",
+          "url": "https://youtu.be/2UwemqPkJSQ",
+          "title": "Muse gets AI agent UX right",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "First-pass test of Meta's Muse personal agent across real workflows (calendar, newsletters, goals, shopping, avatar), with specific design patterns identified (permission model, activity feed, browser use limitations).",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "IN-rb-9WmiY",
+          "url": "https://youtu.be/IN-rb-9WmiY",
+          "title": "Pinecone 2.0 — Edo Liberty, Pinecone",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Enterprise agents need a persistent knowledge layer that surfaces tribal knowledge (how things actually get done), not just retrieval over documents — and the implementation cuts tooling prompts from 150k tokens to under 1k by using runtime code generation.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "fZH97QHHYjY",
+          "url": "https://youtu.be/fZH97QHHYjY",
+          "title": "The unreasonable effectiveness of BM25 for agentic search — Jo Kristian Bergum, Hornet.dev",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "BM25 (a 30-year-old lexical search function) is resurging because agents formulate longer, more specific queries than humans — and a benchmark of 830 questions shows retrieval quality, not reasoning, is the bottleneck.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
