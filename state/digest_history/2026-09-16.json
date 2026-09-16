@@ -143,6 +143,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-16T22:00:14.386572+00:00",
+      "tg_message_ids": [
+        106
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 4,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "O84lhGc1OOI",
+          "url": "https://youtu.be/O84lhGc1OOI",
+          "title": "If we want them to do Knowledge Work, design them as Knowledge Agents — Benjamin Clavié, Mixedbread",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Retrieval accuracy plateaus near 60% for poorly tuned systems and 80% for well-tuned ones; adding searcher agents that return memos closes ~40% of the remaining gap to human performance.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "waI44NP1abk",
+          "url": "https://youtu.be/waI44NP1abk",
+          "title": "Rebuilding the web for agents — Liad Yosef, MCP Apps",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Half the web publishes llms.txt files that agents ignore; MCPs unlock agent-native interfaces that break the browser tab into composable atoms.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "_gvamfT8H-w",
+          "url": "https://youtu.be/_gvamfT8H-w",
+          "title": "Your Agreements Are a Database You Can't Query — Hiral Shah, Docusign & Sean Sodha, NVIDIA",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Docusign + NVIDIA built a 900M-parameter vision language model purpose-built for table extraction in contracts, achieving 20x speedup over general models at scale.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
