@@ -1098,22 +1098,5 @@
     "zw9yxsMZCZc"
   ],
   "failed": {},
-  "backlog": [
-    {
-      "source_id": "a8EcVumh71E",
-      "title": "Your Voice Agent is Just a Walkie Talkie — Neil Zeghidour, Gradium",
-      "author": "AI Engineer",
-      "url": "https://youtu.be/a8EcVumh71E",
-      "source_type": "video",
-      "date": "2026-09-15",
-      "raw_text": "On a phone call with someone close to you, as much as 20 percent of the time you are both talking at once. Every real time voice model shipping today is half duplex: it is either listening or speaking, never both. That gap is the whole argument of this talk. Neil Zeghidour is co founder and CEO of Gradium, a Paris company that trains audio foundation models, and he traces the arc from a 2011 phone assistant that mapped transcripts to app actions, through the first open ended voice chat that could converse but take no action, to cascaded voice agents that call tools competently while inheriting the latency and flattened emotion of routing through text. Speech to speech collapsed that pipeline and fixed latency, but he demonstrates the remaining problem live by back channeling at a model, saying mm hmm and yeah the way people do, and watching it stop dead every time.\n\nThe technical core explains why audio was hard to put in a language model at all. Eight words take about three seconds to say, which at 24 kHz is 72,000 timesteps, and since attention cost grows with the square of sequence length, a sequence thousands of times longer is astronomically more expensive. Neural codecs solve it by compressing audio into token like representations a model can learn on. Full duplex then needs a further step: modeling two token streams at once so both sides can be active, silent, or overlapping. Zeghidour is candid that every gain in naturalness so far has cost intelligence, because a fixed weight budget spent on hearing and speaking is taken from reasoning, and he lays out the two ways forward.\n\nSpeaker info:\n- https://x.com/neilzegh\n- https://gradium.ai\n\nTimestamps:\n0:00 - Gradium and a research lab built around voice\n1:55 - A 2011 assistant, and the pipeline behind it\n3:39 - Open ended conversation, zero agency\n5:18 - A drive through agent that takes real actions\n7:48 - Where speech to speech still falls short\n8:37 - Back channeling breaks turn taking\n10:20 - Why raw audio will not fit in a language model\n11:57 - Two streams instead of one\n13:37 - The tension between naturalness and intelligence\n15:18 - Path one: scale the speech to speech model\n17:00 - Path two: split interface from intelligence",
-      "score": 1,
-      "hook": "Full duplex voice agents require modeling two simultaneous token streams; the tradeoff is naturalness vs reasoning capacity within a fixed model weight budget.",
-      "adapter": "youtube",
-      "source_name": "AI Engineer",
-      "duration_s": 1154,
-      "private_source": false,
-      "added_at": "2026-09-15T18:26:02.962808+00:00"
-    }
-  ]
+  "backlog": []
 }
