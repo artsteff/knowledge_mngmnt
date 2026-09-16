@@ -92,6 +92,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-16T18:00:58.264636+00:00",
+      "tg_message_ids": [
+        105
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 7,
+          "scored_to_backlog": 7,
+          "backlog_size": 7,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "V-isu4eTHgw",
+          "url": "https://youtu.be/V-isu4eTHgw",
+          "title": "Connect AI to Billions of Legal Documents — Simon Eskildsen, turbopuffer & Jacob Lauritzen, Legora",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "How namespace-per-project storage architecture solved a cache-thrashing problem that pushed search latency from 100ms to 20 seconds, and why that shape unlocks encryption/isolation for regulated customers.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "r9OwPx_HoV0",
+          "url": "https://youtu.be/r9OwPx_HoV0",
+          "title": "Stop Chunking Like It's 2022 — Yuval Belfer, AI21 Labs",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Indexing the same corpus at multiple chunk sizes and merging rankings by reciprocal rank fusion closes a 20–40% recall gap that fixed chunking has been silently costing.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "iJVxxxHM_Oc",
+          "url": "https://youtu.be/iJVxxxHM_Oc",
+          "title": "Where RL Will Take Search — Maximilian-David Rumpf, SID.ai",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "RL applied to agentic search can reduce latency 20× and cost 100× versus frontier models by learning a reward function where success is verifiable (document found or not).",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
