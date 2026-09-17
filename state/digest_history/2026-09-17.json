@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-17T02:00:18.181188+00:00",
+      "tg_message_ids": [
+        107
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "59AA5kIoqjA",
+          "url": "https://youtu.be/59AA5kIoqjA",
+          "title": "The Search Engine for the Agentic Web — Will Bryk, Exa",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "2026 is the crossover year when machine searches exceed human searches by orders of magnitude, and search needs to shift from recommendation to retrieval for agents to work.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}

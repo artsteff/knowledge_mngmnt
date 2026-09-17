@@ -1111,22 +1111,5 @@
     "zw9yxsMZCZc"
   ],
   "failed": {},
-  "backlog": [
-    {
-      "source_id": "59AA5kIoqjA",
-      "title": "The Search Engine for the Agentic Web — Will Bryk, Exa",
-      "author": "AI Engineer",
-      "url": "https://youtu.be/59AA5kIoqjA",
-      "source_type": "video",
-      "date": "2026-09-16",
-      "raw_text": "Exa never meant to sell an API. Somebody sent them a message on Twitter asking for programmatic access to their search engine, and the answer was no, because there was no API to give. Then more people asked, including the roommate who lived downstairs, and the company realized it had been building the wrong product for the right reason. Will Bryk started the company in 2021 under a different name, launched a consumer search engine in 2022, and watched the world reorganize itself around chatbots two weeks later. The insight that saved them is now the premise of the whole business: a model, however large, is tiny compared to the internet, so it will always need to reach outside itself. Bryk opens with a chart of web searches per day over thirty years, and says 2026 is the crossover year, the first time searches issued by machines exceed searches issued by people. He expects a thousandfold gap after that.\n\nThe founding thought experiment is worth the price of admission. Take one complex query and one document, run a language model over the pair, and ask whether they match. It does that extremely well. Now run it across a trillion documents for every single search and you have perfect retrieval, at roughly ten million dollars per query. Everything since has been an exercise in driving that number down by nine or twelve orders of magnitude. Bryk also makes an argument about what search is for. Type shirts without stripes into a mainstream engine and you get shirts with stripes, because it was built to recommend rather than to answer, and an agent wants the opposite.\n\nSpeaker info:\n- https://x.com/WilliamBryk\n- https://www.linkedin.com/in/william-bryk/\n\nTimestamps:\n0:00 - The year machine searches pass human searches\n2:08 - Misinformed anarchy and a trillion page web\n3:10 - Shirts without stripes\n4:47 - The most important neglected problem\n6:05 - The thought experiment behind perfect search\n8:25 - The message that created the business\n9:28 - People search simply, agents do not\n10:42 - Complex queries, fast queries, fewer tokens\n13:38 - A marketplace for private data\n14:42 - A year of research in a second",
-      "score": 1,
-      "hook": "2026 is the crossover year when machine searches exceed human searches by orders of magnitude, and search needs to shift from recommendation to retrieval for agents to work.",
-      "adapter": "youtube",
-      "source_name": "AI Engineer",
-      "duration_s": 1068,
-      "private_source": false,
-      "added_at": "2026-09-16T18:00:58.070767+00:00"
-    }
-  ]
+  "backlog": []
 }
