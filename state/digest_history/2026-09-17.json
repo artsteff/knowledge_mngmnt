@@ -57,6 +57,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-17T22:00:21.813670+00:00",
+      "tg_message_ids": [
+        109
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "Quxn-nFeKQ8",
+          "url": "https://youtu.be/Quxn-nFeKQ8",
+          "title": "Why Most Celebrity Channels Fail (And The Ones That Don't)",
+          "author": "Colin and Samir",
+          "source_type": "video",
+          "score": 2,
+          "hook": "A bracket ranking of celebrity YouTube channels to identify what separates successful creator channels from failed ones.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
