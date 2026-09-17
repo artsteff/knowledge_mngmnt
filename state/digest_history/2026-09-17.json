@@ -28,6 +28,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-17T18:00:41.270974+00:00",
+      "tg_message_ids": [
+        108
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "yslXlV2BP_Y",
+          "url": "https://youtu.be/yslXlV2BP_Y",
+          "title": "Startups Are Moving From Bits to Atoms",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "YC panel on why startups are shifting from software to hardware/atoms, and how AI is compressing timelines for hard tech and solo founders.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
