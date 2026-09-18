@@ -59,6 +59,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-18T22:01:45.034469+00:00",
+      "tg_message_ids": [
+        112
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "eU1ICyI9bCs",
+          "url": "https://youtu.be/eU1ICyI9bCs",
+          "title": "Meta’s Muse AI Agent Saved Me $800+ a Year on My Bills (10 Real Use Cases)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Walkthrough of Meta's Muse agent across 10 use cases, including calling customer support to negotiate bills (claimed $800+ savings).",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
