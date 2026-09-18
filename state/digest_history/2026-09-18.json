@@ -1,0 +1,35 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-18T14:00:40.801290+00:00",
+      "tg_message_ids": [
+        110
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": [
+            "metadata-missing:xs-ob87TTzg"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "dTUK_1n9iUc",
+          "url": "https://youtu.be/dTUK_1n9iUc",
+          "title": "Pivoting Your Channel - Do This First!",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube's global lead for content strategy discusses channel pivot mechanics — audience ownership, topic vs. creator appeal, rebuild strategies, and audience expectation management.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
