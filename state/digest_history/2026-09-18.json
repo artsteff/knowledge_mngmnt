@@ -30,6 +30,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-18T18:00:33.830424+00:00",
+      "tg_message_ids": [
+        111
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "xs-ob87TTzg",
+          "url": "https://youtu.be/xs-ob87TTzg",
+          "title": "Total Recall: Agent Memory and Harness Engineering — Ignacio Martinez, Oracle",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "A seven-layer harness architecture for making LLM agents deterministic, with specific mechanisms — work trees for parallel agent consistency, hysteresis variables for task patience, skill promotion for workflow distillation.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
