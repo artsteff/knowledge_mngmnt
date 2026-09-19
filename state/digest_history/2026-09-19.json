@@ -31,6 +31,59 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-19T18:00:50.606270+00:00",
+      "tg_message_ids": [
+        114
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 6,
+          "scored_to_backlog": 6,
+          "backlog_size": 6,
+          "posting": 3,
+          "errors": [
+            "metadata-missing:btxG75rNJC4"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "g4SsanB0gMc",
+          "url": "https://youtu.be/g4SsanB0gMc",
+          "title": "Large clusters for small models — Daniel Svonava, Superlinked",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Small models on commodity GPUs can match frontier performance per task; the bottleneck is serving infrastructure — Superlinked's open-source routing inverts the architecture (gateway + shared queue + worker-pulled batches) and doubles throughput.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "cQQbJqvZkpo",
+          "url": "https://youtu.be/cQQbJqvZkpo",
+          "title": "Vertical Mobility: Inference from MVP to Trillion-Parameter Workloads — Sitanshu Gupta, CoreWeave",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "How CoreWeave routes agentic inference across heterogeneous GPUs by prioritizing KV cache locality, offloading cache between turns instead of evicting it, and scheduling batch workloads into overnight idle capacity.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "75ckHC2LU_0",
+          "url": "https://youtu.be/75ckHC2LU_0",
+          "title": "What's New in Inference Engineering — Philip Kiely, Baseten",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Data center inference optimization has shifted to training-time techniques (quantization staying 4-bit, learned KV cache compaction, trained speculative drafters with continuous retraining), with concrete tradeoffs between local and datacenter constraints.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
