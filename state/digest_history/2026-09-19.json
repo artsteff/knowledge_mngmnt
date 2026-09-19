@@ -84,6 +84,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-19T22:00:31.900457+00:00",
+      "tg_message_ids": [
+        115
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 6,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "l1-D89bAuOA",
+          "url": "https://youtu.be/l1-D89bAuOA",
+          "title": "Are LLM Performance Benchmarks Reliable? — Ashok Chandrasekar & Jason Kramberger, Google",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Google engineers reverse-engineered why published LLM benchmark numbers don't reproduce — harness bugs (GIL, client-side latency inflation, temperature tricks, dataset tokenization drift) masquerade as server performance issues.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "7c9FSUVcXR0",
+          "url": "https://youtu.be/7c9FSUVcXR0",
+          "title": "Operating Distributed Inference Systems at Scale — Nishant Gupta & Naman Ahuja, Meta",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Meta's inference scheduler sees seven concrete axes (GPU generation, KV cache state, tenant priority, latency budget, workflow context) and treats routing decisions as coupled distributed transactions where every hop can fail or timeout.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "sOB3HSiG8vo",
+          "url": "https://youtu.be/sOB3HSiG8vo",
+          "title": "Routing LLM Inference in Production: From Engine Signals to Policy — Qianru Lao & Lu Zhang, OpenAI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "OpenAI's inference routing system replaced a feedback-loop proportional controller with a global-view optimizer that minimizes end-to-end latency under capacity constraints, solving oscillation and cache locality problems.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
