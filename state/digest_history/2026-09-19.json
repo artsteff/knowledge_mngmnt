@@ -1,0 +1,36 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-19T10:40:29.496860+00:00",
+      "tg_message_ids": [
+        113
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": [
+            "metadata-missing:7c9FSUVcXR0",
+            "metadata-missing:btxG75rNJC4"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "o-wv_szZ0V0",
+          "url": "https://youtu.be/o-wv_szZ0V0",
+          "title": "Andrew Ng: The Biggest Opportunities in AI Aren't Where You Think",
+          "author": "Silicon Valley Girl",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Andrew Ng argues the \"job apocalypse\" narrative is overblown and claims the real 2026–27 hiring bar is \"can you build with AI, not just use it\"—with specifics on what that means for non-technical roles.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
