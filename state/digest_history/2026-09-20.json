@@ -389,6 +389,135 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-20T14:00:49.014716+00:00",
+      "tg_message_ids": [
+        122,
+        123
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 0,
+          "backlog_size": 16,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "9wZpvF3QleU",
+          "url": "https://youtu.be/9wZpvF3QleU",
+          "title": "500 Skills, Zero Fine-Tuning: LinkedIn's Playbook for AI Agents — Ajay Prakash, LinkedIn",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "LinkedIn scaled agents past the MCP limit by replacing 1,300 tools with three meta-tools (search, get schema, execute) and encoding operational knowledge as searchable playbooks that agents can improve.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "96jN2OCOfLs",
+          "url": "https://youtu.be/96jN2OCOfLs",
+          "title": "Andrej Karpathy: From Vibe Coding to Agentic Engineering w/ Stephanie Zhan",
+          "author": "Sequoia Capital",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Karpathy frames LLMs as \"ghosts\" requiring new judgment to direct, and distinguishes \"vibe coding\" from \"agentic engineering\" as a serious discipline with verifiability constraints.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "AI1FLDY3q5s",
+          "url": "https://youtu.be/AI1FLDY3q5s",
+          "title": "Claude Code + 15 repos: how a non-engineer answers every customer question | Al Chen",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Non-engineer uses Claude Code to query 15 repos + Confluence + Slack to answer customer questions without engineering interruption, with a concrete 16-line script and \"customer quirks\" personalization system.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "8KkibGU_DDY",
+          "url": "https://youtu.be/8KkibGU_DDY",
+          "title": "Mousepower: agents that can’t be measured, can’t be managed. — Maximillian Piras, Yutori",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Framework for choosing which tasks to assign to agents based on step uncertainty vs. acceptance criteria uncertainty — the \"sweet spot\" resembles NP problems where checking is cheaper than solving.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "4lXks428C9o",
+          "url": "https://youtu.be/4lXks428C9o",
+          "title": "We let an AI agent execute Bash and lived to talk about it — Sarah Sanders, PostHog",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "PostHog's agentic CLI (the Wizard) executes bash on developer machines at scale; the security team found that attacks compose while code review doesn't, leading to a deterministic YARA-rule detector and LLM adviser layer that fails closed.",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "5CBnWGP5vIs",
+          "url": "https://youtu.be/5CBnWGP5vIs",
+          "title": "Claude Fable 5 Is Finally Back: 5 Must-Try Use Cases Before July 12",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Five specific use cases for Claude Fable 5 (high-value work discovery, advice, shipping, planning, refactoring) before the July 12 access cutoff.",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "8mY9wx_iMSU",
+          "url": "https://youtu.be/8mY9wx_iMSU",
+          "title": "GPT-5.6 vs Claude Fable 5: I Tested 6 Real Use Cases (Here’s the Winner)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Head-to-head test of GPT-5.6 vs Claude across 6 concrete use cases (website building, game dev, video editing, mobile app feature, life advice, personal AI OS).",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "2ZacwCbiLjg",
+          "url": "https://youtu.be/2ZacwCbiLjg",
+          "title": "Hermes Full Course: Build Your 24/7 AI Chief of Staff in 45 Minutes",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Step-by-step setup of an AI agent (Hermes) configured with integrations (Gmail, Calendar, Docs), memory, skills, and cron-job routines like morning briefings.",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "49L8lVe_PVo",
+          "url": "https://youtu.be/49L8lVe_PVo",
+          "title": "How Meesho Became India’s Biggest Shopping App",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Founder's account of pivoting from fashion marketplace to social commerce via WhatsApp groups, scaling from 10M to 100M users in five months, then adapting to voice AI.",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "4ynbXUaKHHs",
+          "url": "https://youtu.be/4ynbXUaKHHs",
+          "title": "YC SUS: Eric Migicovsky hosts founder office hours",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Founder office hours with Eric Migicovsky covering early-stage founder challenges and decision-making.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
