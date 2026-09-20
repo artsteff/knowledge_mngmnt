@@ -260,6 +260,135 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-20T10:00:46.542047+00:00",
+      "tg_message_ids": [
+        120,
+        121
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 26,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "ACRd0Ikg_KI",
+          "url": "https://youtu.be/ACRd0Ikg_KI",
+          "title": "Automate Your Life with Claude Code in 40 Minutes | Moritz Kremb",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Concrete walkthrough of a Claude Code personal OS — folder structure, memory loops, MCPs, CLI vs. API choices, and a full content pipeline from idea to posted video.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "6fFnh-xe4gc",
+          "url": "https://youtu.be/6fFnh-xe4gc",
+          "title": "How a non-technical founder built a $100K ARR meme company | Jason Levin (Memelord CEO)",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Non-technical founder scaled a meme company to $100K ARR on Bubble, then built an API-first agent product; details on \"no UX is the best UX\" philosophy and free tools as lead magnets.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "9qXc-THAvc0",
+          "url": "https://youtu.be/9qXc-THAvc0",
+          "title": "How OpenAI's Codex Team Builds with Codex (43 Min) | Alex & Romain",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Inside look at how OpenAI's Codex team ships products with AI instead of specs—designers writing code, PMs working with 10-bullet briefs, short/long-term planning (no medium term).",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "-tdNsYi8AXs",
+          "url": "https://youtu.be/-tdNsYi8AXs",
+          "title": "How the engineer behind Claude Cowork actually uses Claude | Felix Rieseberg (Anthropic)",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Felix Rieseberg (Claude Code lead at Anthropic) demonstrates concrete patterns for AI-native workflows: using Claude Cowork for 3D house design from floor plans, building live dashboards with connectors, and a $20 hardware device that executes Claude actions.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "9dYcwOkpCE8",
+          "url": "https://youtu.be/9dYcwOkpCE8",
+          "title": "How We Solved Agent Building — Andrew Qu, Vercel",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "A Chief of Software at Vercel rebuilt an internal data agent from a mega-prompt to a file-system-based architecture, doubling eval scores and shipping it as Eve, a framework for narrow company-specific agents.",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "2wLJl9A2CnA",
+          "url": "https://youtu.be/2wLJl9A2CnA",
+          "title": "I let Codex run for 6 hours. Here’s what happened.",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Multi-hour autonomous agent runs with measurable outcomes (5h error elimination, email cleanup, task organization) using structured Goal prompts with verification constraints.",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "7c9FSUVcXR0",
+          "url": "https://youtu.be/7c9FSUVcXR0",
+          "title": "Operating Distributed Inference Systems at Scale — Nishant Gupta & Naman Ahuja, Meta",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Inference at scale requires a new control plane layer that manages routing, KV cache, and prefill-decode disaggregation as coupled systems — not separate optimizations.",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "59AA5kIoqjA",
+          "url": "https://youtu.be/59AA5kIoqjA",
+          "title": "The Search Engine for the Agentic Web — Will Bryk, Exa",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "2026 is the crossover year when machine searches exceed human searches by orders of magnitude, and search engines need to be rebuilt for agents asking complex queries instead of people typing simple ones.",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "3rWSvrFahIY",
+          "url": "https://youtu.be/3rWSvrFahIY",
+          "title": "Self-Play for LLMs, AI for Biology, Formal Verification, and More | YC Paper Club",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Five research papers on self-play for LLMs, streaming RAG for voice agents, formal verification, protein scaling laws, and agent-based programming — presented by researchers and founders.",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "99sPd15j3Zc",
+          "url": "https://youtu.be/99sPd15j3Zc",
+          "title": "What Actually Makes A Startup Durable",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "YC partners field questions on founder operating principles in the AI era, with chapters covering AI economics, moats, AI-native metrics, and pivot timing.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }

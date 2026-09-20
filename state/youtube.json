@@ -1154,22 +1154,6 @@
       "added_at": "2026-09-20T02:01:42.315078+00:00"
     },
     {
-      "source_id": "7c9FSUVcXR0",
-      "title": "Operating Distributed Inference Systems at Scale — Nishant Gupta & Naman Ahuja, Meta",
-      "author": "AI Engineer",
-      "url": "https://youtu.be/7c9FSUVcXR0",
-      "source_type": "video",
-      "date": "2026-09-19",
-      "raw_text": "Inference traffic at Meta already outpaces the largest microservices in the world, the fastest growing workload it has ever run. Nishant Gupta's frame for what comes next is 2008. The cloud began as virtual machines, then value climbed to schedulers, service meshes and autoscalers, until orchestration held the complexity and the value. AI is on the same path, compressed into a few years, with orchestration emerging around routing, KV cache management and prefill decode disaggregation. His sharpest point is coupling. None of the layers is new. What is new: a routing decision changes the cache hit rate, which changes batch composition, which changes GPU utilization, which changes the autoscaler's next move. A request is now a distributed transaction where every hop can retry, time out or fail; preempt a GPU after 200 tokens have streamed and you cannot simply retry. Reliability has to live in the control plane, the only layer that sees the whole workflow.\n\nA scheduler for inference has to see seven axes: GPU generation, memory headroom, KV cache state, whether weights are warm, tenant priority, latency budget, and workflow context, since failing step three of five wastes what steps one and two already spent. Every optimization fits one of four quadrants: avoid the work through caching, share it through batching, move it through routing to a cheaper model or region, or delay it through admission control. The metric to optimize is cost per successful task, not per token. Naman Ahuja takes over: observability as a control loop's input, the latency, cost and throughput triangle where every serving decision moves you somewhere, and the conclusion that inference needs its own control plane, the way virtual machines needed Kubernetes.\n\nSpeaker info:\n- https://www.linkedin.com/in/nishantgupta-ai/\n- https://buzzingtech.ai/\n- https://www.linkedin.com/in/namanahuja/\n\nTimestamps:\n0:00 - Inference is the fastest growing workload Meta has seen\n0:54 - 2008 again: value moves to the orchestration layer\n3:13 - Microservices versus inference, dimension by dimension\n6:09 - Old layers, new coupling\n7:36 - A request is a distributed transaction\n8:31 - Seven axes a scheduler has to see\n10:19 - Avoid, share, move, or delay the work\n12:36 - Cascading failure, with a KV cache twist\n16:19 - The latency, cost, throughput triangle\n17:00 - Inference needs its own control plane",
-      "score": 1,
-      "hook": "Inference at scale requires a new control plane layer that manages routing, KV cache, and prefill-decode disaggregation as coupled systems — not separate optimizations.",
-      "adapter": "youtube",
-      "source_name": "AI Engineer",
-      "duration_s": 1190,
-      "private_source": false,
-      "added_at": "2026-09-20T02:01:52.702959+00:00"
-    },
-    {
       "source_id": "0UArKLQ6bXA",
       "title": "How this PM Used Claude Code to Support 20 People",
       "author": "Aakash Gupta",
@@ -1184,22 +1168,6 @@
       "duration_s": 4210,
       "private_source": false,
       "added_at": "2026-09-20T02:02:01.829756+00:00"
-    },
-    {
-      "source_id": "59AA5kIoqjA",
-      "title": "The Search Engine for the Agentic Web — Will Bryk, Exa",
-      "author": "AI Engineer",
-      "url": "https://youtu.be/59AA5kIoqjA",
-      "source_type": "video",
-      "date": "2026-09-16",
-      "raw_text": "Exa never meant to sell an API. Somebody sent them a message on Twitter asking for programmatic access to their search engine, and the answer was no, because there was no API to give. Then more people asked, including the roommate who lived downstairs, and the company realized it had been building the wrong product for the right reason. Will Bryk started the company in 2021 under a different name, launched a consumer search engine in 2022, and watched the world reorganize itself around chatbots two weeks later. The insight that saved them is now the premise of the whole business: a model, however large, is tiny compared to the internet, so it will always need to reach outside itself. Bryk opens with a chart of web searches per day over thirty years, and says 2026 is the crossover year, the first time searches issued by machines exceed searches issued by people. He expects a thousandfold gap after that.\n\nThe founding thought experiment is worth the price of admission. Take one complex query and one document, run a language model over the pair, and ask whether they match. It does that extremely well. Now run it across a trillion documents for every single search and you have perfect retrieval, at roughly ten million dollars per query. Everything since has been an exercise in driving that number down by nine or twelve orders of magnitude. Bryk also makes an argument about what search is for. Type shirts without stripes into a mainstream engine and you get shirts with stripes, because it was built to recommend rather than to answer, and an agent wants the opposite.\n\nSpeaker info:\n- https://x.com/WilliamBryk\n- https://www.linkedin.com/in/william-bryk/\n\nTimestamps:\n0:00 - The year machine searches pass human searches\n2:08 - Misinformed anarchy and a trillion page web\n3:10 - Shirts without stripes\n4:47 - The most important neglected problem\n6:05 - The thought experiment behind perfect search\n8:25 - The message that created the business\n9:28 - People search simply, agents do not\n10:42 - Complex queries, fast queries, fewer tokens\n13:38 - A marketplace for private data\n14:42 - A year of research in a second",
-      "score": 1,
-      "hook": "2026 is the crossover year when machine searches exceed human searches by orders of magnitude, and search engines need to be rebuilt for agents asking complex queries instead of people typing simple ones.",
-      "adapter": "youtube",
-      "source_name": "AI Engineer",
-      "duration_s": 1068,
-      "private_source": false,
-      "added_at": "2026-09-20T02:02:13.282945+00:00"
     },
     {
       "source_id": "71qvIkO9d_A",
@@ -1266,54 +1234,6 @@
       "added_at": "2026-09-20T02:02:37.442632+00:00"
     },
     {
-      "source_id": "2wLJl9A2CnA",
-      "title": "I let Codex run for 6 hours. Here’s what happened.",
-      "author": "How I AI",
-      "url": "https://youtu.be/2wLJl9A2CnA",
-      "source_type": "video",
-      "date": "2026-05-27",
-      "raw_text": "In this 30-minute episode, I walk through my favorite feature in Codex: the /goal command. I show how Goals transform AI from a turn-based assistant that needs constant ‘what’s next?’ prompting into an autonomous agent that can work for hours on complex, multi-step tasks. I share three real examples: eliminating thousands of Sentry errors, cleaning 3,900 emails down to 68, and organizing hundreds of Linear tasks.\n\n*What you’ll learn:*\n1. What Goals are and how they differ from standard prompts\n2. How I used /goal to eliminate hundreds of error logs in my codebase over a five-hour autonomous run\n3. The non-technical use cases that make Goals incredibly powerful: cleaning up 3,900 emails in under four hours and organizing hundreds of project management tasks in Linear\n4. How to write effective /goal prompts with measurable outcomes, verification methods, and constraints\n5. When not to use Goals and what makes a strong versus weak Goal\n6. Why Goals represent a fundamental shift in how we work with AI, from babysitting the model to managing it\n\n*Brought to you by:*\nMercury—Radically different banking loved by over 300K entrepreneurs: https://mercury.com/\n\n*In this episode, we cover:*\n(00:00) Introduction\n(01:50) What is /goal and when should you use it?\n(02:45) The difference between prompts and Goal-based loops\n(04:06) Claire’s first five-hour 45-minute autonomous coding task\n(05:05) How to manage a Goal lifecycle: view, pause, resume, and clear\n(06:06) How to write strong goals: outcomes vs. outputs\n(07:34) The six components of effective Goals\n(08:57) Example: Reducing P95 checkout latency with /goal\n(09:36) Demo: Using /goal to eliminate Sentry errors in ChatPRD\n(13:18) Demo: Burning down Vercel API errors\n(17:28) Non-technical use case: Cleaning 3,900 emails with /goal\n(21:24) Demo: Using /goal to clean up Linear project tasks\n(24:41) When not to use /goal\n(26:10) Why /goal changes everything\n\n*Tools referenced:*\n• Codex: https://openai.com/codex/\n• Sentry: https://sentry.io/\n• Vercel: https://vercel.com/\n• Linear: https://linear.app/\n\n*Other reference:*\n• OpenAI blog post “Using Goals in Codex”: https://developers.openai.com/cookbook/examples/codex/using_goals_in_codex\n\n*Where to find Claire Vo:*\nChatPRD: https://www.chatprd.ai/\nWebsite: https://clairevo.com/\nLinkedIn: https://www.linkedin.com/in/clairevo/\nX: https://x.com/clairevo\n\n_Production and marketing by https://penname.co/._\n_For inquiries about sponsoring the podcast, email jordan@penname.co._",
-      "score": 1,
-      "hook": "Multi-hour autonomous agent runs with measurable outcomes (5h error elimination, email cleanup, task organization) using structured Goal prompts with verification constraints.",
-      "adapter": "youtube",
-      "source_name": "How I AI",
-      "duration_s": 1820,
-      "private_source": false,
-      "added_at": "2026-09-20T02:02:39.983166+00:00"
-    },
-    {
-      "source_id": "9dYcwOkpCE8",
-      "title": "How We Solved Agent Building — Andrew Qu, Vercel",
-      "author": "AI Engineer",
-      "url": "https://youtu.be/9dYcwOkpCE8",
-      "source_type": "video",
-      "date": "2026-09-14",
-      "raw_text": "When Andrew Qu handed Vercel's internal data science agent to its first trusted users, the verdict came back that it was awful. It had been clearing thirty percent of his evals and he thought the team was cooking. Qu is Chief of Software at Vercel, and he began a year earlier by asking marketing, sales, finance, and legal what they hated most about their jobs. The best answer came from the data team, lean and growing slower than the company around it. Whenever anyone had a question about a customer or a product, a data scientist dropped everything to write the query and report back. Qu walks the rewrites that followed: one mega prompt with a Snowflake schema pasted in and the SQL run by hand, a chain of narrowly scoped agents for planning, execution, and reporting, then a single agent managing its own state.\n\nThe unlock came from watching Claude Code answer the same questions without missing a beat. The advantage was not a clever tool set but a plain file system with list, read, and bash, tools the models already handle well. He rebuilt the agent in a sandbox with the semantic layer dumped in, and the eval score doubled. A recurring job now distills common queries into roughly a hundred skills, so a run starts with accumulated context instead of nothing. That became Eve, the framework Vercel released two weeks before this talk, bringing the file system conventions of Next.js to agents. Qu closes by arguing for narrow agents stuffed with company specific knowledge over general ones, counting about twenty now in use across Vercel.\n\nSpeaker info:\n- https://x.com/andrewqu\n- https://linkedin.com/in/andrew-qu\n- https://andrewqu.com\n\nTimestamps:\n0:00 - Vercel and the AI SDK\n1:35 - An agent on every desk\n2:45 - Why the data team became the bottleneck\n3:39 - Version one, one mega prompt\n4:51 - Version two, a chain of scoped agents\n5:58 - Version three, one agent managing its own state\n7:17 - A rough first rollout, then the file system unlock\n10:14 - Distilling recurring queries into skills\n12:04 - Building the Next.js for agents\n14:18 - Early users, results, and where to start\n\n---\n\nWatch along with the corrected transcript, summary, timestamps and resources on this talk's official AIE page:\nhttps://ai.engineer/talks/9dYcwOkpCE8-we-solved-agent-building\n\nJoin our upcoming AI Engineer conferences (see https://ai.engineer landing page):\n\n- AIE New York, October 12–14 — the first AI Engineer Finance mainstage summit\n- AIEi Shanghai, November 5–6 — the first for meeting top Chinese labs and engineers\n- AIE CODE in SF, November 10–12 — the top AI Coding conference returns\n- AIEi Sydney, December 7–8 — the first AIEi run alongside NeurIPS 2026 in Sydney\n\n---",
-      "score": 1,
-      "hook": "A Chief of Software at Vercel rebuilt an internal data agent from a mega-prompt to a file-system-based architecture, doubling eval scores and shipping it as Eve, a framework for narrow company-specific agents.",
-      "adapter": "youtube",
-      "source_name": "AI Engineer",
-      "duration_s": 1054,
-      "private_source": false,
-      "added_at": "2026-09-20T02:02:42.502323+00:00"
-    },
-    {
-      "source_id": "99sPd15j3Zc",
-      "title": "What Actually Makes A Startup Durable",
-      "author": "Y Combinator",
-      "url": "https://youtu.be/99sPd15j3Zc",
-      "source_type": "video",
-      "date": "2026-07-25",
-      "raw_text": "In this session from Startup School Paris, YC partners field questions from the audience on how founders should be operating in the AI era. \n\nApply to Y Combinator: https://www.ycombinator.com/apply\nWork at a startup: https://www.ycombinator.com/jobs\n\nChapters:\n\n00:00 — AI Costs vs. Engineer Costs\n00:55 — Intelligence Is Getting 10x Cheaper\n01:42 — How to Build a Startup Ecosystem\n02:18 — GoCardless and the London Origin Story\n03:58 — Where Should AI Judgment Stop?\n06:18 — What's the Hard Bit Now?\n08:13 — When AI Becomes a Better Partner Than You\n10:18 — Why Founder-Partners Are Irreplaceable\n10:50 — Research vs. Selling: When to Switch\n13:09 — Get Out of Your Comfort Zone\n14:02 — US Export Restrictions on Frontier AI\n15:08 — Solo Founder or Co-Founder?\n17:47 — Pick a Co-Founder for This Reason\n19:35 — Is the VC Funding Path Still Relevant?\n21:58 — What Are the Real Moats Now?\n24:13 — Will Anyone Care Which Model They Use?\n25:05 — AI Wrapper vs. Real Wedge\n27:11 — Deep Tech Founder vs. Vibe Coder\n28:24 — European Builder, No Budget, No Visa\n29:48 — Early Decision Applications\n31:38 — Habits of Top YC Startups\n34:38 — Metrics for AI-Native Companies\n36:10 — How to Actually Build an AI-Native Loop\n38:04 — The Last Thing You'd Ever Automate\n39:05 — When and How to Pivot\n42:28 — Is High Agency a Muscle?\n44:27 — Standing Out When Everything Is Easy to Build",
-      "score": 2,
-      "hook": "YC partners field questions on founder operating principles in the AI era, with chapters covering AI economics, moats, AI-native metrics, and pivot timing.",
-      "adapter": "youtube",
-      "source_name": "Y Combinator",
-      "duration_s": 2856,
-      "private_source": false,
-      "added_at": "2026-09-20T02:02:44.754614+00:00"
-    },
-    {
       "source_id": "2ZacwCbiLjg",
       "title": "Hermes Full Course: Build Your 24/7 AI Chief of Staff in 45 Minutes",
       "author": "Peter Yang",
@@ -1328,22 +1248,6 @@
       "duration_s": 2679,
       "private_source": false,
       "added_at": "2026-09-20T02:02:48.536436+00:00"
-    },
-    {
-      "source_id": "-tdNsYi8AXs",
-      "title": "How the engineer behind Claude Cowork actually uses Claude | Felix Rieseberg (Anthropic)",
-      "author": "How I AI",
-      "url": "https://youtu.be/-tdNsYi8AXs",
-      "source_type": "video",
-      "date": "2026-05-25",
-      "raw_text": "Felix Rieseberg is the engineering lead for Claude Cowork and Claude Code Desktop at Anthropic. He previously spent five years at Slack building developer tools. In this episode, Felix demonstrates how he uses Claude to solve real-life problems: analyzing floor plans to build interactive 3D house walkthroughs, automatically tracking promises he makes on Twitter, and building a $20 hardware device that physically approves Claude actions with a button press.\n\n*What you’ll learn:*\n1. How to use Claude Cowork to turn a 2D floor plan into an interactive 3D walkthrough where you can move furniture around\n2. The “go one abstraction layer up” philosophy: why you should never manually enter data Claude can find itself\n3. How to use your email as an inventory database for furniture, clothing, and personal purchases\n4. When to use Opus vs. Sonnet 4.6 (hint: it’s about how well you can scope the problem, not technical complexity)\n5. How live artifacts work and why they’re powerful for dashboards that refresh with real-time data from your connectors\n6. The product philosophy behind making latency delightful\n7. How to build your own $20 hardware device using Claude Code (no hardware experience required)\n8. Why Felix never reads the code Claude writes and judges it purely on output\n\n*Brought to you by:*\nMagic Patterns—Prototypes that look like your product: https://magicpatterns.com/howiai\nGuru—The AI layer of truth: http://getguru.com/\n\n*In this episode, we cover:*\n(00:00) Introduction to Felix Rieseberg\n(02:40) Felix’s role at Anthropic\n(03:25) The multiple tabs in Claude and why they exist\n(05:55) Using Claude Cowork to design a new house using floor plans\n(09:52) When to use Opus versus Sonnet 4.6\n(12:37) Building an interactive 3D furniture planner\n(14:30) Using your email as a source of truth for personal inventory\n(15:58) The anti-to-do list: going one abstraction layer up\n(23:14) Introduction to live artifacts\n(26:02) Building a personal dashboard with live data\n(28:37) Being polite to Claude (and why it matters for your humanity)\n(30:28) Claude interaction tips\n(32:33) Looking at the daily dashboard\n(33:55) How live artifacts work with connectors\n(35:02) Redesigning the dashboard\n(37:55) The biggest gap: people don’t know what problems AI can solve\n(41:52) The reverse interview\n(42:30) Making latency delightful through asynchronous design\n(44:05) The redesigned dashboard\n(45:28) AI should free up your creative energy\n(46:44) Building a $20 hardware Claude buddy\n(52:33) Why kids are magical AI users\n(54:30) Recap and final thoughts\n\n*Blog & detailed workflow walkthroughs from this episode:*\nHow I AI: Felix Rieseberg’s Claude Workflows for 3D House Design and a $20 Hardware Buddy: https://www.chatprd.ai/how-i-ai/felix-rieseberg-claude-code-cowork-workflows-for-3d-house-design-and-hardware-buddy\n↳ How to Build a $20 Physical AI ‘Buddy’ with Claude Code: https://www.chatprd.ai/how-i-ai/workflows/how-to-build-a-20-physical-ai-buddy-with-claude-code\n↳ How to Create an Interactive 3D House Model from a Floor Plan Using AI: https://www.chatprd.ai/how-i-ai/workflows/how-to-create-an-interactive-3d-house-model-from-a-floor-plan-using-ai\n↳ How to Build a Live, Auto-Updating Personal Dashboard with Claude: https://www.chatprd.ai/how-i-ai/workflows/how-to-build-a-live-auto-updating-personal-dashboard-with-claude\n\n*Tools referenced:*\n• Claude Cowork: https://www.anthropic.com/product/claude-cowork\n• Claude Code: https://claude.ai/code\n• Claude for Chrome: https://code.claude.com/docs/en/chrome\n• Claude Desktop: https://claude.ai/download\n• Live Artifacts: https://support.claude.com/en/articles/14729249-use-live-artifacts-in-claude-cowork\n• Connectors (Spotify, Gmail, Calendar, Notion): https://claude.ai/settings/connectors\n• Slack: https://slack.com/\n\n*Where to find Felix Rieseberg:*\nWebsite: https://felixrieseberg.com/\nLinkedIn: https://www.linkedin.com/in/felixrieseberg/\nX: https://x.com/felixrieseberg\nGitHub: https://github.com/felixrieseberg\n\n*Where to find Claire Vo:*\nChatPRD: https://www.chatprd.ai/\nWebsite: https://clairevo.com/\nLinkedIn: https://www.linkedin.com/in/clairevo/\nX: https://x.com/clairevo\n\n_Production and marketing by https://penname.co/._\n_For inquiries about sponsoring the podcast, email jordan@penname.co._",
-      "score": 1,
-      "hook": "Felix Rieseberg (Claude Code lead at Anthropic) demonstrates concrete patterns for AI-native workflows: using Claude Cowork for 3D house design from floor plans, building live dashboards with connectors, and a $20 hardware device that executes Claude actions.",
-      "adapter": "youtube",
-      "source_name": "How I AI",
-      "duration_s": 3565,
-      "private_source": false,
-      "added_at": "2026-09-20T02:02:51.024539+00:00"
     },
     {
       "source_id": "4lXks428C9o",
@@ -1362,22 +1266,6 @@
       "added_at": "2026-09-20T02:02:53.561258+00:00"
     },
     {
-      "source_id": "6fFnh-xe4gc",
-      "title": "How a non-technical founder built a $100K ARR meme company | Jason Levin (Memelord CEO)",
-      "author": "How I AI",
-      "url": "https://youtu.be/6fFnh-xe4gc",
-      "source_type": "video",
-      "date": "2026-04-27",
-      "raw_text": "Jason Levin is the CEO and founder of Memelord, an AI-powered meme creation platform that helps brands and individuals create contextual, trending memes. He started Memelord as a $6.90-per-month newsletter sending subscribers to a Google Slides deck, grew it to $100K ARR on Bubble without hiring engineers, then raised $3M to build it into an API-first product.\n\n*What you’ll learn:*\n1. How Jason grew Memelord from a $6.90/month newsletter to $100K ARR without writing a single line of code\n2. Why “no UX is the best UX” and how agents are becoming Memelord’s primary users\n3. The mandatory vibe-coding rule for his marketing team and how it unlocks unprecedented creativity\n4. Why free tools are the new PDF downloads and how they’ve generated hundreds of thousands of emails\n5. Jason’s hardware hacking projects, including a bedside keyboard that creates Linear tickets without waking his wife\n6. Why AI can be funny (but humans are still funnier) and which model is the funniest\n7. The philosophy of building hyper-personalized software just for yourself\n\n*Brought to you by:*\nWorkOS—Make your app enterprise-ready today: https://workos.com?utm_source=lennys_howiai&utm_medium=podcast&utm_campaign=q22025\nPersona—Trusted identity verification for any use case: https://withpersona.com/lp/howiai\n\n*In this episode, we cover:*\n(00:00) Introduction to Jason Levin and Memelord\n(04:28) Demo: Agentic meme creation with OpenClaw\n(06:55) “No UX is the best UX”—building for an agent-first future\n(08:35) How Memelord started as a $6.90 newsletter with Google Slides\n(12:35) Building to $100K ARR on Bubble with 395 workflows\n(15:20) Demo: Free tools section that generates hundreds of thousands of emails\n(17:59) Why Cursor is perfect for non-technical founders\n(20:20) Let your marketers cook—or watch them leave\n(24:19) Commit graph that shows the vibe-coding inflection point\n(25:25) Tools: Claude, Gemini, Linear, PostHog\n(28:19) Build weird stuff in the real world\n(33:24) Creative AI use cases\n(39:56) Using OpenClaw for calendar analysis\n(43:37) Can AI be funny? Which model is funniest?\n(45:26) Memes are not slop\n(46:45) What Jason doesn’t use AI for\n(48:12) Final thoughts\n\n*Blog & detailed workflow walkthroughs from this episode:*\nHow I AI: Jason Levin’s Workflows for Agentic Memes, Vibe Coding, and Hardware Hacking: https://www.chatprd.ai/how-i-ai/jason-levins-workflows-for-agentic-memes-vibe-coding-and-hardware-hacking\n↳ Build a Custom Bedside Keyboard for Idea Capture with Raspberry Pi and ChatGPT: https://www.chatprd.ai/how-i-ai/workflows/build-a-custom-bedside-keyboard-for-idea-capture-with-raspberry-pi-and-chatgpt\n↳ Build Free Marketing Tools as Lead Magnets Using AI Code Assistants: https://www.chatprd.ai/how-i-ai/workflows/build-free-marketing-tools-as-lead-magnets-using-ai-code-assistants\n↳ Automate Meme Marketing with an AI Agent and OpenClaw: https://www.chatprd.ai/how-i-ai/workflows/automate-meme-marketing-with-an-ai-agent-and-openclaw\n\n*Tools referenced:*\n• Memelord API: https://memelord.com/api\n• Cursor: https://cursor.com/\n• Bubble: https://bubble.io/\n• OpenClaw: https://openclaw.ai\n• Claude: https://claude.ai/\n• ChatGPT: https://chat.openai.com/\n• Gemini: https://gemini.google.com/\n• Grok: https://grok.x.ai/\n• Linear: https://linear.app/\n• PostHog: https://posthog.com/\n• Zapier: https://zapier.com/\n\n*Other references:*\n• Diego Zaks—“The best UX is no UX”: https://x.com/diegozaks/status/1966526522136649980\n• Sam Lessin: https://wlessin.com/\n• “Stop giving me advice”: https://stopgivingmeadvice.com\n• Memelord free tools: https://memelord.com/tools\n\n*Where to find Jason Levin:*\nTwitter: https://twitter.com/iamjasonlevin\nInstagram: https://instagram.com/iamjasonlevin\nLinkedIn: https://www.linkedin.com/in/iamjasonlevin/\nMemelord: https://memelord.com\n\n*Where to find Claire Vo:*\nChatPRD: https://www.chatprd.ai/\nWebsite: https://clairevo.com/\nLinkedIn: https://www.linkedin.com/in/clairevo/\nX: https://x.com/clairevo\n\n_Production and marketing by https://penname.co/._\n_For inquiries about sponsoring the podcast, email jordan@penname.co._",
-      "score": 1,
-      "hook": "Non-technical founder scaled a meme company to $100K ARR on Bubble, then built an API-first agent product; details on \"no UX is the best UX\" philosophy and free tools as lead magnets.",
-      "adapter": "youtube",
-      "source_name": "How I AI",
-      "duration_s": 3113,
-      "private_source": false,
-      "added_at": "2026-09-20T06:00:41.489733+00:00"
-    },
-    {
       "source_id": "8KkibGU_DDY",
       "title": "Mousepower: agents that can’t be measured, can’t be managed. — Maximillian Piras, Yutori",
       "author": "AI Engineer",
@@ -1392,38 +1280,6 @@
       "duration_s": 1237,
       "private_source": false,
       "added_at": "2026-09-20T06:00:44.799832+00:00"
-    },
-    {
-      "source_id": "3rWSvrFahIY",
-      "title": "Self-Play for LLMs, AI for Biology, Formal Verification, and More | YC Paper Club",
-      "author": "Y Combinator",
-      "url": "https://youtu.be/3rWSvrFahIY",
-      "source_type": "video",
-      "date": "2026-06-12",
-      "raw_text": "It's hard to keep up with the latest AI research. That's why we started YC Paper Club — a small group of researchers, engineers, and founders who meet every two weeks at our Mountain View office to present and discuss new papers together. In this session, we cover whether scaling laws hold for protein biology, AlphaZero-style self-play for language models, streaming RAG for real-time voice agents, formal verification with Lean, and why one founder thinks programming with agents is exactly like playing a real-time strategy game.\n\nInterested in joining a future Paper Club? Apply here: https://events.ycombinator.com/ycpaperclub\nApply to Y Combinator: https://www.ycombinator.com/apply\nWork at a startup: https://www.ycombinator.com/jobs\n\n00:00 — Introduction by Francois Chaubard\n05:47 — Yasa Baig: A World Model of Protein Biology (https://biohub.ai/esm/protein/about)\n25:38 — Luke Bailey: Scaling Self-Play with Self-Guidance (https://arxiv.org/pdf/2604.20209)\n37:51 — Arnab Maiti: Stream RAG: Instant and Accurate Spoken Dialogue Systems with Streaming Tool Usage (https://arxiv.org/pdf/2510.02044)\n47:40 — Robert George: Lean for Science: How Formal Proofs Can Change Mathematics, AI, and Scientific Computing (https://arxiv.org/abs/2602.22631)\n58:52 — Lukens Orthwein: Founder AI Hacks: Programming is an RTS Game Now\n1:16:07 — Closing Remarks",
-      "score": 2,
-      "hook": "Five research papers on self-play for LLMs, streaming RAG for voice agents, formal verification, protein scaling laws, and agent-based programming — presented by researchers and founders.",
-      "adapter": "youtube",
-      "source_name": "Y Combinator",
-      "duration_s": 4615,
-      "private_source": false,
-      "added_at": "2026-09-20T06:00:47.645816+00:00"
-    },
-    {
-      "source_id": "ACRd0Ikg_KI",
-      "title": "Automate Your Life with Claude Code in 40 Minutes | Moritz Kremb",
-      "author": "Peter Yang",
-      "url": "https://youtu.be/ACRd0Ikg_KI",
-      "source_type": "video",
-      "date": "2026-05-10",
-      "raw_text": "📌 Copy the AI system I use to run a one-person $1M+ business: https://www.behindthecraft.com\n🤝 Subscribe to my practical AI newsletter read by 150K+ professionals: https://creatoreconomy.so\n\n​ ​ Moritz is an AI founder who built a personal OS in Claude Code to manage his emails, create content, and even buy groceries. In this episode, he walks through everything you need to set up your own: folder structure, tools, memory loops, skills, and routines. We also talked about the pros and cons of OpenClaw vs. Claude Code.\n\nMoritz and I talked about:\n(00:00) The honest tradeoffs: OpenClaw vs. Claude Code\n(09:03) Why Moritz switched to Claude Code\n(15:40) The folder structure that runs Moritz's entire OS\n(20:03) The memory loop that makes Claude Code remember everything\n(23:47) CLI vs. MCP vs. API: which to pick and why it matters\n(26:02) Skills walkthrough: automated grocery runs and video uploads\n(29:03) Local vs. remote routines (and when to use each)\n(31:51) The full content pipeline from idea to posted video\n(41:43) Tips to start building your first personal OS\n\nThanks to our sponsors:\nLinear: The AI agent platform for modern teams https://linear.app/behind-the-craft\nWispr Flow: Don't type, just speak https://ref.wisprflow.ai/peteryang\nOceans: Hire AI-native EAs http://oceanstalent.com/peter\n\nGet the takeaways: https://creatoreconomy.so/p/build-a-claude-code-personal-os-step-by-step-moritz\n\nWhere to find Moritz:\nX: https://x.com/moritzkremb\nWebsite: https://joinagentos.com/\n\nSubscribe to this channel - more interviews coming soon!",
-      "score": 1,
-      "hook": "Concrete walkthrough of a Claude Code personal OS — folder structure, memory loops, MCPs, CLI vs. API choices, and a full content pipeline from idea to posted video.",
-      "adapter": "youtube",
-      "source_name": "Peter Yang",
-      "duration_s": 2555,
-      "private_source": false,
-      "added_at": "2026-09-20T06:00:50.092020+00:00"
     },
     {
       "source_id": "AI1FLDY3q5s",
@@ -1504,22 +1360,6 @@
       "duration_s": 3836,
       "private_source": false,
       "added_at": "2026-09-20T06:01:04.063620+00:00"
-    },
-    {
-      "source_id": "9qXc-THAvc0",
-      "title": "How OpenAI's Codex Team Builds with Codex (43 Min) | Alex & Romain",
-      "author": "Peter Yang",
-      "url": "https://youtu.be/9qXc-THAvc0",
-      "source_type": "video",
-      "date": "2026-04-05",
-      "raw_text": "📌 Copy the AI system I use to run a one-person $1M+ business: https://www.behindthecraft.com\n🤝 Subscribe to my practical AI newsletter read by 150K+ professionals: https://creatoreconomy.so\n\n​ ​ Alex is the product lead for Codex and Romain runs developer experience. They gave me a rare inside look at how the Codex team operates, including how they build products with Codex and how they ship without traditional specs and roadmaps. Alex also has some spicy takes on the future of PM and what actually matters when hiring.\n\nWe talked about:\n(00:00) Live demo: Building a game in seconds with Codex Spark \n(04:29) \"For specs, we write like 10 bullets and that's it\"\n(08:09) \"Our designers now write more code than eng 6 months ago\"\n(15:30) \"We plan short and long term, never medium term\"\n(22:11) How Alex actually spends his day as Codex PM\n(32:06) The traditional career ladder no longer makes sense\n(39:20) What the Codex team looks for when hiring (it's not your resume)\n\nThanks to our sponsors:\nLinear: AI agents for modern teams https://linear.app/behind-the-craft\nGranola: AI meeting notes that don't suck https://granola.ai/peter\nReplit: From 0 to full stack app in 2 min https://replit.com/?utm_source=creator&utm_medium=organic&utm_campaign=creator_program&utm_content=peteryang\n\n📌 Get the takeaways: https://creatoreconomy.so/p/how-openai-codex-team-builds-with-codex-alex-romain\n\nWhere to find Alex and Romain:\nAlex: https://x.com/embirico\nRomain: https://x.com/romainhuet\nWebsite: https://openai.com/codex/\n\nSubscribe to this channel - more interviews coming soon!",
-      "score": 1,
-      "hook": "Inside look at how OpenAI's Codex team ships products with AI instead of specs—designers writing code, PMs working with 10-bullet briefs, short/long-term planning (no medium term).",
-      "adapter": "youtube",
-      "source_name": "Peter Yang",
-      "duration_s": 2597,
-      "private_source": false,
-      "added_at": "2026-09-20T06:01:06.858163+00:00"
     }
   ]
 }
