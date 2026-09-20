@@ -1,0 +1,133 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-20T02:02:56.341143+00:00",
+      "tg_message_ids": [
+        116,
+        117
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 40,
+          "scored_to_backlog": 32,
+          "backlog_size": 35,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "4mKtJzfGj0U",
+          "url": "https://youtu.be/4mKtJzfGj0U",
+          "title": "5 Rules for Building AI Agents That Work in Production | Nan Yu & Jacob Shumway",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Linear built a production agent that moves work from Slack to code in 6 minutes; Nan and Jacob walk through the memo, tooling strategy, and eval approach end-to-end.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "5KTHvKCrQ00",
+          "url": "https://youtu.be/5KTHvKCrQ00",
+          "title": "Claude ran a business in our office",
+          "author": "Anthropic",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Claude autonomously ran a real small business (vending operation) in Anthropic's office for most of 2025, revealing both how close AI agents came to success and specific failure modes in real-world execution.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "8ONFvAtboZ4",
+          "url": "https://youtu.be/8ONFvAtboZ4",
+          "title": "Grok Bot + Grok 4.6  + Cursor Origin - is Claude Code dead?",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Hands-on comparison of Grok Bot (multi-account connectors), Cursor Origin, and Grok 4.6 model against Claude and GPT, with concrete verdicts on what actually ships vs. hype.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "6Yeo6M8-W_8",
+          "url": "https://youtu.be/6Yeo6M8-W_8",
+          "title": "Instinct vs Grok Bot vs ChatGPT vs Hermes: Which AI Agent Can You Trust?",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "First-hand comparison of four AI agents (Instinct, Grok Bot, ChatGPT, Hermes) with access to email, documents, logins, and purchase authority — plus prompt injection vulnerability demo.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "2UwemqPkJSQ",
+          "url": "https://youtu.be/2UwemqPkJSQ",
+          "title": "Muse gets AI agent UX right",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "First-pass test of Meta's Muse personal AI agent across calendar, goals, newsletter generation, shopping, and avatar design — with explicit comparison to Claude, Codex, and other agents on UX specifics.",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "8DgguXIU4L8",
+          "url": "https://youtu.be/8DgguXIU4L8",
+          "title": "New! Amazon Tags in YouTube Shopping, Views (Co-Viewed), Branded Content Updates",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Three named YouTube platform changes for creators — Amazon Tags in Shopping, Views (Co-Viewed) stat, and branded content policy updates with auto-labeling.",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "8OOuCnZB-4o",
+          "url": "https://youtu.be/8OOuCnZB-4o",
+          "title": "The Age Of The 40-Year-Old Solo Founder Is Here",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 1,
+          "hook": "40-year-old founder rebuilding Webflow's success with an AI-native marketing platform; chapters on competitive moats, purpose-built AI vs. better models, and agents as customers (CLI, MCP, AEO).",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "btxG75rNJC4",
+          "url": "https://youtu.be/btxG75rNJC4",
+          "title": "Two Bugs That Hid in Plain Sight: A vLLM Debugging Detective Story — Asaf Gardin & Yuval Belfer",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Two production bugs in vLLM with Mamba models that returned high-confidence gibberish under load — found via request ID threading and logprob forensics, not crash logs.",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "c1hGBoWw20A",
+          "url": "https://youtu.be/c1hGBoWw20A",
+          "title": "Weight Folding, CUDA Streams, and the Bug That Made My Model Speak Backwards — Filip Makraduli",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "A kernel-level optimization (weight folding + deferred division) that buys 33–35% speedup on RMS norm + projection, with a detailed account of a race condition bug in parallel CUDA streams and how to fix it.",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "2jFtOASCEfY",
+          "url": "https://youtu.be/2jFtOASCEfY",
+          "title": "YPP Updates, View Count Changes, and more | Creator Roundup",
+          "author": "YouTube Creators",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Official YouTube platform announcements on view count metrics changes, YPP eligibility updates, and new creator monetization/tagging features.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
