@@ -518,6 +518,90 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-20T18:00:23.466699+00:00",
+      "tg_message_ids": [
+        124
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 6,
+          "posting": 6,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "0UArKLQ6bXA",
+          "url": "https://youtu.be/0UArKLQ6bXA",
+          "title": "How this PM Used Claude Code to Support 20 People",
+          "author": "Aakash Gupta",
+          "source_type": "video",
+          "score": 1,
+          "hook": "PM at DoorDash built a shared repo (\"Team OS\") using Claude Code where teams self-serve context through nested CLAUDE.md files, with 1,500+ hours of iteration showing concrete patterns (token tiering, parallel agents, verified playbooks).",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "71qvIkO9d_A",
+          "url": "https://youtu.be/71qvIkO9d_A",
+          "title": "If You Don’t Understand AI Evals, Don’t Build AI",
+          "author": "Aakash Gupta",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Live demo building an eval from scratch using Linear's MCP server, plus the data-task-scores framework for systematic AI quality assessment.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "5qvr9Rzja2U",
+          "url": "https://youtu.be/5qvr9Rzja2U",
+          "title": "AI Powered Product Skills for Executive Leaders & GMs",
+          "author": "Level Up: Make No BS Career Breakthroughs",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Leaders need hands-on AI skills and must set sharp expectations for AI adoption across their teams.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "0UnZnonMN9o",
+          "url": "https://youtu.be/0UnZnonMN9o",
+          "title": "How This Solo AI Founder Bootstrapped 5 Products to 1M+ / Month | Tibo Louis-Lucas",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Solo founder's playbook for validating AI products fast, acquiring users, and pricing — with 5 products to $1M+/month as proof.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "0_dSWLOHKng",
+          "url": "https://youtu.be/0_dSWLOHKng",
+          "title": "My Simple Claude Cowork System (for normal people)",
+          "author": "Jeff Su",
+          "source_type": "video",
+          "score": 2,
+          "hook": "A three-level workspace architecture for Claude with persistent memory, instruction files, and concrete use cases (email, spending tracking, newsletter drafting).",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "18Um2VjMM_g",
+          "url": "https://youtu.be/18Um2VjMM_g",
+          "title": "Speech-to-Speech Model Research at Google DeepMind — Valeria Wu Fon & Tom Ouyang, Google DeepMind",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Google DeepMind's speech-to-speech model handles code-switching and multimodal input natively, but exposes a three-way tension between conversational latency, task intelligence, and multimodal capability.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
