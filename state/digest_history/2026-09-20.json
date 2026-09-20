@@ -130,6 +130,135 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-20T06:01:22.007983+00:00",
+      "tg_message_ids": [
+        118,
+        119
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 11,
+          "scored_to_backlog": 11,
+          "backlog_size": 36,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "5FKBkUCaLa8",
+          "url": "https://youtu.be/5FKBkUCaLa8",
+          "title": "How Gusto’s CTO uses Claude Code to ship like a startup",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "CTO at $1B payroll company shipped a net-new AI product (Gusto Cofounder) in 10 weeks with 5 people using Claude Code, throwing out standard processes — with named mechanisms (trash-can method for PRs, eval-first workflow, perma-Zoom instead of standups).",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "88B6DimMD2g",
+          "url": "https://youtu.be/88B6DimMD2g",
+          "title": "How This Ex-Meta L8 Engineer Ships 40 PRs a Day with AI Agents | Kun Chen",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Ex-Meta L8 engineer walks through concrete agentic engineering patterns (parallel agents, HTML-based specs, AI code review) and free tools he built to ship 40 PRs/day without manual code review.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "0YeeJHYy-Vc",
+          "url": "https://youtu.be/0YeeJHYy-Vc",
+          "title": "How to Build AI Agents That Check Their Own Work | Jared Zoneraich",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Agent architecture pattern — one manager agent directing 10 cloud agents, with self-testing before human review; practical constraints on overbuilding first systems.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "1_jlukb7gm4",
+          "url": "https://youtu.be/1_jlukb7gm4",
+          "title": "The AI content machine that turns ideas into posts that don't sound like slop | Alex Lieberman",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Six-step Claude-based content machine (Oracle → Interview Panel → Voice Codification → Editorial Council → Lessons Loop) that turns idea spikes into on-brand posts without slop, with live demo.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "Hvb2LfMH58c",
+          "url": "https://youtu.be/Hvb2LfMH58c",
+          "title": "The Frontier AI Inference Cloud for Agents — Byung-Gon (Gon) Chun, FriendliAI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Inference infrastructure optimized for agentic loops (prefix caching, hierarchical KV cache, cache-aware routing) shows 5.5–7× cost/speed improvements over naive approaches.",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "75ckHC2LU_0",
+          "url": "https://youtu.be/75ckHC2LU_0",
+          "title": "What's New in Inference Engineering — Philip Kiely, Baseten",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Data center inference optimization has shifted to trained speculative decoding (diffusion drafters, continuous retraining on live prompts) while local inference trades off bandwidth for compute, with quantization strategy diverging between the two.",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "4YWO4sSRrTE",
+          "url": "https://youtu.be/4YWO4sSRrTE",
+          "title": "Circleback CEO Ali Haghani: Why Your Company Should Be Recording More Meetings",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "CEO of AI notetaker walks through why meeting recording is becoming table stakes, with examples of unexpected use cases and agent-building patterns.",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "6eBSHbLKuN0",
+          "url": "https://youtu.be/6eBSHbLKuN0",
+          "title": "Mastering Claude Code in 30 minutes",
+          "author": "Anthropic",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Video walkthrough of Claude Code's advanced features and workflows.",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "5d6y3poKwK4",
+          "url": "https://youtu.be/5d6y3poKwK4",
+          "title": "Patrick Collison: Is AI Breaking the Lean Startup Playbook?",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Patrick Collison on whether AI is breaking the lean startup playbook, plus Stripe's data on the AI economy and optimal startup timing.",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "35VzPlY1-kI",
+          "url": "https://youtu.be/35VzPlY1-kI",
+          "title": "YouTube for Artists Masterclass: Going Live on YouTube with Sheniece Charway",
+          "author": "YouTube Creators",
+          "source_type": "video",
+          "score": 2,
+          "hook": "YouTube's official guidance on livestreaming setup, release strategy integration, and platform mechanics for creators.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
