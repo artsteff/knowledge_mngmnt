@@ -179,7 +179,8 @@
           "source_type": "video",
           "score": 1,
           "hook": "Agent architecture pattern — one manager agent directing 10 cloud agents, with self-testing before human review; practical constraints on overbuilding first systems.",
-          "card_slug": null
+          "card_slug": "how-to-build-ai-agents-that-check-their-own-work-jared-zoner",
+          "card_path": "summaries/how-to-build-ai-agents-that-check-their-own-work-jared-zoner.md"
         },
         "4": {
           "adapter": "youtube",
