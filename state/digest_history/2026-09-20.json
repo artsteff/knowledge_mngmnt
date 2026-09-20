@@ -26,7 +26,8 @@
           "source_type": "video",
           "score": 1,
           "hook": "Linear built a production agent that moves work from Slack to code in 6 minutes; Nan and Jacob walk through the memo, tooling strategy, and eval approach end-to-end.",
-          "card_slug": null
+          "card_slug": "5-rules-for-building-ai-agents-that-work-in-production-nan-y",
+          "card_path": "summaries/5-rules-for-building-ai-agents-that-work-in-production-nan-y.md"
         },
         "2": {
           "adapter": "youtube",
@@ -59,7 +60,8 @@
           "source_type": "video",
           "score": 1,
           "hook": "First-hand comparison of four AI agents (Instinct, Grok Bot, ChatGPT, Hermes) with access to email, documents, logins, and purchase authority — plus prompt injection vulnerability demo.",
-          "card_slug": null
+          "card_slug": "instinct-vs-grok-bot-vs-chatgpt-vs-hermes-which-ai-agent-can",
+          "card_path": "summaries/instinct-vs-grok-bot-vs-chatgpt-vs-hermes-which-ai-agent-can.md"
         },
         "5": {
           "adapter": "youtube",
