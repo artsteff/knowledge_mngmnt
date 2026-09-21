@@ -28,6 +28,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-21T22:00:22.251435+00:00",
+      "tg_message_ids": [
+        126
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "SQMCtZX3trg",
+          "url": "https://youtu.be/SQMCtZX3trg",
+          "title": "The Dark Arts of Skill Engineering — Paul Bakaus, Renaissance Geek (Impeccable)",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Nine concrete techniques for deterministic skill engineering with LLMs — sub-agents, routing, hooks, eval harnesses — that treat prompting as floor and harness architecture as ceiling.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
