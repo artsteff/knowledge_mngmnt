@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-21T14:00:29.475295+00:00",
+      "tg_message_ids": [
+        125
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "4_SHhSMHzNo",
+          "url": "https://youtu.be/4_SHhSMHzNo",
+          "title": "The AI factory playbook for engineering teams",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Software factory architecture with concrete metrics — human interactions per PR, cost-per-PR tracking, LLM-as-judge scoring, and self-improving agent workflows from a founder who built this at scale.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
