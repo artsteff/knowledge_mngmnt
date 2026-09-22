@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-22T18:01:41.233149+00:00",
+      "tg_message_ids": [
+        127
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "UhBqorWNwlU",
+          "url": "https://youtu.be/UhBqorWNwlU",
+          "title": "Claude Opus 5.5 is Here! Is Claude Finally Back? (5 Use Cases Tested)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Peter Yang tests Claude Opus 5.5 across five concrete use cases (3D modeling, art generation, design, video editing, computer use) and evaluates whether it passes a personality test that tripped up Opus 5.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
