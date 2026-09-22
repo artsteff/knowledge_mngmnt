@@ -28,6 +28,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-22T22:00:26.185618+00:00",
+      "tg_message_ids": [
+        128
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "zObYdmNB2Bo",
+          "url": "https://youtu.be/zObYdmNB2Bo",
+          "title": "Claude is BACK with Opus 5.5",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Week-long testing of Opus 5.5 across agentic tasks, frontend prototyping, and safety boundaries, with concrete cost math and model-stack decisions based on real work.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
