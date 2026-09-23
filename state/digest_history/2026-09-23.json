@@ -150,6 +150,60 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-23T22:00:22.144335+00:00",
+      "tg_message_ids": [
+        132
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": [
+            "metadata-missing:jgWY66RaSrQ",
+            "metadata-missing:g0vqT_wZtXA"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "jNE8No-wvok",
+          "url": "https://youtu.be/jNE8No-wvok",
+          "title": "Modality Misalignment and Originality Attribution in Short-Form Video — Aditya Gautam, Meta",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Three-agent system (perceiver, reviewer, retriever) for detecting modality misalignment and unoriginal content at Meta scale, built on specialized VLMs with DPO training from production samples and human judges.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "CGq9KRSb9Kc",
+          "url": "https://youtu.be/CGq9KRSb9Kc",
+          "title": "AI Engineer Paris 2026 Opening Keynotes: Mistral, Langfuse & Sizzy | Day 1",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Day 1 keynotes from AI Engineer Paris 2026 covering frontier AI, coding agents, software factories, and economic history applied to the AI moment.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "T72nqdC92PM",
+          "url": "https://youtu.be/T72nqdC92PM",
+          "title": "From Scratch to SOTA: Training a 3B State-Space Vision Model — Krishna Prasad Srinivasan, Sarvam",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "A 3B state-space vision model for document AI in Indian languages, trained on a four-stage curriculum including 13T text tokens, that reportedly beats models 100× larger and is now digitizing 35M pages in production.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }

@@ -182,6 +182,7 @@
     "DZkQ1MrMF1s",
     "DbBnd9PYob4",
     "Dcvl4mseZ6c",
+    "DdCEmlAydcw",
     "DeM_u2Ik0sk",
     "DhYJ1GENLoQ",
     "DhpJmXEqtSs",
@@ -1143,54 +1144,5 @@
     "zw9yxsMZCZc"
   ],
   "failed": {},
-  "backlog": [
-    {
-      "source_id": "T72nqdC92PM",
-      "title": "From Scratch to SOTA: Training a 3B State-Space Vision Model — Krishna Prasad Srinivasan, Sarvam",
-      "author": "AI Engineer",
-      "url": "https://youtu.be/T72nqdC92PM",
-      "source_type": "video",
-      "date": "2026-09-23",
-      "raw_text": "Well under one percent of the Common Crawl corpus that frontier models train on is in an Indian language, even as frontier labs call India a fast growing market. Krishna Prasad Srinivasan says the knowledge exists but was never digitized, and Sarvam's answer is a three billion parameter vision language model, small enough for one GPU, that he says beats document AI models a hundred times larger. The model is unusual twice over. Its backbone is a state space model rather than a transformer, because a page can run to ten thousand visual tokens and quadratic attention gets expensive, while an SSM keeps constant memory. And in late 2025, when most OCR models were monolithic page level VLMs, the team bet on block level OCR wrapped in a layout harness and a reading order harness, which many 2026 releases have since converged on.\n\nTraining runs as a four stage curriculum: thirteen trillion text tokens across English, 22 Indian languages, math, and code before the model sees a pixel, so a language prior can resolve a smudged word; continual pretraining on three hundred million image text pairs; supervised fine tuning on a hundred million OCR samples; then reinforcement learning. OCR correctness is machine checkable, so rewards are unit tests on character error rate, table structure, or grammar, which makes verifiable reward RL scalable here. The moat is underneath: a data engine for languages with no labeled data, and evals built for real usefulness. Four months after launch the model is digitizing 35 million pages for insurers, banks, and governments, with a public Indic benchmark from the 1800s to today promised soon. Questions cover low resource transfer, synthetic data, and sovereignty.\n\nSpeaker info:\n- https://x.com/fewshotlearner\n- https://www.linkedin.com/in/krishnapsrinivasan/\n\nTimestamps:\n0:00 - A 3B model that beats models 100 times larger on document AI\n1:14 - Sarvam, and why India is missing from the machine readable world\n2:37 - Why Indic document intelligence is hard\n3:18 - The contrarian bet: block level OCR with a harness\n4:31 - Why a state space model instead of a transformer\n6:08 - Four stage curriculum: 13 trillion text tokens first\n8:05 - The moat underneath: data engine and evals\n9:13 - RL with verifiable rewards for OCR\n9:54 - Results on English benchmarks and 22 Indian languages\n10:50 - The agentic workbench and 35 million pages in production\n12:39 - Q&A: low resource transfer, synthetic data, the Indic benchmark, sovereignty",
-      "score": 2,
-      "hook": "A 3B state-space vision model for document AI in Indian languages, trained on a four-stage curriculum including 13T text tokens, that reportedly beats models 100× larger and is now digitizing 35M pages in production.",
-      "adapter": "youtube",
-      "source_name": "AI Engineer",
-      "duration_s": 1269,
-      "private_source": false,
-      "added_at": "2026-09-23T18:01:08.052787+00:00"
-    },
-    {
-      "source_id": "jNE8No-wvok",
-      "title": "Modality Misalignment and Originality Attribution in Short-Form Video — Aditya Gautam, Meta",
-      "author": "AI Engineer",
-      "url": "https://youtu.be/jNE8No-wvok",
-      "source_type": "video",
-      "date": "2026-09-23",
-      "raw_text": "A video is about sports for its first six seconds, then turns political for half a second. Catching that across a hundred million plus videos is one of two problems Aditya Gautam works on at Meta; the other is unoriginal content, trivial to make with AI tools and corrosive to attribution. Both sit on messy data: adversarial uploads, multilingual on screen text, drift, and no ground truth. Mismatch across modalities is a solved embedding problem; mismatch within one modality over time is not, so three agents share it. A perceiver splits the video where temporal change happens, not at a fixed frame rate, and emits clip level embeddings, tags, and OCR. A reviewer runs the temporal analysis over that JSON and folds in live comments and sentiment. A retriever indexes topics, embeddings, and entities into inverted, vector, and graph stores for pulling similar clips and authors at inference time.\n\nEvery agent runs on a small specialized VLM, not a frontier model, since he does not care whether it can code. That means pretraining the vision encoder on in house images because user generated content looks nothing like clean web data, instruction tuning to a JSON schema, and a DPO loop where daily production samples pass through an in house LLM judge and a human queue tracing failures to the tool call or retrieval step. Distillation and quantization then produce a table of model sizes. Evaluation goes beyond precision and recall to per node latency, reasoning budgets, token cost, and judge drift. Three optimizations keep most videos out of the pipeline: compressing similar frames, caching verdicts on viral content, and pruning by metadata so trusted creators skip it.\n\nSpeaker info:\n- https://www.linkedin.com/in/aditya-gautam-68233a30/\n\nTimestamps:\n0:00 - Two problems on short form video at 100 million plus scale\n1:20 - Messy data: adversarial, multilingual, drifting, no ground truth\n2:03 - Modality misalignment inside a single video\n3:01 - Unoriginal content, and why one agent is not enough\n4:22 - Reviewer, perceiver, retriever\n5:31 - Temporal analysis, then indexing into inverted, vector, and graph stores\n9:37 - The reviewer adds live user signals\n10:45 - Pretraining and instruction tuning specialized VLMs\n13:28 - DPO from production samples with humans in the queue\n16:05 - Distillation and quantization to make it scalable\n17:13 - Holistic evaluation: nodes, reasoning budgets, drift\n19:28 - Spatial temporal reduction, caching, metadata pruning\n20:35 - Takeaways",
-      "score": 1,
-      "hook": "Three-agent system (perceiver, reviewer, retriever) for detecting modality misalignment and unoriginal content at Meta scale, built on specialized VLMs with DPO training from production samples and human judges.",
-      "adapter": "youtube",
-      "source_name": "AI Engineer",
-      "duration_s": 1292,
-      "private_source": false,
-      "added_at": "2026-09-23T18:01:24.053811+00:00"
-    },
-    {
-      "source_id": "CGq9KRSb9Kc",
-      "title": "AI Engineer Paris 2026 Opening Keynotes: Mistral, Langfuse & Sizzy | Day 1",
-      "author": "AI Engineer",
-      "url": "https://youtu.be/CGq9KRSb9Kc",
-      "source_type": "video",
-      "date": "2026-09-23",
-      "raw_text": "Live from STATION F, AI Engineer Paris 2026 opens with welcome remarks and main-stage talks on AI infrastructure, coding agents, software factories, and building frontier AI.\n\nAI Engineer Paris returns for its second edition, bringing together 1,000+ engineers, founders, CTOs, and VPs of AI for two days of technical talks, practical workshops, and AI engineering research.\n\nDay 1 main-stage lineup:\n\n• Jen Person (Mistral) — Welcome to AI Engineer Paris 2026\n• Lia McBride (AI Engineer) — Intro to AI Engineer\n• Lara Khanafer (STATION F) — Welcome from Station F\n• Clemens Rawert (Langfuse) — What Can Economic History Teach Us About the AI Moment?\n• Kitze (Sizzy) — The Next Level of AI Engineering\n• Lélio Renard Lavaud (Mistral) — Building Frontier AI\n\nThis livestream covers the Main Stage. Additional sessions and activities are taking place throughout the event.\n\nEvent: AI Engineer Paris 2026\nDate: September 23, 2026\nVenue: STATION F, Paris\n\nView the full schedule:\nhttps://ai.engineer/paris/2026\n\nSubscribe for more AI Engineer talks, livestreams, and event coverage:\nhttps://www.youtube.com/@aiDotEngineer\n\nSchedule subject to change. Timestamps will be added following the broadcast.\n\n#AIEngineering #AIAgents #AIEParis",
-      "score": 2,
-      "hook": "Day 1 keynotes from AI Engineer Paris 2026 covering frontier AI, coding agents, software factories, and economic history applied to the AI moment.",
-      "adapter": "youtube",
-      "source_name": "AI Engineer",
-      "duration_s": 4486,
-      "private_source": false,
-      "added_at": "2026-09-23T18:01:27.941836+00:00"
-    }
-  ]
+  "backlog": []
 }
