@@ -30,6 +30,61 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-23T14:00:51.111895+00:00",
+      "tg_message_ids": [
+        130
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": [
+            "metadata-missing:jgWY66RaSrQ",
+            "metadata-missing:A_I8mw8yfns",
+            "metadata-missing:CGq9KRSb9Kc"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "RQi7x-navxU",
+          "url": "https://youtu.be/RQi7x-navxU",
+          "title": "Building the Document Context Layer for AI Agents — Jerry Liu, LlamaIndex",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Document parsing decomposes into three layers (parsing → semantic storage → workflows), with a hybrid routing between cheap specialized models and frontier VLMs, benchmarked on 2,000 human-verified pages.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "dKcTBQzR7jI",
+          "url": "https://youtu.be/dKcTBQzR7jI",
+          "title": "Skill issue: stop deploying vision language models, use them with Skills — Merve Noyan, Hugging Face",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "A toolkit that uses coding agents + VLM judges to label datasets cheaply ($3–4), then trains task-specific detectors that outperform direct VLM inference on latency and cost.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "cjlGBDdQ-qA",
+          "url": "https://youtu.be/cjlGBDdQ-qA",
+          "title": "Inside the Mind of YouTube's Anthony Bourdain",
+          "author": "Colin and Samir",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Co-founder of Yes Theory discusses how reframing ideas turns unwatched videos into hits, and how to balance positivity with virality on YouTube.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
