@@ -85,6 +85,71 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-23T18:01:28.162367+00:00",
+      "tg_message_ids": [
+        131
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 8,
+          "scored_to_backlog": 7,
+          "backlog_size": 7,
+          "posting": 4,
+          "errors": [
+            "metadata-missing:jgWY66RaSrQ",
+            "metadata-missing:g0vqT_wZtXA"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "0I07YAuF8xA",
+          "url": "https://youtu.be/0I07YAuF8xA",
+          "title": "From Ingestion to Agents: How AI Teams Build on Document Intelligence — Adit Abraham, Reducto",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Agentic systems fail on bad data inputs — Reducto shares specifics on parsing PDFs at scale (token-level OCR corrections, markdown vs HTML tables, evals at every stage) and how structured parsing lifts frontier model performance on benchmarks.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "ZZcE0HeO-Hc",
+          "url": "https://youtu.be/ZZcE0HeO-Hc",
+          "title": "From VLM/VLA's to Embodied Agents — Armen Aghajanyan, Perceptron AI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Perceptron built a unified embodied foundation model trained on a petabyte of multimodal data that trades 10× teleop hours for 10× video pretraining, with a sparse mixture-of-experts router that learns which visual tokens matter per layer.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "IaszQaGHi5w",
+          "url": "https://youtu.be/IaszQaGHi5w",
+          "title": "MadeOn YouTube 2026 | Creator Roundup",
+          "author": "YouTube Creators",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Official YouTube platform announcement of 2026 features across discovery, creator monetization, and creation tools — including custom feeds, shorts series, creator partnerships program, shopping integration, and dynamic thumbnails.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "A_I8mw8yfns",
+          "url": "https://youtu.be/A_I8mw8yfns",
+          "title": "The Best Models Still Reason Like Toddlers — Andrew Dai, Elorian",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Frontier models hallucinate on spatial reasoning (chessboard counting, robot arm state) because they pattern-match rather than reason; Elorian's approach adds visual chain of thought (drawing boxes) and synthetic data flywheels to fix it.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
