@@ -1,0 +1,35 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-23T02:55:39.372480+00:00",
+      "tg_message_ids": [
+        129
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": [
+            "metadata-missing:jgWY66RaSrQ"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "LMT-bknLmNo",
+          "url": "https://youtu.be/LMT-bknLmNo",
+          "title": "I reviewed Opus 5.5 and GPT-6 Sol live - and the results surprised me",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Blind evaluation of Opus 5.5, GPT-6 Sol, and GPT-6 Astra across real work (PRDs, frontend, agents, SVG, video editing) with post-reveal breakdown of what each model actually wins at.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
