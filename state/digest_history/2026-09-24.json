@@ -61,6 +61,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-24T18:00:46.909525+00:00",
+      "tg_message_ids": [
+        135
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "I_VEh7XSwyc",
+          "url": "https://youtu.be/I_VEh7XSwyc",
+          "title": "Physical AI's Next Bottleneck Is Finding the Right Video — Rafael Levi, Bright Data",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Video indexing by action (not title) cuts training data waste from 96% to viable levels, with Bright Data's API returning trimmed clips + timestamps; Meta's case: 1M hours public video + 62 hours real robot data.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "jgWY66RaSrQ",
+          "url": "https://youtu.be/jgWY66RaSrQ",
+          "title": "I Gave an AI a Body — Cyrus Clarke, MIT Media Lab",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "MIT researcher built a closed-loop system that trained an AI-controlled shape display to develop 32 gestural \"answers\" faster than language output, starting from zero instruction.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "2wgPHvW0mG8",
+          "url": "https://youtu.be/2wgPHvW0mG8",
+          "title": "One Operator, Many Drones: Inside Skydio's Autonomy Stack — Suchet Bargoti, Skydio",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "VLM agents replacing hand-coded rules for autonomous drone tracking, plus edge/cloud split for real-world autonomy at scale.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
