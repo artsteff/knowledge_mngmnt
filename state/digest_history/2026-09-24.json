@@ -112,6 +112,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-24T22:00:25.333335+00:00",
+      "tg_message_ids": [
+        136
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "DqF08Dz3nok",
+          "url": "https://youtu.be/DqF08Dz3nok",
+          "title": "How to build products on a moving frontier | Dan Shipper (Every)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Two-track product org model for AI — research lab exploring new capabilities in parallel with product team iterating on current product; tested through live experiments.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "VM5kuvWgwDY",
+          "url": "https://youtu.be/VM5kuvWgwDY",
+          "title": "The last roadmap | Claire Vo",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Argues that traditional feature roadmaps push teams to ship without learning what matters, and proposes experiments grounded in customer evidence as an alternative.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
