@@ -1,0 +1,35 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-24T10:00:50.375354+00:00",
+      "tg_message_ids": [
+        133
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": [
+            "metadata-missing:jgWY66RaSrQ"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "g0vqT_wZtXA",
+          "url": "https://youtu.be/g0vqT_wZtXA",
+          "title": "AI Engineer Paris 2026 Main Stage: Google DeepMind, ElevenLabs, Hugging Face & Stripe | Day 2 2026-09-24 12:00",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Multi-track technical deep-dives on production AI systems from builders at scale (model inference, voice/realtime, agents, edge AI, economics).",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
