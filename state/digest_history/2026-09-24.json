@@ -30,6 +30,37 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-24T14:01:00.783930+00:00",
+      "tg_message_ids": [
+        134
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": [
+            "metadata-missing:jgWY66RaSrQ"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "4Gqg0HVe-AY",
+          "url": "https://youtu.be/4Gqg0HVe-AY",
+          "title": "World Models Need Causality, Not Pretty Pixels — Christopher Manning, Moonlake AI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Manning argues that effective world models need causal structure (action-conditioned simulation in code) not pixel generation, and Moonlake demonstrates this by building interactive 3D worlds from photos, filling in occluded details via web research, and using a Claude Code–inspired loop to close the sim-to-real gap.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
