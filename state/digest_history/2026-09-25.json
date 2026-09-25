@@ -101,6 +101,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-25T22:00:48.763430+00:00",
+      "tg_message_ids": [
+        139
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 7,
+          "scored_to_backlog": 7,
+          "backlog_size": 7,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "gDTEGsKd-yY",
+          "url": "https://youtu.be/gDTEGsKd-yY",
+          "title": "Brand Deals, YouTube Shopping, & New Ways to Earn - Made On YouTube",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube officially rolling out brand discovery tools, paid content boosting, and localized affiliate tagging across 35 markets — with specifics on how the mechanics work and what creators can actually control.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "id6UWk69FFI",
+          "url": "https://youtu.be/id6UWk69FFI",
+          "title": "GIFs in Comments, Members-Only Communities, & Hype with Jewels - Made on YouTube",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube is shipping Members-Only Communities, personalized comment moderation, and a new monetization lever called \"Hype with Jewels\" that surfaces top fans in video descriptions.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
