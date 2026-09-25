@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-25T14:00:31.467306+00:00",
+      "tg_message_ids": [
+        137
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "ACPEpji5NV4",
+          "url": "https://youtu.be/ACPEpji5NV4",
+          "title": "Distill the LLM, Don't Serve It: Search & Personalization at DoorDash — Raghav Saboo, DoorDash",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "LLM reasoning done offline, distilled into small fast models for serving — with four named primitives (LLM supervision, semantic IDs, consumer memory, steerable generation) and specific results (2.3% NDCG, 4–5% MRR, ~1% order rate lift).",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
