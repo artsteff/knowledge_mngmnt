@@ -28,6 +28,79 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-25T18:01:01.659831+00:00",
+      "tg_message_ids": [
+        138
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 5,
+          "scored_to_backlog": 5,
+          "backlog_size": 5,
+          "posting": 5,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "GLvFTMtw4Jk",
+          "url": "https://youtu.be/GLvFTMtw4Jk",
+          "title": "Raise the ceiling: how to scale intent, quality, and artistry with Al | Katie Dill (Stripe)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Katie Dill (Stripe design leader) on how to avoid generic \"zombie UI\" when building with AI — maintaining point of view, user understanding, and detail work through AI-augmented design.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "2LRIAfng7eA",
+          "url": "https://youtu.be/2LRIAfng7eA",
+          "title": "Teaching LLMs to Speak Spotify — Yves Raimond & Jacqueline Wood, Spotify",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Spotify's Large Taste Model—built on frozen-backbone LLM grounding with semantic IDs—powers 1-in-4 US Premium subscribers daily; trained via NEO's four-stage recipe (domain grounding, multitask instruction-tuning, constrained decoding, grounded evaluation).",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "ZG8Mf3P9xzI",
+          "url": "https://youtu.be/ZG8Mf3P9xzI",
+          "title": "The limiting factor—how to design an AI software factory for speed | Geoff Charles (Ramp CPO)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Ramp's CPO walks through how AI agents uncover bottlenecks across product development (discovery, code review, testing, launches, UX) and shows how the PM role needs to shift as each one moves.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "lIgdnF0s0kQ",
+          "url": "https://youtu.be/lIgdnF0s0kQ",
+          "title": "Why LLM Recommenders Will Be AI's Biggest Consumer App — Devansh Tandon, Meta",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "LLM recommenders scale like LLMs and cost 100x less per engagement hour than chat; Meta's recipe tokenizes content into semantic IDs (10 tokens vs 10k), makes feeds bilingual and steerable with chain-of-thought reasoning.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "fF3lkTCM5-c",
+          "url": "https://youtu.be/fF3lkTCM5-c",
+          "title": "Marty Cagan: Strong Opinions, loosely held",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Marty Cagan reflects on ten regrets about product advice, including underestimating business viability, product leadership gaps, and insufficient solution discovery — arguing that as AI lowers build friction, clear thinking and outcome focus become harder and more critical.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
