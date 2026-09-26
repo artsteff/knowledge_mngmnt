@@ -79,6 +79,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-26T10:00:19.970534+00:00",
+      "tg_message_ids": [
+        142
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "LOjyRUspEDk",
+          "url": "https://youtu.be/LOjyRUspEDk",
+          "title": "Made On YouTube 2026 in 10 minutes - Official Recap",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Official YouTube announcement of new creator and viewer features from Made On YouTube 2026 event, compressed into mechanisms rather than hype.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "x4ZkdUtqFpY",
+          "url": "https://youtu.be/x4ZkdUtqFpY",
+          "title": "Ask Music - Made On YouTube",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 2,
+          "hook": "YouTube Music's new \"Ask Music\" feature lets users describe moods/vibes in natural language to generate custom radio stations instead of browsing playlists.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }

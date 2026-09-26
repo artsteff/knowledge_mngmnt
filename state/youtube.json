@@ -1176,38 +1176,5 @@
     "zw9yxsMZCZc"
   ],
   "failed": {},
-  "backlog": [
-    {
-      "source_id": "x4ZkdUtqFpY",
-      "title": "Ask Music - Made On YouTube",
-      "author": "Creator Insider",
-      "url": "https://youtu.be/x4ZkdUtqFpY",
-      "source_type": "video",
-      "date": "2026-09-25",
-      "raw_text": "@derrickgee shows how Ask Music transforms the music discovery experience on YouTube Music at #MadeOnYoutube ! Simply describe what you want to hear using natural conversational prompts—from specific vibes and mood-based playlists to genre mashups—and let YouTube Music curate the perfect custom radio just for you.\n\nTimestamps:\n\n0:00 – Ask Music\n0:45 – How Ask Music Works (Conversational Prompts & Radio Creation)\n1:30 – Key Features & Capabilities\n2:15 – Availability & Rollout Details\n3:00 –What’s Next from Made On YouTube",
-      "score": 2,
-      "hook": "YouTube Music's new \"Ask Music\" feature lets users describe moods/vibes in natural language to generate custom radio stations instead of browsing playlists.",
-      "adapter": "youtube",
-      "source_name": "Creator Insider",
-      "duration_s": 215,
-      "private_source": false,
-      "added_at": "2026-09-25T22:00:46.569474+00:00"
-    },
-    {
-      "source_id": "LOjyRUspEDk",
-      "title": "Made On YouTube 2026 in 10 minutes - Official Recap",
-      "author": "Creator Insider",
-      "url": "https://youtu.be/LOjyRUspEDk",
-      "source_type": "video",
-      "date": "2026-09-26",
-      "raw_text": "#MadeOnYouTube announced a ton of new features for creators and viewers, and here they are in under 10 minutes",
-      "score": 1,
-      "hook": "Official YouTube announcement of new creator and viewer features from Made On YouTube 2026 event, compressed into mechanisms rather than hype.",
-      "adapter": "youtube",
-      "source_name": "Creator Insider",
-      "duration_s": 565,
-      "private_source": false,
-      "added_at": "2026-09-26T02:00:21.913139+00:00"
-    }
-  ]
+  "backlog": []
 }
