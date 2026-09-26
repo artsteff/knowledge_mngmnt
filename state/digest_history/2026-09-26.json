@@ -119,6 +119,68 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-26T18:00:45.421466+00:00",
+      "tg_message_ids": [
+        143
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 8,
+          "scored_to_backlog": 8,
+          "backlog_size": 8,
+          "posting": 4,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "OA-Mc60Rboo",
+          "url": "https://youtu.be/OA-Mc60Rboo",
+          "title": "Beating RL With Reflection: GEPA and Optimize Anything — Lakshya A. Agrawal, GEPA",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "x4e5O9zN0TE",
+          "url": "https://youtu.be/x4e5O9zN0TE",
+          "title": "Long-Horizon Agents Need Experiments, Not Just Prompts — Erina Karati",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "Jv5B5CEaPJI",
+          "url": "https://youtu.be/Jv5B5CEaPJI",
+          "title": "Robot-Use Agents: Why General-Purpose Models May Win in Robotics",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "oVsEddfhdxc",
+          "url": "https://youtu.be/oVsEddfhdxc",
+          "title": "We Let Claude Code and Codex Race Human Researchers — Elie Bakouch, Prime Intellect",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
