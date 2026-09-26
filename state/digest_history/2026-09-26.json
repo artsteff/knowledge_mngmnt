@@ -181,6 +181,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-26T22:00:15.556185+00:00",
+      "tg_message_ids": [
+        144
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 4,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "hd7TOvmyAxU",
+          "url": "https://youtu.be/hd7TOvmyAxU",
+          "title": "An AI Research Agent That Runs Your Experiments — Tim Sweeney, Weights & Biases",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "vrDvatGtIxs",
+          "url": "https://youtu.be/vrDvatGtIxs",
+          "title": "Autoresearch Made Our Models 3x Faster — Tejas Bhakta, Morph",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "XyV6bSMyq-I",
+          "url": "https://youtu.be/XyV6bSMyq-I",
+          "title": "How We Built an Agent That Improves Itself — Zubin Aysola, Weights & Biases",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
