@@ -39,6 +39,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-26T06:00:20.328185+00:00",
+      "tg_message_ids": [
+        141
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 4,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "9ODlofcSciM",
+          "url": "https://youtu.be/9ODlofcSciM",
+          "title": "Build Your Own YouTube Home Page! - Made On YouTube",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube is shipping custom feeds (AI-generated topic tabs on homepage), conversational search with visual understanding in videos, and comment summaries — all announced at Made On YouTube.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "AkNszeQ77MM",
+          "url": "https://youtu.be/AkNszeQ77MM",
+          "title": "Shorts Series, Ask YouTube, & Creator Protection - Made On YouTube",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube rolling out Shorts Series (structured seasons/episodes), Gemini-powered conversational search (\"Ask YouTube\"), and automated voice deepfake detection — all shipping features, not roadmap.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }

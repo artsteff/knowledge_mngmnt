@@ -1178,22 +1178,6 @@
   "failed": {},
   "backlog": [
     {
-      "source_id": "AkNszeQ77MM",
-      "title": "Shorts Series, Ask YouTube, & Creator Protection - Made On YouTube",
-      "author": "Creator Insider",
-      "url": "https://youtu.be/AkNszeQ77MM",
-      "source_type": "video",
-      "date": "2026-09-25",
-      "raw_text": "YouTube VP Emily unveiling new features at #MadeOnYouTube designed to empower your storytelling across every screen and format. From structured episodic Shorts to intelligent creation tools and advanced creator protections, here is what’s coming to YouTube:\n\n💬 Ask YouTube & Smarter Discovery: How over 140M+ viewers are using Gemini-powered conversational search to connect directly with the exact moments in your videos.\n\n🩳 Introducing Shorts Series: Take Shorts to the next level by organizing your vertical videos into structured seasons and episodes—complete with custom thumbnails and sequential playback.\n\n🎬 Conversational Editing & Creation Tools: Bringing advanced generative AI directly into YouTube Create and Shorts to help handle tedious editing tasks like beat syncing, letting you focus on high-level creativity.\n\n🔎 Enhanced Likeness & Voice Protection: Expanding automated deepfake and likeness detection to include speaking voice recognition directly within the YouTube mobile app.\n\nChapters:\n\n0:00 - Innovation & Discovery on YouTube (Ask YouTube)\n1:20 - Introducing Shorts Series: Seasons, Episodes & Thumbnails\n2:06 - Creation & New Conversational Editing Tools\n3:31 - Protecting Creators: Likeness & Voice Detection",
-      "score": 1,
-      "hook": "YouTube rolling out Shorts Series (structured seasons/episodes), Gemini-powered conversational search (\"Ask YouTube\"), and automated voice deepfake detection — all shipping features, not roadmap.",
-      "adapter": "youtube",
-      "source_name": "Creator Insider",
-      "duration_s": 285,
-      "private_source": false,
-      "added_at": "2026-09-25T22:00:44.258568+00:00"
-    },
-    {
       "source_id": "x4ZkdUtqFpY",
       "title": "Ask Music - Made On YouTube",
       "author": "Creator Insider",
@@ -1208,22 +1192,6 @@
       "duration_s": 215,
       "private_source": false,
       "added_at": "2026-09-25T22:00:46.569474+00:00"
-    },
-    {
-      "source_id": "9ODlofcSciM",
-      "title": "Build Your Own YouTube Home Page! - Made On YouTube",
-      "author": "Creator Insider",
-      "url": "https://youtu.be/9ODlofcSciM",
-      "source_type": "video",
-      "date": "2026-09-25",
-      "raw_text": "Creator @gremlita shares the latest viewer and creator updates announced at #MadeOnYouTube ! She dives into two major innovations designed to make finding, exploring, and engaging with content more personalized and intuitive than ever: Custom Feeds and the next evolution of Ask YouTube.\n\nCustom Feeds: Transform your YouTube homepage into curated spaces. Simply prompt a feed into existence for any topic, hobby, or mood (from niche deep-dives to relaxing ambient soundscapes) and get dedicated tabs that continuously update with relevant creators and content.\n\nConversational Search & Recommendations: Ask YouTube handles complex, conversational queries and returns tailored creator recommendations, product specs comparisons, and specific real-world testing moments.\n\nPersistent Context: Seamlessly carry your search query context directly into videos you click on.\n\nVisual Understanding in Video: Ask YouTube can pinpoint exact moments inside a video using visual understanding (e.g., jumping straight to sample shots or demos).\n\nComment Summaries & Insights: Quickly get a synthesis of community feedback directly from the comment section.\n\nChapters:\n\n0:00 – The Evolution of the YouTube Homepage\n0:38 – Introducing Custom Feeds\n0:56 – Custom Feeds Demo: Stationary & Late-Night Coziness\n1:53 – How to Create Your Own Custom Feed\n2:36 – Introducing the New Ask YouTube\n3:28 – Conversational Search & Product Comparisons\n4:27 – Visual Understanding & In-Video Timestamps\n5:11 – Comment Summaries & Product Cards\n5:45 – What’s Next & Availability",
-      "score": 1,
-      "hook": "YouTube is shipping custom feeds (AI-generated topic tabs on homepage), conversational search with visual understanding in videos, and comment summaries — all announced at Made On YouTube.",
-      "adapter": "youtube",
-      "source_name": "Creator Insider",
-      "duration_s": 362,
-      "private_source": false,
-      "added_at": "2026-09-25T22:00:48.619980+00:00"
     },
     {
       "source_id": "LOjyRUspEDk",
