@@ -392,6 +392,137 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-27T14:00:29.164771+00:00",
+      "tg_message_ids": [
+        151,
+        152
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 44,
+          "posting": 10,
+          "errors": [
+            "metadata-missing:474j-n1Ltxc"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "CBneTpXF1CQ",
+          "url": "https://youtu.be/CBneTpXF1CQ",
+          "title": "Claude Code updates: When to use Haiku 4.5, Claude Code on web, and more.",
+          "author": "Anthropic",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "5zd7m3Rh5B0",
+          "url": "https://youtu.be/5zd7m3Rh5B0",
+          "title": "Claude for Financial Services Keynote",
+          "author": "Anthropic",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "2ZacwCbiLjg",
+          "url": "https://youtu.be/2ZacwCbiLjg",
+          "title": "Hermes Full Course: Build Your 24/7 AI Chief of Staff in 45 Minutes",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "5FKBkUCaLa8",
+          "url": "https://youtu.be/5FKBkUCaLa8",
+          "title": "How Gusto’s CTO uses Claude Code to ship like a startup",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "BxEf3RqIHkw",
+          "url": "https://youtu.be/BxEf3RqIHkw",
+          "title": "How This Non-Technical Founder Mastered Agentic Engineering in 50 Minutes | Matt Van Horn",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "CxXgV54KzpQ",
+          "url": "https://youtu.be/CxXgV54KzpQ",
+          "title": "Jeff Dean: The 1% Rule for Building in AI",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "1_jlukb7gm4",
+          "url": "https://youtu.be/1_jlukb7gm4",
+          "title": "The AI content machine that turns ideas into posts that don't sound like slop | Alex Lieberman",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "A_I8mw8yfns",
+          "url": "https://youtu.be/A_I8mw8yfns",
+          "title": "The Best Models Still Reason Like Toddlers — Andrew Dai, Elorian",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "99sPd15j3Zc",
+          "url": "https://youtu.be/99sPd15j3Zc",
+          "title": "What Actually Makes A Startup Durable",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "4Gqg0HVe-AY",
+          "url": "https://youtu.be/4Gqg0HVe-AY",
+          "title": "World Models Need Causality, Not Pretty Pixels — Christopher Manning, Moonlake AI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
