@@ -523,6 +523,137 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-27T18:00:49.690856+00:00",
+      "tg_message_ids": [
+        153,
+        154
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 8,
+          "scored_to_backlog": 8,
+          "backlog_size": 42,
+          "posting": 10,
+          "errors": [
+            "metadata-missing:474j-n1Ltxc"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "BQ_mgojj0Mo",
+          "url": "https://youtu.be/BQ_mgojj0Mo",
+          "title": "5 Underrated Google AI Tools You Need to Try in 16 Minutes (Pomelli, Stitch, Genie, Flow, and More)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "ACRd0Ikg_KI",
+          "url": "https://youtu.be/ACRd0Ikg_KI",
+          "title": "Automate Your Life with Claude Code in 40 Minutes | Moritz Kremb",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "0I07YAuF8xA",
+          "url": "https://youtu.be/0I07YAuF8xA",
+          "title": "From Ingestion to Agents: How AI Teams Build on Document Intelligence — Adit Abraham, Reducto",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "-tdNsYi8AXs",
+          "url": "https://youtu.be/-tdNsYi8AXs",
+          "title": "How the engineer behind Claude Cowork actually uses Claude | Felix Rieseberg (Anthropic)",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "88B6DimMD2g",
+          "url": "https://youtu.be/88B6DimMD2g",
+          "title": "How This Ex-Meta L8 Engineer Ships 40 PRs a Day with AI Agents | Kun Chen",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "2wLJl9A2CnA",
+          "url": "https://youtu.be/2wLJl9A2CnA",
+          "title": "I let Codex run for 6 hours. Here’s what happened.",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "6eBSHbLKuN0",
+          "url": "https://youtu.be/6eBSHbLKuN0",
+          "title": "Mastering Claude Code in 30 minutes",
+          "author": "Anthropic",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "8OOuCnZB-4o",
+          "url": "https://youtu.be/8OOuCnZB-4o",
+          "title": "The Age Of The 40-Year-Old Solo Founder Is Here",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "75ckHC2LU_0",
+          "url": "https://youtu.be/75ckHC2LU_0",
+          "title": "What's New in Inference Engineering — Philip Kiely, Baseten",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "ALJQHSgCl2E",
+          "url": "https://youtu.be/ALJQHSgCl2E",
+          "title": "Why Ambitious Startup Ideas Are Actually Easier To Sell",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
