@@ -130,6 +130,137 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-27T06:01:45.704700+00:00",
+      "tg_message_ids": [
+        147,
+        148
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 35,
+          "scored_to_backlog": 35,
+          "backlog_size": 63,
+          "posting": 10,
+          "errors": [
+            "metadata-missing:474j-n1Ltxc"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "4YWO4sSRrTE",
+          "url": "https://youtu.be/4YWO4sSRrTE",
+          "title": "Circleback CEO Ali Haghani: Why Your Company Should Be Recording More Meetings",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "5KTHvKCrQ00",
+          "url": "https://youtu.be/5KTHvKCrQ00",
+          "title": "Claude ran a business in our office",
+          "author": "Anthropic",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "ACPEpji5NV4",
+          "url": "https://youtu.be/ACPEpji5NV4",
+          "title": "Distill the LLM, Don't Serve It: Search & Personalization at DoorDash — Raghav Saboo, DoorDash",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "0YeeJHYy-Vc",
+          "url": "https://youtu.be/0YeeJHYy-Vc",
+          "title": "How to Build AI Agents That Check Their Own Work | Jared Zoneraich",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "5YWf2c9YYlk",
+          "url": "https://youtu.be/5YWf2c9YYlk",
+          "title": "HOW TO: Create a Makeup Switcher Effect with @royer.louise",
+          "author": "YouTube Creators",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "2UwemqPkJSQ",
+          "url": "https://youtu.be/2UwemqPkJSQ",
+          "title": "Muse gets AI agent UX right",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "AkNszeQ77MM",
+          "url": "https://youtu.be/AkNszeQ77MM",
+          "title": "Shorts Series, Ask YouTube, & Creator Protection - Made On YouTube",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "A9JDkiYEhfY",
+          "url": "https://youtu.be/A9JDkiYEhfY",
+          "title": "The Case For Data Centers In Space",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "AbZODZ_4VaM",
+          "url": "https://youtu.be/AbZODZ_4VaM",
+          "title": "The enterprise AI stack behind Stripe’s company brain “Kai”",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "3BANOGc7kzI",
+          "url": "https://youtu.be/3BANOGc7kzI",
+          "title": "We need to talk about Backrooms",
+          "author": "Colin and Samir",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
