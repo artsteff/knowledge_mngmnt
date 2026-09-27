@@ -1,0 +1,135 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-27T02:01:49.382052+00:00",
+      "tg_message_ids": [
+        145,
+        146
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 39,
+          "scored_to_backlog": 38,
+          "backlog_size": 39,
+          "posting": 10,
+          "errors": [
+            "metadata-missing:474j-n1Ltxc"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "Ak-YNIBqEjI",
+          "url": "https://youtu.be/Ak-YNIBqEjI",
+          "title": "11 Marketing Rules Every YouTuber Needs to Know",
+          "author": "Colin and Samir",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "4mKtJzfGj0U",
+          "url": "https://youtu.be/4mKtJzfGj0U",
+          "title": "5 Rules for Building AI Agents That Work in Production | Nan Yu & Jacob Shumway",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "A6dBGX6iUg8",
+          "url": "https://youtu.be/A6dBGX6iUg8",
+          "title": "Conversational Editing - Made On YouTube",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "6Yeo6M8-W_8",
+          "url": "https://youtu.be/6Yeo6M8-W_8",
+          "title": "Instinct vs Grok Bot vs ChatGPT vs Hermes: Which AI Agent Can You Trust?",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "5bxp78i96S8",
+          "url": "https://youtu.be/5bxp78i96S8",
+          "title": "Paul Graham On Startups, Ambition, and Great Founders",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "2LRIAfng7eA",
+          "url": "https://youtu.be/2LRIAfng7eA",
+          "title": "Teaching LLMs to Speak Spotify — Yves Raimond & Jacqueline Wood, Spotify",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "4_SHhSMHzNo",
+          "url": "https://youtu.be/4_SHhSMHzNo",
+          "title": "The AI factory playbook for engineering teams",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "7taOQBfjDyE",
+          "url": "https://youtu.be/7taOQBfjDyE",
+          "title": "The Loop Is the Product — Roland Gavrilescu, Introspection",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "D4XTefP3Lsc",
+          "url": "https://youtu.be/D4XTefP3Lsc",
+          "title": "When AIs act emotional",
+          "author": "Anthropic",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "2jFtOASCEfY",
+          "url": "https://youtu.be/2jFtOASCEfY",
+          "title": "YPP Updates, View Count Changes, and more | Creator Roundup",
+          "author": "YouTube Creators",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
