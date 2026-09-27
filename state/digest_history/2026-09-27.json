@@ -654,6 +654,135 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-27T22:00:21.836074+00:00",
+      "tg_message_ids": [
+        155,
+        156
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 34,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "AI1FLDY3q5s",
+          "url": "https://youtu.be/AI1FLDY3q5s",
+          "title": "Claude Code + 15 repos: how a non-engineer answers every customer question | Al Chen",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "6fFnh-xe4gc",
+          "url": "https://youtu.be/6fFnh-xe4gc",
+          "title": "How a non-technical founder built a $100K ARR meme company | Jason Levin (Memelord CEO)",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "BRDKft0-dUU",
+          "url": "https://youtu.be/BRDKft0-dUU",
+          "title": "How Intercom 2X'd engineering velocity with Claude Code | Brian Scanlan",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "49L8lVe_PVo",
+          "url": "https://youtu.be/49L8lVe_PVo",
+          "title": "How Meesho Became India’s Biggest Shopping App",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "9qXc-THAvc0",
+          "url": "https://youtu.be/9qXc-THAvc0",
+          "title": "How OpenAI's Codex Team Builds with Codex (43 Min) | Alex & Romain",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "0UnZnonMN9o",
+          "url": "https://youtu.be/0UnZnonMN9o",
+          "title": "How This Solo AI Founder Bootstrapped 5 Products to 1M+ / Month | Tibo Louis-Lucas",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "7c9FSUVcXR0",
+          "url": "https://youtu.be/7c9FSUVcXR0",
+          "title": "Operating Distributed Inference Systems at Scale — Nishant Gupta & Naman Ahuja, Meta",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "3rWSvrFahIY",
+          "url": "https://youtu.be/3rWSvrFahIY",
+          "title": "Self-Play for LLMs, AI for Biology, Formal Verification, and More | YC Paper Club",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "59AA5kIoqjA",
+          "url": "https://youtu.be/59AA5kIoqjA",
+          "title": "The Search Engine for the Agentic Web — Will Bryk, Exa",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "4ynbXUaKHHs",
+          "url": "https://youtu.be/4ynbXUaKHHs",
+          "title": "YC SUS: Eric Migicovsky hosts founder office hours",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
