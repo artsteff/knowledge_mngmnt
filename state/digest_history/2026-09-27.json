@@ -261,6 +261,137 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-27T10:00:23.227160+00:00",
+      "tg_message_ids": [
+        149,
+        150
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 53,
+          "posting": 10,
+          "errors": [
+            "metadata-missing:474j-n1Ltxc"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "AY3lif2E4zI",
+          "url": "https://youtu.be/AY3lif2E4zI",
+          "title": "Accelerating private equity deal flows with Claude",
+          "author": "Anthropic",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "9ODlofcSciM",
+          "url": "https://youtu.be/9ODlofcSciM",
+          "title": "Build Your Own YouTube Home Page! - Made On YouTube",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "5CBnWGP5vIs",
+          "url": "https://youtu.be/5CBnWGP5vIs",
+          "title": "Claude Fable 5 Is Finally Back: 5 Must-Try Use Cases Before July 12",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "0vZ_UVLhSQQ",
+          "url": "https://youtu.be/0vZ_UVLhSQQ",
+          "title": "Getting started with Claude.ai",
+          "author": "Anthropic",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "8mY9wx_iMSU",
+          "url": "https://youtu.be/8mY9wx_iMSU",
+          "title": "GPT-5.6 vs Claude Fable 5: I Tested 6 Real Use Cases (Here’s the Winner)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "AniiF8rOu9c",
+          "url": "https://youtu.be/AniiF8rOu9c",
+          "title": "GPT-6 Astra blew away every one of my benchmarks",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "8ONFvAtboZ4",
+          "url": "https://youtu.be/8ONFvAtboZ4",
+          "title": "Grok Bot + Grok 4.6  + Cursor Origin - is Claude Code dead?",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "2wgPHvW0mG8",
+          "url": "https://youtu.be/2wgPHvW0mG8",
+          "title": "One Operator, Many Drones: Inside Skydio's Autonomy Stack — Suchet Bargoti, Skydio",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "5d6y3poKwK4",
+          "url": "https://youtu.be/5d6y3poKwK4",
+          "title": "Patrick Collison: Is AI Breaking the Lean Startup Playbook?",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "35VzPlY1-kI",
+          "url": "https://youtu.be/35VzPlY1-kI",
+          "title": "YouTube for Artists Masterclass: Going Live on YouTube with Sheniece Charway",
+          "author": "YouTube Creators",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
