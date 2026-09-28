@@ -381,6 +381,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-28T22:00:23.448664+00:00",
+      "tg_message_ids": [
+        163
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "MLnsMIbibZY",
+          "url": "https://youtu.be/MLnsMIbibZY",
+          "title": "Sonnet 5.5 is Here! It's Insane at Making Videos (7 Incredible Examples)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Seven concrete video generation examples using Claude Sonnet 5.5, with prompts and tooling (HyperFrames, Suno, fal).",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
