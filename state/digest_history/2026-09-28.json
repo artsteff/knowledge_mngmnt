@@ -297,6 +297,90 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-28T14:00:47.700481+00:00",
+      "tg_message_ids": [
+        162
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 4,
+          "backlog_size": 6,
+          "posting": 6,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "474j-n1Ltxc",
+          "url": "https://youtu.be/474j-n1Ltxc",
+          "title": "AI-Generated Code Is Already Competing With Human Code — Daksh Gupta, Greptile",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "buHC7bQE1X4",
+          "url": "https://youtu.be/buHC7bQE1X4",
+          "title": "Get Out of the Model's Way — Kevin Hou, Google DeepMind",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "-KIBgpGA_XI",
+          "url": "https://youtu.be/-KIBgpGA_XI",
+          "title": "I’m using Jev more than Opus 5.5 or GPT-6. Here’s why.",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "BtK4kFI1LNo",
+          "url": "https://youtu.be/BtK4kFI1LNo",
+          "title": "Roles aren't converging—they're expanding | Tamar Yehoshua (Atlassian CPO)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "fn8wnmpVqeI",
+          "url": "https://youtu.be/fn8wnmpVqeI",
+          "title": "The rise of HI-ICs | Elena Verna (Lovable)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "sTgM_sbLMNg",
+          "url": "https://youtu.be/sTgM_sbLMNg",
+          "title": "What it takes to be a top PM today | Robby Stein (Google Search)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
     }
   ]
 }

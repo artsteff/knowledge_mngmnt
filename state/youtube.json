@@ -1,6 +1,7 @@
 {
   "seen": [
     "-9E9_21tx04",
+    "-KIBgpGA_XI",
     "-lFOAZK0_H4",
     "-tdNsYi8AXs",
     "-y1W9C0Uhrw",
@@ -125,6 +126,7 @@
     "BSElxGxgoIA",
     "Bop3CJdF960",
     "BsWxPI9UM4c",
+    "BtK4kFI1LNo",
     "BxEf3RqIHkw",
     "Byo9MEL0GHA",
     "CBneTpXF1CQ",
@@ -735,6 +737,7 @@
     "fdBqr6AA7K0",
     "fjF8EKnxKCU",
     "flDnFgnmqQM",
+    "fn8wnmpVqeI",
     "foEeSfXnrIQ",
     "fvhKGpifRC8",
     "fzVuQ2sYEn8",
@@ -985,6 +988,7 @@
     "sOB3HSiG8vo",
     "sPUjIBH5Cwg",
     "sSIrRYGYqtk",
+    "sTgM_sbLMNg",
     "sUrViudHaGA",
     "sbkwv-HVhQU",
     "sgSrcSUck7U",
@@ -1152,38 +1156,5 @@
     "zw9yxsMZCZc"
   ],
   "failed": {},
-  "backlog": [
-    {
-      "source_id": "474j-n1Ltxc",
-      "title": "AI-Generated Code Is Already Competing With Human Code — Daksh Gupta, Greptile",
-      "author": "AI Engineer",
-      "url": "https://youtu.be/474j-n1Ltxc",
-      "source_type": "video",
-      "date": "2026-09-27",
-      "raw_text": "More than a quarter of the pull requests Greptile reviewed in April showed signs of being written largely or entirely by AI agents, up from under 1% a year earlier. Daksh Gupta, co-founder of Greptile, analyzed more than a million pull requests a month from companies like NVIDIA, Coinbase and Scale to test a simple question: are fully vibe-coded PRs actually any good in enterprise codebases?\n\nHe compares agent-written PRs (Codex, Claude Code, Devin, Cursor) with human-written ones on four measures: revert rates, revert rates by PR size, the severity of issues Greptile flags (P0/P1/P2), and how many review rounds it takes to get to a mergeable PR. On all four, agent code landed in the same range as human code, and humans were actually more likely to introduce P0 bugs. The differences show up in *how* each one fails: Claude is about 1.5x more likely than humans to introduce SQL injection, Devin is half as likely to cause auth bypasses, and N+1 queries are far more common from Cursor.\n\nDaksh also shares what this means for code review. The median Greptile user makes fewer than 50 commits a month, while the 99th percentile makes close to 1,000, which makes manual review impossible at that scale. He argues that code validation should answer three questions: Does this change violate the user contract? Does it make a future violation more likely? Does it do what the author intended? He then shows how Greptile answers them with blast-radius analysis and sandboxed browser agents that try to break the app.\n\nSpeaker info:\n- Greptile: https://greptile.com\n- Daksh Gupta on X: https://x.com/dakshgup\n- Daksh Gupta on LinkedIn: https://www.linkedin.com/in/dakshg/\n- Daksh's website: https://dakshgupta.com\n\nTimestamps:\n00:00 Intro\n00:25 Daksh Gupta & Greptile\n00:57 From tab complete to fully autonomous agents\n02:09 Are fully vibe-coded PRs any good?\n02:29 How to detect vibe-coded PRs: author fields, co-author footers, branch prefixes\n03:49 25%+ of PRs vibe coded, up from under 1% a year ago\n04:18 What makes a pull request \"good\"?\n04:38 Revert rates: Codex vs. Devin vs. humans\n05:28 Do revert rates change with PR size?\n06:08 Severity of issues found: P0s, P1s and P2s\n07:02 Review rounds to reach a mergeable PR\n07:47 Different failure modes: SQL injection, auth bypass, N+1 queries\n09:07 Autonomous agents work in enterprise settings\n10:01 What this means for code review: 50 vs. 1,000 commits a month\n10:51 Rethinking code validation: three questions\n11:16 How Greptile validates: blast radius + sandboxed browser agents\n11:56 Closing",
-      "score": 2,
-      "hook": "",
-      "adapter": "youtube",
-      "source_name": "AI Engineer",
-      "duration_s": 760,
-      "private_source": false,
-      "added_at": "2026-09-27T22:00:21.171568+00:00"
-    },
-    {
-      "source_id": "buHC7bQE1X4",
-      "title": "Get Out of the Model's Way — Kevin Hou, Google DeepMind",
-      "author": "AI Engineer",
-      "url": "https://youtu.be/buHC7bQE1X4",
-      "source_type": "video",
-      "date": "2026-09-27",
-      "raw_text": "93 subagents, 12 hours, 2 billion tokens and under $1,000: that's what it took Google's Antigravity to build an operating system kernel from scratch that runs Doom. Kevin Hou, who leads engineering on Antigravity, Google DeepMind's agentic coding product, explains the principle behind it: \"Give Messi the ball and get out of the way.\" Your product should get better every time the model does.\n\nHou traces how coding tools evolved, from autocomplete in 2022 to agents in 2024, agent managers in 2025 and agent teams in 2026. He also shares the lessons from hard calls like removing chat from Windsurf. He then introduces Antigravity 2.0 and the three building blocks of the agent-teams era. The first is dynamic subagents, where Gemini 3.5 Flash leads a team through /teamwork. The second is sidecars, a new plugin protocol that lets agents listen for webhooks, cron jobs and messages. The third is generative UI rendered on the fly. He also shows how DeepMind researchers automated 90% of eval analysis with 100 parallel hypothesis agents.\n\nSpeaker info:\nX/Twitter: @kevinhou22 (https://x.com/kevinhou22)\nWebsite: https://khou22.com\n\nRelated links:\nGoogle Antigravity: https://antigravity.google\n\nTimestamps:\n0:00 Intro: give Messi the ball\n1:15 What Antigravity is\n2:15 Antigravity 2.0\n2:50 Scaling with intelligence\n3:20 From autocomplete to agent teams\n4:25 Battle scars: giving AI a terminal\n5:15 Removing chat from Windsurf\n5:55 Splitting the agent manager from the IDE\n6:25 The 2026 building blocks\n7:05 Where new building blocks come from\n7:55 Gemini 3.5 Flash leads agent teams\n8:15 Agent teams with /teamwork\n8:55 Specialized, dynamic subagents\n9:25 Generative UI status views\n9:50 A photo editor and a messaging app\n10:10 An OS kernel that runs Doom\n10:45 93 subagents, 12 hours, under $1,000\n11:10 Automating research: side-by-side evals\n12:25 100 hypotheses in parallel\n13:10 Generative UI reports\n14:15 Building block 1: dynamic subagents\n15:10 Building block 2: sidecars\n16:05 Building block 3: generative UI\n16:55 Not fixed in plastic\n17:30 Wrap-up",
-      "score": 2,
-      "hook": "",
-      "adapter": "youtube",
-      "source_name": "AI Engineer",
-      "duration_s": 1141,
-      "private_source": false,
-      "added_at": "2026-09-27T22:00:21.468960+00:00"
-    }
-  ]
+  "backlog": []
 }
