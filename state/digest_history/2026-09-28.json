@@ -1,0 +1,133 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-28T02:00:20.408843+00:00",
+      "tg_message_ids": [
+        157,
+        158
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 24,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "CGq9KRSb9Kc",
+          "url": "https://youtu.be/CGq9KRSb9Kc",
+          "title": "AI Engineer Paris 2026 Opening Keynotes: Mistral, Langfuse & Sizzy | Day 1",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "5qvr9Rzja2U",
+          "url": "https://youtu.be/5qvr9Rzja2U",
+          "title": "AI Powered Product Skills for Executive Leaders & GMs",
+          "author": "Level Up: Make No BS Career Breakthroughs",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "96jN2OCOfLs",
+          "url": "https://youtu.be/96jN2OCOfLs",
+          "title": "Andrej Karpathy: From Vibe Coding to Agentic Engineering w/ Stephanie Zhan",
+          "author": "Sequoia Capital",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "BJuevX91ExM",
+          "url": "https://youtu.be/BJuevX91ExM",
+          "title": "Claude Code just Changed Content Creation Forever",
+          "author": "Ben AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "CEvIs9y1uog",
+          "url": "https://youtu.be/CEvIs9y1uog",
+          "title": "Don't Build Agents, Build Skills Instead – Barry Zhang & Mahesh Murag, Anthropic",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "9JFGohx4E7U",
+          "url": "https://youtu.be/9JFGohx4E7U",
+          "title": "GLM-5.2: Open Weights, Near-Frontier Intelligence — Zixuan Li, Z.ai",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "D7_ipDqhtwk",
+          "url": "https://youtu.be/D7_ipDqhtwk",
+          "title": "How We Build Effective Agents: Barry Zhang, Anthropic",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "0_dSWLOHKng",
+          "url": "https://youtu.be/0_dSWLOHKng",
+          "title": "My Simple Claude Cowork System (for normal people)",
+          "author": "Jeff Su",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "tUPPVhBBcoM",
+          "url": "https://youtu.be/tUPPVhBBcoM",
+          "title": "Software Engineering Is Becoming Factory Engineering — Zach Lloyd, Warp",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "xZ5TEaleUdg",
+          "url": "https://youtu.be/xZ5TEaleUdg",
+          "title": "We Built Grok Bot. Here Are Our 14 Best Bots | Peng Zheng & Lauren Tan",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
