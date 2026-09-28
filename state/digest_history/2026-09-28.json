@@ -246,6 +246,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-28T10:00:24.363712+00:00",
+      "tg_message_ids": [
+        161
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 5,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "TN3mj92oZ8I",
+          "url": "https://youtu.be/TN3mj92oZ8I",
+          "title": "How Software Factories Improve Themselves — Suraj Gupta, Warp",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "YIVkERhy8xo",
+          "url": "https://youtu.be/YIVkERhy8xo",
+          "title": "I Turned Coding Agents Into a Strategy Game — Ido Salomon, AgentCraft",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "vGCJ7diEtrw",
+          "url": "https://youtu.be/vGCJ7diEtrw",
+          "title": "What It Actually Takes to Build a Software Factory — Tereza Tížková, Factory",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
