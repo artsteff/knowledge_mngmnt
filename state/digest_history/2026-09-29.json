@@ -90,6 +90,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-29T22:00:21.641975+00:00",
+      "tg_message_ids": [
+        166
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "dIdG-SSFSd0",
+          "url": "https://youtu.be/dIdG-SSFSd0",
+          "title": "YouTube For Artists Masterclass: Master Fandom on YouTube",
+          "author": "YouTube Creators",
+          "source_type": "video",
+          "score": 2,
+          "hook": "YouTube's leadership shares \"new and existing ways\" to help artists find audiences, connect communities, and build fan loyalty on the platform.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
