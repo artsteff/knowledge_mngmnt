@@ -61,6 +61,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-29T18:00:34.209949+00:00",
+      "tg_message_ids": [
+        165
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "z5X1eMU6isI",
+          "url": "https://youtu.be/z5X1eMU6isI",
+          "title": "ChatGPT Dots Is Here! (Is This OpenAI's Grok Bot Killer?)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Peter Yang tests OpenAI's Dots agent across real tasks (sponsorship discovery, app launch, landing page, YouTube comment analysis) and compares it to Grok Bot and Muse.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
