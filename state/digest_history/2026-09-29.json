@@ -1,0 +1,66 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-29T14:00:54.992326+00:00",
+      "tg_message_ids": [
+        164
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 4,
+          "backlog_size": 4,
+          "posting": 4,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "LlgiOCmFG_w",
+          "url": "https://youtu.be/LlgiOCmFG_w",
+          "title": "Fixing the PR Bottleneck — Matt Pocock, AIHero",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Agent experience (AX) deserves the same rigor as developer experience (DX) — the PR review bottleneck isn't about writing speed, it's about what happens around the PR.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "-ciSTkEVy30",
+          "url": "https://youtu.be/-ciSTkEVy30",
+          "title": "Where AI products go next: voice, agents, and self-driving software | Tara Sesha and Nan Yu (OpenAI)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 1,
+          "hook": "OpenAI PMs discuss shipping imperfect AI features, designing understandable agents, and agent-tool integration decisions — live recording from Sept 2026.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "sEXdyK6woKU",
+          "url": "https://youtu.be/sEXdyK6woKU",
+          "title": "Why Claude can’t be your PM (yet) | Anthropic CPO Panel",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Anthropic CPO and Instagram co-founder discuss how PM fundamentals (user understanding, decision-making, adaptation) remain essential when AI changes what teams can ship every few months, plus specifics on agent-native software design and parallel experimentation.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "Zn9NZ-r1-C4",
+          "url": "https://youtu.be/Zn9NZ-r1-C4",
+          "title": "Why I took the summer off from AI (and what I learned) | Karri Saarinen (Linear)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Linear's CEO shares how his team uses AI tooling (customer briefings, quality reviews) while deliberately protecting space for judgment-building through customer conversations and shared critique.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
