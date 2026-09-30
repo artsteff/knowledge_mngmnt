@@ -28,6 +28,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-30T06:00:23.769581+00:00",
+      "tg_message_ids": [
+        168
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "pJNM1z9l5mU",
+          "url": "https://youtu.be/pJNM1z9l5mU",
+          "title": "OpenAI DevDay 2026: Dots, Spaces, and ULTRAFAST",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "First-hand testing of OpenAI's new APIs (Decisions, Astra ultrafast, Agents) with concrete demos (thumbnail selection, collaborative drawing, real-time 3D) and cost breakdowns ($97 for interactive experiments).",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
