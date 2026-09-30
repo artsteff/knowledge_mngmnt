@@ -108,6 +108,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-30T18:00:41.467093+00:00",
+      "tg_message_ids": [
+        170
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "9cJrbj23fOA",
+          "url": "https://youtu.be/9cJrbj23fOA",
+          "title": "The Chief AI Officer: Scientist, Architect, Coach — Rania Khalaf, WSO2",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Chief AI Officer role split into Scientist/Architect/Coach sliders with concrete metrics (AI fluency, agent-consumable products, MCP servers, agent-proof pricing) instead of token counting.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "Se8jHLliLXE",
+          "url": "https://youtu.be/Se8jHLliLXE",
+          "title": "The State of AI in Software Development: Data from 400+ Orgs — Justin Reock, DX",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Data from 200K engineers showing AI adoption patterns (juniors use most, staff+ save equivalent time on fewer tokens), code generation was never the bottleneck, and three named case studies (Morgan Stanley 300K hours/year, Zapier 15% value lift, Spotify SRE agent).",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "6ro5OiT5DFo",
+          "url": "https://youtu.be/6ro5OiT5DFo",
+          "title": "How Troye Sivan Became a Global Star On YouTube",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Creator Insider interviews Troye Sivan on his creative process and fan connection strategy across YouTube.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
