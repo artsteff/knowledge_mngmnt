@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-09-30T02:00:21.703422+00:00",
+      "tg_message_ids": [
+        167
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "pbUkedxJPCE",
+          "url": "https://youtu.be/pbUkedxJPCE",
+          "title": "YouTube just changed: What you need to know",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube CEO Neal Mohan announces platform changes at #MadeOnYouTube; Colin and Samir unpack implications with creators including MrBeast, MKBHD, and others.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
