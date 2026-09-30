@@ -57,6 +57,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-30T14:00:45.931910+00:00",
+      "tg_message_ids": [
+        169
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "dAIIaepNhQM",
+          "url": "https://youtu.be/dAIIaepNhQM",
+          "title": "Jev: 8 real use cases this fast, cheap model",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "John Lindquist demos 8 concrete patterns for using Jev (a fast classification model) as a decision engine—router, deduplicator, multi-step classifier—with speed/cost benchmarks vs. full LLMs.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "_mi3alkqy4s",
+          "url": "https://youtu.be/_mi3alkqy4s",
+          "title": "The Death of the Code Review: What the Data Actually Says — Laurie Voss, Arize AI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Autonomous agents write 741% more code but ship only 30% more software — human review is now the bottleneck, and the industry is rebuilding code review as a system rather than killing it.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "UOcHfR3_tys",
+          "url": "https://youtu.be/UOcHfR3_tys",
+          "title": "Your Agents Are in Solitary Confinement: Why MCP & A2A Aren't Enough — Vlad Luzin, Band",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Multi-agent systems require a distributed systems layer (transport, persistence, runtime binding, agent-first abstractions) — not just MCP or A2A — with live demos showing Codex, LangGraph, and Claude Code collaborating in real time.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
