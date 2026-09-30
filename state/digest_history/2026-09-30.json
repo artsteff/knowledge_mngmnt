@@ -159,6 +159,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-09-30T22:00:26.394003+00:00",
+      "tg_message_ids": [
+        171
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "j7GtybYc6gk",
+          "url": "https://youtu.be/j7GtybYc6gk",
+          "title": "Paddy Galloway Dives Deep on Video A/B & Ask Studio",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube VP discusses Video A/B testing, Dynamic Thumbnails, and Ask Studio — new creator tools with specific platform mechanics.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
