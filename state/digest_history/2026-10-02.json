@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-02T10:00:28.746655+00:00",
+      "tg_message_ids": [
+        172
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "apyrzaWj0Z4",
+          "url": "https://youtu.be/apyrzaWj0Z4",
+          "title": "Stop Renting Your AI's Memory — Dylan Couzon, Qdrant",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Live demo of embedded vector memory (Qdrant Edge) running fully offline on a drone with sub-millisecond retrieval in a 15 MB footprint, plus the architecture pattern (model = CPU, context = RAM, memory = disk).",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
