@@ -28,6 +28,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-02T18:00:47.695372+00:00",
+      "tg_message_ids": [
+        173
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "pAnLpiAG6Es",
+          "url": "https://youtu.be/pAnLpiAG6Es",
+          "title": "MCP Doesn't Suck. Your Agent Does. — Jan Čurn, Apify",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Three concrete fixes to MCP implementation (sub-agents, progressive tool discovery, Code Mode) with live demos and comparative evals (raw MCP vs CLI vs mcpc) showing which approach wins where.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "cKhpeEBnT1o",
+          "url": "https://youtu.be/cKhpeEBnT1o",
+          "title": "Your Coding Agent Is 6 Months Out of Date — Jakub Hojsan, Exa",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Knowledge-cutoff gap breaks code-review agents; Exa shows how to give agents explicit rules for when to search, and token-efficient highlights that compress 100k characters to 500 with no latency.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
