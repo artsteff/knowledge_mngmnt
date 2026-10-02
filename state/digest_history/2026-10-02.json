@@ -68,6 +68,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-02T22:01:02.100899+00:00",
+      "tg_message_ids": [
+        174
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "48YUYDjwfYY",
+          "url": "https://youtu.be/48YUYDjwfYY",
+          "title": "Stop Rationing Tokens: Let the Harness Pick the Model — Kimchi by Cast AI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Cast AI built a harness that switches between proprietary and open models per task, achieving 2.5x cost savings in 3 months by optimizing for cost-per-task instead of rationing tokens.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "5xi_S1f9sDU",
+          "url": "https://youtu.be/5xi_S1f9sDU",
+          "title": "Why 99% Accurate Browser Agents Still Fail — Derek Meegan, Browserbase",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "A browser agent hitting 99% accuracy per step compounds to 36% success over 100 steps—here's a production architecture that solves it with deterministic tools, OCR verification, and pulled-out auth.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "HLTa7Vcs4X0",
+          "url": "https://youtu.be/HLTa7Vcs4X0",
+          "title": "Why AI Didn't Actually Make You Ship Faster — Gabriel Spencer-Harper, Meticulous",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "AI-generated code now outpaces human review capacity; verification (visual diffing + deterministic replay testing) is the new bottleneck, not code generation speed.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
