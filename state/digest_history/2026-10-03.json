@@ -1,0 +1,55 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-03T02:00:33.058862+00:00",
+      "tg_message_ids": [
+        175
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 4,
+          "backlog_size": 4,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "y-OVWZD4j6U",
+          "url": "https://youtu.be/y-OVWZD4j6U",
+          "title": "The 5 Levels of Self-Driving Production — Eric Schwartz, Traversal",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Five-level framework for \"self-driving production\" — from war rooms to closed-loop fixes — with case studies on alert intelligence (PepsiCo) and incident RCA (American Express).",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "OE_lLNCNfQo",
+          "url": "https://youtu.be/OE_lLNCNfQo",
+          "title": "YOLO Mode, Safely: MicroVM Sandboxes for Any Agent — Rowan Christmas, Docker",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Rowan demos how a coding agent can exfiltrate sensitive data in five prompts, then shows how Docker Sandboxes (microVMs with kernel isolation, default-deny networking, audit trails) prevent it — and previews agent identity, delegation chains, and policy-based governance.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "rTojoVotlD8",
+          "url": "https://youtu.be/rTojoVotlD8",
+          "title": "Your LLM App Returned 200 OK. It Was Still Wrong. — Marina Petzel, Datadog",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Four cost drivers (token creep, model drift, uncached calls) and a five-level quality monitoring framework (hallucination, relevance, user satisfaction, completeness, RAG retrieval) for LLM apps that pass traditional health checks but fail in production.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
