@@ -1199,22 +1199,5 @@
     "zw9yxsMZCZc"
   ],
   "failed": {},
-  "backlog": [
-    {
-      "source_id": "FQwTqUmcbRg",
-      "title": "Lessons from Generating 12 Trillion Synthetic Tokens — Bogdan Gaza, DatologyAI",
-      "author": "AI Engineer",
-      "url": "https://youtu.be/FQwTqUmcbRg",
-      "source_type": "video",
-      "date": "2026-10-02",
-      "raw_text": "The web has roughly 30 trillion tokens of usable text. Frontier pre-training needs more. Here's how DatologyAI generates the rest.\n\nBogdan Gaza, co-founder and CTO of DatologyAI, shares the engineering lessons from running synthetic data jobs at trillion-token scale, including a recent run of about 12 trillion tokens across web, math and code. He covers BeyondWeb, DatologyAI's rephrasing-based synthetic data recipe, and the move from a split Slurm/Kubernetes setup to a single Ray, KubeRay and vLLM pipeline on EKS on HyperPod. He then walks through four bottlenecks: S3 metadata, GPU failures, cross-cluster scheduling and inference tuning.\n\nIn this talk:\n• Why seeded rephrasing beats asking a model for synthetic data from scratch\n• Batching S3 metadata fetches to cut 9–11 days down to about 2 hours\n• Right-sized partitions plus checkpointing for recoverable GPU failures\n• Scheduling CPU and GPU together across clusters, and vLLM flag sweeps for about 40% more throughput\n\nSPEAKER\nBogdan Gaza, Co-founder & CTO, DatologyAI\nLinkedIn: https://www.linkedin.com/in/bogdangaza/\nX: https://x.com/hurrycane\n\nLINKS\nDatologyAI: https://www.datologyai.com\nBeyondWeb (blog): https://www.datologyai.com/blog/beyondweb\nBeyondWeb (paper): https://arxiv.org/pdf/2508.10975\n\nCHAPTERS\n0:00 Intro\n0:12 Synthetic data at trillion-token scale\n0:27 Why synthetic data: the data wall\n1:47 What DatologyAI does\n2:22 BeyondWeb results\n4:11 How rephrasing works\n5:51 Where we started: Slurm vs Kubernetes\n6:31 The stack: Ray, KubeRay, vLLM\n7:41 Today's setup on HyperPod\n8:40 One workflow: curate, synthesize, train, eval\n9:30 Engineering lessons at scale\n9:40 Bottleneck 1: S3 metadata (11 days → 2 hours)\n12:29 Bottleneck 2: GPU instability and checkpointing\n14:59 Bottleneck 3: Cross-infrastructure orchestration\n17:53 Bottleneck 4: Inference tuning (+40% throughput)\n18:53 Recap\n19:13 From 30B to 12T synthetic tokens\n20:02 We're hiring\n\nRecorded at the AI Engineer World's Fair 2026 in San Francisco.\nSubscribe for more talks from the engineers building with AI.\n\nAI Engineer: https://ai.engineer\nYouTube: https://www.youtube.com/@aiDotEngineer\nX: https://x.com/aiDotEngineer\nLinkedIn: https://www.linkedin.com/company/aidotengineer/\n\n#SyntheticData #MLInfra #AIEngineer",
-      "score": 1,
-      "hook": "Engineering lessons from running 12 trillion tokens of synthetic data generation — concrete bottlenecks (S3 metadata, GPU failures, scheduling, inference tuning) with specific wins (11 days → 2 hours, +40% throughput).",
-      "adapter": "youtube",
-      "source_name": "AI Engineer",
-      "duration_s": 1231,
-      "private_source": false,
-      "added_at": "2026-10-03T02:00:32.895515+00:00"
-    }
-  ]
+  "backlog": []
 }

@@ -50,6 +50,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-03T06:00:15.045513+00:00",
+      "tg_message_ids": [
+        176
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "FQwTqUmcbRg",
+          "url": "https://youtu.be/FQwTqUmcbRg",
+          "title": "Lessons from Generating 12 Trillion Synthetic Tokens — Bogdan Gaza, DatologyAI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Engineering lessons from running 12 trillion tokens of synthetic data generation — concrete bottlenecks (S3 metadata, GPU failures, scheduling, inference tuning) with specific wins (11 days → 2 hours, +40% throughput).",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
