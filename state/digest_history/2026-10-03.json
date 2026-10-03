@@ -119,6 +119,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-03T22:12:17.578465+00:00",
+      "tg_message_ids": [
+        178
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "8aVbXXvJUY4",
+          "url": "https://youtu.be/8aVbXXvJUY4",
+          "title": "An Interaction Is All You Need — Ivan Leo, Google DeepMind",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Google DeepMind rebuilt LLM APIs for agent workloads — server-side state management via interaction IDs, strongly typed multimodal outputs, and Managed Agents running in persistent remote sandboxes with credential injection.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "bRGyYaE0lxI",
+          "url": "https://youtu.be/bRGyYaE0lxI",
+          "title": "GPU Died. Training Didn't: Self-Healing Training at Scale — Crusoe",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Demo of automatic GPU failure detection and remediation mid-training, resuming from checkpoint in under 15 minutes with zero human intervention on a unified Slurm-on-Kubernetes stack.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
