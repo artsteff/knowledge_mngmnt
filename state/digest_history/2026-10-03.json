@@ -79,6 +79,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-03T18:00:29.513476+00:00",
+      "tg_message_ids": [
+        177
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "I2LL_wd89-A",
+          "url": "https://youtu.be/I2LL_wd89-A",
+          "title": "How VS Code Went from Monthly to Weekly Releases with AI — Harald Kirschner",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "A principal PM at Microsoft details how VS Code moved from monthly to weekly releases by rebuilding systems for AI agents — including concrete mechanisms like agent-written code rising from 55% to 86% commit rate, mandatory AI code review, and eval design that revealed a 5-character test costing 70x token variance.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "oUZEt4EiPbk",
+          "url": "https://youtu.be/oUZEt4EiPbk",
+          "title": "I Built a Personal AI Agent on a Raspberry Pi — Jeremy Adams, Neo4j",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Live demo of a wearable AI agent (Raspberry Pi + WhatsApp + Claude) with graph memory using POLE schema and offline-first sync to Neo4j.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
