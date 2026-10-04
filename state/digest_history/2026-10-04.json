@@ -1,0 +1,133 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-04T06:04:04.715282+00:00",
+      "tg_message_ids": [
+        179,
+        180
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 40,
+          "scored_to_backlog": 35,
+          "backlog_size": 35,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "Ak-YNIBqEjI",
+          "url": "https://youtu.be/Ak-YNIBqEjI",
+          "title": "11 Marketing Rules Every YouTuber Needs to Know",
+          "author": "Colin and Samir",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Kate Tolo's 11 documented rules for scaling Bryan Johnson from 2K to 10M followers, with real emails, tweets, and thumbnails as case studies.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "4mKtJzfGj0U",
+          "url": "https://youtu.be/4mKtJzfGj0U",
+          "title": "5 Rules for Building AI Agents That Work in Production | Nan Yu & Jacob Shumway",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Linear's founders walk through building a production agent end-to-end—tooling strategy, evals for reliability, and the internal memo that started it.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "A6dBGX6iUg8",
+          "url": "https://youtu.be/A6dBGX6iUg8",
+          "title": "Conversational Editing - Made On YouTube",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube's new Conversational Editing tool lets creators use natural language prompts to trim takes, match beats, add effects, and generate loops while keeping manual timeline control.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "YiFqcu9YA38",
+          "url": "https://youtu.be/YiFqcu9YA38",
+          "title": "Dashboards Are Dead — Sarah Simionescu, Composio",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "MCP alone fails for agents (doesn't learn, too many tools drown context, apps stay isolated); Composio's interface fixes it with tool search + execution plans, shown live across Slack → PR and PostHog + Metabase analysis.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "-KIBgpGA_XI",
+          "url": "https://youtu.be/-KIBgpGA_XI",
+          "title": "I’m using Jev more than Opus 5.5 or GPT-6. Here’s why.",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Jev returns type-safe structured outputs at $0.04/1M tokens with no output charge; author ran it on 5 real projects (PR analysis, Gmail triage, YouTube comment dashboard) and shares concrete cost/speed numbers.",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "-ciSTkEVy30",
+          "url": "https://youtu.be/-ciSTkEVy30",
+          "title": "Stop planning for 2027: how OpenAI builds product 90 days at a time | Tara Sesha and Nan Yu (OpenAI)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 1,
+          "hook": "OpenAI's product team explains their 90-day planning cycle, how they ship imperfect features fast, and how they design agents that integrate with external tools.",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "4_SHhSMHzNo",
+          "url": "https://youtu.be/4_SHhSMHzNo",
+          "title": "The AI factory playbook for engineering teams",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "CEO of Warp walks through a multi-agent software factory (Slack → Linear → GitHub → QA) with concrete signals (human interactions per PR, LLM-as-judge scoring, cost-quality Pareto charts) and self-improving agent loops from failed runs.",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "D4XTefP3Lsc",
+          "url": "https://youtu.be/D4XTefP3Lsc",
+          "title": "When AIs act emotional",
+          "author": "Anthropic",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Anthropic studied how Claude draws on emotion concepts from training data to inhabit its role, and these representations materially influence behavior in chat, code, and decisions.",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "2jFtOASCEfY",
+          "url": "https://youtu.be/2jFtOASCEfY",
+          "title": "YPP Updates, View Count Changes, and more | Creator Roundup",
+          "author": "YouTube Creators",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube announced changes to public view count standards, Partner Program eligibility updates, and new product features (Amazon tagging, custom Shorts thumbnails).",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "5bxp78i96S8",
+          "url": "https://youtu.be/5bxp78i96S8",
+          "title": "Paul Graham On Startups, Ambition, and Great Founders",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Paul Graham on what motivates founders, what makes them formidable, and what surprised him about AI.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
