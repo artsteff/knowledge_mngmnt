@@ -128,6 +128,135 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-04T10:03:29.946138+00:00",
+      "tg_message_ids": [
+        181,
+        182
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 40,
+          "scored_to_backlog": 33,
+          "backlog_size": 57,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "5KTHvKCrQ00",
+          "url": "https://youtu.be/5KTHvKCrQ00",
+          "title": "Claude ran a business in our office",
+          "author": "Anthropic",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Claude autonomously ran a small retail business (sourcing, pricing, inventory, customer interaction) for most of 2025 and nearly succeeded — with specific failure modes documented.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "0YeeJHYy-Vc",
+          "url": "https://youtu.be/0YeeJHYy-Vc",
+          "title": "How to Build AI Agents That Check Their Own Work | Jared Zoneraich",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "A manager agent that breaks down tasks, directs 10 cloud agents, and has agents self-test their work before human review — with a live demo.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "CxXgV54KzpQ",
+          "url": "https://youtu.be/CxXgV54KzpQ",
+          "title": "Jeff Dean: The 1% Rule for Building in AI",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Jeff Dean walks through two napkin-math breakthroughs (search index in RAM, TPU from speech recognition math) and explains why inference hardware specialization and long-running agents are the next frontier where small teams can still win.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "2UwemqPkJSQ",
+          "url": "https://youtu.be/2UwemqPkJSQ",
+          "title": "Muse gets AI agent UX right",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "First-pass teardown of Meta's Muse personal agent covering onboarding, permission model, activity feed design, and concrete failures in browser use—with specific comparisons to Claude and Codex.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "FjIZWCX9Qeo",
+          "url": "https://youtu.be/FjIZWCX9Qeo",
+          "title": "Overanalyzing The Most Shared TikTok Ever",
+          "author": "Colin and Samir",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Analysis of what makes a viral TikTok valuable — not just views, but view *quality* across platforms and creator relevance types.",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "AkNszeQ77MM",
+          "url": "https://youtu.be/AkNszeQ77MM",
+          "title": "Shorts Series, Ask YouTube, & Creator Protection - Made On YouTube",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube is shipping Shorts Series (structured seasons/episodes with custom thumbnails), Ask YouTube (140M+ using Gemini conversational search), and automated voice deepfake detection in the mobile app.",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "qflLT3SoVbw",
+          "url": "https://youtu.be/qflLT3SoVbw",
+          "title": "Stop Fine-Tuning to Fix Retrieval Problems — Anant Srivastava",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "A diagnostic framework for deciding whether knowledge belongs in prompt, memory, or weights—with the principle that fine-tuning is for reflexes that have stopped changing, not facts.",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "TRe1u7dHYiA",
+          "url": "https://youtu.be/TRe1u7dHYiA",
+          "title": "What Makes Open Models Fast in Production — Sujee Maniyam, Nebius",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Layer-by-layer walkthrough of production LLM inference optimizations (speculative decoding, KV cache offloading, disaggregated prefill/decode, quantization trade-offs) with concrete techniques and hardware details.",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "BtK4kFI1LNo",
+          "url": "https://youtu.be/BtK4kFI1LNo",
+          "title": "Roles aren't converging—they're expanding | Tamar Yehoshua (Atlassian CPO)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "CPO at Atlassian shares examples of when PMs should write code/prototypes vs. steer teams in an AI-native product environment.",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "35VzPlY1-kI",
+          "url": "https://youtu.be/35VzPlY1-kI",
+          "title": "YouTube for Artists Masterclass: Going Live on YouTube with Sheniece Charway",
+          "author": "YouTube Creators",
+          "source_type": "video",
+          "score": 2,
+          "hook": "YouTube livestream setup, control room walkthrough, and how to integrate live into release cycles — with case studies from artists.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
