@@ -515,6 +515,135 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-04T22:00:29.233544+00:00",
+      "tg_message_ids": [
+        187,
+        188
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 42,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "474j-n1Ltxc",
+          "url": "https://youtu.be/474j-n1Ltxc",
+          "title": "AI-Generated Code Is Already Competing With Human Code — Daksh Gupta, Greptile",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "AI-generated PRs now account for 25%+ of submissions at scale (up from <1% a year ago), and on four measurable dimensions (revert rates, bug severity, review rounds, failure modes) they land in the same range as human code — with specific vulnerability patterns for each agent (Claude 1.5x SQL injection, Devin half as likely auth bypass, Cursor N+1 queries).",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "9JFGohx4E7U",
+          "url": "https://youtu.be/9JFGohx4E7U",
+          "title": "GLM-5.2: Open Weights, Near-Frontier Intelligence — Zixuan Li, Z.ai",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "GLM-5.2 benchmarks between Claude Opus 4.7 and 4.8; Z.ai explains why they release near-frontier models as open weights and their strategy for enterprise fine-tuning and co-design.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "6fFnh-xe4gc",
+          "url": "https://youtu.be/6fFnh-xe4gc",
+          "title": "How a non-technical founder built a $100K ARR meme company | Jason Levin (Memelord CEO)",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Non-technical founder scaled a meme SaaS to $100K ARR on no-code (Bubble), then pivoted to agent-first product architecture and free tools as lead magnets.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "9qXc-THAvc0",
+          "url": "https://youtu.be/9qXc-THAvc0",
+          "title": "How OpenAI's Codex Team Builds with Codex (43 Min) | Alex & Romain",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Inside look at how OpenAI's Codex team ships products without traditional specs/roadmaps, including how designers now write code and PMs spend their days.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "-tdNsYi8AXs",
+          "url": "https://youtu.be/-tdNsYi8AXs",
+          "title": "How the engineer behind Claude Cowork actually uses Claude | Felix Rieseberg (Anthropic)",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Engineering lead at Anthropic walks through concrete Claude workflows — 3D house design from floor plans, live dashboards with connectors, $20 hardware integration — and explains the abstraction-layer thinking behind each.",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "3IF3H5dxU3U",
+          "url": "https://youtu.be/3IF3H5dxU3U",
+          "title": "How to Use AI to Survive (and Even Enjoy) Meetings | Sam Stephenson",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Sam Stephenson (Granola co-founder, $1.5B valuation) walks through concrete AI workflows — pre-meeting briefs, agent-as-first-class-citizen product design, and why hiding transcripts matters despite user complaints.",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "2wLJl9A2CnA",
+          "url": "https://youtu.be/2wLJl9A2CnA",
+          "title": "I let Codex run for 6 hours. Here’s what happened.",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Concrete walkthrough of how /goal commands in Codex enable 5+ hour autonomous agent runs on real tasks (error elimination, email cleanup, task organization) with specific metrics and failure modes.",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "6MudaeKdBSk",
+          "url": "https://youtu.be/6MudaeKdBSk",
+          "title": "Scale the Judgment, Not the Model — Andrew Orobator, Reddit",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Scale judgment into agents via explicit skills, work logs, personas, and verification ladders—with a concrete case study (feature-flag agent, 7/7 green PRs at $1.26 each) and a warning about agents self-authorizing their way out of guardrails.",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "5d6y3poKwK4",
+          "url": "https://youtu.be/5d6y3poKwK4",
+          "title": "Patrick Collison: Is AI Breaking the Lean Startup Playbook?",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Patrick Collison on whether AI changes the lean startup playbook and what Stripe's data reveals about founding in an AI economy.",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "99sPd15j3Zc",
+          "url": "https://youtu.be/99sPd15j3Zc",
+          "title": "What Actually Makes A Startup Durable",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "YC partners discuss founder operating principles in the AI era, covering moats, AI-native metrics, pivoting, and co-founder selection.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
