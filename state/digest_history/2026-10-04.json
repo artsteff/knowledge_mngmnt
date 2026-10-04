@@ -386,6 +386,135 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-04T18:00:38.643452+00:00",
+      "tg_message_ids": [
+        185,
+        186
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 49,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "ACRd0Ikg_KI",
+          "url": "https://youtu.be/ACRd0Ikg_KI",
+          "title": "Automate Your Life with Claude Code in 40 Minutes | Moritz Kremb",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Concrete walkthrough of building a personal OS in Claude Code with folder structure, memory loops, MCPs, and a full content pipeline from idea to posted video.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "5FKBkUCaLa8",
+          "url": "https://youtu.be/5FKBkUCaLa8",
+          "title": "How Gusto’s CTO uses Claude Code to ship like a startup",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "CTO at $1B company built a net-new AI product (Gusto Cofounder) in 10 weeks with 5 people using Claude Code, throwing out standard processes; the description names concrete mechanisms (trash-can method for PRs, eval-first workflow, perma-Zoom setup, designer shipping at 94th percentile).",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "88B6DimMD2g",
+          "url": "https://youtu.be/88B6DimMD2g",
+          "title": "How This Ex-Meta L8 Engineer Ships 40 PRs a Day with AI Agents | Kun Chen",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Ex-Meta L8 engineer walks through free agentic tools (Lavish, Treehouse, No Mistakes) he built to ship 40 PRs/day without manual code review — demos included.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "0UnZnonMN9o",
+          "url": "https://youtu.be/0UnZnonMN9o",
+          "title": "How This Solo AI Founder Bootstrapped 5 Products to 1M+ / Month | Tibo Louis-Lucas",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Solo founder walked through exact playbook for validating AI products fast, pricing them, and scaling to $1M+/month across 5 bootstrapped products — includes the pivot that unlocked $600K/month and why 9 failed before the 10th hit.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "48YUYDjwfYY",
+          "url": "https://youtu.be/48YUYDjwfYY",
+          "title": "Stop Rationing Tokens: Let the Harness Pick the Model — Kimchi by Cast AI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Cast AI built a harness that switches between proprietary and open models per task, optimizing for cost per task instead of cost per token — with 2.5x savings in 3 months across 300 employees.",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "8OOuCnZB-4o",
+          "url": "https://youtu.be/8OOuCnZB-4o",
+          "title": "The Age Of The 40-Year-Old Solo Founder Is Here",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Experienced founder rebuilding AI-native product (Ploy) with design automation and marketing integration; discusses moat-building, agent architecture, and how domain expertise compounds in AI era.",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "1_jlukb7gm4",
+          "url": "https://youtu.be/1_jlukb7gm4",
+          "title": "The AI content machine that turns ideas into posts that don't sound like slop | Alex Lieberman",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Six-step Claude workflow that moves from content idea spikes to publishable posts while preserving voice — Oracle scans for spikes, Interview Panel extracts real ideas, voice files codify style, Editorial Council scores and revises.",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "9cJrbj23fOA",
+          "url": "https://youtu.be/9cJrbj23fOA",
+          "title": "The Chief AI Officer: Scientist, Architect, Coach — Rania Khalaf, WSO2",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Chief AI Officer role framework (Scientist/Architect/Coach sliders) with specific metrics: AI fluency, agent-consumable products, MCP servers, agent-proof pricing — not tokens.",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "5xi_S1f9sDU",
+          "url": "https://youtu.be/5xi_S1f9sDU",
+          "title": "Why 99% Accurate Browser Agents Still Fail — Derek Meegan, Browserbase",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "A browser agent hitting 99% accuracy per step compounds to 36% success over 100 steps — here's the production architecture that solves it (deterministic tools, OCR verification, pulled authentication, skills as SOPs).",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "4YWO4sSRrTE",
+          "url": "https://youtu.be/4YWO4sSRrTE",
+          "title": "Circleback CEO Ali Haghani: Why Your Company Should Be Recording More Meetings",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "CEO of an AI meeting recorder discusses unexpected use cases for Circleback and argues meeting recording is becoming necessary practice for teams.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
