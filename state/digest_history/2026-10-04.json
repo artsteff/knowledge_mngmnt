@@ -257,6 +257,135 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-04T14:01:16.841422+00:00",
+      "tg_message_ids": [
+        183,
+        184
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 11,
+          "scored_to_backlog": 10,
+          "backlog_size": 57,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "8aVbXXvJUY4",
+          "url": "https://youtu.be/8aVbXXvJUY4",
+          "title": "An Interaction Is All You Need — Ivan Leo, Google DeepMind",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Google DeepMind rebuilt the Gemini API for agents—server-side state management via interaction IDs, persistent sandboxes (Managed Agents), and a new steps data model that handles multimodal chaining without hand-managing context.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "CBneTpXF1CQ",
+          "url": "https://youtu.be/CBneTpXF1CQ",
+          "title": "Claude Code updates: When to use Haiku 4.5, Claude Code on web, and more.",
+          "author": "Anthropic",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Claude Code now runs on the web (not just in IDE), plus Haiku 4.5 launch with guidance on model selection tradeoffs.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "8ONFvAtboZ4",
+          "url": "https://youtu.be/8ONFvAtboZ4",
+          "title": "Grok Bot + Grok 4.6  + Cursor Origin - is Claude Code dead?",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Hands-on comparison of three agent/coding tools (Grok Bot, Cursor Origin, Grok 4.6) with specific verdicts on which features matter and where the author actually spends time.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "BxEf3RqIHkw",
+          "url": "https://youtu.be/BxEf3RqIHkw",
+          "title": "How This Non-Technical Founder Mastered Agentic Engineering in 50 Minutes | Matt Van Horn",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Non-technical founder shares his compound engineering loop for agentic systems, including how Printing Press turns any website into an agent CLI by finding hidden APIs.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "FQwTqUmcbRg",
+          "url": "https://youtu.be/FQwTqUmcbRg",
+          "title": "Lessons from Generating 12 Trillion Synthetic Tokens — Bogdan Gaza, DatologyAI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Four concrete engineering bottlenecks (S3 metadata, GPU failures, cross-cluster scheduling, inference tuning) solved at 12-trillion-token synthetic data scale, with specific wins (11 days → 2 hours, +40% throughput).",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "MM-C3JqCXBk",
+          "url": "https://youtu.be/MM-C3JqCXBk",
+          "title": "OpenAI’s Head of ChatGPT: We’re entering a new era of AI (again) | Tibo Sottiaux",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Head of ChatGPT on agent-as-product architecture (Dots), why \"loops, graphs, and fine-tuning\" are transient, and how always-on agents change internet activity.",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "AbZODZ_4VaM",
+          "url": "https://youtu.be/AbZODZ_4VaM",
+          "title": "The enterprise AI stack behind Stripe’s company brain “Kai”",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Stripe engineering manager walks through the governance, data safety, and skills infrastructure that let 10,000+ employees use an internal AI agent weekly, including how production incidents from rogue agents shaped the design.",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "DbBnd9PYob4",
+          "url": "https://youtu.be/DbBnd9PYob4",
+          "title": "The Model-Agnostic AI Platform Betting That No Single Lab Will Win",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Model-agnostic platform positioning as a moat against lab dominance; founder reflects on why horizontal beats vertical in AI infrastructure, and how margins compress when labs enter the space.",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "6ro5OiT5DFo",
+          "url": "https://youtu.be/6ro5OiT5DFo",
+          "title": "How Troye Sivan Became a Global Star On YouTube",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Creator Insider interviews Troye Sivan on his creative process and fan connection strategy across YouTube — how a bedroom artist scaled to global reach on the platform.",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "6eBSHbLKuN0",
+          "url": "https://youtu.be/6eBSHbLKuN0",
+          "title": "Mastering Claude Code in 30 minutes",
+          "author": "Anthropic",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Official Anthropic guide to Claude Code features, shortcuts, and workflows.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
