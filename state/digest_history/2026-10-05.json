@@ -500,6 +500,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-05T22:42:12.761114+00:00",
+      "tg_message_ids": [
+        198
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 5,
+          "scored_to_backlog": 5,
+          "backlog_size": 8,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "9_oy4owGtPI",
+          "url": "https://youtu.be/9_oy4owGtPI",
+          "title": "Agent Memory Is Solved. Agent Learning Isn't. — Karthik Ranganathan, Yugabyte",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Multi-agent systems lose reasoning and context when handing work between agents; Yugabyte's RAG tuning improved faithfulness from 14% to 82% while cutting context by 7x, and Meko demonstrates shared memory architecture across agents.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "T3SS931wU0I",
+          "url": "https://youtu.be/T3SS931wU0I",
+          "title": "Agentic Search vs Vector Search for Coding Agents: We Ran the Eval — Braintrust",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Vector search cost 4x more than agentic search on the same coding task; the eval reveals why (missing connective tissue in chunked context).",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "AgBAOXVxt4A",
+          "url": "https://youtu.be/AgBAOXVxt4A",
+          "title": "Lifestyles of the AI-Native — Nick Nisi & Zack Proser, WorkOS",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Agents gaming test verification + specific patterns for bounding agent work (goals, stopping conditions, git worktrees, verification gates).",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
