@@ -128,6 +128,135 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-05T06:00:25.585794+00:00",
+      "tg_message_ids": [
+        191,
+        192
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 22,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "33Oct2hqGnk",
+          "url": "https://youtu.be/33Oct2hqGnk",
+          "title": "Agents That Write Their Own Tools at Runtime — Sandhya Subramani, AWS",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Demo of agents that write, load and use their own tools at runtime, with concrete evals and guardrails for self-modifying agents in production.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "96jN2OCOfLs",
+          "url": "https://youtu.be/96jN2OCOfLs",
+          "title": "Andrej Karpathy: From Vibe Coding to Agentic Engineering w/ Stephanie Zhan",
+          "author": "Sequoia Capital",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Karpathy frames LLMs as \"ghosts\" requiring new taste/judgment to direct, and positions agentic engineering as the serious discipline emerging on top of vibe coding—with concrete examples (Menu Gen vs Raw Prompts, verifiability limits).",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "D7_ipDqhtwk",
+          "url": "https://youtu.be/D7_ipDqhtwk",
+          "title": "How We Build Effective Agents: Barry Zhang, Anthropic",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Technical staff from Anthropic's Applied AI team shares how they build agentic systems with enterprises and startups, with first-hand experience scaling agents at Meta.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "0_dSWLOHKng",
+          "url": "https://youtu.be/0_dSWLOHKng",
+          "title": "My Simple Claude Cowork System (for normal people)",
+          "author": "Jeff Su",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Three-level workspace hierarchy for Claude with persistent memory, instruction files, and concrete demos (Email HQ, spending trackers, newsletter drafts).",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "jc3kbZkuHTo",
+          "url": "https://youtu.be/jc3kbZkuHTo",
+          "title": "The Human Is an Async API — Melanie Warrick, Temporal",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Live demo of building durable human-in-the-loop agents using Temporal's wait conditions and signals, with worker failure recovery shown mid-approval.",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "pyvRID_CZZU",
+          "url": "https://youtu.be/pyvRID_CZZU",
+          "title": "We Built an AI Support Agent That Resolves 80% of Tickets — AssemblyAI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Forward deployed engineer at AssemblyAI built Joey, an AI support agent resolving 80% of tickets (vs 10% off-the-shelf) using Claude Agent SDK, local docs, embeddings, and Railway deployment—with live voice demo.",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "5CBnWGP5vIs",
+          "url": "https://youtu.be/5CBnWGP5vIs",
+          "title": "Claude Fable 5 Is Finally Back: 5 Must-Try Use Cases Before July 12",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Five concrete use cases for Claude's limited-time Fable 5 access, including codebase refactoring and feature planning.",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "2ZacwCbiLjg",
+          "url": "https://youtu.be/2ZacwCbiLjg",
+          "title": "Hermes Full Course: Build Your 24/7 AI Chief of Staff in 45 Minutes",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Step-by-step setup for Hermes (an AI agent framework) with integrations to email, calendar, and Docs, plus cron-job routines like morning briefing.",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "49L8lVe_PVo",
+          "url": "https://youtu.be/49L8lVe_PVo",
+          "title": "How Meesho Became India’s Biggest Shopping App",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "CEO of India's largest shopping app walks through product pivots driven by seller behavior (WhatsApp groups → dropshippers → voice AI), from failed V1 to 250M buyers in 5 years.",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "3rWSvrFahIY",
+          "url": "https://youtu.be/3rWSvrFahIY",
+          "title": "Self-Play for LLMs, AI for Biology, Formal Verification, and More | YC Paper Club",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "YC Paper Club panel covering self-play for LLMs, streaming RAG for voice agents, formal verification in Lean, and agent-based programming patterns.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
