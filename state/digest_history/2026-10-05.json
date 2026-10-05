@@ -1,0 +1,133 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-05T02:00:18.592421+00:00",
+      "tg_message_ids": [
+        189,
+        190
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 32,
+          "posting": 10,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "ACPEpji5NV4",
+          "url": "https://youtu.be/ACPEpji5NV4",
+          "title": "Distill the LLM, Don't Serve It: Search & Personalization at DoorDash — Raghav Saboo, DoorDash",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "DoorDash's four-primitive system for marketplace discovery: LLM-generated relevance labels (+2.3% NDCG), learned semantic taxonomies (+4–5% MRR), consumer memory graphs, and steerable personalized collections (+1% order rate in pets).",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "BRDKft0-dUU",
+          "url": "https://youtu.be/BRDKft0-dUU",
+          "title": "How Intercom 2X'd engineering velocity with Claude Code | Brian Scanlan",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Intercom doubled engineering velocity in 9 months using Claude Code across 100% of engineers + designers/PMs, with concrete telemetry, skills repo with enforcement hooks, and agent-first product prep (CLIs, MCPs).",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "2LRIAfng7eA",
+          "url": "https://youtu.be/2LRIAfng7eA",
+          "title": "Teaching LLMs to Speak Spotify — Yves Raimond & Jacqueline Wood, Spotify",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Spotify's Large Taste Model—an LLM-native recommendation system trained with semantic IDs, frozen backbone, multitask tuning, and grounded LLM judges—now used daily by 1 in 4 US Premium subscribers.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "7taOQBfjDyE",
+          "url": "https://youtu.be/7taOQBfjDyE",
+          "title": "The Loop Is the Product — Roland Gavrilescu, Introspection",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Agent loops succeed on signal quality and verifiers; system distillation (versioned \"recipes\" independent of models) is the moat; optimize for valued work per watt, not raw capability.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "8mY9wx_iMSU",
+          "url": "https://youtu.be/8mY9wx_iMSU",
+          "title": "GPT-5.6 vs Claude Fable 5: I Tested 6 Real Use Cases (Here’s the Winner)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Head-to-head testing of GPT-5.6 and Claude Fable 5 across 6 real use cases (travel site, game, video editing, mobile app, life advice, personal AI OS).",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "EgrI2rUmM48",
+          "url": "https://youtu.be/EgrI2rUmM48",
+          "title": "How this OpenAI engineer uses Codex + ChatGPT Work to automate everything",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "OpenAI DX engineer walks through recent ChatGPT features (voice, Heartbeats automation, Sites deployment) and demonstrates AI-assisted UGC video editing from raw clips.",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "EJKwI4m0fZg",
+          "url": "https://youtu.be/EJKwI4m0fZg",
+          "title": "How to build an iPhone app with zero technical skills",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Non-technical founder ships iOS app using Claude Code + Replit + Gemini, documents the workflow from idea to App Store.",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "6Yeo6M8-W_8",
+          "url": "https://youtu.be/6Yeo6M8-W_8",
+          "title": "Instinct vs Grok Bot vs ChatGPT vs Hermes: Which AI Agent Can You Trust?",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Comparison of four personal AI agents (Instinct, Grok Bot, ChatGPT, Hermes) with hands-on evaluation of trust and capability, plus a section on prompt injection vulnerabilities.",
+          "card_slug": null
+        },
+        "9": {
+          "adapter": "youtube",
+          "source_id": "FVsgX0AdDTo",
+          "url": "https://youtu.be/FVsgX0AdDTo",
+          "title": "What Big Tech Missed And How Startups Can Still Win",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Founder who sold Wit.ai to Facebook shares lessons on picking narrow problems while holding large vision, plus takes on world models vs. LLMs and why big labs can't take certain risks.",
+          "card_slug": null
+        },
+        "10": {
+          "adapter": "youtube",
+          "source_id": "ALJQHSgCl2E",
+          "url": "https://youtu.be/ALJQHSgCl2E",
+          "title": "Why Ambitious Startup Ideas Are Actually Easier To Sell",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "PostHog CEO on product strategy shifts — from analytics to AI-native, handling feature bloat, and founder dynamics under ambition.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
