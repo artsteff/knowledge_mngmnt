@@ -257,6 +257,113 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-05T10:00:21.929472+00:00",
+      "tg_message_ids": [
+        193,
+        194
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 12,
+          "posting": 8,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "Bdrs3uAX0_M",
+          "url": "https://youtu.be/Bdrs3uAX0_M",
+          "title": "AI Coding Agents Are Breaking Big Codebases — Dan Adler, Sourcegraph",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Context—not model quality—is the bottleneck for agents at enterprise scale; Sourcegraph's Agentic Batch Changes solves visibility across thousands of repos from a single prompt.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "CEvIs9y1uog",
+          "url": "https://youtu.be/CEvIs9y1uog",
+          "title": "Don't Build Agents, Build Skills Instead – Barry Zhang & Mahesh Murag, Anthropic",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Anthropic's \"Skills\" framework—a minimal, composable form factor for packaging procedural knowledge that agents can dynamically load across domains.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "0UArKLQ6bXA",
+          "url": "https://youtu.be/0UArKLQ6bXA",
+          "title": "How this PM Used Claude Code to Support 20 People",
+          "author": "Aakash Gupta",
+          "source_type": "video",
+          "score": 1,
+          "hook": "PM at DoorDash walks through a shared repo system (\"Team OS\") where teams self-serve context via nested CLAUDE.md files and parallel agents, with concrete patterns like 97% context savings via folder indexes and gating launches on repo updates.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "71qvIkO9d_A",
+          "url": "https://youtu.be/71qvIkO9d_A",
+          "title": "If You Don’t Understand AI Evals, Don’t Build AI",
+          "author": "Aakash Gupta",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Live demo of building an eval from scratch using Linear's MCP server, plus the data-task-scores framework for measuring AI product quality.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "YXb2Wx1r_Pk",
+          "url": "https://youtu.be/YXb2Wx1r_Pk",
+          "title": "Keyword Search Is Dying. Is Your Catalog Ready for AI Agents? — PayPal",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "PayPal tested catalog enrichment patterns for AI agents and found that content quality beats volume — thin catalogs gained most, but over-enrichment made agents hallucinate.",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "Eqh2iwSl570",
+          "url": "https://youtu.be/Eqh2iwSl570",
+          "title": "The Claude Code Setup Nobody Shows You",
+          "author": "Aakash Gupta",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Context management mechanics in Claude Code — what consumes it (system prompt 10-16%, web search 10%), how sub-agents cut it 20x, and an operating system file structure (knowledge/projects/tools folders + people dossiers).",
+          "card_slug": null
+        },
+        "7": {
+          "adapter": "youtube",
+          "source_id": "BJuevX91ExM",
+          "url": "https://youtu.be/BJuevX91ExM",
+          "title": "Claude Code just Changed Content Creation Forever",
+          "author": "Ben AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Claude Code workflow for generating product demos, video stitching, transcription, animation, and captioning end-to-end.",
+          "card_slug": null
+        },
+        "8": {
+          "adapter": "youtube",
+          "source_id": "2wgPHvW0mG8",
+          "url": "https://youtu.be/2wgPHvW0mG8",
+          "title": "One Operator, Many Drones: Inside Skydio's Autonomy Stack — Suchet Bargoti, Skydio",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Skydio's autonomy stack splits intelligence between edge and cloud, uses maps as world models, and deploys VLM agents with tool calls instead of hand-coded rules to coordinate a fleet of drones.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
