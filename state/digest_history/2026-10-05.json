@@ -449,6 +449,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-05T19:38:54.896417+00:00",
+      "tg_message_ids": [
+        197
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 6,
+          "scored_to_backlog": 6,
+          "backlog_size": 6,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "NdrSPm6NCdk",
+          "url": "https://youtu.be/NdrSPm6NCdk",
+          "title": "Evals in AI: A Deep Dive — Tejas Kumar, IBM",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Live walkthrough of how LLM judges fail in production (position bias, self-preference, sycophancy) and a calibration process using human verdicts to set CI gates.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "fz6-NS7qpZc",
+          "url": "https://youtu.be/fz6-NS7qpZc",
+          "title": "How I Learned to Stop Worrying and Love the Sandbox — Matt Brockman, E2B",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Concrete sandbox operations patterns — CPU/memory/disk debugging, state snapshots, user-to-workspace mapping, and the tradeoffs of restoring state in agent execution environments.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "J17o5r5PKmw",
+          "url": "https://youtu.be/J17o5r5PKmw",
+          "title": "Your AI Agent Is Confidently Wrong About Production — Willem Pienaar, Cleric",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Production debugging with LLMs fails in specific ways (symptom/cause confusion, missing baselines, abstraction loss, anchoring) — Cleric's CTO walks through failure modes and grounding techniques with real examples.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
