@@ -364,6 +364,91 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-05T14:00:37.131529+00:00",
+      "tg_message_ids": [
+        195,
+        196
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 6,
+          "posting": 6,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "kz5Cpomk3HA",
+          "url": "https://youtu.be/kz5Cpomk3HA",
+          "title": "How the OpenAI team uses ChatGPT Sites daily",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "OpenAI product staff member walks through real internal use cases of ChatGPT Sites (incident command dashboard, connectors, inference integration) and shares the infrastructure layer most people haven't touched.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "CGq9KRSb9Kc",
+          "url": "https://youtu.be/CGq9KRSb9Kc",
+          "title": "AI Engineer Paris 2026 Opening Keynotes: Mistral, Langfuse & Sizzy | Day 1",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Day 1 keynotes from AI Engineer Paris 2026 covering frontier AI, coding agents, software factories, and economic lessons from AI infrastructure.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "5qvr9Rzja2U",
+          "url": "https://youtu.be/5qvr9Rzja2U",
+          "title": "AI Powered Product Skills for Executive Leaders & GMs",
+          "author": "Level Up: Make No BS Career Breakthroughs",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Video on how leaders can become \"AI native\" themselves and drive AI adoption in their organizations, featuring Peter Yang (ex-Meta, Reddit, Roblox product leader) and Ethan Evans (ex-Amazon exec).",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "GiaDdNvsadA",
+          "url": "https://youtu.be/GiaDdNvsadA",
+          "title": "I Built an AI Japanese Tutor with Gemini Live in 6 Steps",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Step-by-step walkthrough of building a voice AI app (Japanese tutor) with Gemini Live, from spec to launch on Vercel.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "B8NvdfssGac",
+          "url": "https://youtu.be/B8NvdfssGac",
+          "title": "Stanford CS153 Frontier Systems | Ben Horowitz from a16z on Venture Capital Systems, Network Effects",
+          "author": "Stanford Online",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Ben Horowitz on how a16z built VC as a scalable \"systems\" product, including network effects, AI's impact on moats (capital/compute now decisive), and culture as competitive advantage.",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "4Gqg0HVe-AY",
+          "url": "https://youtu.be/4Gqg0HVe-AY",
+          "title": "World Models Need Causality, Not Pretty Pixels — Christopher Manning, Moonlake AI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Manning argues that world models need causal structure (action-conditioned simulation in code) not just pixel generation, and Moonlake builds them from photos by researching missing context and closing sim-to-real gaps with Claude Code loops.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
