@@ -898,6 +898,7 @@
     "mMxdUQIe_BQ",
     "mPAHvz8kW24",
     "mR-WAvEPRwE",
+    "mUQoVz7THu0",
     "mZzhfPle9QU",
     "maSdsTLaMuU",
     "mcXrvjPKJas",
@@ -1053,6 +1054,7 @@
     "uBJdwRPO1QE",
     "uEbfycGELGs",
     "uH39OZ-KnkY",
+    "uKUA1a0Kdfc",
     "uSMdnoTdG2E",
     "uT3EQPVIEb0",
     "uVS88gnaxcg",
@@ -1198,22 +1200,5 @@
     "zw9yxsMZCZc"
   ],
   "failed": {},
-  "backlog": [
-    {
-      "source_id": "s0hFne6EeOI",
-      "title": "Build the Right Thing: Product Engineering (Part 2) — Kent C. Dodds, EpicProduct.engineer",
-      "author": "AI Engineer",
-      "url": "https://youtu.be/s0hFne6EeOI",
-      "source_type": "video",
-      "date": "2026-10-05",
-      "raw_text": "A request for facial recognition becomes a job statement about getting attendees into a workshop without missing the first 20 minutes. Kent C. Dodds uses that audience suggestion to separate a requested feature from the progress a user actually needs. Asking why exposes alternatives such as parallel queues or badges, rather than immediately committing to a database of faces. He breaks the job into functional, social, and emotional dimensions, showing how each changes engineering decisions. A system can move people through a door faster while making them uncomfortable about how their information is used. Success also includes whether customers keep using the product, rather than simply paying for it once.\n\nThe second exercise shifts to a food delivery app and uses the Kano model to sort competing requests. Reliable order confirmations are basic needs. Delivery estimates offer a measurable performance gradient. Discounts and group ordering can delight users, while GPS tracking illustrates how an unexpected extra becomes something customers assume will exist. Dodds connects those categories to architectural effort: make foundations reliable, measure performance, and keep experiments reversible until their value is clearer. Features that nobody cares about create maintenance work; features users actively dislike deserve pushback. Audience questions cover validating ideas before metrics exist, handling an unusually demanding customer, and understanding architecture during incidents. The closing argument ties technical expertise to product judgment: faster implementation matters when engineers understand which problems deserve solving.\n\n\nSpeaker info:\n- https://x.com/kentcdodds\n- https://kentcdodds.com\n- https://www.epicproduct.engineer/\n\nTimestamps:\n0:00 - Returning to the workshop product\n2:23 - Digging beneath a feature request\n6:04 - Jobs to be done\n8:52 - Writing a job statement\n11:34 - Functional, social, and emotional needs\n15:00 - Gathering user feedback\n17:29 - Exploring facial recognition requirements\n20:42 - Measuring repeated progress\n23:35 - Audience questions on validation and incidents\n31:25 - Prioritizing software changes\n33:14 - The Kano model\n35:00 - Sorting food delivery features\n41:49 - How expectations change over time\n45:03 - Turning priorities into engineering decisions\n47:22 - Indifferent and unwanted features\n50:17 - Building the right thing",
-      "score": 2,
-      "hook": "Jobs to be Done + Kano model applied to real product decisions (facial recognition for workshop access, food delivery features), with explicit connection between user needs and engineering architecture.",
-      "adapter": "youtube",
-      "source_name": "AI Engineer",
-      "duration_s": 3129,
-      "private_source": false,
-      "added_at": "2026-10-05T22:42:10.330529+00:00"
-    }
-  ]
+  "backlog": []
 }

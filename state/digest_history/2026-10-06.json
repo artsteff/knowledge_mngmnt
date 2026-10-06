@@ -203,6 +203,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-06T22:00:27.138725+00:00",
+      "tg_message_ids": [
+        203
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "uKUA1a0Kdfc",
+          "url": "https://youtu.be/uKUA1a0Kdfc",
+          "title": "Move Fast and Don't Break Things: Scaling Databases for the AI Era — PlanetScale",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Agents can design database sharding schemes from a JSON file, and Traffic Control lets agent traffic degrade gracefully instead of crashing the database.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "mUQoVz7THu0",
+          "url": "https://youtu.be/mUQoVz7THu0",
+          "title": "Why Building an Eval Platform Is Harder Than It Looks — Braintrust",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Walk-through of eval maturity stages (spreadsheets → custom UI → experiments → production flywheel) and why agent traces break typical data warehouses, requiring purpose-built query tools.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "s0hFne6EeOI",
+          "url": "https://youtu.be/s0hFne6EeOI",
+          "title": "Build the Right Thing: Product Engineering (Part 2) — Kent C. Dodds, EpicProduct.engineer",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Jobs to be Done + Kano model applied to real product decisions (facial recognition for workshop access, food delivery features), with explicit connection between user needs and engineering architecture.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
