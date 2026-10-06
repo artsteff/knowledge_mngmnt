@@ -471,6 +471,7 @@
     "T_WKFpTrI1M",
     "Ta5kUdng7Zc",
     "Tdg_lkCMzY0",
+    "TeErpYBUIeM",
     "TeGsFFNqRLA",
     "TlMSfGzv-rA",
     "TxkzQq3i-70",
@@ -550,6 +551,7 @@
     "WyiGFFTnIS4",
     "X5bABLCuIHA",
     "X6NShR2ccOg",
+    "X6l4lpA0_NY",
     "XBaznoTRDFI",
     "XHPI9FPnndg",
     "XS2A6aExLaA",
@@ -1197,22 +1199,6 @@
   ],
   "failed": {},
   "backlog": [
-    {
-      "source_id": "zQZiHOpkq_s",
-      "title": "Research to Reality with Google DeepMind — Paige Bailey, Google DeepMind",
-      "author": "AI Engineer",
-      "url": "https://youtu.be/zQZiHOpkq_s",
-      "source_type": "video",
-      "date": "2026-10-05",
-      "raw_text": "A model running entirely in the browser produces an emoji table ranking the Harry Potter books, and Paige Bailey immediately questions its taste. The response arrives almost instantly, without an API call or data leaving the machine. Bailey uses that demo to introduce Gemma 4, Google DeepMind's open model family, and show what local inference looks like in practice. She describes Apache 2 licensing, models ranging from two billion to 31 billion parameters, and the ability to download, adapt, and finetune them for a company's own projects. The opening also connects DeepMind's research mission to AlphaFold, medical models, robotics, and AI for science, before outlining computer use and managed agents that execute tasks in a Linux sandbox.\n\nThe same local approach extends to phones through Google AI Edge Gallery. Bailey walks through image descriptions, audio transcription, function calling, and a collection of skills for games, haikus, weather queries, and calendar events. Android and iOS devices can run downloaded models, while supported hardware accelerators handle inference instead of relying on the CPU. She then compares model size with deployment requirements: smaller GPU footprints, a single commodity GPU rather than distributed inference, laptop models, and a mobile option. Quantized checkpoints explain the speed of the browser demo, with the two billion parameter version taking less than a gigabyte. The practical thread is choosing a model that fits the device and keeping the work local.\n\n\nSpeaker info:\n- https://x.com/DynamicWebPaige\n- https://github.com/dynamicwebpaige\n- https://www.webpaige.dev/\n\nTimestamps:\n0:00 - Welcome and audience arrival\n2:38 - Responsible AI and science\n4:01 - Computer use and managed agents\n4:56 - Gemma open models\n5:54 - Running Gemma in the browser\n7:35 - AI Edge Gallery on mobile\n8:59 - Model sizes and quantization",
-      "score": 2,
-      "hook": "Browser-based inference with Gemma 4 (2B–31B params), quantized for sub-1GB footprint; comparison of model size vs. deployment requirements across browser, mobile, and GPU.",
-      "adapter": "youtube",
-      "source_name": "AI Engineer",
-      "duration_s": 653,
-      "private_source": false,
-      "added_at": "2026-10-05T22:42:08.001275+00:00"
-    },
     {
       "source_id": "s0hFne6EeOI",
       "title": "Build the Right Thing: Product Engineering (Part 2) — Kent C. Dodds, EpicProduct.engineer",

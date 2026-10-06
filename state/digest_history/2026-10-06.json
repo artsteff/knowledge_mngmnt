@@ -152,6 +152,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-06T18:00:37.935346+00:00",
+      "tg_message_ids": [
+        202
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 4,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "X6l4lpA0_NY",
+          "url": "https://youtu.be/X6l4lpA0_NY",
+          "title": "Harness Engineering: How to Build a Software Factory — Dru Knox, Tessl",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Harness engineering breaks agent-powered development into inner/outer/meta loops with specific metrics (manual takeovers, human PR comments, PRs started without human) to measure autonomy, automation, and quality.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "TeErpYBUIeM",
+          "url": "https://youtu.be/TeErpYBUIeM",
+          "title": "The Self-Improving OSS Agent Stack — Marc Klingen, Langfuse",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Self-improving agent loop — traces + datasets + evals running offline, with AI proposing fixes and maintaining eval criteria while humans set direction; demo shows a changelog writer catching leaked internal jargon and back-testing improvements.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "zQZiHOpkq_s",
+          "url": "https://youtu.be/zQZiHOpkq_s",
+          "title": "Research to Reality with Google DeepMind — Paige Bailey, Google DeepMind",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Browser-based inference with Gemma 4 (2B–31B params), quantized for sub-1GB footprint; comparison of model size vs. deployment requirements across browser, mobile, and GPU.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
