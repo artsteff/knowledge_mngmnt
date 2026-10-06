@@ -50,6 +50,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-06T10:00:19.633912+00:00",
+      "tg_message_ids": [
+        200
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 8,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "FwiS44-xyYw",
+          "url": "https://youtu.be/FwiS44-xyYw",
+          "title": "Cooking with Codex — Charlie Guo & Gabriel Chua, OpenAI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Concrete patterns for turning ad-hoc agent requests into repeatable workflows with verifiable completion criteria, supervision points, and deterministic checks — shown through six named build examples (translation app, Q&A site, form builder, Python package with Rust backend).",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "c5U-XbbEN-g",
+          "url": "https://youtu.be/c5U-XbbEN-g",
+          "title": "How AI Agents Pay: Checkout in ChatGPT and Google AI Mode — Sam Parsons, PayPal",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Three payment flows for AI agents (ChatGPT Instant Checkout, Google AI Mode, MCP + external checkout) with tokenization constraints and integration points demoed end-to-end.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "ZUZVNKFSmTM",
+          "url": "https://youtu.be/ZUZVNKFSmTM",
+          "title": "How Many Credentials Should Your AI Agent Have? Zero. — Jim Clark, Docker",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "MCP gateways as sandboxes for agent safety — zero credentials in each sandbox, one control point per task, progressive disclosure of tools based on intent.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
