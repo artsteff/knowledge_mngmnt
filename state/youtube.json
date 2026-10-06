@@ -151,6 +151,7 @@
     "EH2EzEl7qec",
     "EJKwI4m0fZg",
     "EP0N3XVvBL8",
+    "EaW7YHdEakg",
     "EgrI2rUmM48",
     "Eh8v86xXqQs",
     "Eqh2iwSl570",
@@ -1227,54 +1228,6 @@
       "duration_s": 3129,
       "private_source": false,
       "added_at": "2026-10-05T22:42:10.330529+00:00"
-    },
-    {
-      "source_id": "woIYJYd_etI",
-      "title": "What Is an Inference Engine, Anyway? — Charles Frye, Modal",
-      "author": "AI Engineer",
-      "url": "https://youtu.be/woIYJYd_etI",
-      "source_type": "video",
-      "date": "2026-10-06",
-      "raw_text": "A traffic spike on a museum placard generator produces longer waits for the first token and slower tokens afterward. Charles Frye reads those symptoms from an inference dashboard and shows how additional replicas relieve the queue. The example connects an application people can see to the machinery behind its API. He follows a request through server IO, tokenization, scheduling, model execution, and detokenization, using SGLang and vLLM as reference points. The scheduler controls what reaches the GPU and can become a bottleneck even though it performs far less computation. Chatbots, background agents, and document processors place different demands on that machinery, with latency budgets, input and output lengths, and prefix reuse shaping the deployment.\n\nFrye then opens up the performance techniques inside the engine. KV caching reuses previously computed work, while cache capacity and layout determine how effectively the engine can keep requests moving. CUDA graphs reduce repeated work on the CPU that launches GPU operations. Speculative decoding lets a speculator model propose several tokens for the target model to check together. Kernel libraries handle much of the underlying computation, leaving the engine to organize batches and avoid getting in the GPU's way. The final section turns to correctness and production debugging: evaluate the actual deployment, log token IDs for tokenizer problems, and collect enough metrics and traces to investigate regressions across replicas. Small reference engines provide a starting point for reading the code and asking deeper architectural questions.\n\n\nSpeaker info:\n- https://x.com/charles_irl\n- https://charlesfrye.github.io\n- https://modal.com/blog/spec-is-all-u-need\n- https://github.com/sgl-project/mini-sglang\n\nTimestamps:\n0:00 - Introduction and the inference engine question\n2:15 - A sketch of the architecture\n3:27 - Why inference engineering matters\n6:34 - A museum placard application\n8:11 - Three workload types\n10:16 - Prefill, decode, and latency metrics\n15:36 - Following a request through the engine\n18:31 - Servers, engines, sessions, and state\n20:53 - The scheduler and GPU bottleneck\n24:59 - The request lifecycle and batching\n29:12 - Tokenization and latency questions\n32:56 - Processes, Python, and host overhead\n36:36 - Model execution and kernel backends\n44:41 - Concurrency and cache pressure\n46:43 - KV caching and prefix reuse\n49:02 - Host overhead and CUDA graphs\n50:50 - Speculative decoding\n53:53 - Correctness and performance observability\n56:20 - Reading a dashboard under load\n58:16 - Reference engines and further resources",
-      "score": 1,
-      "hook": "Traces a request through an inference engine (tokenization → scheduling → model execution → detokenization), showing how the scheduler becomes a bottleneck and how KV caching, speculative decoding, and CUDA graphs relieve it.",
-      "adapter": "youtube",
-      "source_name": "AI Engineer",
-      "duration_s": 3598,
-      "private_source": false,
-      "added_at": "2026-10-06T06:01:35.495816+00:00"
-    },
-    {
-      "source_id": "xLxhT2ZI7UM",
-      "title": "Your LLM Judge Is a Confident Liar: Building Better Verifiers — Browserbase",
-      "author": "AI Engineer",
-      "url": "https://youtu.be/xLxhT2ZI7UM",
-      "source_type": "video",
-      "date": "2026-10-05",
-      "raw_text": "The official judge said the agent succeeded 74% of the time. A better verifier said 38%.\n\nMiguel González Fernández, tech lead for Browserbase's agent platform, and Corby Rosset, researcher at Microsoft Research, present their research on verifiers for computer-use and web agents. Deterministic evals stopped scaling as agents improved, and the LLM judges bundled with popular web benchmarks turned out to be confidently wrong. Train against them and you get a more confident liar, not a better agent. They explain how the Universal Verifier works: task-specific rubrics, ranking the most relevant screenshots as evidence for each criterion, isolating errors, catching hallucinations and separating controllable from uncontrollable failures. It cut false positives from about half to near zero and agreed with humans as often as humans agree with each other. They also test whether an autoresearch loop can rebuild the verifier.\n\nIn this talk:\n• Why LLM-as-judge verifiers on WebVoyager-style benchmarks overstate success\n• Rubric design: grade only what was asked, don't cascade errors, check the screenshots\n• Validating a verifier against human labels with Cohen's kappa\n• What autoresearch got right building a verifier in a day, and where humans still mattered\n\nSPEAKERS\nMiguel González Fernández, Tech Lead, Browserbase\nLinkedIn: https://www.linkedin.com/in/miguelgfz/\n\nCorby Rosset, Researcher, Microsoft Research\nX: https://x.com/corby_rosset\nLinkedIn: https://www.linkedin.com/in/corbyrosset/\n\nLINKS\nPaper: The Art of Building Verifiers for Computer Use Agents: https://arxiv.org/abs/2604.06240\nBrowserbase blog: https://www.browserbase.com/blog/building-verifiers-for-computer-use-agents\nFara + CUAVerifierBench (GitHub): https://github.com/microsoft/fara\nStagehand: https://www.browserbase.com/stagehand\n\nCHAPTERS\n0:00 Intro\n0:22 Browserbase and Microsoft Research\n1:02 The research\n1:36 Why deterministic evals stopped scaling\n2:45 LLM judges: confident liars\n3:47 74% vs 38%: the verifier gap\n4:22 Why existing verifiers fail\n4:57 How the Universal Verifier works\n6:26 Four guiding principles\n7:11 Good vs bad rubrics\n7:51 Don't cascade errors\n8:41 Catching subtle hallucinations\n9:26 Controllable vs uncontrollable failures\n10:28 Verifying the verifier with humans\n11:32 It started correcting humans\n12:23 Better verifier, better training data\n13:37 Can autoresearch build the verifier?\n16:15 Paper, code and benchmark\n17:45 Q&A: beyond the browser\n19:00 Q&A: avoiding overfitting\n\nRecorded at the AI Engineer World's Fair 2026 in San Francisco.\nSubscribe for more talks from the engineers building with AI.\n\nAI Engineer: https://ai.engineer\nYouTube: https://www.youtube.com/@aiDotEngineer\nX: https://x.com/aiDotEngineer\nLinkedIn: https://www.linkedin.com/company/aidotengineer/\n\n#AgentEvals #ComputerUse #AIEngineer",
-      "score": 1,
-      "hook": "LLM judges on web agent benchmarks overstate success by 2x (74% vs 38%); the Universal Verifier cuts false positives from ~50% to near zero using task-specific rubrics and screenshot evidence ranking.",
-      "adapter": "youtube",
-      "source_name": "AI Engineer",
-      "duration_s": 1274,
-      "private_source": false,
-      "added_at": "2026-10-06T06:01:40.419812+00:00"
-    },
-    {
-      "source_id": "F0TNSmbo5hE",
-      "title": "From Vibes to Production: Evaluating and Shipping AI Agents That Work 201 — Laurie Voss, Arize AI",
-      "author": "AI Engineer",
-      "url": "https://youtu.be/F0TNSmbo5hE",
-      "source_type": "video",
-      "date": "2026-10-05",
-      "raw_text": "A toy store agent fails a request for toys under $6 because its search tool has no price filter. Laurie Voss turns that missing feature into a live demonstration of an improvement loop: add observability, inspect what happened, find the problem, and ask a coding agent to fix it. The Wonder Toys application starts without traces flowing into Arize AX. Skills installed in the workshop repository help the coding agent add tracing and query the resulting data. The diagnosis reaches beyond exceptions and HTTP errors to search quality, including empty results and overly narrow filters. After adding price filtering, Voss repeats the shopping request and checks the new input and output in the trace view.\n\nThe broader argument is that reading traces individually stops working when an application produces millions of them. Evals compress behavior into scores and explanations, but people can still become the bottleneck when they must interpret every failure. Voss introduces Signal as another layer that groups recurring problems and suggests fixes. In the demonstration, findings can become GitHub issues, evaluation datasets, new evaluators, or proposed pull requests. Audience questions press on deployment, trust, and preventing a fix from breaking behavior that already works. Regression evals provide that check, while Signal itself has tracing and an evaluation suite. The workshop moves from a manually requested repair toward continuous improvement, with definitions of good behavior directing what the automation should change.\n\n\nSpeaker info:\n- https://x.com/seldo\n- https://seldo.com\n- https://github.com/Arize-ai/project-rosetta-stone\n\nTimestamps:\n0:00 - From 101 to continuous improvement\n3:12 - Traces as the source of truth\n6:13 - Scaling beyond manual trace review\n9:02 - Finding signals and closing the loop\n12:03 - Workshop setup\n14:13 - Wonder Toys and trust questions\n16:31 - Adding observability with a coding agent\n20:19 - Testing and inspecting live traces\n22:25 - Exposing the missing price filter\n24:41 - Asking an agent to analyze traces\n28:51 - Diagnosing search quality problems\n30:28 - Adding price filtering\n33:05 - Continuous monitoring with Signal\n36:06 - Deployment and regression evaluation questions\n40:22 - Evaluating Signal itself",
-      "score": 1,
-      "hook": "Live walkthrough of diagnosing agent failures via traces, then using a coding agent to fix the root cause (missing price filter) and validate with regression evals.",
-      "adapter": "youtube",
-      "source_name": "AI Engineer",
-      "duration_s": 2536,
-      "private_source": false,
-      "added_at": "2026-10-06T06:01:42.728585+00:00"
     }
   ]
 }

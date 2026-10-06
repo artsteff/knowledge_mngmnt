@@ -101,6 +101,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-06T14:00:25.163469+00:00",
+      "tg_message_ids": [
+        201
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 5,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "F0TNSmbo5hE",
+          "url": "https://youtu.be/F0TNSmbo5hE",
+          "title": "From Vibes to Production: Evaluating and Shipping AI Agents That Work 201 — Laurie Voss, Arize AI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Live walkthrough of diagnosing agent failures via traces, then using a coding agent to fix the root cause (missing price filter) and validate with regression evals.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "woIYJYd_etI",
+          "url": "https://youtu.be/woIYJYd_etI",
+          "title": "What Is an Inference Engine, Anyway? — Charles Frye, Modal",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Traces a request through an inference engine (tokenization → scheduling → model execution → detokenization), showing how the scheduler becomes a bottleneck and how KV caching, speculative decoding, and CUDA graphs relieve it.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "xLxhT2ZI7UM",
+          "url": "https://youtu.be/xLxhT2ZI7UM",
+          "title": "Your LLM Judge Is a Confident Liar: Building Better Verifiers — Browserbase",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "LLM judges on web agent benchmarks overstate success by 2x (74% vs 38%); the Universal Verifier cuts false positives from ~50% to near zero using task-specific rubrics and screenshot evidence ranking.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
