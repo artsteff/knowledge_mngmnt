@@ -1,0 +1,55 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-06T06:01:42.886721+00:00",
+      "tg_message_ids": [
+        199
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 6,
+          "scored_to_backlog": 6,
+          "backlog_size": 11,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "_fHTqOs5wQA",
+          "url": "https://youtu.be/_fHTqOs5wQA",
+          "title": "Build the Right Thing: Product Engineering (Part 1) — Kent C. Dodds, EpicProduct.engineer",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Product engineers use customer discovery (The Mom Test applied live) and architectural understanding to decide which problems deserve engineering effort, with agents changing implementation speed but not the judgment call.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "wzWNYDY7toc",
+          "url": "https://youtu.be/wzWNYDY7toc",
+          "title": "From Raw Documents to AI-Ready Data — Leo Platzer & Jeff Koss",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Data quality cleaning (deduplication, staleness detection, sensitive-data filtering) doubled RAG recall in a real 80K-document corpus, with specific numbers on how stale/duplicate data crowds out useful context.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "42Bz0TUfeOQ",
+          "url": "https://youtu.be/42Bz0TUfeOQ",
+          "title": "The Transcript Looked Fine. The Call Wasn't. — Debugging Voice Agents, Arize",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Voice agents fail in ways text transcripts hide — latency, interruptions, mishearing — and you need audio + trace + evals to catch them.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
