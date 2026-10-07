@@ -79,6 +79,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-07T18:00:44.174052+00:00",
+      "tg_message_ids": [
+        206
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "u-o0sW9nwmk",
+          "url": "https://youtu.be/u-o0sW9nwmk",
+          "title": "From 36% to 100%: How Self-Improving Agents Write Their Own Skills — Rafal Wilinski, Runlayer",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Self-improving agents that distill their own skills from execution traces, taking a task from 36% to 100% success and creating an organizational knowledge flywheel.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "XqF-IFHBCkM",
+          "url": "https://youtu.be/XqF-IFHBCkM",
+          "title": "Redesigning How Software Gets Built With AI Agents — Sonar & McKinsey Panel",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Teams scaling AI agents change three things—process, tooling, and people/roles—and trust in code automation grows incrementally from review → blocking → autofix → auto-approve/merge.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "oWTEiYpxl80",
+          "url": "https://youtu.be/oWTEiYpxl80",
+          "title": "Why AI Agents Should Have Their Own Sandbox — Philipp Schmid, Google DeepMind",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Google's Gemini Interactions API replaces user/model turns with a timeline of steps, handles server-side state and background jobs, and gives each agent its own managed cloud sandbox with persistent environments and shared skills.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
