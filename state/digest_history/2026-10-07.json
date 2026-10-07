@@ -1,0 +1,55 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-07T02:00:32.860513+00:00",
+      "tg_message_ids": [
+        204
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 4,
+          "backlog_size": 4,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "cf2IhzqeQH4",
+          "url": "https://youtu.be/cf2IhzqeQH4",
+          "title": "Every AI Company Is Accidentally Building a Bank — Dor Sasson, Stigg",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "AI companies need banking infrastructure (synchronous entitlement checks, asynchronous settlement, credit pools) to avoid pricing emergencies—OpenAI's architecture as the model.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "X4w2Pkz5tDY",
+          "url": "https://youtu.be/X4w2Pkz5tDY",
+          "title": "Grep or Embeddings? Agentic Search Over Company Documents — George He, LlamaIndex",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Agent-driven hybrid search strategy for company documents—grep + embeddings + metadata filtering + visual parsing—with a production demo on 135 Alphabet filings.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "eXA2tjRZIbY",
+          "url": "https://youtu.be/eXA2tjRZIbY",
+          "title": "The 6 Pillars of an Agentic Harness for Production — Varun Krovvidi, Resolve AI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Six concrete pillars for production agents — model orchestration, context engineering, causal reasoning, governed actions, learning systems, evals — with a demo showing root-cause diagnosis that rules out coincidental outages.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}

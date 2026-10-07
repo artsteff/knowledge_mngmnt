@@ -549,6 +549,7 @@
     "WtnKxBRXoDI",
     "Wxq7ZIEodJg",
     "WyiGFFTnIS4",
+    "X4w2Pkz5tDY",
     "X5bABLCuIHA",
     "X6NShR2ccOg",
     "X6l4lpA0_NY",
@@ -556,6 +557,7 @@
     "XHPI9FPnndg",
     "XS2A6aExLaA",
     "XS38TAwB95w",
+    "XTpyNrEgJQ4",
     "XWcXwnysmpY",
     "X_JsIHUfUjc",
     "Xc4klGbq8v8",
@@ -646,6 +648,7 @@
     "aR20FWCCjAs",
     "aVO6E181cNU",
     "aVpG6JdtYNE",
+    "aXv0ZurmcsM",
     "aZLr962R6Ag",
     "abvQEhvRI_c",
     "aetX0vbKPTo",
@@ -688,6 +691,7 @@
     "cVT7MbRBiLY",
     "cVzf49yg0D8",
     "ccQSHQ3VGIc",
+    "cf2IhzqeQH4",
     "cfRHWmILNE4",
     "cfT0kkbPs50",
     "cjlGBDdQ-qA",
@@ -728,6 +732,7 @@
     "eUEHZvPY6QY",
     "eUFnulsUIBg",
     "eW_vxrjvERk",
+    "eXA2tjRZIbY",
     "eXp8TC0Sm6o",
     "eY20SPBpQEg",
     "eZ8WWZzoaR0",
@@ -1200,5 +1205,22 @@
     "zw9yxsMZCZc"
   ],
   "failed": {},
-  "backlog": []
+  "backlog": [
+    {
+      "source_id": "XTpyNrEgJQ4",
+      "title": "Is Speculative Decoding Worth It? Profiling vLLM on NVIDIA Blackwell — Akamai",
+      "author": "AI Engineer",
+      "url": "https://youtu.be/XTpyNrEgJQ4",
+      "source_type": "video",
+      "date": "2026-10-06",
+      "raw_text": "A small model guesses the next few tokens. The big model checks them in one pass. When is that worth it?\n\nSheilah Kirui, developer advocate at Akamai, explains speculative decoding and how to tell whether it's worth turning on. She walks through the prefill and decode phases of inference, how a small draft model proposes tokens that the target model verifies in a single forward pass, and the memory cost of hosting a second model and its KV cache. She covers how to choose a draft model, then demos both setups side by side with vLLM on a single NVIDIA Blackwell GPU: structured output ran 1.6x faster with a high acceptance rate, while creative writing saw far lower acceptance. She also explains why long-context and high-concurrency workloads gain less.\n\nIn this talk:\n• Prefill vs decode, and what speculative decoding speeds up\n• Choosing a draft model: size, shared tokenizer, cost and accuracy\n• Demo: acceptance rate on structured vs creative tasks in vLLM\n• When it's worth it: spare VRAM, small batches, structured output, short context\n\nSPEAKER\nSheilah Kirui, Developer Advocate, Akamai\n\nLINKS\nAkamai developers on GitHub: https://github.com/akamai-developers\nvLLM docs: https://docs.vllm.ai\nAkamai: https://www.akamai.com\nAkamai on X: https://x.com/Akamai\n\nCHAPTERS\n0:00 Intro\n0:37 Prefill and decode\n1:37 The idea behind speculative decoding\n2:42 The cost: two models in memory\n3:26 Choosing a draft model\n3:56 Demo setup on one Blackwell GPU\n5:41 Which workloads benefit\n6:21 Demo: structured output\n9:00 Demo: 1.6x faster\n9:50 Demo: creative writing\n10:55 Long context limits the gains\n11:50 Checklist\n12:39 Q&A: tools and resources\n\nRecorded at the AI Engineer World's Fair 2026 in San Francisco.\nSubscribe for more talks from the engineers building with AI.\n\nAI Engineer: https://ai.engineer\nYouTube: https://www.youtube.com/@aiDotEngineer\nX: https://x.com/aiDotEngineer\nLinkedIn: https://www.linkedin.com/company/aidotengineer/\n\n#LLMInference #vLLM #AIEngineer",
+      "score": 1,
+      "hook": "Speculative decoding demo on Blackwell showing 1.6x speedup for structured output but low acceptance on creative writing, with a checklist for when it's worth the memory cost of a second model.",
+      "adapter": "youtube",
+      "source_name": "AI Engineer",
+      "duration_s": 917,
+      "private_source": false,
+      "added_at": "2026-10-07T02:00:32.731248+00:00"
+    }
+  ]
 }
