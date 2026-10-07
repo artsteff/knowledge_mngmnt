@@ -50,6 +50,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-07T06:00:16.324352+00:00",
+      "tg_message_ids": [
+        205
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "XTpyNrEgJQ4",
+          "url": "https://youtu.be/XTpyNrEgJQ4",
+          "title": "Is Speculative Decoding Worth It? Profiling vLLM on NVIDIA Blackwell — Akamai",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Speculative decoding demo on Blackwell showing 1.6x speedup for structured output but low acceptance on creative writing, with a checklist for when it's worth the memory cost of a second model.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
