@@ -130,6 +130,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-07T22:00:29.772215+00:00",
+      "tg_message_ids": [
+        207
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "exiwa9QbQXI",
+          "url": "https://youtu.be/exiwa9QbQXI",
+          "title": "The Software Factory: From Bug Report to Production Code — Davis Palmie, Factory",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "A system that routes bug reports through agents to production code, with named principles (model-agnostic, sovereign deployment, SDLC-integrated) and outcome metrics (signal-to-production time, cost per PR) instead of token counts.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "toq-jyGLZDk",
+          "url": "https://youtu.be/toq-jyGLZDk",
+          "title": "Why Your AI Agents Can't Talk to Each Other (Yet) — Vlad Luzin, BAND",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Distributed systems primitives (transport, persistence, runtime binding, identity, observability) required to connect AI agents across boundaries — not messaging protocols or MCPs.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "f3o0-9Dlw3E",
+          "url": "https://youtu.be/f3o0-9Dlw3E",
+          "title": "AI Hackers Are Faster Than Your Pen Test — Eli Cohen, Snyk",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Multi-agent red teaming that runs continuous AI pen tests on every PR, with an orchestrator, recon agents, vulnerability hunters, and exploit validators.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
