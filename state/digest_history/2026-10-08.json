@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-08T02:00:18.046733+00:00",
+      "tg_message_ids": [
+        208
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "DrfyORO8RqA",
+          "url": "https://youtu.be/DrfyORO8RqA",
+          "title": "Why Bigger Context Windows Won't Save Your Agent — Elizabeth Fuentes Leone, AWS",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Four concrete strategies (externalize, select, compress, isolate) for keeping agent context windows effective when tools return huge data, with code examples in Strands Agents framework.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
