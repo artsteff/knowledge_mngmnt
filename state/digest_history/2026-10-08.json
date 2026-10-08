@@ -28,6 +28,70 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-08T18:00:55.257195+00:00",
+      "tg_message_ids": [
+        209
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 4,
+          "backlog_size": 4,
+          "posting": 4,
+          "errors": [
+            "metadata-missing:akEqiXFo3GM"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "KGFyOtl5ktI",
+          "url": "https://youtu.be/KGFyOtl5ktI",
+          "title": "Giving AI Agents Memory That Learns — Jake Broekhuizen, LangChain",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Walk through how to turn agent traces into durable memory that changes behavior — semantic/episodic/procedural types, read-write cycle, and three hard lessons (what to keep, caching, human review).",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "HTzgC3FoYsI",
+          "url": "https://youtu.be/HTzgC3FoYsI",
+          "title": "Let Anyone at Your Company Ship Internal Apps with AI — Garrett Galow, WorkOS",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "WorkOS built a CLI + platform (Atlas) that lets non-engineers ship internal AI apps securely; 37% of 278 apps in production were built without engineers, handling 3M+ requests/week.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "jJQoVkd5yLg",
+          "url": "https://youtu.be/jJQoVkd5yLg",
+          "title": "Why We Deleted Our MCP Server and Rebuilt It — Abhi Arya, Reducto",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Product leader at Reducto deleted a one-tool-per-endpoint MCP server after it broke in production, then rebuilt with fewer, semantically meaningful tools plus confidence scoring and self-improving instrumentation.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "ofxAtQhV-xA",
+          "url": "https://youtu.be/ofxAtQhV-xA",
+          "title": "How Jeetu Patel Runs Cisco Like the World’s Largest Startup",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Cisco's hyperscaler AI business hit $9.3B in orders in two years; Patel discusses how he's running a 32K-engineer company like a startup and what infrastructure AI agents actually need.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
