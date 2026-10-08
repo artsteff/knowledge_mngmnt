@@ -92,6 +92,59 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-08T22:00:39.697392+00:00",
+      "tg_message_ids": [
+        210
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": [
+            "metadata-missing:akEqiXFo3GM"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "XPj3mIKEtI4",
+          "url": "https://youtu.be/XPj3mIKEtI4",
+          "title": "Turning Agent Memory Into Skills That Work — Will Lyon, Neo4j",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Agent memory as typed execution graphs with grounding checks and skill distillation — moves beyond retrieval to actionable, governed knowledge that multiple agents can learn from.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "k2ClBT4aqAg",
+          "url": "https://youtu.be/k2ClBT4aqAg",
+          "title": "We Mapped 115 Microservices for Our Coding Agents — Kamalakannan Nandagopal, Postman",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Staff engineer at Postman built an API context graph mapping 115 microservices and thousands of endpoints to ground coding agents in real distributed systems, with evals showing 75% of PRs touch APIs and a 21-page architecture review generated autonomously.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "YNT7Plf9KIg",
+          "url": "https://youtu.be/YNT7Plf9KIg",
+          "title": "Your AI Agent Has No Nervous System — Matt Gibiec, Dynatrace",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "AI agents need observability (\"nervous system\") to see production dependencies and avoid loops—Bluebox brings real environment context into agent decisions before they ship.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
