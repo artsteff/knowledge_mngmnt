@@ -232,6 +232,79 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-09T10:00:46.175120+00:00",
+      "tg_message_ids": [
+        215
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 6,
+          "posting": 5,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "4VbUw8pPYvQ",
+          "url": "https://youtu.be/4VbUw8pPYvQ",
+          "title": "Why AI Agents Won't Take Over Enterprise Yet | Tarek Alaruri",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Tarek Alaruri (Stuut CEO, $52.5M Series B) discusses why enterprise AI agents face adoption friction — human workflow bottlenecks, legacy system integration, and why the autonomous-agent narrative outpaces reality in finance automation.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "hTmnKouCL0M",
+          "url": "https://youtu.be/hTmnKouCL0M",
+          "title": "Your Camera Roll Is the Ultimate AI Context Layer | Marissa Mayer",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Marissa Mayer discusses Dazzle, a photo-based personal AI assistant that uses camera roll as context for task automation and personalized assistance, with attention to privacy and human-in-the-loop workflows.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "o7T1mPEiqIY",
+          "url": "https://youtu.be/o7T1mPEiqIY",
+          "title": "«Движение и мозг: как разные типы физической активности влияют на когнитивное благополучие».",
+          "author": "Библиотека им. Н.А. Некрасова",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Lecture on the physiological mechanisms linking different types of physical exercise to brain structure, cognitive function, and prevention of age-related cognitive decline and neurodegeneration. Speaker is a neuropsychologist specializing in neurofeedback training.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "ka2FHYwNoZo",
+          "url": "https://youtu.be/ka2FHYwNoZo",
+          "title": "Как сильные руководители губят бизнес без стратегии | Сергиенко, McKinsey",
+          "author": "Колосок",
+          "source_type": "video",
+          "score": 2,
+          "hook": "McKinsey ex-leader on why strong founders/executives become bottlenecks: delegation patterns, fear of strong teams, decision-making in crisis, three leadership models (authoritarian/delegating/consultative), and system thinking vs. heroic management.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "1PBozHaz3Mo",
+          "url": "https://youtu.be/1PBozHaz3Mo",
+          "title": "The Deepest Conversation You’ll Ever Watch About Writing (Shafak & Macfarlane Interview)",
+          "author": "David Perell",
+          "source_type": "video",
+          "score": 3,
+          "hook": "Two literary writers discuss craft elements — emotion-to-words translation, linear vs non-linear structure, rhythm, nature writing, boredom, and reader experience — in a conversational format.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
