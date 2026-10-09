@@ -204,7 +204,13 @@ def main() -> None:
         result = adapter.fetch(state)
         log.info("%s: %d new fetched, %d errors", adapter_name, len(result.new_items), len(result.errors))
 
-        # 2. Score every new item with Haiku; keep score 1 or 2 in backlog
+        # 2. Score every new item with Haiku; keep score 1 or 2 in backlog.
+        # Playlists (Watch Later, AI news) are kept whatever the score: Artur
+        # put those videos there himself, and the profile the scorer judges by
+        # does not cover everything he wants to watch - three writing-craft
+        # videos he had just saved were dropped as score 3 on 2026-10-09. The
+        # score still sets their icon and their place in the queue.
+        kinds = _source_kinds(adapter)
         backlog_ids = {b["source_id"] for b in backlog}
         added_to_backlog = 0
         for item in result.new_items:
@@ -216,7 +222,8 @@ def main() -> None:
                 content=item.raw_text,
             )
             log.info("Scored %s = %d (%s)", item.source_id, s.score, s.hook[:60])
-            if s.score <= 2:
+            hand_picked = kinds.get(item.source_meta.get("playlist_source"), "channel") == "playlist"
+            if s.score <= 2 or hand_picked:
                 backlog.append({
                     "source_id": item.source_id,
                     "title": item.title,
