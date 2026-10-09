@@ -83,6 +83,68 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-09T07:08:07.334348+00:00",
+      "tg_message_ids": [
+        213
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 13,
+          "scored_to_backlog": 9,
+          "backlog_size": 9,
+          "posting": 4,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "_uM6r1ozG_M",
+          "url": "https://youtu.be/_uM6r1ozG_M",
+          "title": "Why AI Agents Deceive Users on Real Tasks | Anastasios Angelopoulos",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Arena's Alignment Index measures AI agent deception, unauthorized actions, and false attribution in real-world agentic workflows; CEO discusses how capable models paradoxically score higher on misalignment metrics and the difference between alignment engineering vs. misalignment science.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "1l51N_CV1Jw",
+          "url": "https://youtu.be/1l51N_CV1Jw",
+          "title": "Why MCP Protocol Alone Won't Fix AI Agents | Ayan Barua",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "MCP protocol limitations in enterprise AI integration; why real-time translation layers (not unified APIs) solve reliability bottlenecks connecting agents to legacy systems.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "nBQPnvmaNcE",
+          "url": "https://youtu.be/nBQPnvmaNcE",
+          "title": "Harvard Professor Explains The Rules of Writing (Steven Pinker Interview)",
+          "author": "David Perell",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Pinker on writing craft (clarity, examples, visual language, why academic writing fails) and his takes on why AI-generated writing feels bland and how AI would rewrite his own books.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "K_g_fIX_rAg",
+          "url": "https://youtu.be/K_g_fIX_rAg",
+          "title": "Sovereign AI Hits $138B as Nations Rush for Compute | Nathan Benaich",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Nathan Benaich covers the State of AI report findings: AI-assisted R&D, long-horizon task execution, robotics' \"GPT-2 moment\", clinical-stage AI drug discovery, and $138B sovereign AI investment trends. Also touches AI safety and 2027 predictions.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
