@@ -1,0 +1,57 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-09T02:00:45.239236+00:00",
+      "tg_message_ids": [
+        211
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 4,
+          "backlog_size": 4,
+          "posting": 3,
+          "errors": [
+            "metadata-missing:akEqiXFo3GM"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "uuwDWRbxoYo",
+          "url": "https://youtu.be/uuwDWRbxoYo",
+          "title": "AI Writes More PRs. Who Validates Them? — Ali-Reza Adl-Tabatabai, Sonar",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Agent-based PR validation that automates code review and CI failures, reducing the bottleneck created by AI-generated code at scale.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "3XI90A3ENSg",
+          "url": "https://youtu.be/3XI90A3ENSg",
+          "title": "How a Remote Company Builds AI Fluency — Em Shreve, Automattic",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Automattic built a two-week in-person program (half workshops, half real project work) to scale AI fluency across 1,400 remote employees, with measurement at 72h/30/90 days and documented outputs (Zendesk connector, support teammate–built tool).",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "Emo5FGGY-wM",
+          "url": "https://youtu.be/Emo5FGGY-wM",
+          "title": "Why 80% Reliability Isn't Good Enough — Felipe Blanes, Amazon AGI Lab",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "The \"trust cliff\" — 80% reliability feels broken; ~92% feels trustworthy — and a four-step eval flywheel to close the gap between benchmarks and real customer behavior.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
