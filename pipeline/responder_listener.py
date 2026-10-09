@@ -25,6 +25,11 @@ from .responder import main as responder_main
 
 STATE_DIR = REPO_ROOT / "state"
 OFFSET_FILE = STATE_DIR / "telegram_offset.json"
+# Discussion-group message id -> channel message id, for every digest the
+# channel auto-forwarded into the group. Replies arrive in the group and point
+# at group ids; the digest history knows only channel ids.
+THREAD_MAP_FILE = STATE_DIR / "tg_thread_map.json"
+THREAD_MAP_RETAIN = 2000
 
 logging.basicConfig(
     level=logging.INFO,
@@ -52,6 +57,58 @@ def load_offset() -> int:
 def save_offset(offset: int) -> None:
     STATE_DIR.mkdir(parents=True, exist_ok=True)
     OFFSET_FILE.write_text(json.dumps({"offset": offset}, indent=2))
+
+
+def load_thread_map() -> dict[str, int]:
+    try:
+        return json.loads(THREAD_MAP_FILE.read_text())
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def save_thread_map(thread_map: dict[str, int]) -> None:
+    # Keep the newest by numeric id - message ids grow, their strings do not
+    # sort that way.
+    keep = sorted(thread_map, key=int)[-THREAD_MAP_RETAIN:]
+    THREAD_MAP_FILE.write_text(json.dumps({k: thread_map[k] for k in keep}, indent=2))
+
+
+def channel_post_id(msg: dict) -> int | None:
+    """The capture-channel message id a forwarded copy came from.
+
+    Only our own channel counts: a post forwarded from elsewhere carries an id
+    from another channel's sequence, which can collide with a digest's.
+    """
+    origin = msg.get("forward_origin") or {}
+    if (origin.get("type") == "channel" and origin.get("message_id")
+            and str((origin.get("chat") or {}).get("id")) == str(CHANNEL_ID)):
+        return int(origin["message_id"])
+    if (msg.get("forward_from_message_id")
+            and str((msg.get("forward_from_chat") or {}).get("id")) == str(CHANNEL_ID)):
+        return int(msg["forward_from_message_id"])
+    return None
+
+
+def digest_message_id(msg: dict, thread_map: dict[str, int]) -> int | None:
+    """Which digest post this message answers, as a channel message id.
+
+    Refs restart at 1 in every digest and there are several a day, so "3"
+    means nothing until we know which post it was written under.
+    - A comment straight under the post: reply_to_message is the forwarded
+      copy, which carries the channel id itself.
+    - A reply to another comment in that thread: message_thread_id is the
+      group id of the forwarded copy, resolved through the thread map.
+    Posts made in the channel itself are not handled here: they arrive with
+    sender_chat set and main() skips them as the channel's own posts.
+    """
+    reply_to = msg.get("reply_to_message") or {}
+    found = channel_post_id(reply_to)
+    if found:
+        return found
+    for key in (msg.get("message_thread_id"), reply_to.get("message_id")):
+        if key is not None and str(key) in thread_map:
+            return int(thread_map[str(key)])
+    return None
 
 
 def fetch_updates(offset: int) -> list:
@@ -91,7 +148,7 @@ def is_auto_forwarded_digest(msg: dict) -> bool:
     return False
 
 
-def dispatch_message(msg: dict) -> None:
+def dispatch_message(msg: dict, thread_map: dict[str, int]) -> None:
     text = (msg.get("text") or msg.get("caption") or "").strip()
     if not text:
         return
@@ -100,8 +157,18 @@ def dispatch_message(msg: dict) -> None:
         "chat_id": msg.get("chat", {}).get("id"),
         "message_id": msg.get("message_id"),
         "reply_to_message_id": (msg.get("reply_to_message") or {}).get("message_id"),
+        "digest_message_id": digest_message_id(msg, thread_map),
+        # A reply we could not bind must not fall back to the latest digest -
+        # that fallback is for messages that answer nothing in particular.
+        # A message in a comment thread counts even without an explicit reply.
+        "is_reply": bool(msg.get("reply_to_message"))
+                    or msg.get("message_thread_id") is not None,
     }
-    log.info("Dispatching message_id=%s text=%r", payload["message_id"], text[:80])
+    if payload["digest_message_id"] is not None and msg.get("message_id") is not None:
+        # Replies to this comment inherit its digest.
+        thread_map[str(msg["message_id"])] = payload["digest_message_id"]
+    log.info("Dispatching message_id=%s digest=%s text=%r",
+             payload["message_id"], payload["digest_message_id"], text[:80])
     # Re-invoke responder.main() via its CLI shape so the entry point is identical
     # to what we'd send via GH repository_dispatch. argv munging keeps the surface small.
     saved_argv = sys.argv
@@ -159,6 +226,7 @@ def main() -> None:
     if not updates:
         return
     log.info("Received %d update(s) from offset %d", len(updates), offset)
+    thread_map = load_thread_map()
     highest = offset - 1
     for u in updates:
         highest = max(highest, u["update_id"])
@@ -166,12 +234,17 @@ def main() -> None:
         if not msg or not is_capture_chat(msg):
             continue
         if is_auto_forwarded_digest(msg):
-            log.info("Skipping auto-forwarded digest (message_id=%s)", msg.get("message_id"))
+            source = channel_post_id(msg)
+            if source:
+                thread_map[str(msg["message_id"])] = source
+            log.info("Skipping auto-forwarded digest (message_id=%s, channel post %s)",
+                     msg.get("message_id"), source)
             continue
         try:
-            dispatch_message(msg)
+            dispatch_message(msg, thread_map)
         except Exception:
             log.exception("Error handling update %s", u.get("update_id"))
+    save_thread_map(thread_map)
     save_offset(highest + 1)
 
 

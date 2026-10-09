@@ -38,30 +38,48 @@ SONNET = "claude-sonnet-4-6"
 TG_MAX_LEN = 4000  # Telegram hard limit is 4096; leave headroom for footer
 
 
-def latest_digest_map(lookback_days: int = 7) -> dict:
-    """Merge digest_maps from the last N daily files, oldest-first so newer runs win on ref collisions.
-
-    Channels reorder old digests below comments threads, so users often reply to a digest
-    from a day or two ago. Looking only at the latest run misses those refs entirely.
-    """
+def _digest_runs_newest_first():
+    """Every recorded digest run, newest first, archives included."""
     if not DIGEST_HISTORY.exists():
-        return {}
-    # Files named YYYY-MM-DD.json (skip archive-*.json that manage_state.py creates).
-    files = sorted(
-        f for f in DIGEST_HISTORY.glob("*.json")
-        if not f.stem.startswith("archive-")
-    )
-    if not files:
-        return {}
-    merged: dict = {}
-    for f in files[-lookback_days:]:
+        return
+    days: list[tuple[str, dict]] = []
+    for f in DIGEST_HISTORY.glob("*.json"):
         try:
             data = json.loads(f.read_text())
         except json.JSONDecodeError:
             continue
-        for run in data.get("runs", []):
-            merged.update(run.get("digest_map", {}))
-    return merged
+        if f.stem.startswith("archive-"):
+            days.extend(data.items())  # {"YYYY-MM-DD": {...}, ...}
+        else:
+            days.append((f.stem, data))
+    for _, data in sorted(days, key=lambda d: d[0], reverse=True):
+        yield from reversed(data.get("runs", []))
+
+
+def resolve_digest(digest_message_id: int | None) -> tuple[dict, str, int | None]:
+    """The digest a reply refers to: (digest_map, how it was found, its post id).
+
+    Refs restart at 1 in every digest and several go out a day, so a ref only
+    means something inside one digest. These used to be merged across a week
+    with the newest winning, which sent "dive 3" under an old post to item 3 of
+    the latest digest instead.
+    """
+    runs = list(_digest_runs_newest_first())
+    if digest_message_id is not None:
+        for run in runs:
+            if digest_message_id in (run.get("tg_message_ids") or []):
+                return (run.get("digest_map", {}), f"digest post {digest_message_id}",
+                        digest_message_id)
+        # Guessing here is the bug this replaced: better to say so than to
+        # dive into the wrong video.
+        log.warning("digest post %s not found in history", digest_message_id)
+        return {}, f"unknown post {digest_message_id}", None
+    for run in runs:
+        if run.get("digest_map"):
+            ids = run.get("tg_message_ids") or []
+            return (run["digest_map"], f"latest digest (post {ids[0] if ids else '?'})",
+                    ids[0] if ids else None)
+    return {}, "none", None
 
 
 def tg_send(chat_id: int | str, text: str, reply_to: int | None = None) -> None:
@@ -123,15 +141,20 @@ def handle_skip(ref: str, digest_map: dict, source_state_paths: list[Path]) -> N
     source_state_paths.append(state_path)
 
 
-def _record_card_slug(ref: str, source_id: str, slug: str, card_path: str) -> Path | None:
+def _record_card_slug(ref: str, source_id: str, slug: str, card_path: str,
+                      post_id: int | None = None) -> Path | None:
     """Write the card slug back into the digest history.
 
     The digest is written before any card exists now, so `dive` and `ask` -
     which both look up item["card_slug"] - would find nothing unless ingest
-    records it. Newest file first: that is the one the ref came from.
+    records it. With post_id, only the run that posted it is written: the same
+    video can sit under the same ref in an older and a newer digest. Without
+    one, the newest match. Archives count too, since a reply can resolve to an
+    archived digest.
     """
     files = sorted(
-        (f for f in DIGEST_HISTORY.glob("*.json") if not f.stem.startswith("archive-")),
+        DIGEST_HISTORY.glob("*.json"),
+        key=lambda f: f.stem.removeprefix("archive-"),
         reverse=True,
     )
     for f in files:
@@ -139,20 +162,25 @@ def _record_card_slug(ref: str, source_id: str, slug: str, card_path: str) -> Pa
             data = json.loads(f.read_text())
         except json.JSONDecodeError:
             continue
+        days = data.values() if f.stem.startswith("archive-") else [data]
         touched = False
-        for run in data.get("runs", []):
-            entry = run.get("digest_map", {}).get(ref)
-            if entry and entry.get("source_id") == source_id:
-                entry["card_slug"] = slug
-                entry["card_path"] = card_path
-                touched = True
+        for day in days:
+            for run in day.get("runs", []):
+                if post_id is not None and post_id not in (run.get("tg_message_ids") or []):
+                    continue
+                entry = run.get("digest_map", {}).get(ref)
+                if entry and entry.get("source_id") == source_id:
+                    entry["card_slug"] = slug
+                    entry["card_path"] = card_path
+                    touched = True
         if touched:
             f.write_text(json.dumps(data, indent=2, ensure_ascii=False))
             return f
     return None
 
 
-def handle_ingest(ref: str, digest_map: dict) -> tuple[list[Path], str]:
+def handle_ingest(ref: str, digest_map: dict,
+                  post_id: int | None = None) -> tuple[list[Path], str]:
     """Fetch the transcript and write the summary card - on demand, for one item.
 
     This is where the money is spent, and only here. The digest that offered
@@ -188,7 +216,7 @@ def handle_ingest(ref: str, digest_map: dict) -> tuple[list[Path], str]:
 
     sb = git_io.second_brain_path()
     history = _record_card_slug(ref, source_id, slug,
-                                str(target.relative_to(sb)))
+                                str(target.relative_to(sb)), post_id)
     item["card_slug"] = slug
 
     touched = [target] + ([history] if history else [])
@@ -269,7 +297,8 @@ def _already_dived(sb: Path, url: str) -> Path | None:
     return None
 
 
-def handle_dive(ref: str, digest_map: dict) -> tuple[list[Path], str | None]:
+def handle_dive(ref: str, digest_map: dict,
+                post_id: int | None = None) -> tuple[list[Path], str | None]:
     """Run deep dive. Returns (touched_paths, optional insights message for Telegram)."""
     item = digest_map.get(ref)
     if not item:
@@ -295,7 +324,7 @@ def handle_dive(ref: str, digest_map: dict) -> tuple[list[Path], str | None]:
         # has not ingested yet has nothing to read. Ingest it first rather than
         # making him ask twice.
         log.info("dive: ref %s has no card yet; ingesting first", ref)
-        handle_ingest(ref, digest_map)
+        handle_ingest(ref, digest_map, post_id)
         card_slug = item.get("card_slug")
     if not card_slug:
         log.warning("dive: ref %s still has no card_slug; skipping", ref)
@@ -440,10 +469,19 @@ def main() -> None:
     chat_id = payload.get("chat_id")
     reply_to = payload.get("reply_to_message_id")
 
-    digest_map = latest_digest_map()
+    anchor = payload.get("digest_message_id")
+    if anchor is None and payload.get("is_reply"):
+        digest_map, digest_label, post_id = {}, "a reply not traceable to a digest post", None
+    else:
+        digest_map, digest_label, post_id = resolve_digest(int(anchor) if anchor is not None else None)
     if not digest_map:
-        log.warning("No digest_history found; cannot route")
+        log.warning("No digest to resolve refs against (%s); cannot route", digest_label)
+        if anchor is not None or payload.get("is_reply"):
+            tg_send(chat_id, "Can't find the digest this reply is under, so the "
+                    "number can't be matched. Reply directly under the digest post.",
+                    reply_to=message_id)
         return
+    log.info("Resolved refs against %s", digest_label)
 
     route = intent_router.route(
         reply_text=reply_text, digest_map=digest_map,
@@ -460,14 +498,19 @@ def main() -> None:
     ask_refs = [i.ref for i in route.instructions if i.action == "ask" and i.ref]
     skip_refs = [i.ref for i in route.instructions if i.action == "skip" and i.ref]
 
+    def named(refs: list[str]) -> str:
+        # The title, not just the number: a ref bound to the wrong digest shows
+        # up here, before minutes and money go into the wrong video.
+        return ", ".join(
+            f"#{r} {_html((digest_map.get(r) or {}).get('title', '?')[:60])}" for r in refs
+        )
+
     ack_parts = []
     if dive_refs:
         eta = f"~{3 * len(dive_refs)}–{5 * len(dive_refs)} min" if len(dive_refs) > 1 else "~3–5 min"
-        refs_str = " ".join(f"#{r}" for r in dive_refs)
-        ack_parts.append(f"📚 diving on {refs_str} ({eta}, results stream as each finishes)")
+        ack_parts.append(f"📚 diving on {named(dive_refs)} ({eta}, results stream as each finishes)")
     if ask_refs:
-        refs_str = " ".join(f"#{r}" for r in ask_refs)
-        ack_parts.append(f"💬 answering {refs_str}")
+        ack_parts.append(f"💬 answering {named(ask_refs)}")
     if skip_refs:
         refs_str = " ".join(f"#{r}" for r in skip_refs) if len(skip_refs) <= 5 else f"{len(skip_refs)} items"
         ack_parts.append(f"⏭ skipping {refs_str}")
@@ -483,7 +526,7 @@ def main() -> None:
             handle_skip(inst.ref, digest_map, state_paths)
             tg_react(chat_id, message_id, "⏭")
         elif inst.action == "dive" and inst.ref:
-            paths, insights = handle_dive(inst.ref, digest_map)
+            paths, insights = handle_dive(inst.ref, digest_map, post_id)
             touched_paths.extend(paths)
             tg_react(chat_id, message_id, "📚")
             if insights:
@@ -493,18 +536,23 @@ def main() -> None:
             tg_react(chat_id, message_id, "💬")
             tg_send(chat_id, f"<b>re: #{inst.ref}</b>\n{answer}", reply_to=message_id)
         elif inst.action == "ingest" and inst.ref:
-            paths, msg = handle_ingest(inst.ref, digest_map)
+            paths, msg = handle_ingest(inst.ref, digest_map, post_id)
             touched_paths.extend(paths)
             tg_react(chat_id, message_id, "✅")
             if msg:
                 tg_send(chat_id, msg, reply_to=message_id)
 
     # Commit (one combined commit at the end is fine — file ops were already applied)
-    if touched_paths:
+    # Handlers return files from both repos - cards in second-brain, digest
+    # history here - and each commit has to get only its own.
+    sb = git_io.second_brain_path().resolve()
+    brain_paths = [p for p in touched_paths if p.resolve().is_relative_to(sb)]
+    state_paths += [p for p in touched_paths if p.resolve().is_relative_to(REPO_ROOT)]
+    if brain_paths:
         git_io.commit_and_push(
             git_io.second_brain_path(),
-            f"deep-dive: {len(touched_paths)} file op(s)",
-            touched_paths,
+            f"deep-dive: {len(brain_paths)} file op(s)",
+            brain_paths,
         )
     if state_paths:
         git_io.commit_and_push(

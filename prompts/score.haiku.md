@@ -46,6 +46,6 @@ description is thin. A vague description of an on-topic subject is a 2.
 ## Output (exactly this format, no preamble, no trailing commentary)
 
 SCORE: <1|2|3>
-HOOK: <one sentence — the most concrete thing the description promises; if it promises nothing concrete, say what the subject is>
+HOOK: <one or two sentences on a single line, shown as the only summary in the digest — what the video actually covers: the concrete topics, claims, numbers, demos or guests the description names. Plain statement of content, no marketing, no restating the title. If the description names nothing concrete, say what the subject is.>
 WHY_FOR_ARTUR: <one sentence — what specifically connects to his work or career bets; for score 3, what's missing that would have made this a 1>
 LANG: <en|ru>

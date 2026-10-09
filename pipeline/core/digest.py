@@ -65,14 +65,13 @@ def _human_duration(seconds: int) -> str:
 
 
 def _block(item: DigestItem) -> str:
-    """One entry.
+    """One entry: title, meta line, and the scorer's one-line summary.
 
-    The description is the point of this digest: it is written by whoever made
-    the video, costs nothing to obtain, and is what Artur reads to decide
-    whether the video is worth a transcript. The scorer's hook sits underneath
-    it when there is one - and there is none when the Anthropic key is out of
-    credit, which is exactly when the description has to carry the entry on its
-    own.
+    The author's description used to follow the summary, but the summary is a
+    condensed version of that same description, so the entry said everything
+    twice. The description now appears only when there is no summary - when
+    scoring failed, e.g. the Anthropic key is out of credit - so the entry
+    still says what the video is.
     """
     icon = _icon(item.score)
     meta = " · ".join(x for x in (
@@ -84,7 +83,7 @@ def _block(item: DigestItem) -> str:
     ]
     if item.hook:
         lines.append(f"<i>{_html(item.hook)}</i>")
-    if item.description:
+    elif item.description:
         lines.append(_html(_clip(item.description)))
     return "\n".join(lines)
 
