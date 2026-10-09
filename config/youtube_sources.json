@@ -27,12 +27,6 @@
       "max_per_digest": 3
     },
     {
-      "name": "AI Engineer",
-      "url": "https://www.youtube.com/@aiDotEngineer",
-      "private": false,
-      "max_per_digest": 3
-    },
-    {
       "name": "Y Combinator",
       "url": "https://www.youtube.com/@ycombinator",
       "private": false,
@@ -73,6 +67,13 @@
       "fetch_limit": 10,
       "max_per_digest": 2,
       "min_duration_s": 120
+    },
+    {
+      "name": "MTS",
+      "url": "https://www.youtube.com/@mtsituation/videos",
+      "private": false,
+      "fetch_limit": 10,
+      "max_per_digest": 3
     }
   ]
 }
