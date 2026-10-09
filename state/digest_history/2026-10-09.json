@@ -131,7 +131,8 @@
           "source_type": "video",
           "score": 2,
           "hook": "Pinker on writing craft (clarity, examples, visual language, why academic writing fails) and his takes on why AI-generated writing feels bland and how AI would rewrite his own books.",
-          "card_slug": null
+          "card_slug": "harvard-professor-explains-the-rules-of-writing-steven-pinke",
+          "card_path": "summaries/harvard-professor-explains-the-rules-of-writing-steven-pinke.md"
         },
         "4": {
           "adapter": "youtube",
