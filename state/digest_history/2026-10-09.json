@@ -358,6 +358,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-09T22:00:19.544278+00:00",
+      "tg_message_ids": [
+        217
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "Bq1jh2MmScI",
+          "url": "https://youtu.be/Bq1jh2MmScI",
+          "title": "Effect Maker Tutorial: Gaming 101 with @cloves_ar",
+          "author": "YouTube Creators",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Tutorial on YouTube's Effect Maker tool, demonstrating how to build interactive effects (quiz example shown). Covers the creator-facing workflow for a YouTube platform feature.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
