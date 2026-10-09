@@ -307,6 +307,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-09T14:00:52.940812+00:00",
+      "tg_message_ids": [
+        216
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "50-r5Ya1W90",
+          "url": "https://youtu.be/50-r5Ya1W90",
+          "title": "How RL Creates General Problem Solving | Reflection AI",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Reflection AI CTO discusses Beam (501B parameter model trained on 10.5K GPUs), RL scaling mechanics for general problem-solving, agentic generalization, and how Western labs compete on frontier model velocity.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "LOQAgQMviZo",
+          "url": "https://youtu.be/LOQAgQMviZo",
+          "title": "General AI Drove a Real Car | Axiom Math",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Researchers from Axiom Math tested frontier LLMs (Astra and others) driving a real Toyota Corolla on a cone course, examining emergent spatial reasoning, latency constraints in physical control loops, and how models bypass safety guardrails.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "f8zoVxnvY7k",
+          "url": "https://youtu.be/f8zoVxnvY7k",
+          "title": "7 убеждений, которые мешали зарабатывать, искать любовь и расти в карьере / Колосок",
+          "author": "Колосок",
+          "source_type": "video",
+          "score": 3,
+          "hook": "Seven limiting beliefs (unspecified) that the author claims affected earnings, relationships, and career growth; no concrete mechanisms or examples provided in the description.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
