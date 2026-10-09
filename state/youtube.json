@@ -1227,22 +1227,5 @@
     "zw9yxsMZCZc"
   ],
   "failed": {},
-  "backlog": [
-    {
-      "source_id": "NaOkR3VSfR4",
-      "title": "Brains vs Hands: How to Run AI Agents Safely in Production — Viren Baraiya",
-      "author": "AI Engineer",
-      "url": "https://youtu.be/NaOkR3VSfR4",
-      "source_type": "video",
-      "date": "2026-10-08",
-      "raw_text": "Let the model decide what should happen next. Never let it improvise how a production cluster gets restarted.\n\nViren Baraiya, co-founder and CTO of Orkes and the original creator of Netflix Conductor, explains how to run agents in production. Real agents aren't just chatbots: they run on schedules, react to events, coordinate other agents and can run for months, so the harness around them starts to look like an application, much like a set of microservices. His key idea is a clean split between the brain and the hands. The LLM plans what should happen next; a deterministic, durable harness does the actual work, with approval gates, idempotent steps and recorded side effects. He frames agent harnesses as late-bound sagas, workflows the agent assembles at runtime, and demos an SRE agent whose plan is compiled into a Conductor workflow, executed, checked and re-planned over two loops.\n\nIn this talk:\n• Background, scheduled, event-driven and long-running agents\n• Why the harness is the application, mixing deterministic and non-deterministic parts\n• The brain and the hands: the LLM plans, the harness executes\n• Demo: an SRE agent's plan compiled into a durable workflow\n\nSPEAKER\nViren Baraiya, Co-founder & CTO, Orkes\nX: https://x.com/virenbaraiya\n\nLINKS\nOrkes: https://orkes.io\nOrkes on X: https://x.com/orkesio\n\nCHAPTERS\n0:00 Intro\n0:47 Who runs agents in production?\n1:12 Beyond the hello-world agent\n1:52 Background, scheduled and event-driven agents\n2:27 Coordinators and multi-agent systems\n3:02 Agents are applications, not components\n3:12 Lessons from microservices\n4:22 The harness is the application\n5:02 Deterministic and non-deterministic parts\n6:02 Harnesses run for seconds or months\n6:41 Durability is table stakes\n7:26 How the loop works\n8:21 The agent plans, the harness executes\n9:21 Human approval gates\n9:41 Idempotency and side effects\n9:56 The brain and the hands\n10:21 Agent harnesses as late-bound sagas\n11:21 Every possible branch\n11:51 Demo: an SRE agent\n13:31 Compiling the plan into a workflow\n14:16 Demo: the second loop\n15:56 Conductor, open source\n\nRecorded at the AI Engineer World's Fair 2026 in San Francisco.\nSubscribe for more talks from the engineers building with AI.\n\nAI Engineer: https://ai.engineer\nYouTube: https://www.youtube.com/@aiDotEngineer\nX: https://x.com/aiDotEngineer\nLinkedIn: https://www.linkedin.com/company/aidotengineer/\n\n#AIAgents #WorkflowOrchestration #AIEngineer",
-      "score": 1,
-      "hook": "LLM plans what happens next; a durable harness executes it deterministically — with approval gates, idempotent steps, and recorded side effects — framed as late-bound sagas compiled at runtime.",
-      "adapter": "youtube",
-      "source_name": "AI Engineer",
-      "duration_s": 1009,
-      "private_source": false,
-      "added_at": "2026-10-09T02:00:45.111220+00:00"
-    }
-  ]
+  "backlog": []
 }

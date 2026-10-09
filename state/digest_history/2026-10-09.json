@@ -52,6 +52,37 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-09T06:00:20.198580+00:00",
+      "tg_message_ids": [
+        212
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": [
+            "metadata-missing:akEqiXFo3GM"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "NaOkR3VSfR4",
+          "url": "https://youtu.be/NaOkR3VSfR4",
+          "title": "Brains vs Hands: How to Run AI Agents Safely in Production — Viren Baraiya",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "LLM plans what happens next; a durable harness executes it deterministically — with approval gates, idempotent steps, and recorded side effects — framed as late-bound sagas compiled at runtime.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
