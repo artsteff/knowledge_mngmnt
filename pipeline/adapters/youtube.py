@@ -41,6 +41,21 @@ MAX_DISCOVER_PER_RUN = int(os.environ.get("KM_MAX_DISCOVER_PER_RUN", "40"))
 # costs more to transcribe than everything it sits next to. 90 minutes keeps
 # full-length podcast episodes.
 MAX_VIDEO_SECONDS = int(os.environ.get("KM_MAX_VIDEO_SECONDS", "5400"))
+# Upper bound on video age. "New" means "not in seen", not "recently
+# uploaded", so a channel added to the sources file used to hand over its whole
+# listing - up to 50 videos, years old - as if they had just come out. Override
+# per source with `max_age_days` in the sources file; `null` there means no
+# limit, which is right for playlists Artur fills by hand (Watch Later, AI news)
+# where an old video was put there on purpose.
+DEFAULT_MAX_AGE_DAYS = int(os.environ.get("KM_MAX_AGE_DAYS", "30"))
+
+
+def _over_age(upload: str, max_age_days: int | None) -> bool:
+    """True when a YYYYMMDD upload date is older than the cap; None = no cap."""
+    if max_age_days is None:
+        return False
+    uploaded = datetime.strptime(upload, "%Y%m%d").replace(tzinfo=timezone.utc)
+    return (datetime.now(timezone.utc) - uploaded).days > max_age_days
 
 
 class YouTubeAdapter(SourceAdapter):
@@ -148,11 +163,18 @@ class YouTubeAdapter(SourceAdapter):
         """
         self._log_ytdlp_version()
         candidates: list[dict] = []
+        too_old = state.get("too_old", {})
         for source in self._load_sources():
             log.info("YT source: %s", source["name"])
+            max_age = source.get("max_age_days", DEFAULT_MAX_AGE_DAYS)
             for v in self._fetch_source_videos(source):
                 vid = v.get("id")
                 if not vid or vid in seen:
+                    continue
+                # Judged against this source's own cap, so a video too old for
+                # one channel still reaches Artur from Watch Later or from a
+                # source with a longer cap.
+                if vid in too_old and _over_age(too_old[vid], max_age):
                     continue
                 if self._is_short(v, source.get("min_duration_s", SHORTS_MAX_SECONDS)):
                     seen.add(vid)
@@ -213,6 +235,7 @@ class YouTubeAdapter(SourceAdapter):
         digest. See core.transcribe.fetch_transcript.
         """
         seen = set(state.get("seen", []))
+        too_old: dict[str, str] = dict(state.get("too_old", {}))
         items: list[NormalizedItem] = []
         errors: list[str] = []
 
@@ -236,6 +259,15 @@ class YouTubeAdapter(SourceAdapter):
 
             duration = meta.get("duration") or v.get("duration") or 0
             upload = meta.get("upload_date") or ""
+            max_age = source.get("max_age_days", DEFAULT_MAX_AGE_DAYS)
+            if len(upload) == 8 and _over_age(upload, max_age):
+                # --flat-playlist carries no dates, so age is only known here.
+                # Keep the upload date so the metadata call is paid once - in
+                # too_old, not seen, which would hide it from every source.
+                log.info("Skipping %s (uploaded %s, over the %d day cap): %s",
+                         vid, upload, max_age, (meta.get("title") or "")[:50])
+                too_old[vid] = upload
+                continue
             date = (f"{upload[:4]}-{upload[4:6]}-{upload[6:]}" if len(upload) == 8
                     else datetime.now(timezone.utc).date().isoformat())
 
@@ -261,4 +293,5 @@ class YouTubeAdapter(SourceAdapter):
             seen.add(vid)
 
         state["seen"] = sorted(seen)
+        state["too_old"] = {k: too_old[k] for k in sorted(too_old) if k not in seen}
         return FetchResult(new_items=items, errors=errors)

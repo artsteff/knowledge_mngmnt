@@ -1,4 +1,4 @@
-"""State housekeeping: prune seen lists, archive old digest_history files.
+"""State housekeeping: prune stale backlog entries, archive old digest_history files.
 
 Runs weekly via launchd (`com.artur.km.manage-state.plist`).
 """
@@ -15,7 +15,12 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 STATE_DIR = REPO_ROOT / "state"
 DIGEST_HISTORY = STATE_DIR / "digest_history"
 
-SEEN_RETAIN = 1000
+# There is no cap on `seen`. There used to be one (keep the last 1000), but the
+# adapter stores `seen` sorted by video ID, so "the last 1000" meant the last
+# 1000 alphabetically: every Sunday it dropped whichever IDs sorted first,
+# regardless of age, and any of them still in a channel's listing came back as
+# new. 91 of 551 posted videos were posted more than once that way, some five
+# times. An ID is 11 characters; a few thousand of them cost nothing.
 HISTORY_RETAIN_DAYS = 30
 BACKLOG_RETAIN_DAYS = 14
 
@@ -25,25 +30,6 @@ logging.basicConfig(
     datefmt="%H:%M:%S",
 )
 log = logging.getLogger("manage_state")
-
-
-def prune_seen() -> list[Path]:
-    changed: list[Path] = []
-    for f in STATE_DIR.glob("*.json"):
-        if f.name == "telegram_offset.json":
-            continue
-        try:
-            data = json.loads(f.read_text())
-        except json.JSONDecodeError:
-            log.warning("Skipping unparseable state file: %s", f.name)
-            continue
-        if isinstance(data, dict) and isinstance(data.get("seen"), list) and len(data["seen"]) > SEEN_RETAIN:
-            before = len(data["seen"])
-            data["seen"] = data["seen"][-SEEN_RETAIN:]
-            f.write_text(json.dumps(data, indent=2, ensure_ascii=False))
-            changed.append(f)
-            log.info("Pruned %s: %d -> %d seen IDs", f.name, before, len(data["seen"]))
-    return changed
 
 
 def prune_backlog() -> list[Path]:
@@ -102,11 +88,10 @@ def archive_history() -> list[Path]:
 
 
 def main() -> None:
-    pruned = prune_seen()
     backlog_pruned = prune_backlog()
     archived = archive_history()
-    log.info("Done. Pruned %d seen list(s); pruned %d backlog(s); archived %d digest file(s).",
-             len(pruned), len(backlog_pruned), len(archived))
+    log.info("Done. Pruned %d backlog(s); archived %d digest file(s).",
+             len(backlog_pruned), len(archived))
 
 
 if __name__ == "__main__":

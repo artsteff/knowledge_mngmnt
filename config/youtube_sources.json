@@ -3,12 +3,14 @@
     {
       "name": "AI news",
       "url": "https://www.youtube.com/playlist?list=PLq6SeflPQSia6EOz0kXU_ItQv6UQQsNis",
+      "max_age_days": null,
       "private": false,
       "max_per_digest": 3
     },
     {
       "name": "Watch Later",
       "url": "https://www.youtube.com/playlist?list=WL",
+      "max_age_days": null,
       "private": true,
       "max_per_digest": 3
     },
