@@ -205,7 +205,8 @@
           "source_type": "video",
           "score": 3,
           "hook": "Richard Powers discusses character development, narrative structure, and writing craft across 40+ years and 14 novels — techniques for creating psychologically complex characters and managing tension in fiction.",
-          "card_slug": null
+          "card_slug": "how-to-become-a-master-storyteller-richard-powers-interview",
+          "card_path": "summaries/how-to-become-a-master-storyteller-richard-powers-interview.md"
         },
         "5": {
           "adapter": "youtube",
@@ -216,7 +217,8 @@
           "source_type": "video",
           "score": 3,
           "hook": "Copywriting fundamentals (visualization, falsifiability, differentiation) with live ad-writing demos and analysis of famous campaigns (Apple, Economist, Tesla).",
-          "card_slug": null
+          "card_slug": "learn-copywriting-in-76-minutes-harry-dry",
+          "card_path": "summaries/learn-copywriting-in-76-minutes-harry-dry.md"
         },
         "6": {
           "adapter": "youtube",
