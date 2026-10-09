@@ -280,7 +280,8 @@
           "source_type": "video",
           "score": 2,
           "hook": "Lecture on the physiological mechanisms linking different types of physical exercise to brain structure, cognitive function, and prevention of age-related cognitive decline and neurodegeneration. Speaker is a neuropsychologist specializing in neurofeedback training.",
-          "card_slug": null
+          "card_slug": "движение-и-мозг-как-разные-типы-физической-активности-влияют",
+          "card_path": "summaries/движение-и-мозг-как-разные-типы-физической-активности-влияют.md"
         },
         "4": {
           "adapter": "youtube",
@@ -291,7 +292,8 @@
           "source_type": "video",
           "score": 2,
           "hook": "McKinsey ex-leader on why strong founders/executives become bottlenecks: delegation patterns, fear of strong teams, decision-making in crisis, three leadership models (authoritarian/delegating/consultative), and system thinking vs. heroic management.",
-          "card_slug": null
+          "card_slug": "как-сильные-руководители-губят-бизнес-без-стратегии-сергиенк",
+          "card_path": "summaries/как-сильные-руководители-губят-бизнес-без-стратегии-сергиенк.md"
         },
         "5": {
           "adapter": "youtube",
