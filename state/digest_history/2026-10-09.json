@@ -146,6 +146,90 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-09T07:12:34.407042+00:00",
+      "tg_message_ids": [
+        214
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 4,
+          "backlog_size": 9,
+          "posting": 6,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "81xWXkDxvkw",
+          "url": "https://youtu.be/81xWXkDxvkw",
+          "title": "Why AI Math Breakthroughs Upgrade RSI Timelines | Cheryl Wu",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Cheryl Wu (Elasticity Institute) analyzes OpenAI's math breakthroughs and Tasteval results, discusses measuring recursive self-improvement (RSI) in AI models, differentiates self-sustaining acceleration from intelligence explosion, and examines indicators like researcher headcount and compute reallocation under full automation.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "_tin4cNMsNc",
+          "url": "https://youtu.be/_tin4cNMsNc",
+          "title": "Why Frontier AI Evals Are Falling Behind | Vincent Chen",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Snorkel AI announces $30M Open Benchmarks Grants program to address evals lagging behind frontier model capabilities; covers three pillars (benchmark funding, red-team program, research fellowship) and discusses benchmark maintenance and AI alignment.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "6WbiYkbmvMk",
+          "url": "https://youtu.be/6WbiYkbmvMk",
+          "title": "Why Open Science Is Dying at Frontier AI Labs | Nathan Lambert",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Nathan Lambert discusses Trillium Labs (a new nonprofit for frontier AI research), the collapse of open science at major labs, funding models for decentralized research, and how China's practical approach to AI differs from Western institutional dynamics.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "QUDlpMN-f5w",
+          "url": "https://youtu.be/QUDlpMN-f5w",
+          "title": "How to Become a Master Storyteller (Richard Powers Interview)",
+          "author": "David Perell",
+          "source_type": "video",
+          "score": 3,
+          "hook": "Richard Powers discusses character development, narrative structure, and writing craft across 40+ years and 14 novels — techniques for creating psychologically complex characters and managing tension in fiction.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "TUMjnmfsPeM",
+          "url": "https://youtu.be/TUMjnmfsPeM",
+          "title": "Learn Copywriting in 76 Minutes – Harry Dry",
+          "author": "David Perell",
+          "source_type": "video",
+          "score": 3,
+          "hook": "Copywriting fundamentals (visualization, falsifiability, differentiation) with live ad-writing demos and analysis of famous campaigns (Apple, Economist, Tesla).",
+          "card_slug": null
+        },
+        "6": {
+          "adapter": "youtube",
+          "source_id": "DoVQWA6TCoo",
+          "url": "https://youtu.be/DoVQWA6TCoo",
+          "title": "САМОУЧИТЕЛЬ КИНО",
+          "author": "РЕЖУПРАВЛЕНИЕ Жоры Крыжовникова",
+          "source_type": "video",
+          "score": 3,
+          "hook": "Russian-language lecture on screenwriting pedagogy — how to self-teach film dramaturgy through canonical films, books on craft, and analysis of narrative structure.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
