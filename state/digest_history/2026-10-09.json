@@ -384,7 +384,8 @@
           "source_type": "video",
           "score": 2,
           "hook": "Tutorial on YouTube's Effect Maker tool, demonstrating how to build interactive effects (quiz example shown). Covers the creator-facing workflow for a YouTube platform feature.",
-          "card_slug": null
+          "card_slug": "effect-maker-tutorial-gaming-101-with-cloves-ar",
+          "card_path": "summaries/effect-maker-tutorial-gaming-101-with-cloves-ar.md"
         }
       }
     }
