@@ -28,6 +28,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-10T14:00:30.701962+00:00",
+      "tg_message_ids": [
+        219
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "Fv__Fc0quDw",
+          "url": "https://youtu.be/Fv__Fc0quDw",
+          "title": "The Lab Data Proves the Intelligence Explosion Is a Myth | Ramez Naam",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Ramez Naam argues AI recursive self-improvement faces diminishing returns based on OpenAI/Anthropic system cards data; covers feedback loop weakness, compute/data constraints, and five-year scaling outlook.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
