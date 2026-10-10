@@ -57,6 +57,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-10T18:00:40.265010+00:00",
+      "tg_message_ids": [
+        220
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "V7VDrElvt_w",
+          "url": "https://youtu.be/V7VDrElvt_w",
+          "title": "Why Simulation Fails for Dexterous Robots | Brian Potter",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Brian Potter on why simulation fails for robot dexterity, how Vision-Language-Action models + cheap hardware (UMI) are changing the constraint, and the connection to why prefab housing can't scale without general-purpose automation.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
