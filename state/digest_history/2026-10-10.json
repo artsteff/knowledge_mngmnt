@@ -86,6 +86,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-10T22:00:53.950769+00:00",
+      "tg_message_ids": [
+        221
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "QNhmYYl9yYg",
+          "url": "https://youtu.be/QNhmYYl9yYg",
+          "title": "Why AI Has Not Changed the Economy Yet | Callum Williams",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Callum Williams (The Economist) examines why AI adoption remains low four years in—corporate budget constraints, slow business uptake, failed automation predictions—and what economic indicators would actually signal AI-driven growth.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
