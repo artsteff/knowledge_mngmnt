@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-10T10:00:27.308071+00:00",
+      "tg_message_ids": [
+        218
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "VQY9tnkxLhU",
+          "url": "https://youtu.be/VQY9tnkxLhU",
+          "title": "Why General LLMs Will Control Physical Robots | Thijs Simonian",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Stanford builder discusses scaling a Discord bot to 1.6M servers, getting hired at OpenAI's robotics team, and using Astra LLM to demonstrate general-purpose robot control without task-specific training.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
