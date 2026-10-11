@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-11T06:00:19.591863+00:00",
+      "tg_message_ids": [
+        222
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "ZmDGJHdoD9A",
+          "url": "https://youtu.be/ZmDGJHdoD9A",
+          "title": "AI Agents Will Handle Mortgage Origination | Mike Yu",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Vesta CEO on how AI agents are handling 40% of mortgage origination tasks, why mortgages are structurally suited for agent labor transfer, and the company's Series B raise; discusses the shift toward personal AI assistants managing task-level agents.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
