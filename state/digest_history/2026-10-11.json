@@ -28,6 +28,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-11T10:00:29.250218+00:00",
+      "tg_message_ids": [
+        223
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "nhSSws15OGY",
+          "url": "https://youtu.be/nhSSws15OGY",
+          "title": "AI Implementation Is Making Employees More Lonely | Cesar Carvalho",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Wellhub CEO presents research from Project Healthy Minds on how AI implementation correlates with employee stress, anxiety, and workplace loneliness; frames worker wellbeing as a business investment lever for unlocking AI productivity.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
