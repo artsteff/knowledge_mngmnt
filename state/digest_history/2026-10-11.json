@@ -57,6 +57,68 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-11T14:00:46.299515+00:00",
+      "tg_message_ids": [
+        224
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 4,
+          "backlog_size": 4,
+          "posting": 4,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "8rEAkEvhhcQ",
+          "url": "https://youtu.be/8rEAkEvhhcQ",
+          "title": "The 4-Step Agentic Engineering Workflow I Use to Ship Real Apps | Ras Mic",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Full-stack engineer walks through 4-step workflow for shipping agentic systems at scale: task isolation, structured agent scaffolding, validation loops for output quality, and agent-reviewed PRs with manual escalation. Covers why most agentic projects fail, what tasks stay human-owned, and tool comparisons (Astra vs Fable).",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "0TsBUncBMIQ",
+          "url": "https://youtu.be/0TsBUncBMIQ",
+          "title": "Why AI Agents Need Human Harnesses | Robert Vis",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Robert Vis (Bird CEO) on scaling AI agents via MCP and CLI harnesses, reducing headcount from 1,000 to 120 through automation, and the mechanics of a $450M debt financing round for dividend recapitalization.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "IzXw0gr_5Vk",
+          "url": "https://youtu.be/IzXw0gr_5Vk",
+          "title": "Frontier AI Models Will Run Local in 6 Months | Zain Javaid",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Zain Javaid (Ghost CEO) discusses local frontier AI models, the $3,500 Core hardware device for 24/7 autonomous agents, and why current consumer AI on phones/laptops is architecturally constrained; covers privacy, open-weight model progression, and emerging use cases.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "3I6QYkccd3o",
+          "url": "https://youtu.be/3I6QYkccd3o",
+          "title": "Why every company now needs to think and operate like a lab team | Josh Woodward (VP Google Labs)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Josh Woodward (Google Labs) on building experimental product cultures at scale — \"almost possible\" framework, recognizing product-market fit, when to kill ideas, skills rising in value (unlearning rate, explosive endurance, trust), why roles aren't collapsing into one universal builder role, and internal labs setup.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
