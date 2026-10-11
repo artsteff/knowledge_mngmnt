@@ -119,6 +119,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-11T18:00:56.728060+00:00",
+      "tg_message_ids": [
+        225
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "fnuNVFgLjHA",
+          "url": "https://youtu.be/fnuNVFgLjHA",
+          "title": "Building Self-Learning Loops for Your Agent — Fuad Ali, Arize AI",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Concrete walkthrough of an agent consuming observability data (traces, signals, datasets) to autonomously detect, investigate, and propose fixes for production failures — using a shopping assistant budget-filter bug as the worked example. Shows Arize Skills integration, evaluation harnesses that check tool calls and external context, agent experiments that replay failure datasets, and a human-reviewable repair loop.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "TBK_pnQ6JD4",
+          "url": "https://youtu.be/TBK_pnQ6JD4",
+          "title": "AI R&D Is Approaching an Explosive Feedback Loop | Tom Davidson",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Tom Davidson on P Zero's \"Tasteval\" benchmark showing AI systems doubling in research taste every three months; explores recursive self-improvement vs foom dynamics and implications for lab productivity and national security.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
