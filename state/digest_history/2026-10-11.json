@@ -159,6 +159,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-11T22:00:24.877067+00:00",
+      "tg_message_ids": [
+        226
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "VmZquGwWbeU",
+          "url": "https://youtu.be/VmZquGwWbeU",
+          "title": "General Robots Will Be Solved by 2028 | Jay Chooi",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Robotics safety benchmarking (RoboHarm framework) comparing GPT-6 Astra and Claude; claims general-purpose robots solvable by 2028; discusses AI-induced economic disempowerment and multi-agent governance.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "iUzm_6alFT8",
+          "url": "https://youtu.be/iUzm_6alFT8",
+          "title": "The End of 30-Year Mortgage Servicing | Valon",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Valon's founders explain why they divested mortgage servicing to focus on software, and how AI agents need operational context (not just raw intelligence) to handle complex financial contracts. They discuss new products enabled by low-friction servicing infrastructure.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
