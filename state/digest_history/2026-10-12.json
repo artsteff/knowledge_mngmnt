@@ -86,6 +86,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-12T14:00:28.084478+00:00",
+      "tg_message_ids": [
+        230
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "4TOLm1g-gCE",
+          "url": "https://youtu.be/4TOLm1g-gCE",
+          "title": "Meta Muse: the AI agent people actually love",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Design director at Meta walks through Muse's shipped UI patterns — three-layer status display, generative feeds, main vs side chat architecture, and concrete use cases (shopping from Instagram saves, golf shot tracking, chess analysis). Covers the design reasoning for making agents feel like messaging apps, not AI interfaces.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
