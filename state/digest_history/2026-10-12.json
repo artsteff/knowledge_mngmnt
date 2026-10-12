@@ -57,6 +57,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-12T10:00:32.382442+00:00",
+      "tg_message_ids": [
+        229
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "sGX-oAo-my8",
+          "url": "https://youtu.be/sGX-oAo-my8",
+          "title": "Why Small Businesses Use AI to Hire Faster | Nich Tremper",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Gusto data on small businesses adopting AI: 7% faster headcount expansion vs peers, strongest in sub-10-employee firms; hiring concentrated in non-tech sectors (community services, healthcare, trade contracting) rather than displacement.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
