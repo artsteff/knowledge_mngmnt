@@ -28,6 +28,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-12T06:00:26.317958+00:00",
+      "tg_message_ids": [
+        228
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "qqCnoiOkgvU",
+          "url": "https://youtu.be/qqCnoiOkgvU",
+          "title": "Theoretical Physicist Quits String Theory for AI | Mario Martone",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Applied research lead at Elise AI breaks down managing real-time voice latency for 5M monthly calls, fine-tuning open-source models vs LLMs, and why LLMs fail at deterministic tasks like renewal risk prediction in housing and healthcare automation.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
