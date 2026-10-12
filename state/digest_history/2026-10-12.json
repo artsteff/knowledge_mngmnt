@@ -115,6 +115,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-12T18:00:34.116891+00:00",
+      "tg_message_ids": [
+        231
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "8hhFOmxEbT0",
+          "url": "https://youtu.be/8hhFOmxEbT0",
+          "title": "Grok Bot Just Became The Best Personal Agent (10 Use Cases)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Walkthrough of Grok Bot's recent upgrades (X access, email address, Claude Opus 5.5) with 10 use cases: X sentiment analysis, YouTube research dashboards, proactive email reports, community support automation, and a rap battle demo.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
