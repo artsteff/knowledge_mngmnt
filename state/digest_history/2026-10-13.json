@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-13T14:00:32.896865+00:00",
+      "tg_message_ids": [
+        232
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "cxCBk6uouHM",
+          "url": "https://youtu.be/cxCBk6uouHM",
+          "title": "Jenny Hoyos Locks in on New Live & Community Features",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 2,
+          "hook": "YouTube Live product head and creator discuss new live features (go live together, live showdowns, watch with videos, Hype with Jewels) and community/membership integrations. First-hand account from platform leadership.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
