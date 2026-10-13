@@ -28,6 +28,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-13T18:00:59.496178+00:00",
+      "tg_message_ids": [
+        233
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "PyDLea2FZWM",
+          "url": "https://youtu.be/PyDLea2FZWM",
+          "title": "How did HubSpot lose 140M visits, and still keep growing? - Kieran Flanagan [HubSpot]",
+          "author": "Guillaume Moubeche",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Kieran Flanagan (HubSpot SVP) on rebuilding GTM for AI: HubSpot lost 80% organic traffic (140M visits) in one year but kept growing through AI experiments (3–10x conversion lifts), creator networks (350 creators, 5x growth in some), optimizing for ChatGPT/Gemini, and shifting from SEO to answer-engine distribution. Also covers taste/judgment in AI systems and why half of HubSpot's revenue now comes from free-tier users.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "zueuzhBkd9Y",
+          "url": "https://youtu.be/zueuzhBkd9Y",
+          "title": "I Tested Gemini 4 vs Opus 5.5 vs GPT-6 Astra vs Muse Wonder (5 Use Cases)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Comparative testing of four frontier LLMs (Gemini 4, Opus 5.5, GPT-6 Astra, Muse Wonder) across five concrete use cases — 3D modeling in Blender, game development in three.js, animated storytelling, website design, and writing — with specific prompts and model-by-model winners named.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "UvgvohGpq_4",
+          "url": "https://youtu.be/UvgvohGpq_4",
+          "title": "Accent-uate, Don't Compensate: Why Clarity Matters More Than Perfection",
+          "author": "Think Fast Talk Smart",
+          "source_type": "video",
+          "score": 3,
+          "hook": "Communication coach and linguist Peter Novak discusses accent bias, prosody techniques, and vocal delivery strategies for non-native English speakers in professional settings.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
