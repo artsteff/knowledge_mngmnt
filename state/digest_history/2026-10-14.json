@@ -1,0 +1,44 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-14T06:00:29.262288+00:00",
+      "tg_message_ids": [
+        234
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "ljhfUxgwfJE",
+          "url": "https://youtu.be/ljhfUxgwfJE",
+          "title": "Why AI Harnesses Must Separate From Models | Taylor Savage",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Taylor Savage (Factory Head of Product) discusses why AI agents are moving to cloud infrastructure, how orchestration primitives and isolated execution environments replace local setups, and the architectural case for separating harnesses from frontier model providers.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "ofJ0ZzVDAD4",
+          "url": "https://youtu.be/ofJ0ZzVDAD4",
+          "title": "Why Google Argon Launched to Cyber Defenders First | Tulsee Doshi",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Tulsee Doshi (Gemini product lead at Google DeepMind) walks through Argon's capabilities — 3D modeling, cybersecurity, code optimization, 1M token context window — and Google's rollout strategy including safety monitoring via chain-of-thought. Internal use cases and testing results covered.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
