@@ -68,6 +68,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-14T14:00:41.449339+00:00",
+      "tg_message_ids": [
+        236
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "dChiPsd0uF4",
+          "url": "https://youtu.be/dChiPsd0uF4",
+          "title": "Is Meta’s Muse Wonder model any good?",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Benchmark evaluation of Meta's Muse Wonder across 20 tasks (coding, agentic workflows, writing, design, video editing); compares performance to Sonnet, Opus, Astra on specific categories; assessment of whether Muse fits into production agent workflows.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "eq5HvHIVtnM",
+          "url": "https://youtu.be/eq5HvHIVtnM",
+          "title": "Why AI Agents Will Demand 1,000x More Compute | Aaron Levie",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Aaron Levie on infrastructure scaling for AI agents — why enterprise agent workflows demand 100–1,000x more compute than personal assistants, and bottlenecks in deployment infrastructure.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "B_GH2qiKboU",
+          "url": "https://youtu.be/B_GH2qiKboU",
+          "title": "Why Frontier AI Models Fail at Biology | Alexander Amini",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Liquid AI's CSO discusses their 24B MoE model (LFM 2.5), the tradeoff between local vs. cloud intelligence for robotics, and research showing specialized foundation models outperforming frontier LLMs on biological aging tasks.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
