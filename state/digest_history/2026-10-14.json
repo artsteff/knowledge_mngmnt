@@ -39,6 +39,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-14T10:00:25.359762+00:00",
+      "tg_message_ids": [
+        235
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "eWs1nkdnG7U",
+          "url": "https://youtu.be/eWs1nkdnG7U",
+          "title": "Voice Is the New UI for Physical AI | Brendan O'Driscoll",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Samsara VP of Product on Agent Studio GA — voice agents for fleet/logistics operations, no-code builder, how voice becomes the interface for physical AI systems, proprietary data advantage in enterprise adoption.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
