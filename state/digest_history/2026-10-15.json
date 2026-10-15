@@ -40,6 +40,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-15T10:00:23.126747+00:00",
+      "tg_message_ids": [
+        238
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "Y5SW-30FVTw",
+          "url": "https://youtu.be/Y5SW-30FVTw",
+          "title": "Robinhood Is Putting Hedge Fund Data in Retail Apps | Abhishek Fatehpuria",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Robinhood VP of Product walks through native AI agents and MCP integration on the platform — sandboxed accounts, trade approvals, retail access to institutional data, and how 24/7 markets change autonomous trading.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
