@@ -69,6 +69,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-15T18:00:22.936587+00:00",
+      "tg_message_ids": [
+        239
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "ne2Ol-o8HE4",
+          "url": "https://youtu.be/ne2Ol-o8HE4",
+          "title": "Why the Linear Sales Pipeline Is Dead | Nicolas Sharp",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Attio CEO Nicolas Sharp walks through their hybrid CRM architecture: replacing linear sales pipelines with SQL query endpoints and agentic harnesses that let AI agents query customer data directly at scale while maintaining enterprise controls.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
