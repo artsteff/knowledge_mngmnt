@@ -25,7 +25,8 @@
           "source_type": "video",
           "score": 2,
           "hook": "Asana's CPO discusses why chatbots fail for work, presents agentic work management platform with shared context and memory, shows enterprise bottleneck reduction and task auto-evaluation.",
-          "card_slug": null
+          "card_slug": "why-chatbots-are-the-wrong-interface-for-work-arnab-bose",
+          "card_path": "summaries/why-chatbots-are-the-wrong-interface-for-work-arnab-bose.md"
         },
         "2": {
           "adapter": "youtube",
