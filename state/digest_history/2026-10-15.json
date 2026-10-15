@@ -1,0 +1,44 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-15T06:00:31.096004+00:00",
+      "tg_message_ids": [
+        237
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "BZV_-liPCMo",
+          "url": "https://youtu.be/BZV_-liPCMo",
+          "title": "Why Chatbots Are the Wrong Interface for Work | Arnab Bose",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Asana's CPO discusses why chatbots fail for work, presents agentic work management platform with shared context and memory, shows enterprise bottleneck reduction and task auto-evaluation.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "ucnAP4hcc60",
+          "url": "https://youtu.be/ucnAP4hcc60",
+          "title": "Why DC Views Superintelligence as a National Security Threat",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Sam Hammond (Foundation for American Innovation) on how Washington is reframing AI as a national security issue — the Superintelligence Task Force, model weight security, antitrust defenses for lab coordination, and recruiting tech talent to government.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
