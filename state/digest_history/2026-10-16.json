@@ -28,6 +28,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-16T10:00:21.561515+00:00",
+      "tg_message_ids": [
+        241
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "XMclqux48ZU",
+          "url": "https://youtu.be/XMclqux48ZU",
+          "title": "80% of Voters Expect Massive AI Job Losses | David Shor",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "David Shor discusses polling data on public perception of AI job losses and existential risk, voter anger over inflation as political backdrop, and what policies voters actually support around AI transition.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
