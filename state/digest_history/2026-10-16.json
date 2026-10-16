@@ -86,6 +86,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-16T18:00:37.484179+00:00",
+      "tg_message_ids": [
+        243
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "qWZBePgX1nQ",
+          "url": "https://youtu.be/qWZBePgX1nQ",
+          "title": "AI Agents Are Replacing Human Readers | Han Wang",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Han Wang (Mintlify co-founder) on how AI agents consume documentation differently than humans, what that means for docs infrastructure design, and how developer relations and technical writing roles shift as a result.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "MLXI17w0les",
+          "url": "https://youtu.be/MLXI17w0les",
+          "title": "Human Experience Is the Bottleneck on AI | Rudolf Laine",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Rudolf Laine discusses philosophical frameworks for AI alignment (Bentham vs. Mill utilitarianism), the role of human ground-truth as an un-automatable constraint on moral progress, and the concept of \"successionism\" in AI governance.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "SmT_pTMF2ms",
+          "url": "https://youtu.be/SmT_pTMF2ms",
+          "title": "New! Shorts Bonuses, Affiliate Bonuses, Shopping Trends, Ask YouTube on Search, Original Content",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 2,
+          "hook": "YouTube announces Shorts bonus pilot updates, affiliate campaign mechanics with flat fees, shopping analytics upgrades, Ask YouTube search integration, and algorithm changes favoring original content over reposts on Shorts.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
