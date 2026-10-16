@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-16T06:00:21.778210+00:00",
+      "tg_message_ids": [
+        240
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "0PoFeFCoqbo",
+          "url": "https://youtu.be/0PoFeFCoqbo",
+          "title": "AI Will Build Most Frontend Code | Guillermo Rauch",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Guillermo Rauch (Vercel CEO) on AI-driven frontend development phases, the \"software factory\" model for agents, non-developer coding, agent governance, and predictions for the agentic economy.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
