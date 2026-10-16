@@ -137,6 +137,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-16T22:00:18.899369+00:00",
+      "tg_message_ids": [
+        244
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "zZ9XW-8O-wo",
+          "url": "https://youtu.be/zZ9XW-8O-wo",
+          "title": "Vercel Is Redefining How Developers Deploy AI Apps | Jeanne DeWitt Grosser",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Vercel COO discusses AI developer infrastructure patterns, model orchestration, production deployment strategies, edge computing for AI apps, and how AI is reshaping org structure and non-engineer shipping capabilities.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
