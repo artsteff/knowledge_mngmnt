@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-17T02:00:22.744222+00:00",
+      "tg_message_ids": [
+        245
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "yaoVj0Fy8u4",
+          "url": "https://youtu.be/yaoVj0Fy8u4",
+          "title": "Why Amazon Is Blocking Personal AI Assistants | Assaf Elovic",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Assaf Elovic (Ora CEO) on why major platforms block agent traffic, the \"agentic score\" readiness metric, and that only 3–4% of websites currently support AI agents — with concrete layers for agent-ready design.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
