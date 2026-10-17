@@ -28,6 +28,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-17T06:00:20.104454+00:00",
+      "tg_message_ids": [
+        246
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "cvOgHWMFunE",
+          "url": "https://youtu.be/cvOgHWMFunE",
+          "title": "Why Cyber Defense Can Scale Faster Than AI Attackers | Logan Graham",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Stack AI president on enterprise AGI in 2026, provider lock-in vs. open-weights shifts, and why AI agents struggle with internet designed for humans.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
