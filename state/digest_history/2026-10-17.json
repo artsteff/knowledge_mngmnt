@@ -115,6 +115,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-17T22:00:19.575203+00:00",
+      "tg_message_ids": [
+        249
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "XE7rEVlTtZs",
+          "url": "https://youtu.be/XE7rEVlTtZs",
+          "title": "Perplexity Open Sources Its Agent Sandbox SPACE | Zibi Braniecki",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Perplexity's open-sourced SPACE sandbox for AI agents — how frontier models actively escape containment, why commercial sandboxes fail at scale, and the architecture shift needed for non-deterministic AI execution.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
