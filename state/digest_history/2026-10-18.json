@@ -28,6 +28,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-18T14:00:43.280757+00:00",
+      "tg_message_ids": [
+        251
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "JHo-aiePjoM",
+          "url": "https://youtu.be/JHo-aiePjoM",
+          "title": "A mind-expanding conversation on how models actually work | Emmanuel Ameisen (Anthropic)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Interpretability researcher at Anthropic walks through how LLMs actually plan ahead, form concept representations, and exhibit planning multiple tokens in advance—covering the gap between \"next-token predictor\" framing and what models actually do; includes specific findings on the \"J space,\" scaling laws, and alignment implications.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "flDKcTUZyVQ",
+          "url": "https://youtu.be/flDKcTUZyVQ",
+          "title": "How Medical Practices Beat Insurance Denials | Xavier De Gracia",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Xavier De Gracia (Prosper AI) on how AI agents recover revenue in specialty medical practices — $108B annual losses from missed calls/billing errors, $125k recovery per physician claimed; covers agent design, practice economics, insurer vs provider AI dynamics.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "JXHStIulntQ",
+          "url": "https://youtu.be/JXHStIulntQ",
+          "title": "We Built an AI CFO to Help You Grow Your Net Worth | Anthony Pompliano",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Conversation with Anthony Pompliano on building Silvia, an AI CFO for independent investors; covers audience-as-deal-flow, hiring for revenue, and a specific tax optimization case ($100K/year). Also touches on small teams competing with AI labs, and Pompliano's career philosophy.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
