@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-18T02:00:21.629844+00:00",
+      "tg_message_ids": [
+        250
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "x27dRYsWOEc",
+          "url": "https://youtu.be/x27dRYsWOEc",
+          "title": "Model Refusals Don't Stop Hackers | Devon Thomas",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Devon Thomas (Abliteration CEO) discusses selling unrestricted cybersecurity models, red teaming AI agents, and argues that model refusals handicap cyber defenders; touches on open vs closed model tradeoffs and frontier weight release policy.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
