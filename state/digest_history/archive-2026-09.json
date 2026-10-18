@@ -2582,5 +2582,1107 @@
         }
       }
     ]
+  },
+  "2026-09-17": {
+    "runs": [
+      {
+        "run_at": "2026-09-17T02:00:18.181188+00:00",
+        "tg_message_ids": [
+          107
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "59AA5kIoqjA",
+            "url": "https://youtu.be/59AA5kIoqjA",
+            "title": "The Search Engine for the Agentic Web — Will Bryk, Exa",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "2026 is the crossover year when machine searches exceed human searches by orders of magnitude, and search needs to shift from recommendation to retrieval for agents to work.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-17T18:00:41.270974+00:00",
+        "tg_message_ids": [
+          108
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "yslXlV2BP_Y",
+            "url": "https://youtu.be/yslXlV2BP_Y",
+            "title": "Startups Are Moving From Bits to Atoms",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "YC panel on why startups are shifting from software to hardware/atoms, and how AI is compressing timelines for hard tech and solo founders.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-17T22:00:21.813670+00:00",
+        "tg_message_ids": [
+          109
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "Quxn-nFeKQ8",
+            "url": "https://youtu.be/Quxn-nFeKQ8",
+            "title": "Why Most Celebrity Channels Fail (And The Ones That Don't)",
+            "author": "Colin and Samir",
+            "source_type": "video",
+            "score": 2,
+            "hook": "A bracket ranking of celebrity YouTube channels to identify what separates successful creator channels from failed ones.",
+            "card_slug": null
+          }
+        }
+      }
+    ]
+  },
+  "2026-09-16": {
+    "runs": [
+      {
+        "run_at": "2026-09-16T02:00:13.537338+00:00",
+        "tg_message_ids": [
+          103
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "a8EcVumh71E",
+            "url": "https://youtu.be/a8EcVumh71E",
+            "title": "Your Voice Agent is Just a Walkie Talkie — Neil Zeghidour, Gradium",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Full duplex voice agents require modeling two simultaneous token streams; the tradeoff is naturalness vs reasoning capacity within a fixed model weight budget.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-16T14:00:58.121282+00:00",
+        "tg_message_ids": [
+          104
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 4,
+            "scored_to_backlog": 4,
+            "backlog_size": 4,
+            "posting": 4,
+            "errors": [
+              "metadata-missing:r9OwPx_HoV0"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "PZHBW6yld5U",
+            "url": "https://youtu.be/PZHBW6yld5U",
+            "title": "How I Automated 90% of My Content Workflow (With ChatGPT)",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Built 8 specific AI skills (guest research, interview prep, editor briefs, newsletter writing, video packaging, social scheduling) connected into a single workflow that saves 5 hours/week.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "2UwemqPkJSQ",
+            "url": "https://youtu.be/2UwemqPkJSQ",
+            "title": "Muse gets AI agent UX right",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 1,
+            "hook": "First-pass test of Meta's Muse personal agent across real workflows (calendar, newsletters, goals, shopping, avatar), with specific design patterns identified (permission model, activity feed, browser use limitations).",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "IN-rb-9WmiY",
+            "url": "https://youtu.be/IN-rb-9WmiY",
+            "title": "Pinecone 2.0 — Edo Liberty, Pinecone",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Enterprise agents need a persistent knowledge layer that surfaces tribal knowledge (how things actually get done), not just retrieval over documents — and the implementation cuts tooling prompts from 150k tokens to under 1k by using runtime code generation.",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "fZH97QHHYjY",
+            "url": "https://youtu.be/fZH97QHHYjY",
+            "title": "The unreasonable effectiveness of BM25 for agentic search — Jo Kristian Bergum, Hornet.dev",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "BM25 (a 30-year-old lexical search function) is resurging because agents formulate longer, more specific queries than humans — and a benchmark of 830 questions shows retrieval quality, not reasoning, is the bottleneck.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-16T18:00:58.264636+00:00",
+        "tg_message_ids": [
+          105
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 7,
+            "scored_to_backlog": 7,
+            "backlog_size": 7,
+            "posting": 3,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "V-isu4eTHgw",
+            "url": "https://youtu.be/V-isu4eTHgw",
+            "title": "Connect AI to Billions of Legal Documents — Simon Eskildsen, turbopuffer & Jacob Lauritzen, Legora",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "How namespace-per-project storage architecture solved a cache-thrashing problem that pushed search latency from 100ms to 20 seconds, and why that shape unlocks encryption/isolation for regulated customers.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "r9OwPx_HoV0",
+            "url": "https://youtu.be/r9OwPx_HoV0",
+            "title": "Stop Chunking Like It's 2022 — Yuval Belfer, AI21 Labs",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Indexing the same corpus at multiple chunk sizes and merging rankings by reciprocal rank fusion closes a 20–40% recall gap that fixed chunking has been silently costing.",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "iJVxxxHM_Oc",
+            "url": "https://youtu.be/iJVxxxHM_Oc",
+            "title": "Where RL Will Take Search — Maximilian-David Rumpf, SID.ai",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "RL applied to agentic search can reduce latency 20× and cost 100× versus frontier models by learning a reward function where success is verifiable (document found or not).",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-16T22:00:14.386572+00:00",
+        "tg_message_ids": [
+          106
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 4,
+            "posting": 3,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "O84lhGc1OOI",
+            "url": "https://youtu.be/O84lhGc1OOI",
+            "title": "If we want them to do Knowledge Work, design them as Knowledge Agents — Benjamin Clavié, Mixedbread",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Retrieval accuracy plateaus near 60% for poorly tuned systems and 80% for well-tuned ones; adding searcher agents that return memos closes ~40% of the remaining gap to human performance.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "waI44NP1abk",
+            "url": "https://youtu.be/waI44NP1abk",
+            "title": "Rebuilding the web for agents — Liad Yosef, MCP Apps",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Half the web publishes llms.txt files that agents ignore; MCPs unlock agent-native interfaces that break the browser tab into composable atoms.",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "_gvamfT8H-w",
+            "url": "https://youtu.be/_gvamfT8H-w",
+            "title": "Your Agreements Are a Database You Can't Query — Hiral Shah, Docusign & Sean Sodha, NVIDIA",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Docusign + NVIDIA built a 900M-parameter vision language model purpose-built for table extraction in contracts, achieving 20x speedup over general models at scale.",
+            "card_slug": null
+          }
+        }
+      }
+    ]
+  },
+  "2026-09-11": {
+    "runs": [
+      {
+        "run_at": "2026-09-11T22:00:19.318619+00:00",
+        "tg_message_ids": [
+          88
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "H7vFrcNWXzs",
+            "url": "https://youtu.be/H7vFrcNWXzs",
+            "title": "Building ambitious software — Jonathan Kelley, Dioxus Labs & Cognition",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "A founder details where AI agents excel at code generation (build plugins, docs, fuzzing) and where they fail (test quality, architecture), based on shipping a 37k-star Rust framework with agent-assisted development.",
+            "card_slug": null
+          }
+        }
+      }
+    ]
+  },
+  "2026-09-13": {
+    "runs": [
+      {
+        "run_at": "2026-09-13T02:02:51.971239+00:00",
+        "tg_message_ids": [
+          89,
+          90
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 38,
+            "scored_to_backlog": 31,
+            "backlog_size": 31,
+            "posting": 10,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "4mKtJzfGj0U",
+            "url": "https://youtu.be/4mKtJzfGj0U",
+            "title": "5 Rules for Building AI Agents That Work in Production | Nan Yu & Jacob Shumway",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Linear's Nan Yu and Jacob Shumway walk through how they built a production agent end-to-end, including tool design, evals for reliability, and the specific mistake to avoid.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "5KTHvKCrQ00",
+            "url": "https://youtu.be/5KTHvKCrQ00",
+            "title": "Claude ran a business in our office",
+            "author": "Anthropic",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Claude autonomously ran a real business (vending operation) in Anthropic's office for most of 2025—managing sourcing, pricing, inventory, and customer interactions—with documented failures that reveal how AI agents break down in real-world constraints.",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "5FKBkUCaLa8",
+            "url": "https://youtu.be/5FKBkUCaLa8",
+            "title": "How Gusto’s CTO uses Claude Code to ship like a startup",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 1,
+            "hook": "A $1B company's CTO shipped a net-new AI product (Gusto Cofounder) in 10 weeks with 5 people using Claude Code, eval-first workflows, and a \"trash-can method\" that replaces planning docs with shipping decisions.",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "6Yeo6M8-W_8",
+            "url": "https://youtu.be/6Yeo6M8-W_8",
+            "title": "Instinct vs Grok Bot vs ChatGPT vs Hermes: Which AI Agent Can You Trust?",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 1,
+            "hook": "First-hand comparison of four AI agents (Instinct, Grok Bot, ChatGPT, Hermes) that can read emails, access documents, use logins, and make purchases — with specific coverage of prompt injection risks and trust tradeoffs.",
+            "card_slug": null
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "1_jlukb7gm4",
+            "url": "https://youtu.be/1_jlukb7gm4",
+            "title": "The AI content machine that turns ideas into posts that don't sound like slop | Alex Lieberman",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Six-step Claude-based content machine with voice codification in Markdown, Oracle for idea detection, and Interview Panel to catch AI slop at the ideation stage (not the draft).",
+            "card_slug": null
+          },
+          "6": {
+            "adapter": "youtube",
+            "source_id": "5Cxe5dv2Xlw",
+            "url": "https://youtu.be/5Cxe5dv2Xlw",
+            "title": "Why AI Agents Need Million-Token Context — Thomas Wolf & Olive Song, MiniMax",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "MiniMax M3 achieves 1M-token context with sparse attention (designed by an intern) and trains multimodal from step one; the team uses agent harnesses to automate its own research loop.",
+            "card_slug": null
+          },
+          "7": {
+            "adapter": "youtube",
+            "source_id": "0uC6u0lJJl4",
+            "url": "https://youtu.be/0uC6u0lJJl4",
+            "title": "Your company brain will leak secrets: how we stopped it for big banks — Tanmai Gopal, PromptQL",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Tanmai Gopal walks through how PromptQL deployed company brains across 15–20 orgs (startups to Fortune 100) and solved the leak problem by scoping wiki files, requiring human approval on writes, and injecting credentials per user at the HTTP/SQL layer.",
+            "card_slug": null
+          },
+          "8": {
+            "adapter": "youtube",
+            "source_id": "2jFtOASCEfY",
+            "url": "https://youtu.be/2jFtOASCEfY",
+            "title": "YPP Updates, View Count Changes, and more | Creator Roundup",
+            "author": "YouTube Creators",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Official YouTube announcements on view count methodology changes, YPP eligibility updates, and new monetization features (Amazon tagging, Shorts thumbnails).",
+            "card_slug": null
+          },
+          "9": {
+            "adapter": "youtube",
+            "source_id": "4YWO4sSRrTE",
+            "url": "https://youtu.be/4YWO4sSRrTE",
+            "title": "Circleback CEO Ali Haghani: Why Your Company Should Be Recording More Meetings",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "CEO of an AI meeting-recording tool discusses his setup, agent workflows in Telegram, and the case for why companies should record more meetings.",
+            "card_slug": null
+          },
+          "10": {
+            "adapter": "youtube",
+            "source_id": "6eBSHbLKuN0",
+            "url": "https://youtu.be/6eBSHbLKuN0",
+            "title": "Mastering Claude Code in 30 minutes",
+            "author": "Anthropic",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Video on Claude Code features, shortcuts, and workflows — promises advanced techniques but no specific mechanism or use case named.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-13T06:00:17.879516+00:00",
+        "tg_message_ids": [
+          91,
+          92
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 21,
+            "posting": 10,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "32nrHU6zHU8",
+            "url": "https://youtu.be/32nrHU6zHU8",
+            "title": "Agents Are Where Microservices Were in 2015 — Roberto Milev & Uday Kanagala, Navan",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Navan runs a single master agent that loads skills as pluggable units of context, with guardrails before/after tool calls and confidence scoring on trajectories instead of outputs.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "1B3Ffo8snfY",
+            "url": "https://youtu.be/1B3Ffo8snfY",
+            "title": "Full Tutorial: Connect Claude Code to Google, Slack, and Reddit in 40 Min (Skills + MCPs)",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Tutorial on connecting Claude Code to Google Workspace, Slack, Reddit, and Linear via MCPs—with a working \"daily standup\" command pulling from multiple tools and a \"consult-the-council\" multi-agent skill.",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "-tdNsYi8AXs",
+            "url": "https://youtu.be/-tdNsYi8AXs",
+            "title": "How the engineer behind Claude Cowork actually uses Claude | Felix Rieseberg (Anthropic)",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Engineering lead at Anthropic demonstrates concrete Claude workflows — 3D floor plan → interactive walkthrough, live dashboards with connectors, $20 hardware approval button — and explains the product philosophy (latency, abstraction layers, Opus vs. Sonnet tradeoffs).",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "0UnZnonMN9o",
+            "url": "https://youtu.be/0UnZnonMN9o",
+            "title": "How This Solo AI Founder Bootstrapped 5 Products to 1M+ / Month | Tibo Louis-Lucas",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Solo founder shares validated playbook for bootstrapping 5 AI products to $1M+/month, including specific pricing strategy, acquisition channels, and the pivot that unlocked $600K/month.",
+            "card_slug": null
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "0YeeJHYy-Vc",
+            "url": "https://youtu.be/0YeeJHYy-Vc",
+            "title": "How to Build AI Agents That Check Their Own Work | Jared Zoneraich",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Manager agent that breaks down tasks, directs 10 cloud agents, and validates work before human review — with a live demo.",
+            "card_slug": null
+          },
+          "6": {
+            "adapter": "youtube",
+            "source_id": "2wLJl9A2CnA",
+            "url": "https://youtu.be/2wLJl9A2CnA",
+            "title": "I let Codex run for 6 hours. Here’s what happened.",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Six-hour autonomous agent run using Codex's /goal command to eliminate error logs, clean email, and organize tasks — with specifics on prompt structure and lifecycle management.",
+            "card_slug": null
+          },
+          "7": {
+            "adapter": "youtube",
+            "source_id": "1KOdiGgMtpY",
+            "url": "https://youtu.be/1KOdiGgMtpY",
+            "title": "The Signal Layer: What to Build When Anything Can Be Built — Lena Hall, Akamai",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "When LLMs commoditize average solutions, the scarce skill becomes choosing which problem to attack — judgment about未-happened futures and relationships the model cannot observe.",
+            "card_slug": null
+          },
+          "8": {
+            "adapter": "youtube",
+            "source_id": "5d6y3poKwK4",
+            "url": "https://youtu.be/5d6y3poKwK4",
+            "title": "Patrick Collison: Is AI Breaking the Lean Startup Playbook?",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Patrick Collison on whether AI is breaking the lean startup playbook, plus Stripe's data on founding timing in the AI economy.",
+            "card_slug": null
+          },
+          "9": {
+            "adapter": "youtube",
+            "source_id": "3rWSvrFahIY",
+            "url": "https://youtu.be/3rWSvrFahIY",
+            "title": "Self-Play for LLMs, AI for Biology, Formal Verification, and More | YC Paper Club",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Panel covers self-play for LLMs (AlphaZero-style), streaming RAG for voice agents, and formal verification with Lean — plus a founder's take on agent programming as RTS strategy.",
+            "card_slug": null
+          },
+          "10": {
+            "adapter": "youtube",
+            "source_id": "35VzPlY1-kI",
+            "url": "https://youtu.be/35VzPlY1-kI",
+            "title": "YouTube for Artists Masterclass: Going Live on YouTube with Sheniece Charway",
+            "author": "YouTube Creators",
+            "source_type": "video",
+            "score": 2,
+            "hook": "YouTube livestream setup and integration into release strategy, with case studies from artists.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-13T10:00:28.506379+00:00",
+        "tg_message_ids": [
+          93,
+          94
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 11,
+            "posting": 10,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "6fFnh-xe4gc",
+            "url": "https://youtu.be/6fFnh-xe4gc",
+            "title": "How a non-technical founder built a $100K ARR meme company | Jason Levin (Memelord CEO)",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Non-technical founder scaled a meme company to $100K ARR on Bubble using AI agents as primary users, with agent-first product design (\"no UX is the best UX\") and free tools as lead magnets.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "0UArKLQ6bXA",
+            "url": "https://youtu.be/0UArKLQ6bXA",
+            "title": "How this PM Used Claude Code to Support 20 People",
+            "author": "Aakash Gupta",
+            "source_type": "video",
+            "score": 1,
+            "hook": "PM at DoorDash built a shared repo (\"Team OS\") where teams self-serve context through nested CLAUDE.md files and parallel agents, cutting context waste to 3% on customer queries after 1,500 hours of iteration.",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "5Bn0xro2ol8",
+            "url": "https://youtu.be/5Bn0xro2ol8",
+            "title": "How to Get Your Org to Adopt Coding Agents (Without Shipping Garbage) — Eyal Blum, Figma",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Best engineers adopt agents last because they see failure modes first; the fix is a verification roadmap, not persuasion—and there are concrete costs (developer agency, attention tax) that need naming and designing around.",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "71qvIkO9d_A",
+            "url": "https://youtu.be/71qvIkO9d_A",
+            "title": "If You Don’t Understand AI Evals, Don’t Build AI",
+            "author": "Aakash Gupta",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Live walkthrough of building an eval from scratch using Linear's MCP server, plus the data-task-scores framework Braintrust uses across Replit, Vercel, Notion.",
+            "card_slug": null
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "0_dSWLOHKng",
+            "url": "https://youtu.be/0_dSWLOHKng",
+            "title": "My Simple Claude Cowork System (for normal people)",
+            "author": "Jeff Su",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Three-level workspace hierarchy for Claude with persistent memory, instruction files, and concrete demos (Email HQ, spending trackers, newsletter drafts).",
+            "card_slug": null
+          },
+          "6": {
+            "adapter": "youtube",
+            "source_id": "5CBnWGP5vIs",
+            "url": "https://youtu.be/5CBnWGP5vIs",
+            "title": "Claude Fable 5 Is Finally Back: 5 Must-Try Use Cases Before July 12",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Five specific use cases for Claude Fable 5 before the July 12 cutoff, including codebase refactoring and feature planning.",
+            "card_slug": null
+          },
+          "7": {
+            "adapter": "youtube",
+            "source_id": "2WnxKCFAXAM",
+            "url": "https://youtu.be/2WnxKCFAXAM",
+            "title": "Cursor AI Beginner's Guide To AI Coding in 28 min (Claude AI, ChatGPT, GitHub, Firebase)",
+            "author": "corbin",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Step-by-step walkthrough of setting up Cursor AI with GitHub and Firebase, deploying a React app end-to-end.",
+            "card_slug": null
+          },
+          "8": {
+            "adapter": "youtube",
+            "source_id": "2ZacwCbiLjg",
+            "url": "https://youtu.be/2ZacwCbiLjg",
+            "title": "Hermes Full Course: Build Your 24/7 AI Chief of Staff in 45 Minutes",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Step-by-step setup of an AI agent (Hermes) configured with integrations (email, calendar, Docs) and scheduled routines (morning briefing, health checks).",
+            "card_slug": null
+          },
+          "9": {
+            "adapter": "youtube",
+            "source_id": "49L8lVe_PVo",
+            "url": "https://youtu.be/49L8lVe_PVo",
+            "title": "How Meesho Became India’s Biggest Shopping App",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Indian e-commerce founder explains pivoting from failed fashion app to social commerce via WhatsApp discovery, then scaling to 250M buyers and adapting to Jio's market disruption.",
+            "card_slug": null
+          },
+          "10": {
+            "adapter": "youtube",
+            "source_id": "4ynbXUaKHHs",
+            "url": "https://youtu.be/4ynbXUaKHHs",
+            "title": "YC SUS: Eric Migicovsky hosts founder office hours",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Founder office hours with Y Combinator partner covering early-stage founder challenges and decision-making.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-13T14:00:23.130225+00:00",
+        "tg_message_ids": [
+          95
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 2,
+            "posting": 2,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "LE0LNULrsEM",
+            "url": "https://youtu.be/LE0LNULrsEM",
+            "title": "Stop Building AI Agents. Build AI Employees Instead (Live Demo) | Pedro Franceschi",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Live demo of how a $5B CEO structures AI as employees with specific jobs, skills, managers, and budgets — plus a named system (OpenClaw) he uses to run his business and life.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "5qvr9Rzja2U",
+            "url": "https://youtu.be/5qvr9Rzja2U",
+            "title": "AI Powered Product Skills for Executive Leaders & GMs",
+            "author": "Level Up: Make No BS Career Breakthroughs",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Video on how leaders need hands-on AI fluency and how to drive AI adoption across teams, featuring Peter Yang (ex-Meta/Reddit/Roblox product leader) and Ethan Evans (ex-Amazon exec who built Prime Video).",
+            "card_slug": null
+          }
+        }
+      }
+    ]
+  },
+  "2026-09-15": {
+    "runs": [
+      {
+        "run_at": "2026-09-15T02:00:14.377129+00:00",
+        "tg_message_ids": [
+          99
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "gxVZ_1tuuq4",
+            "url": "https://youtu.be/gxVZ_1tuuq4",
+            "title": "Harness Engineering: Building the Production Cage for Powerful Domain Agents — Mike Chambers, AWS",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Live walkthrough of separating agent concerns (memory, tools, scaling, observability) into independently scalable infrastructure components, with a concrete CLI example showing how configuration replaces agent code.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-15T14:00:47.622011+00:00",
+        "tg_message_ids": [
+          100
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 3,
+            "scored_to_backlog": 3,
+            "backlog_size": 3,
+            "posting": 3,
+            "errors": [
+              "metadata-missing:qStB9GbppMU"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "18Um2VjMM_g",
+            "url": "https://youtu.be/18Um2VjMM_g",
+            "title": "Speech-to-Speech Model Research at Google DeepMind — Valeria Wu Fon & Tom Ouyang, Google DeepMind",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Speech-to-speech models trained end-to-end on multimodal data (audio, video, text) can preserve domain-specific terminology and intonation without explicit rules — and the field faces a three-way tension between latency, task intelligence, and multimodal input that can't be solved by turning up one knob.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "GeqYKAA7DyQ",
+            "url": "https://youtu.be/GeqYKAA7DyQ",
+            "title": "Unlocking the Business of Brand Deals on YouTube /w @hopescope",
+            "author": "Creator Insider",
+            "source_type": "video",
+            "score": 1,
+            "hook": "YouTube senior director and 8M-subscriber creator break down how automated midrolls, dynamic brand segments, and creator-brand matching actually work — with specific monetization mechanics.",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "OpY6MmZFeHo",
+            "url": "https://youtu.be/OpY6MmZFeHo",
+            "title": "Voice Agents Can Just Do Things — Charlie Guo, OpenAI",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Speech-to-action (voice triggering tool calls) is the neglected mode; your app's existing endpoints convert directly into tools a voice model can call.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-15T18:26:03.198318+00:00",
+        "tg_message_ids": [
+          101
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 7,
+            "scored_to_backlog": 7,
+            "backlog_size": 7,
+            "posting": 3,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "IDNfAZVKvPE",
+            "url": "https://youtu.be/IDNfAZVKvPE",
+            "title": "\"My name is... my name is...\": A Linguistic Map for Voice Agents — Midam Kim, ServiceNow",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "A structured linguistic framework (8-cell grid) that maps voice agent failures to specific architectural levels—sounds, words, interaction, mental model—showing why fixes to one layer don't hold without the others.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "Zd5b40Jbp_k",
+            "url": "https://youtu.be/Zd5b40Jbp_k",
+            "title": "Act, Confirm, or Stop? Smarter behavior for AI assistants, wearables & robots — Amit Desai, Roku",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "A framework (OUCH — Outcome User Cost Heuristic) for tuning confidence thresholds in voice/embodied AI by modeling the asymmetric cost of different failure modes, not by chasing accuracy alone.",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "MBHOH1NmDqc",
+            "url": "https://youtu.be/MBHOH1NmDqc",
+            "title": "Realtime Voice Agents with Frontier Intelligence — Bohan Li, EliseAI",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Three concrete optimization tricks for running voice agents on slow models without latency (speculative transcription, background tool calls with context injection, prefix-cached speech synthesis).",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-15T22:00:14.593439+00:00",
+        "tg_message_ids": [
+          102
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 4,
+            "posting": 3,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "vblnYHzBgS4",
+            "url": "https://youtu.be/vblnYHzBgS4",
+            "title": "5 Voice Agent Failure Modes You'll Hit in Week One — Venky B, Plivo",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Production voice agents hit latency walls (750–1,200ms vs 550ms target) and half fail on data collection; Plivo's CEO shares five failure modes with concrete fixes (field-level validation instead of end-to-end transcription, sub-300ms model selection, synthesis normalization).",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "qStB9GbppMU",
+            "url": "https://youtu.be/qStB9GbppMU",
+            "title": "I Monitored Crime Audio. Voice Agents Scare Me More. — Sumanyu Sharma, Hamming AI",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "A public safety engineer who monitored crime audio at scale now audits voice agents and finds ~10% failure rates; adversarial testing breaks 1 in 5 agents in production.",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "xLUQOqjudtA",
+            "url": "https://youtu.be/xLUQOqjudtA",
+            "title": "Tolan: Voice-First AI Companion — Paula Dozsa, Tolan",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Voice-first LLM apps invalidate text-chat assumptions; specific engineering: turn detection at 60ms latency, per-turn routing by emotional stakes, context reassembly instead of caching, memory as retrieval not transcript.",
+            "card_slug": null
+          }
+        }
+      }
+    ]
+  },
+  "2026-09-14": {
+    "runs": [
+      {
+        "run_at": "2026-09-14T14:00:47.161734+00:00",
+        "tg_message_ids": [
+          96
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 3,
+            "scored_to_backlog": 3,
+            "backlog_size": 3,
+            "posting": 3,
+            "errors": [
+              "metadata-missing:9dYcwOkpCE8"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "l6cr7gy5l9E",
+            "url": "https://youtu.be/l6cr7gy5l9E",
+            "title": "11 Grok Bots I Still Use Every Day (Steal These Now)",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Walk-through of 11 specialized bots (email delegation, content research, fitness tracking, advisor) that coordinate as a system, with the brutally-honest-advisor prompt included.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "zJEHbvT5_Yg",
+            "url": "https://youtu.be/zJEHbvT5_Yg",
+            "title": "How SpaceXAI designers use Grok Bot and Figma MCP to ship faster",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Two designers at xAI share concrete workflows—voice memos to Figma via MCP, self-updating websites via Grok Bot backend, shower-thought-to-prototype loops—showing how agents replace traditional design handoffs.",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "PXj0p_mW9nI",
+            "url": "https://youtu.be/PXj0p_mW9nI",
+            "title": "Tokens Should Have Jobs — Katelyn Lesse & Angela Jiang, Anthropic 2026-09-14 16:00",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Agent architecture patterns that trade token allocation (advise/grade/dream strategies) for better reliability on tasks where 80% accuracy is useless — with benchmarked tradeoffs between single-run success and token efficiency.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-14T18:02:49.784018+00:00",
+        "tg_message_ids": [
+          97
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 7,
+            "scored_to_backlog": 7,
+            "backlog_size": 7,
+            "posting": 3,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "fjF8EKnxKCU",
+            "url": "https://youtu.be/fjF8EKnxKCU",
+            "title": "Agents Without Code: Skills, YAML, and Filesystems Replaced Python — Philipp Schmid, Google DeepMind",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Agent orchestration moves from client-side Python loops to server-side sandboxes with credential injection and domain allowlists, shrinking harness code as model capability increases.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "9dYcwOkpCE8",
+            "url": "https://youtu.be/9dYcwOkpCE8",
+            "title": "How we Solved Agent Building — Andrew Qu, Vercel",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Chief of Software at Vercel walks through three iterations of an internal data agent (mega prompt → scoped agent chain → single agent with state management), with eval score doubling after switching to file system conventions instead of custom tools.",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "jA_x7F8caHI",
+            "url": "https://youtu.be/jA_x7F8caHI",
+            "title": "No Memory, No Harness: Why the Database Is the Last Line of Defense — Kay Malcolm, Oracle",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "A senior PM at Oracle walks through five types of memory systems (short-term, long-term, episodic, procedural, semantic) for AI agents and argues the database choice is a team productivity multiplier, not just a technical detail—demonstrated with a live experiment showing how four different stores create reconciliation overhead.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-14T22:00:19.599829+00:00",
+        "tg_message_ids": [
+          98
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 4,
+            "posting": 3,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "cI7zfqusmFU",
+            "url": "https://youtu.be/cI7zfqusmFU",
+            "title": "Every step you take, every call you make: the reliable agent stack — Giselle van Dongen, Restate",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Durable execution infrastructure for agents — journal-based recovery that replays to exact failure point, virtual objects for session isolation, mid-flight cancellation and signaling of live agent loops.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "hOWU0KPUp1k",
+            "url": "https://youtu.be/hOWU0KPUp1k",
+            "title": "Loophole: Adversarial Agents To Stress Test Your Morality — Brendan Rappazzo, Morgan Stanley",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Multi-agent system that translates moral principles into formal code, then uses adversarial agents to surface loopholes (legal-but-immoral) and overreach (moral-but-illegal), with concrete branches: chatbot constitutions, contract validation, and a Senate simulator that hill-climbs bills toward passage.",
+            "card_slug": "loophole-adversarial-agents-to-stress-test-your-morality-bre",
+            "card_path": "summaries/loophole-adversarial-agents-to-stress-test-your-morality-bre.md"
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "4lXks428C9o",
+            "url": "https://youtu.be/4lXks428C9o",
+            "title": "We let an AI agent execute Bash and lived to talk about it — Sarah Sanders, PostHog",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Security audit of an agentic CLI (PostHog's Wizard) that executes bash commands at scale, revealing how attacks compose across innocent-looking layers and how to detect them without enforcement.",
+            "card_slug": null
+          }
+        }
+      }
+    ]
   }
 }
