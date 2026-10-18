@@ -79,6 +79,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-18T18:00:28.173287+00:00",
+      "tg_message_ids": [
+        252
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "70b0XSFPA1I",
+          "url": "https://youtu.be/70b0XSFPA1I",
+          "title": "Strict Liability Laws Will Fix AI Insurance | Rune Kvist",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "AI insurance CEO explains risk pricing models for frontier AI, how catastrophic risks can be audited separately from total-loss coverage, and how novel failure modes (loss of control, autonomous cyberattacks) are reshaping liability allocation and multi-agent causation chains.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
