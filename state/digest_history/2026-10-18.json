@@ -108,6 +108,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-18T22:00:27.351399+00:00",
+      "tg_message_ids": [
+        253
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "xTuxAY0_a8M",
+          "url": "https://youtu.be/xTuxAY0_a8M",
+          "title": "US Frontier AI Can Leapfrog China's Factories | Jonathan Winer",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Jonathan Winer (Foundational Industries CEO) on why US re-industrialization needs AI-native factories rather than retrofits, how frontier models create a leapfrog vs China's legacy automation, and AI data center hardware supply chains as national security.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
