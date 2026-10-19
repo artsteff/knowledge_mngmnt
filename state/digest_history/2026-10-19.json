@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-19T02:00:17.833808+00:00",
+      "tg_message_ids": [
+        254
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "9JcfR1Lbx4c",
+          "url": "https://youtu.be/9JcfR1Lbx4c",
+          "title": "AI Outperforms Human Accountants on Core Tasks | Aden Barton",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Mercor benchmark research on AI task automation — models outperforming human accountants on specialized work; discussion of why existing benchmarks miss 90% of US workforce activity and the gap between task automation and full-job displacement.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
