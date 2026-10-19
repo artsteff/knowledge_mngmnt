@@ -68,6 +68,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-19T18:00:32.738081+00:00",
+      "tg_message_ids": [
+        256
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "TMo5BYboj0s",
+          "url": "https://youtu.be/TMo5BYboj0s",
+          "title": "Why Enterprise AI Spend Grew 13x | Harpreet Arora",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Vercel's agentic infrastructure lead shares enterprise AI spending data from Vercel AI Gateway: open-weight models now 25% of enterprise spend, token cost drops driving 13x total spend growth (Jevons paradox), frontier lab spending still rising despite commoditization.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
