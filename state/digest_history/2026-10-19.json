@@ -28,6 +28,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-19T14:01:04.336004+00:00",
+      "tg_message_ids": [
+        255
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "UF08V1XIUmw",
+          "url": "https://youtu.be/UF08V1XIUmw",
+          "title": "Claude Code for creators: AI editing is here",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Claude Code workflow for short-form video editing (15-second turnaround); how to teach Claude specific editing cadence, hooks, and style through prompting; mining TikTok comments for content briefs; growing 290k TikTok audience on 1x/week posting.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "sN85LW0MVJg",
+          "url": "https://youtu.be/sN85LW0MVJg",
+          "title": "How We Cut AI Model Costs by 44% | Max Peters",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Adapta CEO describes how Vercel AI Gateway + custom routing reduced model costs 44%; covers intelligent router mechanics, why PLG is failing SMBs in 2026, and their expansion strategy.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
