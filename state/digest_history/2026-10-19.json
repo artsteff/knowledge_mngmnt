@@ -97,6 +97,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-19T22:00:27.774399+00:00",
+      "tg_message_ids": [
+        257
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "tvSda9z7Ul8",
+          "url": "https://youtu.be/tvSda9z7Ul8",
+          "title": "What Actually Makes a Good Creator Business",
+          "author": "Colin and Samir",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Bracket-style analysis of eight creator businesses (Feastables, Long Weekend, Crunch Labs, The Color Cube, Dude Perfect, Cooking with Chaos, Sincerely Yours, Lone Fox) to extract patterns in what makes a sustainable creator business work — structure, revenue model, scaling decisions.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "9vUHjA05iLs",
+          "url": "https://youtu.be/9vUHjA05iLs",
+          "title": "Neural Networks Are Already Clean? Interpretability EXPLAINED",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Nick Cammarata (Goodfire, ex-OpenAI) argues that neural network interpretability is more tractable than believed—most neurons in large models have single, learnable functions; superposition was misdiagnosed; ordinary investigation methods scaled with AI agents outperform novel interpretability techniques.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "_FSxDLhTQ5o",
+          "url": "https://youtu.be/_FSxDLhTQ5o",
+          "title": "Use AI Like It's Already Superhuman | Felix Rieseberg",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Felix Rieseberg (Anthropic) on Claude Code's evolution, designing AI tools beyond simple interfaces, how LLM agents augment human agency, and the shift from specialist to generalist work in an AI-native world.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
