@@ -28,6 +28,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-20T06:00:22.620469+00:00",
+      "tg_message_ids": [
+        259
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "pP6BiJVS9fA",
+          "url": "https://youtu.be/pP6BiJVS9fA",
+          "title": "Why Cheap Hardware Changes Robotics | Joel Jang",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Dream Labs CEO discusses a video pre-trained world model API for robotics, why it outperforms VLMs, how cheap hardware unlocks consumer adoption, and early API usage data.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
