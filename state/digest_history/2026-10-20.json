@@ -86,6 +86,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-20T18:00:34.022244+00:00",
+      "tg_message_ids": [
+        261
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "2yVGEmg6zNw",
+          "url": "https://youtu.be/2yVGEmg6zNw",
+          "title": "Taking a Break from YouTube - Watch this First",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Discusses YouTube's Partner Program rules around taking breaks, monetization changes, and how the algorithm treats creators who pause activity — platform mechanics for creators managing their presence.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "W9KrNbY2Q6s",
+          "url": "https://youtu.be/W9KrNbY2Q6s",
+          "title": "Why 99% of Internet Traffic Will Soon Be Bots | Tiago Sada",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Tiago Sada (World CPO) covers World ID integrations with Zoom for deepfake detection, Agent Kit tools for delegating human verification to AI agents, OAuth verification mechanics, zero-knowledge proofs, and predictions on bot traffic scaling to 99% of internet activity.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
