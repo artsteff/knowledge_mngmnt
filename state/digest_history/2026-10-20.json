@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-20T02:00:25.221969+00:00",
+      "tg_message_ids": [
+        258
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "sTexzVhrJZI",
+          "url": "https://youtu.be/sTexzVhrJZI",
+          "title": "AI Science Requires Physical Labs To Scale | Nenad Tomašev",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "DeepMind researcher discusses scaling agentic AI through physical lab infrastructure for validation, value alignment in multi-agent systems, and the bidirectional alignment problem — no transcript yet to assess specifics.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
