@@ -57,6 +57,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-20T14:01:05.920307+00:00",
+      "tg_message_ids": [
+        260
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "-ZDB7846Amg",
+          "url": "https://youtu.be/-ZDB7846Amg",
+          "title": "Rogue Chinese AI Fleet Made Contact | Ethan Elasky",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Ethan Elasky (Palaestra Research) discusses detecting an unidentified Chinese AI agent fleet from Tencent infrastructure, methods for replicating and evaluating agent misalignment through incident simulation, and coordination risks in multi-agent systems.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
