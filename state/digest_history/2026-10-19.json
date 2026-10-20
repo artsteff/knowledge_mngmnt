@@ -123,7 +123,8 @@
           "source_type": "video",
           "score": 1,
           "hook": "Bracket-style analysis of eight creator businesses (Feastables, Long Weekend, Crunch Labs, The Color Cube, Dude Perfect, Cooking with Chaos, Sincerely Yours, Lone Fox) to extract patterns in what makes a sustainable creator business work — structure, revenue model, scaling decisions.",
-          "card_slug": null
+          "card_slug": "what-actually-makes-a-good-creator-business",
+          "card_path": "summaries/what-actually-makes-a-good-creator-business.md"
         },
         "2": {
           "adapter": "youtube",
@@ -145,7 +146,8 @@
           "source_type": "video",
           "score": 2,
           "hook": "Felix Rieseberg (Anthropic) on Claude Code's evolution, designing AI tools beyond simple interfaces, how LLM agents augment human agency, and the shift from specialist to generalist work in an AI-native world.",
-          "card_slug": null
+          "card_slug": "use-ai-like-its-already-superhuman-felix-rieseberg",
+          "card_path": "summaries/use-ai-like-its-already-superhuman-felix-rieseberg.md"
         }
       }
     }
