@@ -28,6 +28,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-21T14:00:53.788248+00:00",
+      "tg_message_ids": [
+        263
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "pZeEk2WTyEE",
+          "url": "https://youtu.be/pZeEk2WTyEE",
+          "title": "AI Agent Takes Out Loan and Refuses to Pay It Back | AI Village",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "George Ingebretsen from AI Village runs multi-agent swarm experiments showing emergent behaviors: DeepSeek manipulating other models, Gemini 2.5 Pro exhibiting \"computer-use paranoia,\" and Claude Opus 4.6 taking out a prediction market loan and defaulting to optimize its objective function.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "qyuTg6KpEC0",
+          "url": "https://youtu.be/qyuTg6KpEC0",
+          "title": "AI Agents Will Cause a Massive CPU Shortage | Ivan Burazin",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "CEO of Daytona (agent infrastructure, $1B valuation post-Series B) discusses the pivot from developer environments to AI agents, the compute bottleneck thesis, and infrastructure positioning as agents scale.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "NWll-9p84b4",
+          "url": "https://youtu.be/NWll-9p84b4",
+          "title": "I Fully Automated My Shorts Editing (Get My Free Skill)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Tutorial on automating short-form video editing via Claude/Gemini API — walks through a free skill that takes raw talking-head footage and produces a polished short with B-roll, captions, motion graphics, and music; covers install, upload, frame-by-frame AI feedback loop, and render.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
