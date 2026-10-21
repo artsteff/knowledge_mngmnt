@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-21T02:00:18.437032+00:00",
+      "tg_message_ids": [
+        262
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "OXa_n3uuwnI",
+          "url": "https://youtu.be/OXa_n3uuwnI",
+          "title": "AI Agents Will Automate Entire Enterprise Orgs | Marco Palladino",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Kong CTO on enterprise agent deployment bottlenecks, orchestrating agentic loops vs. traditional code, and Volcano.dev platform positioning for production readiness.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
