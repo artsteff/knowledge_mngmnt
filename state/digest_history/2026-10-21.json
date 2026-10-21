@@ -79,6 +79,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-21T22:00:23.377552+00:00",
+      "tg_message_ids": [
+        264
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "D-pz8L1orVI",
+          "url": "https://youtu.be/D-pz8L1orVI",
+          "title": "Claude Duet Is Here! Everything You NEED To Know",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Hands-on walkthrough of Claude Duet's proactive agent capabilities—tasks, check-ins, artifact generation (morning brief, email triage, YouTube reporting, sponsor dashboard)—with direct comparison to Grok Bot, Muse, and ChatGPT Dots and identified gaps (Uber integration, cloud browser, skills).",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "HYb5w4PfPZM",
+          "url": "https://youtu.be/HYb5w4PfPZM",
+          "title": "I tested Claude Duet. Is it worth switching from Grok Bot?",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "First-hand comparison of Claude Duet (Anthropic's new personal agent) vs. alternatives, testing it on inbox triage, Slack, sales pipeline, Google Docs, and video—identifies specific gaps: latency impact on synchronous use, missing proactivity as a growth problem, no desktop/multiplayer support, and performance failures on real tasks.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
