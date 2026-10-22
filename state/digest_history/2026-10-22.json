@@ -68,6 +68,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-22T18:00:27.081193+00:00",
+      "tg_message_ids": [
+        267
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "2tZT2-pS_pI",
+          "url": "https://youtu.be/2tZT2-pS_pI",
+          "title": "Magic Patterns CEO Reviews Startup Websites",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "AI design tool CEO demos Magic Patterns and MagicOS canvas, then reviews startup websites to dissect what makes AI-generated design feel intentional vs \"vibe coded\"; covers design taste development and balancing speed with quality.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
