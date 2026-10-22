@@ -28,6 +28,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-22T14:00:53.352913+00:00",
+      "tg_message_ids": [
+        266
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "D6vex2xnwD8",
+          "url": "https://youtu.be/D6vex2xnwD8",
+          "title": "AI Models Will Tap the Whole Economy in 2 Years | Aidan Smith",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Aidan Smith (Flapping Airplanes) discusses raising $1B to build data-efficient AI models through custom GPU primitives and architecture redesign; covers limits of whole-brain emulation, compute overhang risk management, and commercialization strategy.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "oQFwxW_wO7Y",
+          "url": "https://youtu.be/oQFwxW_wO7Y",
+          "title": "Stock Pickers Used Claude To Design Potential Antivenoms",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Stock research firm used Claude to generate 318K+ antivenom designs in 64 hours; 17 of 211 lab-tested designs bound to toxins, but efficacy unproven. Covers the speed delta between AI design and wet-lab validation (35 days vs. 64 hours), biosecurity gating, and cost ($85K for 250 samples).",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
