@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-23T02:00:23.694633+00:00",
+      "tg_message_ids": [
+        268
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "lEcT1VvKIis",
+          "url": "https://youtu.be/lEcT1VvKIis",
+          "title": "AI Gateway Token Traffic Growing 140X Year Over Year | Aghi Marietti",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Kong CEO on AI gateway architecture as security/cost control layer — token traffic growing 140X YoY, multi-model routing, kill switches for runaway spend, enterprise adoption patterns.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
