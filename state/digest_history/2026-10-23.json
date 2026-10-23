@@ -120,6 +120,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-23T18:00:27.909452+00:00",
+      "tg_message_ids": [
+        271
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "v12aSIZIXUs",
+          "url": "https://youtu.be/v12aSIZIXUs",
+          "title": "This Is How You Should Actually Make Launch Videos",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Founder of Hey Clicky and Buildspace shares a playbook for treating demos as launches: scripting videos to sound unscripted, the \"did my eyes stop\" test for attention, why 20k YouTube views can outconvert 3M Twitter views, and choosing channels by conversion not vanity metrics.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
