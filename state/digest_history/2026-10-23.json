@@ -80,6 +80,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-23T14:00:32.044219+00:00",
+      "tg_message_ids": [
+        270
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "u83GCh5Eg8U",
+          "url": "https://youtu.be/u83GCh5Eg8U",
+          "title": "Traditional Aerospace Supply Chains Are Cooked | Blake Scholl",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Blake Scholl discusses Boom Supersonic's pivot to 42-megawatt power generation turbines for AI data centers, vertical integration bypassing aerospace supply chains, and plans for an all-digital single-crystal turbine blade foundry.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "dNWkwrqAkcM",
+          "url": "https://youtu.be/dNWkwrqAkcM",
+          "title": "The Marketing GENIUS: How To Build A Brand That Sells In The New Era Of AI (3 Laws Of Marketing)",
+          "author": "The Calum Johnson Show",
+          "source_type": "video",
+          "score": 3,
+          "hook": "Seth Godin on brand-building fundamentals in the AI era — timestamps cover idea validation, customer trust, referrals, and retention, but no specifics on how AI changes these mechanics.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
