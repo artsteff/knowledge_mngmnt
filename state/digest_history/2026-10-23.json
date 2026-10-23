@@ -149,6 +149,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-23T22:00:21.899881+00:00",
+      "tg_message_ids": [
+        272
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "lghSjBl9yGM",
+          "url": "https://youtu.be/lghSjBl9yGM",
+          "title": "How to Tell Stories Better Than 99% of People",
+          "author": "Shannon Jenkins",
+          "source_type": "video",
+          "score": 3,
+          "hook": "Video breaking down Ted Lasso scenes to extract storytelling techniques (curiosity, tension, pacing, specificity) and introduces the CART framework (Context, Action, Result, Takeaway) for business storytelling.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
