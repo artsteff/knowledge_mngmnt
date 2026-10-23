@@ -28,6 +28,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-23T10:00:50.252022+00:00",
+      "tg_message_ids": [
+        269
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 4,
+          "backlog_size": 4,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "D-SVFneJ_Nk",
+          "url": "https://youtu.be/D-SVFneJ_Nk",
+          "title": "Claude Engineering Lead: \"Stop Using Claude Like It’s 2024\"",
+          "author": "Silicon Valley Girl",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Claude engineering lead (Felix Rieseberg) on moving beyond summarization tasks — how to frame goals instead of tasks, catch confident mistakes, build agents that do work you couldn't do alone, and stop being the bottleneck.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "R_TpKWq83BM",
+          "url": "https://youtu.be/R_TpKWq83BM",
+          "title": "Человек, который предсказал TikTok и соцсети — о том, что ждёт нас в эпоху ИИ",
+          "author": "Marina Mogilko",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Marina Mogilko interviews Gary Vainerchuk on AI-era opportunities, content strategy, hiring in an AI world, and wealth-building amid middle-class pressure. Topics include personal brand durability, offline channels, and entrepreneurship principles.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "Q0pAWZiV2GU",
+          "url": "https://youtu.be/Q0pAWZiV2GU",
+          "title": "The Only 7 Books You Need to Educate Yourself Like the Top 1%",
+          "author": "Sandeep Swadia",
+          "source_type": "video",
+          "score": 3,
+          "hook": "Meta-analysis of 7 books filtered through a 3-gate system, targeting cognitive failure modes (survivorship bias, identity-locked thinking, outcome reasoning, high-IQ rationalization).",
+          "card_slug": null
+        }
+      }
     }
   ]
 }

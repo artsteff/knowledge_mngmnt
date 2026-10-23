@@ -328,6 +328,7 @@
     "CrqPcIZOOXA",
     "CxXgV54KzpQ",
     "CzQbI8_bBEs",
+    "D-SVFneJ_Nk",
     "D-pz8L1orVI",
     "D0nDWQdN3F4",
     "D4XTefP3Lsc",
@@ -657,6 +658,7 @@
     "PupmfSttxlc",
     "PyDLea2FZWM",
     "PzwhpzPvW3I",
+    "Q0pAWZiV2GU",
     "Q8wVMdwhlh4",
     "QBmgF1kJSK4",
     "QE_1hRLsehM",
@@ -691,6 +693,7 @@
     "RQiMP_GtcnU",
     "RR5le0K4Wtw",
     "RVHn8BbMTt8",
+    "R_TpKWq83BM",
     "RaBw5SRjWLE",
     "Raa3qjEBvKE",
     "RgYCO87ghRY",
@@ -792,6 +795,7 @@
     "VaS2h-dY1-4",
     "Vb8XmvnGxrk",
     "VbqaL_eHhKY",
+    "VcqQmrGqthg",
     "VhfAVA3BG2I",
     "VjEP0xqTUI0",
     "VktrqzQgytY",
@@ -1007,6 +1011,7 @@
     "dIdG-SSFSd0",
     "dKcTBQzR7jI",
     "dM_nP8FlY70",
+    "dNWkwrqAkcM",
     "dO6tP7aG2CY",
     "dPn3GBI8lII",
     "dQ-_i1tZiws",
@@ -1565,6 +1570,23 @@
     "zw9yxsMZCZc"
   ],
   "failed": {},
-  "backlog": [],
+  "backlog": [
+    {
+      "source_id": "dNWkwrqAkcM",
+      "title": "The Marketing GENIUS: How To Build A Brand That Sells In The New Era Of AI (3 Laws Of Marketing)",
+      "author": "The Calum Johnson Show",
+      "url": "https://youtu.be/dNWkwrqAkcM",
+      "source_type": "video",
+      "date": "2026-09-21",
+      "raw_text": "Use Granola in your next meeting (for free!): https://www.granola.ai?via=calum\nHead to https://yt.link/fBQ35H6 to experience Rabanne 1 Million Black today!\n\nSubscribe to our newsletter, New Era: https://calumjohnsonshowlinks.lovable.app/\n\nFollow Us!\nhttps://x.com/calum_johnson9\nhttps://www.instagram.com/calumjohnson1/?hl=en\nSeth: https://www.sethgodin.com/\n\nTimestamps:\n00:00 Intro\n02:03 Why your ideas aren't selling\n11:13 How to get your DREAM customers to trust you\n20:02 How To Win In The New Era of AI (Will AI work for you?)\n26:57 How to find your MAGIC business idea\n38:39 You can get high-paying clients (do this now!)\n46:07 How to never stress about getting more customers\n49:19 How to become the TOP brand in your category\n01:00:26 You don't need to go viral!\n01:07:06 How to get customers to buy again and again\n01:19:19 The key to getting referrals\n01:22:27 How to build a timeless brand in the age of AI\n\nAbout The Episode:\nSeth Godin invented Modern Marketing. He's written over 20 bestselling books, including Purple Cow, which grew from 5,000 copies to a million through word of mouth. In this episode, he explains how to build a brand, not just a business, in the age of AI.",
+      "score": 3,
+      "hook": "Seth Godin on brand-building fundamentals in the AI era — timestamps cover idea validation, customer trust, referrals, and retention, but no specifics on how AI changes these mechanics.",
+      "adapter": "youtube",
+      "source_name": "Watch Later",
+      "duration_s": 5314,
+      "private_source": true,
+      "added_at": "2026-10-23T10:00:47.509993+00:00"
+    }
+  ],
   "too_old": {}
 }
