@@ -115,6 +115,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-24T22:00:24.403768+00:00",
+      "tg_message_ids": [
+        277
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "sltdIrUdn0M",
+          "url": "https://youtu.be/sltdIrUdn0M",
+          "title": "AI Video Editing Has Reached Its ChatGPT Moment | Victor Riparbelli",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Synthesia CEO discusses Syren (AI video generation from prompts) and positions LLMs-as-video-editors as AI video's inflection moment; covers technical challenges, B2B focus, and one-year predictions for the space.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
