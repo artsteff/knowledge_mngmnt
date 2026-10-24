@@ -86,6 +86,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-24T18:00:27.150095+00:00",
+      "tg_message_ids": [
+        276
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "g_1Ymd3K3qQ",
+          "url": "https://youtu.be/g_1Ymd3K3qQ",
+          "title": "AI Agents Will Proactively Build Apps for Your Life | Eugenia Kuyda",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Eugenia Kuyda on Wabi 2.0—converting text threads into proactive multiplayer agents that generate custom UIs; positioning social networks and proactive life management as the consumer AI play vs. single-player productivity tools.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
