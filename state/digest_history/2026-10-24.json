@@ -57,6 +57,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-24T10:00:36.156014+00:00",
+      "tg_message_ids": [
+        275
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "5rOIS7GHD5Y",
+          "url": "https://youtu.be/5rOIS7GHD5Y",
+          "title": "How I Would Build a Personal Brand in 2027 (If I Had to Start Over)",
+          "author": "Alex Hormozi",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Hormozi walks through personal brand strategy for 2027 — positioning, content formats, audience building, monetization paths. The description is positioning/credibility theater; the actual content isn't specified.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
