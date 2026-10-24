@@ -28,6 +28,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-24T06:00:31.556313+00:00",
+      "tg_message_ids": [
+        274
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "caDHVdooOpo",
+          "url": "https://youtu.be/caDHVdooOpo",
+          "title": "System Shutdowns Are Coming in the Next Year | Joel de la Garza",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "A16z cybersecurity partner explains how AI agents and zero-cost knowledge work are expanding the attack surface, why enterprise security models need to change, and the plausibility of critical infrastructure shutdowns for patching in the next year.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
