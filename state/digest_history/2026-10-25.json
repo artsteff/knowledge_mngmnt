@@ -1,0 +1,66 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-25T15:00:55.606315+00:00",
+      "tg_message_ids": [
+        278
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 5,
+          "scored_to_backlog": 4,
+          "backlog_size": 4,
+          "posting": 4,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "19qrLchbQEc",
+          "url": "https://youtu.be/19qrLchbQEc",
+          "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Rob Snyder's PULL framework for early-stage PMF (Project, Unavoidable, List of options, Limitations); cold outreach tactics, first sales calls, pricing mechanics, and applying the framework inside established companies. 86 minutes covering idea validation through first customers.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "MC1g2fHYC88",
+          "url": "https://youtu.be/MC1g2fHYC88",
+          "title": "How to Make Amazing Videos with Claude and HyperFrames | Jake Moran",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Claude + HyperFrames workflow for video editing; demos launch video structure (hook/context/payoff/brand), style copying, AI avatars, and frame-level feedback loops. Local model (Parakeet) for accurate cuts.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "MC1g2fHYC88",
+          "url": "https://youtu.be/MC1g2fHYC88",
+          "title": "How to Make Amazing Videos with Claude and HyperFrames | Jake Moran",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Demonstrates Claude + HyperFrames workflow for video editing (launch videos, shorts, tutorials); covers prompt techniques, local models (Parakeet), editing patterns (hook/context/payoff structure), style transfer, and frame-based feedback loops.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "c7jGXPEY54k",
+          "url": "https://youtu.be/c7jGXPEY54k",
+          "title": "30 Cheat Codes to Beat Every Level of Life",
+          "author": "Daniel Pink",
+          "source_type": "video",
+          "score": 3,
+          "hook": "Daniel Pink shares 30 life \"cheat codes\" across decisions, people, productivity, work, and life — collected over years, downloadable as a single-page reference.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
