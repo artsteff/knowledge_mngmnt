@@ -61,6 +61,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-25T19:00:34.202114+00:00",
+      "tg_message_ids": [
+        279
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "9iABRJcgVp4",
+          "url": "https://youtu.be/9iABRJcgVp4",
+          "title": "OpenAI Math Breakthroughs Show We Are Near Full RSI | Prinz",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Discussion of OpenAI's recent math breakthroughs, timeline estimates for recursive self-improvement (RSI), whether RSI can address current LLM limitations (\"jaggedness\"), and why LLMs produce legal errors. Compares AI risk trajectory to early COVID-19 signals.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
