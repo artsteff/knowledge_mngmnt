@@ -1,0 +1,44 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-26T15:00:45.770758+00:00",
+      "tg_message_ids": [
+        280
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "zF-J3rMbzZw",
+          "url": "https://youtu.be/zF-J3rMbzZw",
+          "title": "How Reddit’s designers build ultra-realistic prototypes with Figma + Cursor",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Reddit built Reddit Proto, an in-house prototyping harness that maps design system to production code via custom MCP; 700+ prototypes live; workflow: Figma annotation → Cursor edit → draft PR; real data instead of mocks; leadership review and handoff mechanics shown.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "eojywvxqoLc",
+          "url": "https://youtu.be/eojywvxqoLc",
+          "title": "The New Full-Stack Designer",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Shopify's design studio lead walks through his process on recent shipped work (admin redesign, Sidekick), a grass shader weekend project, and reviews five submitted websites focusing on motion, interactivity, and conversion patterns.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
