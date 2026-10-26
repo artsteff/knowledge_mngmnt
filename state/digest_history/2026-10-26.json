@@ -39,6 +39,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-26T19:00:28.861569+00:00",
+      "tg_message_ids": [
+        281
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "sxizdQ2hRfk",
+          "url": "https://youtu.be/sxizdQ2hRfk",
+          "title": "Instagram CEO Reveals Biggest Update Yet",
+          "author": "Colin and Samir",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Adam Mosseri discusses Instagram's shift to long-form horizontal video, monetization mechanics for creators, ranking factors (watch time, engagement), carousel performance, and AI accounts/agents on the platform — with tactical detail on discovery and creator career viability.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
