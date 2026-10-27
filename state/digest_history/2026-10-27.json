@@ -28,6 +28,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-27T11:00:24.272040+00:00",
+      "tg_message_ids": [
+        284
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "gDQr0AT561A",
+          "url": "https://youtu.be/gDQr0AT561A",
+          "title": "Cybersecurity Must Be Rewritten Within Years | Alex Stamos",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Alex Stamos (Cognition CSO, ex-Facebook/Yahoo) argues open-weight models create a cybersecurity inflection point where attackers on cheap hardware outpace defenders using expensive frontier models; discusses Cognition's Devin Security approach to automated bug fixing.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
