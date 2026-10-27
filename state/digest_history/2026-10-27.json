@@ -57,6 +57,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-27T15:00:24.219409+00:00",
+      "tg_message_ids": [
+        285
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "dt5s2WagX4M",
+          "url": "https://youtu.be/dt5s2WagX4M",
+          "title": "AI Agents Will Negotiate Hiring Directly | a16z",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "a16z on agent-to-agent negotiation via MCP protocols and how autonomous agents will displace traditional recruiting networks; includes Cosign Awards launch and discussion of talent graph mapping.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
