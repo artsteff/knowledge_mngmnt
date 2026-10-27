@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-27T03:00:22.625193+00:00",
+      "tg_message_ids": [
+        283
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "4KUF9qIpYTs",
+          "url": "https://youtu.be/4KUF9qIpYTs",
+          "title": "Healthcare Pricing Is Impossible Without LLMs | TJ Parker",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "TJ Parker (General Medicine CEO) on parsing insurance PDFs with LLMs to surface copays, Walmart partnership mechanics, why insurance structures won't change for 5 years, and autonomous agents transacting care directly.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
