@@ -57,6 +57,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-28T11:00:34.202218+00:00",
+      "tg_message_ids": [
+        289
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "I2UR4asz-RE",
+          "url": "https://youtu.be/I2UR4asz-RE",
+          "title": "AI Startups Locked Out of Compute in 6 Months | Evan Conrad",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "SF Compute CEO Evan Conrad on the mechanics of the AI compute shortage — why startups face soaring prepayment requirements, how hardware risk concentrates like 2008 systemic risk, and what credit market evolution is needed. Includes SF Compute's forwards market approach.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
