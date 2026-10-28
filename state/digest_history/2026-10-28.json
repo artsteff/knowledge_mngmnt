@@ -155,6 +155,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-28T23:00:31.318175+00:00",
+      "tg_message_ids": [
+        292
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "kxCrhwHvA_4",
+          "url": "https://youtu.be/kxCrhwHvA_4",
+          "title": "Google Genie 4 + Gemini Is Insane: Let’s Build 5 AI Worlds Live",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Live demos of Google Genie 4 (world model AI) generating interactive 3D environments from text prompts; covers how world models work as a technical category and Peter Yang's assessment of gaps vs. film/gaming applications.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
