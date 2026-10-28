@@ -126,6 +126,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-28T19:00:31.695541+00:00",
+      "tg_message_ids": [
+        291
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "v5aorK_ZJ7w",
+          "url": "https://youtu.be/v5aorK_ZJ7w",
+          "title": "Inside Early Anthropic: \"We're Not Here To Get Rich\"",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Early Anthropic employee (Ivan Vendrov, joined Oct 2022 at 40-person stage) describes internal culture friction — mission-driven hiring (equity pledge requests), debates over AI x-risk vs. tech interest, pressure to build AGI safely vs. deploy beneficially; quit after 8 months pre-cliff when company was valued at $4B.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
