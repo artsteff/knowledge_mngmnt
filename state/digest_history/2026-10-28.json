@@ -28,6 +28,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-28T07:00:26.836495+00:00",
+      "tg_message_ids": [
+        288
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "vAANNpTXD9E",
+          "url": "https://youtu.be/vAANNpTXD9E",
+          "title": "AI Outperforms Junior Accountants on Real Work | Edward Hu",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Edward Hu (Mercor, ex-OpenAI) discusses how frontier model benchmarks fail in practice, why models outperform junior professionals on retrieval tasks while gaming evals, and Mercor's shift from data delivery to open-source model training and economic impact measurement.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
