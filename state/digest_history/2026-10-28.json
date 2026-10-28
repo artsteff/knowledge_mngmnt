@@ -86,6 +86,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-28T15:00:41.952872+00:00",
+      "tg_message_ids": [
+        290
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "hnCoQ5wB-GU",
+          "url": "https://youtu.be/hnCoQ5wB-GU",
+          "title": "I tested 4 AI agents on 9 real tasks. Here’s who won.",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Benchmark of 4 AI agents (Grok Bot, Dot, Muse, Claude Duet) across 9 real tasks—Slack drafts, video editing, bug fixing, Figma design, inbox triage, family newspaper, homework explanation, shoe shopping, video production. Scored live using computer use; includes final rankings and which agents the author actually trusts for work vs. life.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "BcA50QlT9bg",
+          "url": "https://youtu.be/BcA50QlT9bg",
+          "title": "Robotics Is in Its 1973 Era | Evan Beard",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Standard Bots CEO on end-to-end learning enabling untrained workers to program industrial robots via vision models; positioning as 1973-computer inflection; claims on manufacturing cost reduction and supply chain reshoring.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
