@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-28T03:00:21.736356+00:00",
+      "tg_message_ids": [
+        287
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "rBP_FVjWYVg",
+          "url": "https://youtu.be/rBP_FVjWYVg",
+          "title": "AI Cannot Invent Good Hypotheses | Greg Kamradt",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Greg Kamradt (ARC Prize Foundation President) discusses why OpenAI's Astra achieved 99% accuracy on ARC-AGI-3, what that saturation reveals about current LLM scaling limits, and what properties next-generation AI benchmarks need to avoid being gamed by memorization or hill-climbing.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
