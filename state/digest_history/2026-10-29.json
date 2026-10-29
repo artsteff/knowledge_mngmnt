@@ -57,6 +57,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-29T19:00:33.898427+00:00",
+      "tg_message_ids": [
+        295
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "WhXPoUVdGcg",
+          "url": "https://youtu.be/WhXPoUVdGcg",
+          "title": "4 Conversation Habits That Make You Unforgettable",
+          "author": "Sandeep Swadia",
+          "source_type": "video",
+          "score": 3,
+          "hook": "Communication skills for deeper conversations: overcoming social anxiety, the \"Liking Gap,\" follow-up question patterns, emotional boundaries (\"Three Emotional Rooms\"), and conflict de-escalation.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
