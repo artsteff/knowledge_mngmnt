@@ -28,6 +28,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-29T15:00:46.914801+00:00",
+      "tg_message_ids": [
+        294
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "c-9hspqS024",
+          "url": "https://youtu.be/c-9hspqS024",
+          "title": "Fully Automated AI Researchers Coming in Next Year | Nick Beckstead",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Nick Beckstead (Secure AI Project) on frontier AI safety regulation — compute limits as a control mechanism, gaps in current law exposed by Hugging Face incident, California's third-party audit order, and timeline acceleration from automated AI research.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
