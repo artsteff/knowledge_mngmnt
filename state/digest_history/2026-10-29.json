@@ -86,6 +86,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-29T23:00:21.522335+00:00",
+      "tg_message_ids": [
+        296
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "gJZLJSIEbtQ",
+          "url": "https://youtu.be/gJZLJSIEbtQ",
+          "title": "Why Closed AI Providers Block Cyber Defense | Sagar Vaze",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Mistral research scientist discusses Mistral Large 4 (1T parameter multimodal model), on-policy distillation for token efficiency, enterprise fine-tuning vs closed models, and open-weight advantages for avoiding provider lockout in cyber defense.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
