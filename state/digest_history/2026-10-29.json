@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-29T03:00:20.695282+00:00",
+      "tg_message_ids": [
+        293
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "WGmjmPtJTOo",
+          "url": "https://youtu.be/WGmjmPtJTOo",
+          "title": "Non-Engineers Are Now Shipping Code With Agents | Alli Pope",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Alli Pope (Vercel → Factory) on how autonomous engineering agents are changing developer tooling workflows, why investors are joining AI devtools startups full-time, and whether brand defensibility survives in an agent-first market.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
