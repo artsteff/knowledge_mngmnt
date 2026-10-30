@@ -28,6 +28,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-30T11:00:36.087359+00:00",
+      "tg_message_ids": [
+        298
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "cqp8dI6zbzc",
+          "url": "https://youtu.be/cqp8dI6zbzc",
+          "title": "$2b Founder explains how to start an AI Company",
+          "author": "Tanay Kothari",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Founder breakdown of starting an AI company from scratch in 2026 SF — no co-founder, no product, no existing idea. Specifics of what's covered not named in description.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "4X3dZmBPIRY",
+          "url": "https://youtu.be/4X3dZmBPIRY",
+          "title": "You Don't Need Billions to Build Frontier AI | Marjorie Janiewicz",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Interview on Mistral's Large 4 model launch, open-weights AI strategy, competing with fewer resources than frontier labs, European AI sovereignty, and one-year ROI predictions.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
