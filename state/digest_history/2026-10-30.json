@@ -68,6 +68,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-30T15:01:09.374388+00:00",
+      "tg_message_ids": [
+        299
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "vl7HiMdGfjo",
+          "url": "https://youtu.be/vl7HiMdGfjo",
+          "title": "Why Everyone Is About To Have Their Own Database",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Supabase CEO on scaling to 50M databases, the shift from traditional dev to \"builders,\" personalized apps & personal databases, AI adoption driving demand, agent-first design patterns, and evals for agent reliability.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "8uTAZQiGP_Q",
+          "url": "https://youtu.be/8uTAZQiGP_Q",
+          "title": "Why Rapid AI Doomsday Scenarios Are Flawed | Sarah Constantin",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Sarah Constantin discusses blind spots in AI agent evaluation, why fast-doom scenarios misread physical science, and gaps in US tort law for unintentional AI cyberattacks — plus critiques of rationalist culture.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
