@@ -137,6 +137,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-10-30T23:00:18.970912+00:00",
+      "tg_message_ids": [
+        301
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "NE5iTABg1Ek",
+          "url": "https://youtu.be/NE5iTABg1Ek",
+          "title": "AI Attacks Will Overwhelm Corporate Defenses | Joelle Pineau",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Joelle Pineau (Cohere CAO) on Series E fundraise, enterprise AI deployments, building frontier models outside US/China, and the Aisle cybersecurity acquisition — plus the case for AI-driven defense against AI attacks.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
