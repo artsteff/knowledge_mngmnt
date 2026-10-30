@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-30T07:14:57.809224+00:00",
+      "tg_message_ids": [
+        297
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "ip3v3WfaDlw",
+          "url": "https://youtu.be/ip3v3WfaDlw",
+          "title": "Hyperscalers Have the Wrong Primitives for AI | Databricks",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Nikita Shamgunov (Databricks VP, Neon co-founder) argues hyperscalers lack the right database primitives for AI agents; discusses separating compute from storage, AI software factories, and branching architecture that competitors are copying.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
