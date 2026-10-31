@@ -1,0 +1,44 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-10-31T23:00:53.687364+00:00",
+      "tg_message_ids": [
+        302
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "xg4Dao40zJE",
+          "url": "https://youtu.be/xg4Dao40zJE",
+          "title": "AI Will Build Totally New Drugs by 2031 | Sam Rodriques",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Sam Rodriques (Edison Scientific CEO) discusses Pfizer partnership deploying AI agents (Robin, Cosmos) for drug discovery; covers drug repurposing as near-term path vs. AI-designed compounds, and clinical timeline realities.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "PJlTf2ACCuY",
+          "url": "https://youtu.be/PJlTf2ACCuY",
+          "title": "Local AI Will Take Over Within One Year | Ian Weinberg",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "AMD engineer demos Ryzen AI Halo with 192GB unified memory running 300B-parameter models locally; discusses semantic routing as a mechanism to route 70% of enterprise reasoning tasks from frontier models to on-prem silicon.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
