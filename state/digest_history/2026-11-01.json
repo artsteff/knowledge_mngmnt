@@ -1,0 +1,55 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-01T15:00:33.538568+00:00",
+      "tg_message_ids": [
+        303
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "KzS5Qs7vSMg",
+          "url": "https://youtu.be/KzS5Qs7vSMg",
+          "title": "86 minutes of paid-UGC alpha | Hector Serrano (Wispr Flow)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Paid-UGC playbook at Wispr Flow: creator roster structure (50 creators, $500–600 ads/month), compensation models (% of ad spend vs GMV), hiring for marketing at AI companies, why YouTube packaging beats production quality, why \"best marketers are allergic to AI output.\"",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "eJ2XC9-9-rU",
+          "url": "https://youtu.be/eJ2XC9-9-rU",
+          "title": "Gemini 4 Changed How Google Builds Products | Jaclyn Konzelmann",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Google Labs product director discusses how Gemini 4 changed her PM workflow, decision-making on what to build, editorial standards to prevent AI slop in products, and which Labs experiments shipped into the Gemini app.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "_wJctKYC3_E",
+          "url": "https://youtu.be/_wJctKYC3_E",
+          "title": "Retrofitting Old Factories for AI Won't Work | Adarsh Kulkarni",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Foundry Robotics founder discusses why retrofitting legacy factories fails vs building AI-orchestrated facilities from scratch; covers four-nines reliability requirement, 36-month deployment timelines, and prediction of 1M robots delivering 5B work hours in 3 years.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
