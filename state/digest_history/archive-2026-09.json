@@ -5014,5 +5014,1908 @@
         }
       }
     ]
+  },
+  "2026-09-27": {
+    "runs": [
+      {
+        "run_at": "2026-09-27T02:01:49.382052+00:00",
+        "tg_message_ids": [
+          145,
+          146
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 39,
+            "scored_to_backlog": 38,
+            "backlog_size": 39,
+            "posting": 10,
+            "errors": [
+              "metadata-missing:474j-n1Ltxc"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "Ak-YNIBqEjI",
+            "url": "https://youtu.be/Ak-YNIBqEjI",
+            "title": "11 Marketing Rules Every YouTuber Needs to Know",
+            "author": "Colin and Samir",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "4mKtJzfGj0U",
+            "url": "https://youtu.be/4mKtJzfGj0U",
+            "title": "5 Rules for Building AI Agents That Work in Production | Nan Yu & Jacob Shumway",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "A6dBGX6iUg8",
+            "url": "https://youtu.be/A6dBGX6iUg8",
+            "title": "Conversational Editing - Made On YouTube",
+            "author": "Creator Insider",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "6Yeo6M8-W_8",
+            "url": "https://youtu.be/6Yeo6M8-W_8",
+            "title": "Instinct vs Grok Bot vs ChatGPT vs Hermes: Which AI Agent Can You Trust?",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "5bxp78i96S8",
+            "url": "https://youtu.be/5bxp78i96S8",
+            "title": "Paul Graham On Startups, Ambition, and Great Founders",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "6": {
+            "adapter": "youtube",
+            "source_id": "2LRIAfng7eA",
+            "url": "https://youtu.be/2LRIAfng7eA",
+            "title": "Teaching LLMs to Speak Spotify — Yves Raimond & Jacqueline Wood, Spotify",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "7": {
+            "adapter": "youtube",
+            "source_id": "4_SHhSMHzNo",
+            "url": "https://youtu.be/4_SHhSMHzNo",
+            "title": "The AI factory playbook for engineering teams",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "8": {
+            "adapter": "youtube",
+            "source_id": "7taOQBfjDyE",
+            "url": "https://youtu.be/7taOQBfjDyE",
+            "title": "The Loop Is the Product — Roland Gavrilescu, Introspection",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "9": {
+            "adapter": "youtube",
+            "source_id": "D4XTefP3Lsc",
+            "url": "https://youtu.be/D4XTefP3Lsc",
+            "title": "When AIs act emotional",
+            "author": "Anthropic",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "10": {
+            "adapter": "youtube",
+            "source_id": "2jFtOASCEfY",
+            "url": "https://youtu.be/2jFtOASCEfY",
+            "title": "YPP Updates, View Count Changes, and more | Creator Roundup",
+            "author": "YouTube Creators",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-27T06:01:45.704700+00:00",
+        "tg_message_ids": [
+          147,
+          148
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 35,
+            "scored_to_backlog": 35,
+            "backlog_size": 63,
+            "posting": 10,
+            "errors": [
+              "metadata-missing:474j-n1Ltxc"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "4YWO4sSRrTE",
+            "url": "https://youtu.be/4YWO4sSRrTE",
+            "title": "Circleback CEO Ali Haghani: Why Your Company Should Be Recording More Meetings",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "5KTHvKCrQ00",
+            "url": "https://youtu.be/5KTHvKCrQ00",
+            "title": "Claude ran a business in our office",
+            "author": "Anthropic",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "ACPEpji5NV4",
+            "url": "https://youtu.be/ACPEpji5NV4",
+            "title": "Distill the LLM, Don't Serve It: Search & Personalization at DoorDash — Raghav Saboo, DoorDash",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "0YeeJHYy-Vc",
+            "url": "https://youtu.be/0YeeJHYy-Vc",
+            "title": "How to Build AI Agents That Check Their Own Work | Jared Zoneraich",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "5YWf2c9YYlk",
+            "url": "https://youtu.be/5YWf2c9YYlk",
+            "title": "HOW TO: Create a Makeup Switcher Effect with @royer.louise",
+            "author": "YouTube Creators",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "6": {
+            "adapter": "youtube",
+            "source_id": "2UwemqPkJSQ",
+            "url": "https://youtu.be/2UwemqPkJSQ",
+            "title": "Muse gets AI agent UX right",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "7": {
+            "adapter": "youtube",
+            "source_id": "AkNszeQ77MM",
+            "url": "https://youtu.be/AkNszeQ77MM",
+            "title": "Shorts Series, Ask YouTube, & Creator Protection - Made On YouTube",
+            "author": "Creator Insider",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "8": {
+            "adapter": "youtube",
+            "source_id": "A9JDkiYEhfY",
+            "url": "https://youtu.be/A9JDkiYEhfY",
+            "title": "The Case For Data Centers In Space",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "9": {
+            "adapter": "youtube",
+            "source_id": "AbZODZ_4VaM",
+            "url": "https://youtu.be/AbZODZ_4VaM",
+            "title": "The enterprise AI stack behind Stripe’s company brain “Kai”",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "10": {
+            "adapter": "youtube",
+            "source_id": "3BANOGc7kzI",
+            "url": "https://youtu.be/3BANOGc7kzI",
+            "title": "We need to talk about Backrooms",
+            "author": "Colin and Samir",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-27T10:00:23.227160+00:00",
+        "tg_message_ids": [
+          149,
+          150
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 53,
+            "posting": 10,
+            "errors": [
+              "metadata-missing:474j-n1Ltxc"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "AY3lif2E4zI",
+            "url": "https://youtu.be/AY3lif2E4zI",
+            "title": "Accelerating private equity deal flows with Claude",
+            "author": "Anthropic",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "9ODlofcSciM",
+            "url": "https://youtu.be/9ODlofcSciM",
+            "title": "Build Your Own YouTube Home Page! - Made On YouTube",
+            "author": "Creator Insider",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "5CBnWGP5vIs",
+            "url": "https://youtu.be/5CBnWGP5vIs",
+            "title": "Claude Fable 5 Is Finally Back: 5 Must-Try Use Cases Before July 12",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "0vZ_UVLhSQQ",
+            "url": "https://youtu.be/0vZ_UVLhSQQ",
+            "title": "Getting started with Claude.ai",
+            "author": "Anthropic",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "8mY9wx_iMSU",
+            "url": "https://youtu.be/8mY9wx_iMSU",
+            "title": "GPT-5.6 vs Claude Fable 5: I Tested 6 Real Use Cases (Here’s the Winner)",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "6": {
+            "adapter": "youtube",
+            "source_id": "AniiF8rOu9c",
+            "url": "https://youtu.be/AniiF8rOu9c",
+            "title": "GPT-6 Astra blew away every one of my benchmarks",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "7": {
+            "adapter": "youtube",
+            "source_id": "8ONFvAtboZ4",
+            "url": "https://youtu.be/8ONFvAtboZ4",
+            "title": "Grok Bot + Grok 4.6  + Cursor Origin - is Claude Code dead?",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "8": {
+            "adapter": "youtube",
+            "source_id": "2wgPHvW0mG8",
+            "url": "https://youtu.be/2wgPHvW0mG8",
+            "title": "One Operator, Many Drones: Inside Skydio's Autonomy Stack — Suchet Bargoti, Skydio",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "9": {
+            "adapter": "youtube",
+            "source_id": "5d6y3poKwK4",
+            "url": "https://youtu.be/5d6y3poKwK4",
+            "title": "Patrick Collison: Is AI Breaking the Lean Startup Playbook?",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "10": {
+            "adapter": "youtube",
+            "source_id": "35VzPlY1-kI",
+            "url": "https://youtu.be/35VzPlY1-kI",
+            "title": "YouTube for Artists Masterclass: Going Live on YouTube with Sheniece Charway",
+            "author": "YouTube Creators",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-27T14:00:29.164771+00:00",
+        "tg_message_ids": [
+          151,
+          152
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 44,
+            "posting": 10,
+            "errors": [
+              "metadata-missing:474j-n1Ltxc"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "CBneTpXF1CQ",
+            "url": "https://youtu.be/CBneTpXF1CQ",
+            "title": "Claude Code updates: When to use Haiku 4.5, Claude Code on web, and more.",
+            "author": "Anthropic",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "5zd7m3Rh5B0",
+            "url": "https://youtu.be/5zd7m3Rh5B0",
+            "title": "Claude for Financial Services Keynote",
+            "author": "Anthropic",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "2ZacwCbiLjg",
+            "url": "https://youtu.be/2ZacwCbiLjg",
+            "title": "Hermes Full Course: Build Your 24/7 AI Chief of Staff in 45 Minutes",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "5FKBkUCaLa8",
+            "url": "https://youtu.be/5FKBkUCaLa8",
+            "title": "How Gusto’s CTO uses Claude Code to ship like a startup",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "BxEf3RqIHkw",
+            "url": "https://youtu.be/BxEf3RqIHkw",
+            "title": "How This Non-Technical Founder Mastered Agentic Engineering in 50 Minutes | Matt Van Horn",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "6": {
+            "adapter": "youtube",
+            "source_id": "CxXgV54KzpQ",
+            "url": "https://youtu.be/CxXgV54KzpQ",
+            "title": "Jeff Dean: The 1% Rule for Building in AI",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "7": {
+            "adapter": "youtube",
+            "source_id": "1_jlukb7gm4",
+            "url": "https://youtu.be/1_jlukb7gm4",
+            "title": "The AI content machine that turns ideas into posts that don't sound like slop | Alex Lieberman",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "8": {
+            "adapter": "youtube",
+            "source_id": "A_I8mw8yfns",
+            "url": "https://youtu.be/A_I8mw8yfns",
+            "title": "The Best Models Still Reason Like Toddlers — Andrew Dai, Elorian",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "9": {
+            "adapter": "youtube",
+            "source_id": "99sPd15j3Zc",
+            "url": "https://youtu.be/99sPd15j3Zc",
+            "title": "What Actually Makes A Startup Durable",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "10": {
+            "adapter": "youtube",
+            "source_id": "4Gqg0HVe-AY",
+            "url": "https://youtu.be/4Gqg0HVe-AY",
+            "title": "World Models Need Causality, Not Pretty Pixels — Christopher Manning, Moonlake AI",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-27T18:00:49.690856+00:00",
+        "tg_message_ids": [
+          153,
+          154
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 8,
+            "scored_to_backlog": 8,
+            "backlog_size": 42,
+            "posting": 10,
+            "errors": [
+              "metadata-missing:474j-n1Ltxc"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "BQ_mgojj0Mo",
+            "url": "https://youtu.be/BQ_mgojj0Mo",
+            "title": "5 Underrated Google AI Tools You Need to Try in 16 Minutes (Pomelli, Stitch, Genie, Flow, and More)",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "ACRd0Ikg_KI",
+            "url": "https://youtu.be/ACRd0Ikg_KI",
+            "title": "Automate Your Life with Claude Code in 40 Minutes | Moritz Kremb",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "0I07YAuF8xA",
+            "url": "https://youtu.be/0I07YAuF8xA",
+            "title": "From Ingestion to Agents: How AI Teams Build on Document Intelligence — Adit Abraham, Reducto",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "-tdNsYi8AXs",
+            "url": "https://youtu.be/-tdNsYi8AXs",
+            "title": "How the engineer behind Claude Cowork actually uses Claude | Felix Rieseberg (Anthropic)",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "88B6DimMD2g",
+            "url": "https://youtu.be/88B6DimMD2g",
+            "title": "How This Ex-Meta L8 Engineer Ships 40 PRs a Day with AI Agents | Kun Chen",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "6": {
+            "adapter": "youtube",
+            "source_id": "2wLJl9A2CnA",
+            "url": "https://youtu.be/2wLJl9A2CnA",
+            "title": "I let Codex run for 6 hours. Here’s what happened.",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "7": {
+            "adapter": "youtube",
+            "source_id": "6eBSHbLKuN0",
+            "url": "https://youtu.be/6eBSHbLKuN0",
+            "title": "Mastering Claude Code in 30 minutes",
+            "author": "Anthropic",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "8": {
+            "adapter": "youtube",
+            "source_id": "8OOuCnZB-4o",
+            "url": "https://youtu.be/8OOuCnZB-4o",
+            "title": "The Age Of The 40-Year-Old Solo Founder Is Here",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "9": {
+            "adapter": "youtube",
+            "source_id": "75ckHC2LU_0",
+            "url": "https://youtu.be/75ckHC2LU_0",
+            "title": "What's New in Inference Engineering — Philip Kiely, Baseten",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "10": {
+            "adapter": "youtube",
+            "source_id": "ALJQHSgCl2E",
+            "url": "https://youtu.be/ALJQHSgCl2E",
+            "title": "Why Ambitious Startup Ideas Are Actually Easier To Sell",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-27T22:00:21.836074+00:00",
+        "tg_message_ids": [
+          155,
+          156
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 2,
+            "backlog_size": 34,
+            "posting": 10,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "AI1FLDY3q5s",
+            "url": "https://youtu.be/AI1FLDY3q5s",
+            "title": "Claude Code + 15 repos: how a non-engineer answers every customer question | Al Chen",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "6fFnh-xe4gc",
+            "url": "https://youtu.be/6fFnh-xe4gc",
+            "title": "How a non-technical founder built a $100K ARR meme company | Jason Levin (Memelord CEO)",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "BRDKft0-dUU",
+            "url": "https://youtu.be/BRDKft0-dUU",
+            "title": "How Intercom 2X'd engineering velocity with Claude Code | Brian Scanlan",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "49L8lVe_PVo",
+            "url": "https://youtu.be/49L8lVe_PVo",
+            "title": "How Meesho Became India’s Biggest Shopping App",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "9qXc-THAvc0",
+            "url": "https://youtu.be/9qXc-THAvc0",
+            "title": "How OpenAI's Codex Team Builds with Codex (43 Min) | Alex & Romain",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "6": {
+            "adapter": "youtube",
+            "source_id": "0UnZnonMN9o",
+            "url": "https://youtu.be/0UnZnonMN9o",
+            "title": "How This Solo AI Founder Bootstrapped 5 Products to 1M+ / Month | Tibo Louis-Lucas",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "7": {
+            "adapter": "youtube",
+            "source_id": "7c9FSUVcXR0",
+            "url": "https://youtu.be/7c9FSUVcXR0",
+            "title": "Operating Distributed Inference Systems at Scale — Nishant Gupta & Naman Ahuja, Meta",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "8": {
+            "adapter": "youtube",
+            "source_id": "3rWSvrFahIY",
+            "url": "https://youtu.be/3rWSvrFahIY",
+            "title": "Self-Play for LLMs, AI for Biology, Formal Verification, and More | YC Paper Club",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "9": {
+            "adapter": "youtube",
+            "source_id": "59AA5kIoqjA",
+            "url": "https://youtu.be/59AA5kIoqjA",
+            "title": "The Search Engine for the Agentic Web — Will Bryk, Exa",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "10": {
+            "adapter": "youtube",
+            "source_id": "4ynbXUaKHHs",
+            "url": "https://youtu.be/4ynbXUaKHHs",
+            "title": "YC SUS: Eric Migicovsky hosts founder office hours",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          }
+        }
+      }
+    ]
+  },
+  "2026-09-26": {
+    "runs": [
+      {
+        "run_at": "2026-09-26T02:00:22.032625+00:00",
+        "tg_message_ids": [
+          140
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 6,
+            "posting": 2,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "A6dBGX6iUg8",
+            "url": "https://youtu.be/A6dBGX6iUg8",
+            "title": "Conversational Editing - Made On YouTube",
+            "author": "Creator Insider",
+            "source_type": "video",
+            "score": 1,
+            "hook": "YouTube is shipping a conversational editing assistant (natural language prompts for trimming, beat-matching, adding effects) directly into Shorts and Create app.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "ImqahdmBXo8",
+            "url": "https://youtu.be/ImqahdmBXo8",
+            "title": "Video A/B Testing & Dynamic Thumbnails - Made On YouTube",
+            "author": "Creator Insider",
+            "source_type": "video",
+            "score": 1,
+            "hook": "YouTube is shipping A/B testing for video cuts, dynamic thumbnails for audience segments, and generative thumbnails in Studio — concrete platform mechanics that change how creators optimize.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-26T06:00:20.328185+00:00",
+        "tg_message_ids": [
+          141
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 4,
+            "posting": 2,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "9ODlofcSciM",
+            "url": "https://youtu.be/9ODlofcSciM",
+            "title": "Build Your Own YouTube Home Page! - Made On YouTube",
+            "author": "Creator Insider",
+            "source_type": "video",
+            "score": 1,
+            "hook": "YouTube is shipping custom feeds (AI-generated topic tabs on homepage), conversational search with visual understanding in videos, and comment summaries — all announced at Made On YouTube.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "AkNszeQ77MM",
+            "url": "https://youtu.be/AkNszeQ77MM",
+            "title": "Shorts Series, Ask YouTube, & Creator Protection - Made On YouTube",
+            "author": "Creator Insider",
+            "source_type": "video",
+            "score": 1,
+            "hook": "YouTube rolling out Shorts Series (structured seasons/episodes), Gemini-powered conversational search (\"Ask YouTube\"), and automated voice deepfake detection — all shipping features, not roadmap.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-26T10:00:19.970534+00:00",
+        "tg_message_ids": [
+          142
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 2,
+            "posting": 2,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "LOjyRUspEDk",
+            "url": "https://youtu.be/LOjyRUspEDk",
+            "title": "Made On YouTube 2026 in 10 minutes - Official Recap",
+            "author": "Creator Insider",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Official YouTube announcement of new creator and viewer features from Made On YouTube 2026 event, compressed into mechanisms rather than hype.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "x4ZkdUtqFpY",
+            "url": "https://youtu.be/x4ZkdUtqFpY",
+            "title": "Ask Music - Made On YouTube",
+            "author": "Creator Insider",
+            "source_type": "video",
+            "score": 2,
+            "hook": "YouTube Music's new \"Ask Music\" feature lets users describe moods/vibes in natural language to generate custom radio stations instead of browsing playlists.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-26T18:00:45.421466+00:00",
+        "tg_message_ids": [
+          143
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 8,
+            "scored_to_backlog": 8,
+            "backlog_size": 8,
+            "posting": 4,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "OA-Mc60Rboo",
+            "url": "https://youtu.be/OA-Mc60Rboo",
+            "title": "Beating RL With Reflection: GEPA and Optimize Anything — Lakshya A. Agrawal, GEPA",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "x4e5O9zN0TE",
+            "url": "https://youtu.be/x4e5O9zN0TE",
+            "title": "Long-Horizon Agents Need Experiments, Not Just Prompts — Erina Karati",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "Jv5B5CEaPJI",
+            "url": "https://youtu.be/Jv5B5CEaPJI",
+            "title": "Robot-Use Agents: Why General-Purpose Models May Win in Robotics",
+            "author": "Y Combinator",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "oVsEddfhdxc",
+            "url": "https://youtu.be/oVsEddfhdxc",
+            "title": "We Let Claude Code and Codex Race Human Researchers — Elie Bakouch, Prime Intellect",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-26T22:00:15.556185+00:00",
+        "tg_message_ids": [
+          144
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 4,
+            "posting": 3,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "hd7TOvmyAxU",
+            "url": "https://youtu.be/hd7TOvmyAxU",
+            "title": "An AI Research Agent That Runs Your Experiments — Tim Sweeney, Weights & Biases",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "vrDvatGtIxs",
+            "url": "https://youtu.be/vrDvatGtIxs",
+            "title": "Autoresearch Made Our Models 3x Faster — Tejas Bhakta, Morph",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "XyV6bSMyq-I",
+            "url": "https://youtu.be/XyV6bSMyq-I",
+            "title": "How We Built an Agent That Improves Itself — Zubin Aysola, Weights & Biases",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          }
+        }
+      }
+    ]
+  },
+  "2026-09-30": {
+    "runs": [
+      {
+        "run_at": "2026-09-30T02:00:21.703422+00:00",
+        "tg_message_ids": [
+          167
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "pbUkedxJPCE",
+            "url": "https://youtu.be/pbUkedxJPCE",
+            "title": "YouTube just changed: What you need to know",
+            "author": "Creator Insider",
+            "source_type": "video",
+            "score": 1,
+            "hook": "YouTube CEO Neal Mohan announces platform changes at #MadeOnYouTube; Colin and Samir unpack implications with creators including MrBeast, MKBHD, and others.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-30T06:00:23.769581+00:00",
+        "tg_message_ids": [
+          168
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "pJNM1z9l5mU",
+            "url": "https://youtu.be/pJNM1z9l5mU",
+            "title": "OpenAI DevDay 2026: Dots, Spaces, and ULTRAFAST",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 1,
+            "hook": "First-hand testing of OpenAI's new APIs (Decisions, Astra ultrafast, Agents) with concrete demos (thumbnail selection, collaborative drawing, real-time 3D) and cost breakdowns ($97 for interactive experiments).",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-30T14:00:45.931910+00:00",
+        "tg_message_ids": [
+          169
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 3,
+            "scored_to_backlog": 3,
+            "backlog_size": 3,
+            "posting": 3,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "dAIIaepNhQM",
+            "url": "https://youtu.be/dAIIaepNhQM",
+            "title": "Jev: 8 real use cases this fast, cheap model",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 1,
+            "hook": "John Lindquist demos 8 concrete patterns for using Jev (a fast classification model) as a decision engine—router, deduplicator, multi-step classifier—with speed/cost benchmarks vs. full LLMs.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "_mi3alkqy4s",
+            "url": "https://youtu.be/_mi3alkqy4s",
+            "title": "The Death of the Code Review: What the Data Actually Says — Laurie Voss, Arize AI",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Autonomous agents write 741% more code but ship only 30% more software — human review is now the bottleneck, and the industry is rebuilding code review as a system rather than killing it.",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "UOcHfR3_tys",
+            "url": "https://youtu.be/UOcHfR3_tys",
+            "title": "Your Agents Are in Solitary Confinement: Why MCP & A2A Aren't Enough — Vlad Luzin, Band",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Multi-agent systems require a distributed systems layer (transport, persistence, runtime binding, agent-first abstractions) — not just MCP or A2A — with live demos showing Codex, LangGraph, and Claude Code collaborating in real time.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-30T18:00:41.467093+00:00",
+        "tg_message_ids": [
+          170
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 3,
+            "scored_to_backlog": 3,
+            "backlog_size": 3,
+            "posting": 3,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "9cJrbj23fOA",
+            "url": "https://youtu.be/9cJrbj23fOA",
+            "title": "The Chief AI Officer: Scientist, Architect, Coach — Rania Khalaf, WSO2",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Chief AI Officer role split into Scientist/Architect/Coach sliders with concrete metrics (AI fluency, agent-consumable products, MCP servers, agent-proof pricing) instead of token counting.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "Se8jHLliLXE",
+            "url": "https://youtu.be/Se8jHLliLXE",
+            "title": "The State of AI in Software Development: Data from 400+ Orgs — Justin Reock, DX",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Data from 200K engineers showing AI adoption patterns (juniors use most, staff+ save equivalent time on fewer tokens), code generation was never the bottleneck, and three named case studies (Morgan Stanley 300K hours/year, Zapier 15% value lift, Spotify SRE agent).",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "6ro5OiT5DFo",
+            "url": "https://youtu.be/6ro5OiT5DFo",
+            "title": "How Troye Sivan Became a Global Star On YouTube",
+            "author": "Creator Insider",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Creator Insider interviews Troye Sivan on his creative process and fan connection strategy across YouTube.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-30T22:00:26.394003+00:00",
+        "tg_message_ids": [
+          171
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "j7GtybYc6gk",
+            "url": "https://youtu.be/j7GtybYc6gk",
+            "title": "Paddy Galloway Dives Deep on Video A/B & Ask Studio",
+            "author": "Creator Insider",
+            "source_type": "video",
+            "score": 1,
+            "hook": "YouTube VP discusses Video A/B testing, Dynamic Thumbnails, and Ask Studio — new creator tools with specific platform mechanics.",
+            "card_slug": null
+          }
+        }
+      }
+    ]
+  },
+  "2026-09-29": {
+    "runs": [
+      {
+        "run_at": "2026-09-29T14:00:54.992326+00:00",
+        "tg_message_ids": [
+          164
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 4,
+            "scored_to_backlog": 4,
+            "backlog_size": 4,
+            "posting": 4,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "LlgiOCmFG_w",
+            "url": "https://youtu.be/LlgiOCmFG_w",
+            "title": "Fixing the PR Bottleneck — Matt Pocock, AIHero",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Agent experience (AX) deserves the same rigor as developer experience (DX) — the PR review bottleneck isn't about writing speed, it's about what happens around the PR.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "-ciSTkEVy30",
+            "url": "https://youtu.be/-ciSTkEVy30",
+            "title": "Where AI products go next: voice, agents, and self-driving software | Tara Sesha and Nan Yu (OpenAI)",
+            "author": "Lenny's Podcast",
+            "source_type": "video",
+            "score": 1,
+            "hook": "OpenAI PMs discuss shipping imperfect AI features, designing understandable agents, and agent-tool integration decisions — live recording from Sept 2026.",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "sEXdyK6woKU",
+            "url": "https://youtu.be/sEXdyK6woKU",
+            "title": "Why Claude can’t be your PM (yet) | Anthropic CPO Panel",
+            "author": "Lenny's Podcast",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Anthropic CPO and Instagram co-founder discuss how PM fundamentals (user understanding, decision-making, adaptation) remain essential when AI changes what teams can ship every few months, plus specifics on agent-native software design and parallel experimentation.",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "Zn9NZ-r1-C4",
+            "url": "https://youtu.be/Zn9NZ-r1-C4",
+            "title": "Why I took the summer off from AI (and what I learned) | Karri Saarinen (Linear)",
+            "author": "Lenny's Podcast",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Linear's CEO shares how his team uses AI tooling (customer briefings, quality reviews) while deliberately protecting space for judgment-building through customer conversations and shared critique.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-29T18:00:34.209949+00:00",
+        "tg_message_ids": [
+          165
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "z5X1eMU6isI",
+            "url": "https://youtu.be/z5X1eMU6isI",
+            "title": "ChatGPT Dots Is Here! (Is This OpenAI's Grok Bot Killer?)",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Peter Yang tests OpenAI's Dots agent across real tasks (sponsorship discovery, app launch, landing page, YouTube comment analysis) and compares it to Grok Bot and Muse.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-29T22:00:21.641975+00:00",
+        "tg_message_ids": [
+          166
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "dIdG-SSFSd0",
+            "url": "https://youtu.be/dIdG-SSFSd0",
+            "title": "YouTube For Artists Masterclass: Master Fandom on YouTube",
+            "author": "YouTube Creators",
+            "source_type": "video",
+            "score": 2,
+            "hook": "YouTube's leadership shares \"new and existing ways\" to help artists find audiences, connect communities, and build fan loyalty on the platform.",
+            "card_slug": null
+          }
+        }
+      }
+    ]
+  },
+  "2026-09-25": {
+    "runs": [
+      {
+        "run_at": "2026-09-25T14:00:31.467306+00:00",
+        "tg_message_ids": [
+          137
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "ACPEpji5NV4",
+            "url": "https://youtu.be/ACPEpji5NV4",
+            "title": "Distill the LLM, Don't Serve It: Search & Personalization at DoorDash — Raghav Saboo, DoorDash",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "LLM reasoning done offline, distilled into small fast models for serving — with four named primitives (LLM supervision, semantic IDs, consumer memory, steerable generation) and specific results (2.3% NDCG, 4–5% MRR, ~1% order rate lift).",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-25T18:01:01.659831+00:00",
+        "tg_message_ids": [
+          138
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 5,
+            "scored_to_backlog": 5,
+            "backlog_size": 5,
+            "posting": 5,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "GLvFTMtw4Jk",
+            "url": "https://youtu.be/GLvFTMtw4Jk",
+            "title": "Raise the ceiling: how to scale intent, quality, and artistry with Al | Katie Dill (Stripe)",
+            "author": "Lenny's Podcast",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Katie Dill (Stripe design leader) on how to avoid generic \"zombie UI\" when building with AI — maintaining point of view, user understanding, and detail work through AI-augmented design.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "2LRIAfng7eA",
+            "url": "https://youtu.be/2LRIAfng7eA",
+            "title": "Teaching LLMs to Speak Spotify — Yves Raimond & Jacqueline Wood, Spotify",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Spotify's Large Taste Model—built on frozen-backbone LLM grounding with semantic IDs—powers 1-in-4 US Premium subscribers daily; trained via NEO's four-stage recipe (domain grounding, multitask instruction-tuning, constrained decoding, grounded evaluation).",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "ZG8Mf3P9xzI",
+            "url": "https://youtu.be/ZG8Mf3P9xzI",
+            "title": "The limiting factor—how to design an AI software factory for speed | Geoff Charles (Ramp CPO)",
+            "author": "Lenny's Podcast",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Ramp's CPO walks through how AI agents uncover bottlenecks across product development (discovery, code review, testing, launches, UX) and shows how the PM role needs to shift as each one moves.",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "lIgdnF0s0kQ",
+            "url": "https://youtu.be/lIgdnF0s0kQ",
+            "title": "Why LLM Recommenders Will Be AI's Biggest Consumer App — Devansh Tandon, Meta",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "LLM recommenders scale like LLMs and cost 100x less per engagement hour than chat; Meta's recipe tokenizes content into semantic IDs (10 tokens vs 10k), makes feeds bilingual and steerable with chain-of-thought reasoning.",
+            "card_slug": null
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "fF3lkTCM5-c",
+            "url": "https://youtu.be/fF3lkTCM5-c",
+            "title": "Marty Cagan: Strong Opinions, loosely held",
+            "author": "Lenny's Podcast",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Marty Cagan reflects on ten regrets about product advice, including underestimating business viability, product leadership gaps, and insufficient solution discovery — arguing that as AI lowers build friction, clear thinking and outcome focus become harder and more critical.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-25T22:00:48.763430+00:00",
+        "tg_message_ids": [
+          139
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 7,
+            "scored_to_backlog": 7,
+            "backlog_size": 7,
+            "posting": 2,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "gDTEGsKd-yY",
+            "url": "https://youtu.be/gDTEGsKd-yY",
+            "title": "Brand Deals, YouTube Shopping, & New Ways to Earn - Made On YouTube",
+            "author": "Creator Insider",
+            "source_type": "video",
+            "score": 1,
+            "hook": "YouTube officially rolling out brand discovery tools, paid content boosting, and localized affiliate tagging across 35 markets — with specifics on how the mechanics work and what creators can actually control.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "id6UWk69FFI",
+            "url": "https://youtu.be/id6UWk69FFI",
+            "title": "GIFs in Comments, Members-Only Communities, & Hype with Jewels - Made on YouTube",
+            "author": "Creator Insider",
+            "source_type": "video",
+            "score": 1,
+            "hook": "YouTube is shipping Members-Only Communities, personalized comment moderation, and a new monetization lever called \"Hype with Jewels\" that surfaces top fans in video descriptions.",
+            "card_slug": null
+          }
+        }
+      }
+    ]
+  },
+  "2026-09-28": {
+    "runs": [
+      {
+        "run_at": "2026-09-28T02:00:20.408843+00:00",
+        "tg_message_ids": [
+          157,
+          158
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 24,
+            "posting": 10,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "CGq9KRSb9Kc",
+            "url": "https://youtu.be/CGq9KRSb9Kc",
+            "title": "AI Engineer Paris 2026 Opening Keynotes: Mistral, Langfuse & Sizzy | Day 1",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "5qvr9Rzja2U",
+            "url": "https://youtu.be/5qvr9Rzja2U",
+            "title": "AI Powered Product Skills for Executive Leaders & GMs",
+            "author": "Level Up: Make No BS Career Breakthroughs",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "96jN2OCOfLs",
+            "url": "https://youtu.be/96jN2OCOfLs",
+            "title": "Andrej Karpathy: From Vibe Coding to Agentic Engineering w/ Stephanie Zhan",
+            "author": "Sequoia Capital",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "BJuevX91ExM",
+            "url": "https://youtu.be/BJuevX91ExM",
+            "title": "Claude Code just Changed Content Creation Forever",
+            "author": "Ben AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "CEvIs9y1uog",
+            "url": "https://youtu.be/CEvIs9y1uog",
+            "title": "Don't Build Agents, Build Skills Instead – Barry Zhang & Mahesh Murag, Anthropic",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "6": {
+            "adapter": "youtube",
+            "source_id": "9JFGohx4E7U",
+            "url": "https://youtu.be/9JFGohx4E7U",
+            "title": "GLM-5.2: Open Weights, Near-Frontier Intelligence — Zixuan Li, Z.ai",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "7": {
+            "adapter": "youtube",
+            "source_id": "D7_ipDqhtwk",
+            "url": "https://youtu.be/D7_ipDqhtwk",
+            "title": "How We Build Effective Agents: Barry Zhang, Anthropic",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "8": {
+            "adapter": "youtube",
+            "source_id": "0_dSWLOHKng",
+            "url": "https://youtu.be/0_dSWLOHKng",
+            "title": "My Simple Claude Cowork System (for normal people)",
+            "author": "Jeff Su",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "9": {
+            "adapter": "youtube",
+            "source_id": "tUPPVhBBcoM",
+            "url": "https://youtu.be/tUPPVhBBcoM",
+            "title": "Software Engineering Is Becoming Factory Engineering — Zach Lloyd, Warp",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "10": {
+            "adapter": "youtube",
+            "source_id": "xZ5TEaleUdg",
+            "url": "https://youtu.be/xZ5TEaleUdg",
+            "title": "We Built Grok Bot. Here Are Our 14 Best Bots | Peng Zheng & Lauren Tan",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-28T06:00:18.913519+00:00",
+        "tg_message_ids": [
+          159,
+          160
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 14,
+            "posting": 9,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "0UArKLQ6bXA",
+            "url": "https://youtu.be/0UArKLQ6bXA",
+            "title": "How this PM Used Claude Code to Support 20 People",
+            "author": "Aakash Gupta",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "71qvIkO9d_A",
+            "url": "https://youtu.be/71qvIkO9d_A",
+            "title": "If You Don’t Understand AI Evals, Don’t Build AI",
+            "author": "Aakash Gupta",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "BLv1XimNJ5s",
+            "url": "https://youtu.be/BLv1XimNJ5s",
+            "title": "LONDON FOR BOOK LOVERS: Secret Bookshops, Quiet Cafés & Cultural Gems",
+            "author": "Sophie Nadeau",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "HvboD89DyQ8",
+            "url": "https://youtu.be/HvboD89DyQ8",
+            "title": "No, That's Not a Software Factory — Ryan Cooke, WorkOS",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "TRfzFJCJ7ZE",
+            "url": "https://youtu.be/TRfzFJCJ7ZE",
+            "title": "Orchestras, Not Factories: How the Fastest Builders Work — Charlie Holtz, Conductor",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "6": {
+            "adapter": "youtube",
+            "source_id": "6MudaeKdBSk",
+            "url": "https://youtu.be/6MudaeKdBSk",
+            "title": "Scale the Judgment, Not the Model — Andrew Orobator, Reddit",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "7": {
+            "adapter": "youtube",
+            "source_id": "B8NvdfssGac",
+            "url": "https://youtu.be/B8NvdfssGac",
+            "title": "Stanford CS153 Frontier Systems | Ben Horowitz from a16z on Venture Capital Systems, Network Effects",
+            "author": "Stanford Online",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "8": {
+            "adapter": "youtube",
+            "source_id": "9rH5eJCjhtg",
+            "url": "https://youtu.be/9rH5eJCjhtg",
+            "title": "The problem with self-help gurus",
+            "author": "Matt D'Avella",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "9": {
+            "adapter": "youtube",
+            "source_id": "2GrsQGd_NAM",
+            "url": "https://youtu.be/2GrsQGd_NAM",
+            "title": "Сергей Гуриев: AI, мировая политика, технологии и меняющийся мир",
+            "author": "Global Talent Club",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-28T10:00:24.363712+00:00",
+        "tg_message_ids": [
+          161
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 5,
+            "posting": 3,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "TN3mj92oZ8I",
+            "url": "https://youtu.be/TN3mj92oZ8I",
+            "title": "How Software Factories Improve Themselves — Suraj Gupta, Warp",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "YIVkERhy8xo",
+            "url": "https://youtu.be/YIVkERhy8xo",
+            "title": "I Turned Coding Agents Into a Strategy Game — Ido Salomon, AgentCraft",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "vGCJ7diEtrw",
+            "url": "https://youtu.be/vGCJ7diEtrw",
+            "title": "What It Actually Takes to Build a Software Factory — Tereza Tížková, Factory",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-28T14:00:47.700481+00:00",
+        "tg_message_ids": [
+          162
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 4,
+            "scored_to_backlog": 4,
+            "backlog_size": 6,
+            "posting": 6,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "474j-n1Ltxc",
+            "url": "https://youtu.be/474j-n1Ltxc",
+            "title": "AI-Generated Code Is Already Competing With Human Code — Daksh Gupta, Greptile",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "buHC7bQE1X4",
+            "url": "https://youtu.be/buHC7bQE1X4",
+            "title": "Get Out of the Model's Way — Kevin Hou, Google DeepMind",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "-KIBgpGA_XI",
+            "url": "https://youtu.be/-KIBgpGA_XI",
+            "title": "I’m using Jev more than Opus 5.5 or GPT-6. Here’s why.",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "BtK4kFI1LNo",
+            "url": "https://youtu.be/BtK4kFI1LNo",
+            "title": "Roles aren't converging—they're expanding | Tamar Yehoshua (Atlassian CPO)",
+            "author": "Lenny's Podcast",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "fn8wnmpVqeI",
+            "url": "https://youtu.be/fn8wnmpVqeI",
+            "title": "The rise of HI-ICs | Elena Verna (Lovable)",
+            "author": "Lenny's Podcast",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          },
+          "6": {
+            "adapter": "youtube",
+            "source_id": "sTgM_sbLMNg",
+            "url": "https://youtu.be/sTgM_sbLMNg",
+            "title": "What it takes to be a top PM today | Robby Stein (Google Search)",
+            "author": "Lenny's Podcast",
+            "source_type": "video",
+            "score": 2,
+            "hook": "",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-09-28T22:00:23.448664+00:00",
+        "tg_message_ids": [
+          163
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "MLnsMIbibZY",
+            "url": "https://youtu.be/MLnsMIbibZY",
+            "title": "Sonnet 5.5 is Here! It's Insane at Making Videos (7 Incredible Examples)",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Seven concrete video generation examples using Claude Sonnet 5.5, with prompts and tooling (HyperFrames, Suno, fal).",
+            "card_slug": null
+          }
+        }
+      }
+    ]
   }
 }
