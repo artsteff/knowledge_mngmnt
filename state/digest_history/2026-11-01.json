@@ -50,6 +50,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-01T19:00:30.668725+00:00",
+      "tg_message_ids": [
+        304
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "6_Tqr2amEbc",
+          "url": "https://youtu.be/6_Tqr2amEbc",
+          "title": "OpenAI and Anthropic Will Pull Away From Rivals | Stephen Grugett and Alex Masmej",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "MNX founders discuss building a financial exchange for AI valuation futures and compute commodities; covers market mechanics of AI company differentiation, fast-takeoff risk pricing, and decentralized infrastructure security.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "FZIDGYngepU",
+          "url": "https://youtu.be/FZIDGYngepU",
+          "title": "Why NVIDIA Hardware Struggles on Large Model Decode | Jason Goodison",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Cerebras-backed General Compute raised $100M Series A to build inference cloud on custom silicon; covers why GPU decode bottlenecks matter, open-source model inference economics, and real-time agent requirements.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
