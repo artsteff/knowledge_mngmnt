@@ -40,6 +40,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-02T19:00:39.894874+00:00",
+      "tg_message_ids": [
+        306
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "NVzgt2AEvDg",
+          "url": "https://youtu.be/NVzgt2AEvDg",
+          "title": "The $1B Company Fixing AI’s Software Bottleneck",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "YC video on Blacksmith (CI/testing infrastructure startup, $1B Series C) — how they scaled to 30 people, cut CI wait times minutes→seconds using gaming-grade CPUs, and positioned testing as the bottleneck as AI coding tools accelerate code generation.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
