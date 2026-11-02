@@ -1,0 +1,44 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-02T15:00:35.698718+00:00",
+      "tg_message_ids": [
+        305
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "ztt8irafLMQ",
+          "url": "https://youtu.be/ztt8irafLMQ",
+          "title": "Inside Figma’s PM OS: skills, agents, and Auto XP",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Figma's PM OS — a shared repo of 31 Claude skills used by 60–70 PMs; walkthroughs of AutoXP (automated growth experiment loop), bug-bashing agent, real-time writing assistant (Jev), and how the repo stays in sync across the org.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "3q7oWsIEG7Y",
+          "url": "https://youtu.be/3q7oWsIEG7Y",
+          "title": "AI Agents Will Run Global E-Commerce in 2 Years | Antonio GM",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Antonio García Martínez on tokenized stocks, on-chain infrastructure for global equity access, and agent-to-agent e-commerce as a financial substrate — claims agents will outpace human retail in 2 years.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
