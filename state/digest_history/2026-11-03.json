@@ -26,6 +26,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-03T07:00:23.936846+00:00",
+      "tg_message_ids": [
+        307
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "qSi0lsq_2VM",
+          "url": "https://youtu.be/qSi0lsq_2VM",
+          "title": "AI Makes 25% of Workers Less Productive | Russ Fradin",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Larridin CEO Russ Fradin presents enterprise AI research showing AI productivity gains concentrate on top performers while bottom 25% see reduced output; breaks down why agent adoption remains <5%, how companies must audit workflows to justify AI spend, and when labor displacement actually hits.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
