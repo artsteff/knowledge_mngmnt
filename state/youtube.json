@@ -747,6 +747,7 @@
     "S2WOWWNUkKk",
     "S6aSoQ6_u5A",
     "S8Z2v2bxocM",
+    "SHLLQu7qqao",
     "SKDJo2CopRs",
     "SO43O_7jqzk",
     "SO69bGQzups",
@@ -1284,6 +1285,7 @@
     "lk63Sl-LRKE",
     "loz60mALXxA",
     "lq_DplLO4V8",
+    "lqdc1MeyIfs",
     "lsRnwM_ZdJY",
     "lsSunsXJoP4",
     "lvMMZLYoDr4",
@@ -1386,6 +1388,7 @@
     "pyvRID_CZZU",
     "q06A_JLD7Eo",
     "qCDDLxCCYXU",
+    "qSi0lsq_2VM",
     "qStB9GbppMU",
     "qTZirYu9pr0",
     "qWZBePgX1nQ",
@@ -1660,6 +1663,23 @@
     "zw9yxsMZCZc"
   ],
   "failed": {},
-  "backlog": [],
+  "backlog": [
+    {
+      "source_id": "qSi0lsq_2VM",
+      "title": "AI Makes 25% of Workers Less Productive | Russ Fradin",
+      "author": "MTS ",
+      "url": "https://youtu.be/qSi0lsq_2VM",
+      "source_type": "video",
+      "date": "2026-11-03",
+      "raw_text": "Larridin co-founder and CEO Russ Fradin breaks down data from their enterprise AI research and Anthropic's S-1 filing, showing how AI spend currently drives massive productivity gains for top engineers while lowering output for bottom performers. He outlines why enterprise agent adoption remains tiny, how companies must audit workflows to justify hundreds of billions in model spend, and when real labor force impacts will hit. Check out our sponsor Lovable: ⁠https://lovable.dev.⁠ Turn ideas into software people love. --\n⁠https://x.com/rfradin⁠\n--\nMTS is a live news and interview show covering technology, business, politics, and culture as it happens.\nFollow MTS: \nX |⁠ ⁠⁠⁠https://twitter.com/MTSlive⁠⁠\nYouTube |⁠ ⁠⁠⁠https://www.youtube.com/@mtsituation⁠⁠\nSpotify |⁠ ⁠https://open.spotify.com/show/4HUNNmV1pjV7CW6Lphm1rM⁠⁠ \nApple |⁠ ⁠https://podcasts.apple.com/us/podcast/mts/id1891088763⁠⁠ \nSubstack |⁠ ⁠⁠⁠https://mtslive.substack.com/⁠⁠\nInterested in sponsoring the show? ⁠⁠⁠⁠⁠⁠⁠sponsors@mts.now⁠⁠⁠\n–\nBrought to you by:\nMongo DB - Anyone can prototype an agent. Learn how to get them into production on September 30th in New York - register at ⁠https://www.mongodb.com/events/mongodb-local/nyc⁠\nLovable - Turn ideas into software people love with Lovable. Start today at ⁠https://lovable.dev/⁠\nLarridin - Finally prove what your AI investment is worth. Head to ⁠https://larridin.com/⁠ today to start measuring your AI’s bottom line.\nNeon (by Databricks) - Get up to $100K in credits for your startup at ⁠⁠https://neon.com/mts⁠⁠\nElevenLabs -  AI that communicates at human level across every channel and modality. ⁠https://elevenlabs.io/mts⁠\nArena - Measuring AI performance in the real world. ⁠⁠https://arena.ai/⁠⁠\nKong - The AI connectivity platform. Connect APIs, LLMs, agents, and systems with serious security and governance. ⁠https://konghq.com⁠\nToday’s stream is sponsored by VCX, the public ticker for private tech. Head over to ⁠http://getvcx.com⁠  to learn more\nBlitzy - Autonomous software development for enterprise codebases. Ship 5x faster. ⁠https://blitzy.com⁠\nAdQuick - Make your brand a billboard. Out-of-home advertising as easy to scale as digital. ⁠https://adquick.com⁠\nChargebee - Billing and monetization infrastructure for the AI era. ⁠https://www.chargebee.com/⁠\n–\nTimestamps:\n(00:00) Introduction\n(02:32) Findings From Q3 Research\n(04:18) How to Measure AI Productivity\n(07:15) Why Measurement Is Falling Behind\n(12:22) Reality of Enterprise Agent Adoption\n(14:54) What Drives True AI Adoption\n(19:33) Predictions for Labor Force Impact\n(20:48) What Comes Next for Larridin\n–\nNote: This podcast is not investment, legal, or tax advice, and is intended for informational and entertainment purposes only. Hosts and guests may hold positions in the companies and securities discussed; do your own research before acting on anything you hear.",
+      "score": 1,
+      "hook": "Larridin CEO Russ Fradin presents enterprise AI research showing AI productivity gains concentrate on top performers while bottom 25% see reduced output; breaks down why agent adoption remains <5%, how companies must audit workflows to justify AI spend, and when labor displacement actually hits.",
+      "adapter": "youtube",
+      "source_name": "MTS",
+      "duration_s": 1433,
+      "private_source": false,
+      "added_at": "2026-11-03T03:00:21.888159+00:00"
+    }
+  ],
   "too_old": {}
 }
