@@ -55,6 +55,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-03T15:01:10.572632+00:00",
+      "tg_message_ids": [
+        308
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "j2GQ72QUP3I",
+          "url": "https://youtu.be/j2GQ72QUP3I",
+          "title": "Autonomous Software Factories Arrive by 2031 | Luke Alvoeiro",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Luke Alvoeiro presents Droid 1.0, a programmatic tool-calling engine that reduces context bloat in agent chains; covers Terminal Bench 4 results (8% lead over Claude Code), safeguards for multi-step script generation, and a 5-year outlook on autonomous software factories.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "F-356TczoQU",
+          "url": "https://youtu.be/F-356TczoQU",
+          "title": "This New Grok Bot Feature Just Saved Me $500 a Year (Seriously)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Peter Yang demonstrates Grok's voice-calling feature negotiating a real Comcast bill reduction ($84→$45/month), covers 5 use cases for delegating calls, setup walkthrough, and compares Grok vs Muse for AI phone calls.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
