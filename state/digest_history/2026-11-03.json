@@ -135,6 +135,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-03T23:00:22.555689+00:00",
+      "tg_message_ids": [
+        310
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "_glLU4ceFAo",
+          "url": "https://youtu.be/_glLU4ceFAo",
+          "title": "Social Media Will Sever Chat From Content",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Social platforms are shifting away from personal chat toward AI-generated vertical video and long-form content; traditional home gatherings are being replaced by commercial IRL spaces (run clubs, supper clubs) as a destination for social time.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
