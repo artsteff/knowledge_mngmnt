@@ -95,6 +95,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-03T19:00:38.263561+00:00",
+      "tg_message_ids": [
+        309
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "UoIml3ppg08",
+          "url": "https://youtu.be/UoIml3ppg08",
+          "title": "Emily D. Baker on the power of Live Streaming & Memberships",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 2,
+          "hook": "YouTube product manager and creator liaison discuss live streaming mechanics, membership monetization, member perks (ad-free viewing, chat slowmode bypass), new features (Watch With reactions, Go Live matchmaking), and mobile @ mentions. Practical advice on starting live streams and building real-time community.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "xNKXt3Hb8Tk",
+          "url": "https://youtu.be/xNKXt3Hb8Tk",
+          "title": "Robots Will Proliferate Daily Life in 5 Years | Josh Gruenstein",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Tutor Intelligence CEO on $75M Series B for warehouse robotics, foundation models (GPT-4o) enabling physical automation, and why 90% of US warehouses still lack robots. Discusses CAISI/Sunny robots, real-world data flywheel, and deflation of physical goods through low-cost robotic labor.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
