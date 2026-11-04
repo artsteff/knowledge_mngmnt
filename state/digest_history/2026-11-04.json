@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-04T15:00:49.704803+00:00",
+      "tg_message_ids": [
+        311
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "YJjXjKJhUnI",
+          "url": "https://youtu.be/YJjXjKJhUnI",
+          "title": "AI Cannot Reliably Run a Company for Six Months | Richard Ngo",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Richard Ngo (ex-OpenAI governance, DeepMike safety) argues recursive self-improvement timelines are overhyped, explains why AI capabilities remain jagged, and diagnoses alignment field as bottlenecked by conceptual confusion and political groupthink rather than raw capability gaps.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
