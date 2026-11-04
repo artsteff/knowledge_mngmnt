@@ -28,6 +28,68 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-04T19:00:42.107268+00:00",
+      "tg_message_ids": [
+        312
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 4,
+          "backlog_size": 4,
+          "posting": 4,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "u-8KpXcPYCw",
+          "url": "https://youtu.be/u-8KpXcPYCw",
+          "title": "10 Habits PhDs Must Unlearn To Build a Startup | Startup School",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "YC partner and PhD-turned-founder Francois Chaubard breaks down 10 mindset shifts from academic research to startup building — covering the difference between interesting vs. important ideas, working without external structure, first-mover disadvantages, and why delegation of hard problems fails.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "sHHYVvG_C4Q",
+          "url": "https://youtu.be/sHHYVvG_C4Q",
+          "title": "Wharton’s Top AI Professor: Stop Starting Software Companies — The Real AI Money Is Here",
+          "author": "Silicon Valley Girl",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Ethan Mollick (Wharton AI Labs) on managing AI agents without cognitive surrender — when to hand off vs. keep doing yourself, why experts get more from AI than juniors, workflow for agent use, and the risk of over-trusting agent output.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "xE3ZtaomcxI",
+          "url": "https://youtu.be/xE3ZtaomcxI",
+          "title": "Why AI Research Won't Hit Fast Takeoff | Charlie O'Neill",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Charlie O'Neill (Baseten) argues recursive self-improvement and fast takeoff timelines are overstated due to compute constraints and RL bottlenecks; discusses why automating ML research hits diminishing returns; covers Baseten's new inference and agent platform.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "loAcPmvISSU",
+          "url": "https://youtu.be/loAcPmvISSU",
+          "title": "Why the Cultural Monoculture Is Officially Over | Ruby Thelot",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Analysis of cultural fragmentation using 11 years of Wikipedia traffic data, Billboard streaming patterns, and niche market growth (adult toys) to argue monoculture has fractured into algorithmic curation and platform-driven subcultures.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
