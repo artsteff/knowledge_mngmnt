@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-05T03:00:17.683238+00:00",
+      "tg_message_ids": [
+        313
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "rVMy8MSBKZo",
+          "url": "https://youtu.be/rVMy8MSBKZo",
+          "title": "AI Models Will Learn at Test Time by Next Year | Rohan Anil",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Rohan Anil (ex-Anthropic, Core Automation) on decentralized GPU training via compute islands, butterfly mixing for async noise, and test-time learning as the next scaling frontier — 2027 timeline for continuous model learning.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
