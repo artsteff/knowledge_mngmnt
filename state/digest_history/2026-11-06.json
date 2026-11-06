@@ -141,6 +141,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-06T19:00:44.605704+00:00",
+      "tg_message_ids": [
+        317
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "b8poH0KGpHI",
+          "url": "https://youtu.be/b8poH0KGpHI",
+          "title": "AI Coding Tools Will Kill the Technical Moat | Ruby Thelot",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Video explores how AI coding tools have eroded technical barriers to entry, tracing corporate-artist collaboration models from Bell Labs through Sora/Anthropic, and examining the tension between commercial incentives and experimental creative work.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "SDqx-o_4gZA",
+          "url": "https://youtu.be/SDqx-o_4gZA",
+          "title": "New! Sub Feed Location, Custom Feeds, YouTube Shopping Recommendations, Support in Ask Studio",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 2,
+          "hook": "YouTube platform changes: custom feeds for viewers, subscriptions feed moved to top nav, new standard feed categories (Live, Music, Movies & TV), personalized shopping recommendations in Studio, Ask Studio escalation to live support agents.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
