@@ -50,6 +50,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-06T11:00:29.120049+00:00",
+      "tg_message_ids": [
+        315
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 0,
+          "scored_to_backlog": 0,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "bCXeUZ7wOEU",
+          "url": "https://youtu.be/bCXeUZ7wOEU",
+          "title": "First AI Feature Film Will Drop in 1 Year | Gorkem Yurtseven",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "fal co-founder on video AI infrastructure ($1.65B raise, $16B valuation); how LLM convergence with 3D/gaming/VFX pipelines is unlocking creative agents; prediction on first AI-assisted feature film timeline and compute economics.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "EOu7_s3La38",
+          "url": "https://youtu.be/EOu7_s3La38",
+          "title": "Why a Frontier AI Pause Won’t Work | Rep. Sam Liccardo",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Rep. Sam Liccardo outlines Democratic AI policy priorities—federal safety standards, opposition to frontier AI pauses, why mandatory kill switches won't work technically, and using hyperscalers to rebuild power infrastructure.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "Y3AeefljdS0",
+          "url": "https://youtu.be/Y3AeefljdS0",
+          "title": "Why Basic Legal Software Fails High-Stakes Trials | FluxCap",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Former DOJ antitrust official and co-founder discuss why enterprise legal software fails on complex litigation, the shift to AI-native investigative tools, and how prosecutors need to evaluate algorithms — with post-election regulatory context.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
