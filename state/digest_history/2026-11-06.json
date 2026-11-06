@@ -1,0 +1,55 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-06T07:01:18.440966+00:00",
+      "tg_message_ids": [
+        314
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 7,
+          "scored_to_backlog": 6,
+          "backlog_size": 6,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "DzEbNmQS8ws",
+          "url": "https://youtu.be/DzEbNmQS8ws",
+          "title": "AI Agents Will Replace Full-Stack Backends | Chirag Shah",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "MongoDB's head of AI platform explains why production agents fail without dedicated memory and context architecture, breaks down Atlas Agent Engine design, and argues multi-agent systems are replacing traditional full-stack backends—with specific focus on memory types and LLM selection trade-offs.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "m1DSOfjAU5s",
+          "url": "https://youtu.be/m1DSOfjAU5s",
+          "title": "AI Agents Could Seize Digital Infrastructure in 1 Year",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Jeffrey Ladish (Palisade Research) analyzes METR's AI acceleration report showing capabilities growing 2x historical trends; discusses recursive self-improvement timelines, the public-vs-internal model gap, and autonomous agent proximity to infrastructure compromise.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "fH7CFf1wrpA",
+          "url": "https://youtu.be/fH7CFf1wrpA",
+          "title": "Frontier AI Models Fail at Automated Research | Qasim Wani",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Qasim Wani (Extrapolate co-founder, ex-xAI) argues recursive self-improvement is a data bottleneck, not a training problem. Covers why frontier models fail at automated research, how agents reward-hack via commit leaks, and why environment quality matters more than model scale for AGI paths.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
