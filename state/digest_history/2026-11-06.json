@@ -101,6 +101,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-06T15:00:48.475808+00:00",
+      "tg_message_ids": [
+        316
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "b__15L1mh80",
+          "url": "https://youtu.be/b__15L1mh80",
+          "title": "AI Coding Will Merge With Design Within a Year | Praveer Melwani",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Figma CFO discusses Q3 earnings, the shift from seat-based to AI credit pricing, and the imminent merge of code layers into design workflows — moving the developer bottleneck from code generation to visual canvas work.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "IV3Xyur_9gQ",
+          "url": "https://youtu.be/IV3Xyur_9gQ",
+          "title": "Agent Swarms Do Months of Work in Days | Dexter Horthy",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Dexter Horthy (HumanLayer) discusses agent swarms completing months of work in days, the shift to left-shifted planning, and engineering challenges around multiplayer state, security, and governance in distributed agent systems. HumanLayer is joining Factory and open-sourcing.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
