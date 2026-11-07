@@ -1,0 +1,44 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-07T03:00:35.937507+00:00",
+      "tg_message_ids": [
+        318
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "E4QQQ2WastI",
+          "url": "https://youtu.be/E4QQQ2WastI",
+          "title": "AGI Was Achieved in February 2026 | Bernardo Aceituno",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Open-weight models now cost-competitive and governance-compliant for 90% of enterprise workloads; remaining gaps in visual understanding, memory systems, and benchmark reliability; interview with StackAI co-founder on enterprise AI adoption shift.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "YTD1_ei9M1M",
+          "url": "https://youtu.be/YTD1_ei9M1M",
+          "title": "Anthropic Sees Imminent RSI Acceleration | Herbie Bradley",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Herbie Bradley discusses Anthropic's S-1 filing on RSI (reasoning-to-superintelligence) acceleration timelines, critiques fast-takeoff narratives, and analyzes why enterprise AI adoption stalls on organizational bottlenecks rather than capability gaps.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
