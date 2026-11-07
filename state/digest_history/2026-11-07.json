@@ -126,6 +126,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-07T23:00:33.792337+00:00",
+      "tg_message_ids": [
+        322
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "cB1GNO95iog",
+          "url": "https://youtu.be/cB1GNO95iog",
+          "title": "AI Swarms Won’t Cause Explosive Growth | Alex Imas",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Alex Imas (Google DeepMind) argues that AI capability growth won't drive explosive GDP growth because competitive markets compress output prices, firms operate as distributed intelligence systems, and labor shifts into new high-wage work rather than disappearing.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
