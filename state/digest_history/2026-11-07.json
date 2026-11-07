@@ -97,6 +97,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-07T19:00:34.360946+00:00",
+      "tg_message_ids": [
+        321
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "Q78dJ0vkWe8",
+          "url": "https://youtu.be/Q78dJ0vkWe8",
+          "title": "How To Build The Future: Paul Graham & Amjad Masad",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Amjad Masad on how Replit positioned itself for coding agents (agent architecture, user-obsessed product design), why enterprises adopt it ($10M projects → $250K), and the shift from \"vibe coding\" to deterministic agent workflows; includes first-hand account of shipping an agent that \"barely worked\" and the vision for \"self-driving companies.\"",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
