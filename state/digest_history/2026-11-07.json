@@ -39,6 +39,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-07T11:00:38.562840+00:00",
+      "tg_message_ids": [
+        319
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "6SqpSFP7vIU",
+          "url": "https://youtu.be/6SqpSFP7vIU",
+          "title": "Люксембург. Самые богатые в мире. Почему?",
+          "author": "Послезавтра",
+          "source_type": "video",
+          "score": 3,
+          "hook": "Economic analysis of Luxembourg's wealth — tax haven status, investment flows, and cost of living — framed as a geopolitical/economic explainer.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
