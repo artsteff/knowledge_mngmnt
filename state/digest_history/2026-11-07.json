@@ -68,6 +68,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-07T15:00:36.674336+00:00",
+      "tg_message_ids": [
+        320
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "V0NL3Hh92XE",
+          "url": "https://youtu.be/V0NL3Hh92XE",
+          "title": "AI Lets Amateurs Find Critical Zero-Days in Hours | Max Justicz",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Security researcher demonstrates using frontier AI models (Daybreak Blue, GLM 5.3) to discover zero-day vulnerabilities in apt and Android in hours; discusses implications for vulnerability disclosure timelines, package maintainer response, and the erosion of hacker skill barriers.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
