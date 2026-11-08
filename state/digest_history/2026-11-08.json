@@ -50,6 +50,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-08T19:00:45.592047+00:00",
+      "tg_message_ids": [
+        324
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "XEJtFxyWlXk",
+          "url": "https://youtu.be/XEJtFxyWlXk",
+          "title": "Eyes-Off Autonomous Driving Arrives by 2028 | Brandon Basso",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Brandon Basso (Wayve) discusses end-to-end AI models replacing modular self-driving stacks, how physical AI learns safety intrinsically, and timeline predictions for eyes-off autonomous systems by 2028.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "-XL2gClQ2gg",
+          "url": "https://youtu.be/-XL2gClQ2gg",
+          "title": "Is AI Now Good Enough To Cure Cancer? | YC Paper Club",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "YC Paper Club on AI for biology: four researchers discuss how collapsing sequencing costs created a data problem in cancer care, what it takes to model cells vs molecules, what DNA language models learn, and emergent in-context learning in genome models.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
