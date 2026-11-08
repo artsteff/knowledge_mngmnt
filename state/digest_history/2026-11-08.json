@@ -1,0 +1,55 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-08T15:00:46.591885+00:00",
+      "tg_message_ids": [
+        323
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "qGf2Yvan4Wg",
+          "url": "https://youtu.be/qGf2Yvan4Wg",
+          "title": "Why Google wants to win the frontier conversation | Tulsee Doshi (Head of Product for Gemini)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Head of Product for Gemini on frontier AI PM work: model development as craft (60-20-20 framework for balancing shipping vs. R&D), writing evals, why the model itself has UX, how PMs skill up in frontier labs, Google's full-stack strategy, and the rising value of PMs in AI companies.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "pR7NCYKsA3o",
+          "url": "https://youtu.be/pR7NCYKsA3o",
+          "title": "OpenAI VP: How AI Changed My Family’s Fight Against Cancer | Ashley Alexander",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "VP of Product at OpenAI (Health) discusses using AI to support parents through cancer diagnosis and treatment — specific tactics: preparing for doctor visits, researching treatments, AI catching a risky treatment plan, and managing caregiver emotional load.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "0Yn_B_QGXuU",
+          "url": "https://youtu.be/0Yn_B_QGXuU",
+          "title": "Persuasion Models Outperform Claude and ChatGPT | Dan Lee",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Dan Lee (Nooks CEO) discusses training open-weight models to outperform Claude/ChatGPT on sales tasks, frames sales as persuasion vs. reasoning, and debuts Node (sales AI assistant); backed by $500M non-dilutive capital from General Catalyst.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
