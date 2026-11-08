@@ -90,6 +90,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-08T23:00:37.882295+00:00",
+      "tg_message_ids": [
+        325
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "DwrYJCnoHZs",
+          "url": "https://youtu.be/DwrYJCnoHZs",
+          "title": "Why Full AI Automation Fails in Production | Angela McNea",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Thread AI CEO explains why unconstrained AI agents fail in production — argues for explicit decision logic and human intervention points; draws on Palantir lessons and Army DevCom deployments; covers how software work changes when you can't fully automate.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "s_wkGlV-wr4",
+          "url": "https://youtu.be/s_wkGlV-wr4",
+          "title": "Frontier AI Models Have Gotten Worse at Writing | Ben Hylak",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Ben Hylak (Raindrop CTO) discusses why frontier models degrade at specific tasks as they scale, how to monitor agent failures in production, and the simulation-based approach to safely testing model upgrades without silent failures.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
