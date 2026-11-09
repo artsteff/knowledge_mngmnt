@@ -1,0 +1,44 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-09T16:42:09.256163+00:00",
+      "tg_message_ids": [
+        326
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "zBROTIiHusc",
+          "url": "https://youtu.be/zBROTIiHusc",
+          "title": "1,000 days of Duolingo didn't work. So he built his own app with Codex.",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Solo founder built a voice learning app (Mural) using Codex and GPT-Live without knowing Swift; covers design prompts, real latency/cost numbers for voice AI, and how he uses a Lord of the Rings-themed agent system (Grok Bot) to delegate founder roles across 15 open tabs.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "aZU99RoTRw8",
+          "url": "https://youtu.be/aZU99RoTRw8",
+          "title": "Did Anthropic Cross Its RSI Warning Line? | Parv Mahajan",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "METR's analysis of Anthropic's R&D acceleration — 2x sustained since late 2025, why public models mask the actual pace, absence of near-term compute bottlenecks, and evidence Anthropic crossed its own internal warning threshold for acceleration.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
