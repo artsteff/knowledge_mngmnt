@@ -39,6 +39,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-09T20:00:35.282332+00:00",
+      "tg_message_ids": [
+        327
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "SsSKJA0EHD4",
+          "url": "https://youtu.be/SsSKJA0EHD4",
+          "title": "I Tested Fable 5.2 vs Opus 5.5 on 5 Real Use Cases",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Direct model comparison (Fable 5.2 vs Claude Opus 3.5) across 5 concrete tasks: 3D code generation (travel video, racing game), website redesign, essay writing, and adversarial pushback. Shows prompts and outputs for each. Includes pattern for reducing AI slop in system prompts.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "5Qzs7OwwbWc",
+          "url": "https://youtu.be/5Qzs7OwwbWc",
+          "title": "Any Good Brand is a Cult",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Alyssa Bonanno (Better Half) on how consumer brands function as secular religions with mythology and ritual; case studies from Polymarket, Equinox, and Bryan Johnson campaigns; discussion of algorithmic feeds and information culture.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
