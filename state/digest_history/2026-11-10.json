@@ -1,0 +1,44 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-10T00:00:33.864388+00:00",
+      "tg_message_ids": [
+        328
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "1gYQc4CL_oo",
+          "url": "https://youtu.be/1gYQc4CL_oo",
+          "title": "I was a Claude hater. Fable 5.2 changed my mind.",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Hands-on comparison of Claude Fable 5.2 vs Opus 5.5 across concrete tasks: video generation from text, spatial reasoning (furniture assembly), game development, and product pipeline re-architecture. Names specific wins (animation without slide-look), specific losses (web design), and routing heuristics between models.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "2OSOEV304gQ",
+          "url": "https://youtu.be/2OSOEV304gQ",
+          "title": "Why Agents Break Traditional Databases | Andy Pavlo",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Andy Pavlo (CMU prof, ClickHouse VP) discusses why AI agents break legacy databases—nonstop query volumes, \"vibe coding,\" ClickHouse's Postgres expansion via Xata, and predictions for agent-written databases.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
