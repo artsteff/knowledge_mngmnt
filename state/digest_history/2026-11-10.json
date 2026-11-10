@@ -39,6 +39,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-10T04:00:30.163786+00:00",
+      "tg_message_ids": [
+        329
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "IhdBFPqtElU",
+          "url": "https://youtu.be/IhdBFPqtElU",
+          "title": "AI Design Bottlenecks Shift in Next 2 Years | McCord",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Cameron McCord (Nominal CEO, $240M raised) argues hardware validation is the primary bottleneck for frontier models; discusses why software-first AI approaches fail in hardware engineering and how agentic workflows are reshaping aerospace/defense supply chains.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
