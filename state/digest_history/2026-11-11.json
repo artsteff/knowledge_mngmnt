@@ -87,6 +87,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-11T12:00:32.824926+00:00",
+      "tg_message_ids": [
+        333
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "HJdg7bKlYAY",
+          "url": "https://youtu.be/HJdg7bKlYAY",
+          "title": "Humanoid Robots Could Arrive by 2027 | Max Poff",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Stack AI founders discuss moving enterprise AI agents from demos to production—air-gapped deployments, engineering stack decisions, Asana integration for scale, and a 2027 timeline for embodied AI.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
