@@ -167,6 +167,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-11T20:00:25.286504+00:00",
+      "tg_message_ids": [
+        335
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "ucPVUVQHEts",
+          "url": "https://youtu.be/ucPVUVQHEts",
+          "title": "Why Recursive Self-Improvement Hits a Wall | Ramez Naam",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Ramez Naam argues recursive self-improvement in AI hits empirical diminishing returns, not exponential loops; compares theoretical benchmarks to real task horizons at OpenAI/Anthropic and explains constraints on autonomous AI researchers (data, taste, verification).",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
