@@ -58,6 +58,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-11T08:00:28.050705+00:00",
+      "tg_message_ids": [
+        332
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "O8uFKfh6-wA",
+          "url": "https://youtu.be/O8uFKfh6-wA",
+          "title": "Black October Proved AI Cyber Threats Are Real | Varin Nair",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Varin Nair (Factory) discusses how open-weight models and agent frameworks have automated cyberattacks at nation-state scale, Factory's pivot into offensive security via War Games, and why defensive engineering needs deterministic automated triage loops.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
