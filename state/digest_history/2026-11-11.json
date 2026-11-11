@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-11T00:00:41.794715+00:00",
+      "tg_message_ids": [
+        330
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "5agKTqcEZFk",
+          "url": "https://youtu.be/5agKTqcEZFk",
+          "title": "Katarina Mogus dives deep on Adobe + YouTube workflows",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Adobe + YouTube partnership on Premiere mobile: dedicated Shorts templates, mobile editing features, and barrier-to-entry changes for creators. Features a creator (@katamogz) walking through her workflow and Adobe's product lead discussing what's coming next.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
