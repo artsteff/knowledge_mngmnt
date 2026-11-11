@@ -28,6 +28,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-11T04:00:18.559372+00:00",
+      "tg_message_ids": [
+        331
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "CpVGPfZ2lt4",
+          "url": "https://youtu.be/CpVGPfZ2lt4",
+          "title": "AI Will Automate 50% of Digital Work in Years | Brendan Foody",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Brendan Foody (Mercor co-founder) on why post-training evals are the bottleneck for frontier models, why RL saturates benchmarks quickly, and why AI hasn't yet become reliable virtual coworkers despite the hype.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
