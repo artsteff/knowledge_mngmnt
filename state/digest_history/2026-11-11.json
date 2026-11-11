@@ -116,6 +116,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-11T16:01:04.419011+00:00",
+      "tg_message_ids": [
+        334
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "fAkm3YQg73s",
+          "url": "https://youtu.be/fAkm3YQg73s",
+          "title": "Claude Fable 5.2 vs Opus 5.5: When to Use Each Model (Full Tutorial)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Five concrete use cases comparing Fable 5.2 vs Opus 5.5 in Claude Code (chief of staff, career advisor, workflow automation, mobile app design, end-to-end healthcare support); includes specific prompts and 500+ hours of hands-on comparison.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "3phLlWps4rE",
+          "url": "https://youtu.be/3phLlWps4rE",
+          "title": "Why Enterprise AI Hallucinations Are 5x Higher | Dan Klein",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Dan Klein (UC Berkeley, Scaled Cognition CTO) on why enterprise LLM hallucination rates are 5x higher than reported, why standard token architectures can't enforce safety policies, and how modeling semantic objects changes reliability for agentic AI.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "wdyOjcCj2hw",
+          "url": "https://youtu.be/wdyOjcCj2hw",
+          "title": "Claude Code + Obsidian: My family’s AI brain",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Scott Farrar built a household knowledge base in Claude Code (Markdown files + Obsidian) that pulls insurance docs, appliances, warranties, and family to-do lists; demo shows car insurance shopping workflow, shared system with wife, wall display with recent wins, and approach to AI + math learning where kids teach the AI.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
