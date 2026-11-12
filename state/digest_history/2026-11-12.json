@@ -28,6 +28,68 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-12T08:00:39.101652+00:00",
+      "tg_message_ids": [
+        337
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 4,
+          "backlog_size": 4,
+          "posting": 4,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "vlfCjWuv4es",
+          "url": "https://youtu.be/vlfCjWuv4es",
+          "title": "Rethinking Claude Code Best Practices — Lydia Hallie, Anthropic",
+          "author": "AI Engineer",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Lydia Hallie (Anthropic, Claude Code dev relations) walks through what changed in best practices between older Claude models and 5.5 — what to keep, what's now overhead, what's newly possible. Assumes you're already using Claude Code.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "ibKLRKMgS2I",
+          "url": "https://youtu.be/ibKLRKMgS2I",
+          "title": "How You Deliver Words Matters More Than What AI Says | Alex Holt",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "ElevenLabs Field CTO walks through new Interaction Engine, agent orchestration tools, and NVIDIA partnership; positions voice delivery as the enterprise bottleneck and forecasts voice agents replacing IVR by end of 2026.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "pwZJcLZc3_Y",
+          "url": "https://youtu.be/pwZJcLZc3_Y",
+          "title": "How To Make More Money Than You Deserve (My 2027 Framework)",
+          "author": "Alex Hormozi",
+          "source_type": "video",
+          "score": 3,
+          "hook": "Hormozi's personal wealth-building framework; portfolio structure, equity vs. salary arbitrage, and scaling mechanics across 10 companies doing $250M/yr.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "tljzvk45S8E",
+          "url": "https://youtu.be/tljzvk45S8E",
+          "title": "ПРОФЕССИЯ: РЕЖИССËР",
+          "author": "РЕЖУПРАВЛЕНИЕ Жоры Крыжовникова",
+          "source_type": "video",
+          "score": 3,
+          "hook": "Russian film directors discuss career paths, creative choices, and working with actors — no AI, product, or platform mechanism content.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
