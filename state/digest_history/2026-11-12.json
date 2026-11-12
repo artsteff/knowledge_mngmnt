@@ -130,6 +130,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-12T20:00:24.560578+00:00",
+      "tg_message_ids": [
+        339
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "00iQmHkfYx8",
+          "url": "https://youtu.be/00iQmHkfYx8",
+          "title": "Why Frontier AI Labs Could Go Bankrupt | Ege Erdil",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "DeepMind engineer argues frontier AI labs are capital-intensive low-margin businesses (like airlines, not software monopolies), questions 2027 intelligence explosion timelines, estimates 20-year horizon for white-collar automation.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
