@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-12T04:00:21.556345+00:00",
+      "tg_message_ids": [
+        336
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "7PaI5zF3Odw",
+          "url": "https://youtu.be/7PaI5zF3Odw",
+          "title": "Ashley Kramer ElevenLabs w  Sophia Dew",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Voice agents moving from pilots to production; case studies from Clover Health (Medicare), KPN (telecom verification), Deutsche Telekom (translation). Covers enterprise blockers, adoption timeline, and why voice preference matters.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
