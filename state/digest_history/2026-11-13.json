@@ -97,6 +97,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-13T20:00:32.559422+00:00",
+      "tg_message_ids": [
+        343
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "j5JFY5r0COs",
+          "url": "https://youtu.be/j5JFY5r0COs",
+          "title": "Why Canva’s Craft Model Beats Frontier Labs at Design | Stefano Corazza",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Stefano Corazza (Canva Head of AI Research) on how Canva trains models to learn design taste and layout planning from 250M monthly users' real-time edits as RL signals, why this approach beats frontier labs at creative work, and predictions on 100x video generation cost drops.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "BpH9ELQuwzM",
+          "url": "https://youtu.be/BpH9ELQuwzM",
+          "title": "Silicon Valley Is Building Against Human Meaning | Nathan Sharp",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Former Instagram Stories PM Nathan Sharp argues that AI generation will make real human photos scarce and valuable, and that platforms mistakenly optimize away manual effort (sharing friction, weekly cadence) that actually creates social meaning—uses Retro (his weekly journal product) as a case study in designing against AGI replication.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
