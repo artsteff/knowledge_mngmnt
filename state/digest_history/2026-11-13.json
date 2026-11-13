@@ -39,6 +39,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-13T08:00:28.841982+00:00",
+      "tg_message_ids": [
+        341
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "GToj4m1YQ5Y",
+          "url": "https://youtu.be/GToj4m1YQ5Y",
+          "title": "Anthropic Beats OpenAI 2-to-1 With New Teams | Harpreet Arora",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Harpreet Arora (Vercel AI Product Lead) shares enterprise adoption data from Vercel's AI Gateway: Anthropic gaining 2-to-1 adoption over OpenAI, slowdown in open-weight model improvements, voice workflows seeing rapid team adoption, video models reliability outlook.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
