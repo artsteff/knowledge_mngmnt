@@ -68,6 +68,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-13T12:00:27.264597+00:00",
+      "tg_message_ids": [
+        342
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "Omhnrlftlak",
+          "url": "https://youtu.be/Omhnrlftlak",
+          "title": "Closed Frontier Labs Are Pulling Ahead of Open AI | Melvin Johnson",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Melvin Johnson (Google DeepMind) on Gemini 4 model family (Argon, Carbon, Hydrogen), Google's vertical integration advantages (TPUs, distribution) vs open-weight models, and where agentic consumer products like Search AI Mode are headed.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
