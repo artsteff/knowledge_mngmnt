@@ -1,0 +1,44 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-13T04:00:24.337719+00:00",
+      "tg_message_ids": [
+        340
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "5AvxdrYooUw",
+          "url": "https://youtu.be/5AvxdrYooUw",
+          "title": "AI Dramas Are Already a $14 Billion Market | Ruby Justice Thelot",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Breakdown of the $14B vertical drama market (ReelShort, Douyin), K-pop contract mechanics, and how AI-generated content is reshaping digital culture and gamblification patterns.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "HgMxS2q4bCc",
+          "url": "https://youtu.be/HgMxS2q4bCc",
+          "title": "Frontier AI Models Are Shockingly Gullible | Snehal Antani",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Snehal Antani (Horizon3.ai CEO) on why frontier AI models fail against basic cyber deception, the moat of private training data over compute, and how attackers exploit machine-speed execution of known flaws rather than zero-days.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
