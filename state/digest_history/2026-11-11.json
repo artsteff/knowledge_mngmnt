@@ -142,7 +142,8 @@
           "source_type": "video",
           "score": 1,
           "hook": "Five concrete use cases comparing Fable 5.2 vs Opus 5.5 in Claude Code (chief of staff, career advisor, workflow automation, mobile app design, end-to-end healthcare support); includes specific prompts and 500+ hours of hands-on comparison.",
-          "card_slug": null
+          "card_slug": "claude-fable-52-vs-opus-55-when-to-use-each-model-full-tutor",
+          "card_path": "summaries/claude-fable-52-vs-opus-55-when-to-use-each-model-full-tutor.md"
         },
         "2": {
           "adapter": "youtube",
@@ -164,7 +165,8 @@
           "source_type": "video",
           "score": 2,
           "hook": "Scott Farrar built a household knowledge base in Claude Code (Markdown files + Obsidian) that pulls insurance docs, appliances, warranties, and family to-do lists; demo shows car insurance shopping workflow, shared system with wife, wall display with recent wins, and approach to AI + math learning where kids teach the AI.",
-          "card_slug": null
+          "card_slug": "claude-code-obsidian-my-familys-ai-brain",
+          "card_path": "summaries/claude-code-obsidian-my-familys-ai-brain.md"
         }
       }
     },
