@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-14T00:00:21.208704+00:00",
+      "tg_message_ids": [
+        344
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "3ZTA17BtpeQ",
+          "url": "https://youtu.be/3ZTA17BtpeQ",
+          "title": "New! Ask Studio on Mobile, Image Uploads, Research Tab, Insights are the new Analytics",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube Studio rolls out Ask Studio on mobile (iOS/Android) with voice prompts and image uploads, introduces a new Research tab for finding outlier/breakout videos, and rebrands Analytics to Insights with plain-language summaries—keeping Advanced analytics and real-time data intact.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
