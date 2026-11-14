@@ -57,6 +57,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-14T08:00:25.539541+00:00",
+      "tg_message_ids": [
+        346
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "A0l3Y_oq_W8",
+          "url": "https://youtu.be/A0l3Y_oq_W8",
+          "title": "Companies Will Take Legal Responsibility for AI Agents | Ken Wong",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Ken Wong (Databricks Senior Director PM) explains why organizational context—not model intelligence—is the bottleneck for enterprise AI agents; covers Always On Genie launch, Genie Ontology, governance, and how Databricks uses agents internally.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
