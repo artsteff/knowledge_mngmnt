@@ -86,6 +86,68 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-14T16:00:42.154079+00:00",
+      "tg_message_ids": [
+        347
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 4,
+          "backlog_size": 4,
+          "posting": 4,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "JpJUHOe8bDo",
+          "url": "https://youtu.be/JpJUHOe8bDo",
+          "title": "Grok Bot: What Changes When You Can Build AI Teammates",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Lauren Tan and Roman Ugarte walk through Grok Bot's architecture: how agents earn access incrementally, bot-to-bot collaboration patterns, automated testing as self-checking for AI code, codebase guardrails to reduce token spend, and the shift from code review bottleneck to direction/goal-setting bottleneck when execution becomes fast and cheap.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "dLlVTYP1dvo",
+          "url": "https://youtu.be/dLlVTYP1dvo",
+          "title": "Blood Tests Will Catch Returning Cancer 12 Months Early | Tempus",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Tempus CEO on aggregating 600 petabytes of clinical data across 8,000 hospitals, why general LLMs fail on raw medical data (ECGs, DNA sequences), and the 3–10 year timeline for AI-driven clinical breakthroughs. Personal origin story included.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "I2V3Ay7zHRU",
+          "url": "https://youtu.be/I2V3Ay7zHRU",
+          "title": "Physical AI Will Transform 40% of Global GDP | David Gal",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "David Gal (Samsara VP) walks through physical AI in industrial operations—ruggedized cameras at Alaska Airlines, off-corridor shipment detection, and how Samsara's trillion-datapoint dataset powers real-world AI products. Covers market sizing and customer deployment case studies.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "0jio4RKDELo",
+          "url": "https://youtu.be/0jio4RKDELo",
+          "title": "Why Meta and Snap Need XR Glasses to Win Attention | Media Studies",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Analysis of how Meta and Snap are using XR hardware to compete for attention, the shift toward closed \"dark forest\" networks and niche platforms (Retro, Locket, Yope, etc.), and how AI personalization is fragmenting shared culture rather than creating it.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
