@@ -28,6 +28,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-14T04:00:21.497466+00:00",
+      "tg_message_ids": [
+        345
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "MtDhH8L_qrU",
+          "url": "https://youtu.be/MtDhH8L_qrU",
+          "title": "True Enterprise AI Agents Are Still 5 Years Away | Aghi Marietti",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Kong CEO on enterprise AI spending patterns (Fortune 500s still favor frontier models over open-weight), API connectivity as the actual blocker for end-to-end agents (5-year timeline), and prediction that companies will run dozens of internal models rather than consolidate.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
