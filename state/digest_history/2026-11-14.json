@@ -148,6 +148,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-14T20:00:43.089517+00:00",
+      "tg_message_ids": [
+        348
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "7CXsjwT0eC8",
+          "url": "https://youtu.be/7CXsjwT0eC8",
+          "title": "Apple Hasn’t Reinvented Itself in 10 Years | Elizabeth Dorman",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Elizabeth Dorman (Era CEO, ex-Apple Vision Pro designer) discusses industrial design history, why tech converged on black rectangles, and predicts AI + 3D printing will shift from smartphones to customizable \"couture computing\" wearables within 5–10 years.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "yNlP5tI6vHc",
+          "url": "https://youtu.be/yNlP5tI6vHc",
+          "title": "Claude Found New Dwarf Planets in Public NASA Data | Will Depue",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Will Depue discusses using Claude to find dwarf planets in public NASA telescope data (resulting in a $100k grant), then pivots to discussing his viral takes on AI displacing human skills in 15–20 years and AI as evolutionary competition.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "R_2Vgv-2e_w",
+          "url": "https://youtu.be/R_2Vgv-2e_w",
+          "title": "How Arc’teryx Became a $2B+ Luxury Brand Without Intending To | WSJ The Economics Of",
+          "author": "The Wall Street Journal",
+          "source_type": "video",
+          "score": 3,
+          "hook": "Luxury brand case study examining Arc'teryx's $2B+ valuation through technical product design, manufacturing, and the \"gorpcore\" trend's role in streetwear adoption.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
