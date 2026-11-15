@@ -1,0 +1,55 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-15T00:00:35.098096+00:00",
+      "tg_message_ids": [
+        349
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "y1-9yeYLJUo",
+          "url": "https://youtu.be/y1-9yeYLJUo",
+          "title": "Grok Bot: What Changes When You Can Build AI Teammates",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Lauren Tan and Roman Ugarte walk through Grok Bot's architecture: how they built multi-agent systems with automated testing and codebase guardrails, scaled bot-to-bot collaboration, deployed 4,000 PRs/month with agents that check their own work, and the product judgment bottleneck when execution gets cheap and fast.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "p0XRbbgdavM",
+          "url": "https://youtu.be/p0XRbbgdavM",
+          "title": "Open Models Will Reach Frontier Level in Months | Nick Khami",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Nick Khami (Morph) on AI compute economics: why open-source models reaching frontier level creates demand for verifiable inference (via zk-SNARKs), how the \"Neocloud credit crunch\" plays out, and why inference clusters differ structurally from training clusters.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "ltDLbXBodRs",
+          "url": "https://youtu.be/ltDLbXBodRs",
+          "title": "Vibe Coding Is Already a Dead Market | Ivan Burazin",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Ivan Burazin (Daytona CEO) on why \"vibe coding\" platforms are saturated, how debt markets are freezing NeoClouds, and the actual cost breakdown of AI agents (CPUs dominate over model inference).",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
