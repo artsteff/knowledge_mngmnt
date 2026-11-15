@@ -2086,5 +2086,1182 @@
         }
       }
     ]
+  },
+  "2026-10-11": {
+    "runs": [
+      {
+        "run_at": "2026-10-11T06:00:19.591863+00:00",
+        "tg_message_ids": [
+          222
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "ZmDGJHdoD9A",
+            "url": "https://youtu.be/ZmDGJHdoD9A",
+            "title": "AI Agents Will Handle Mortgage Origination | Mike Yu",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Vesta CEO on how AI agents are handling 40% of mortgage origination tasks, why mortgages are structurally suited for agent labor transfer, and the company's Series B raise; discusses the shift toward personal AI assistants managing task-level agents.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-11T10:00:29.250218+00:00",
+        "tg_message_ids": [
+          223
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "nhSSws15OGY",
+            "url": "https://youtu.be/nhSSws15OGY",
+            "title": "AI Implementation Is Making Employees More Lonely | Cesar Carvalho",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Wellhub CEO presents research from Project Healthy Minds on how AI implementation correlates with employee stress, anxiety, and workplace loneliness; frames worker wellbeing as a business investment lever for unlocking AI productivity.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-11T14:00:46.299515+00:00",
+        "tg_message_ids": [
+          224
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 4,
+            "scored_to_backlog": 4,
+            "backlog_size": 4,
+            "posting": 4,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "8rEAkEvhhcQ",
+            "url": "https://youtu.be/8rEAkEvhhcQ",
+            "title": "The 4-Step Agentic Engineering Workflow I Use to Ship Real Apps | Ras Mic",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Full-stack engineer walks through 4-step workflow for shipping agentic systems at scale: task isolation, structured agent scaffolding, validation loops for output quality, and agent-reviewed PRs with manual escalation. Covers why most agentic projects fail, what tasks stay human-owned, and tool comparisons (Astra vs Fable).",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "0TsBUncBMIQ",
+            "url": "https://youtu.be/0TsBUncBMIQ",
+            "title": "Why AI Agents Need Human Harnesses | Robert Vis",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Robert Vis (Bird CEO) on scaling AI agents via MCP and CLI harnesses, reducing headcount from 1,000 to 120 through automation, and the mechanics of a $450M debt financing round for dividend recapitalization.",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "IzXw0gr_5Vk",
+            "url": "https://youtu.be/IzXw0gr_5Vk",
+            "title": "Frontier AI Models Will Run Local in 6 Months | Zain Javaid",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Zain Javaid (Ghost CEO) discusses local frontier AI models, the $3,500 Core hardware device for 24/7 autonomous agents, and why current consumer AI on phones/laptops is architecturally constrained; covers privacy, open-weight model progression, and emerging use cases.",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "3I6QYkccd3o",
+            "url": "https://youtu.be/3I6QYkccd3o",
+            "title": "Why every company now needs to think and operate like a lab team | Josh Woodward (VP Google Labs)",
+            "author": "Lenny's Podcast",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Josh Woodward (Google Labs) on building experimental product cultures at scale — \"almost possible\" framework, recognizing product-market fit, when to kill ideas, skills rising in value (unlearning rate, explosive endurance, trust), why roles aren't collapsing into one universal builder role, and internal labs setup.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-11T18:00:56.728060+00:00",
+        "tg_message_ids": [
+          225
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 2,
+            "backlog_size": 2,
+            "posting": 2,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "fnuNVFgLjHA",
+            "url": "https://youtu.be/fnuNVFgLjHA",
+            "title": "Building Self-Learning Loops for Your Agent — Fuad Ali, Arize AI",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Concrete walkthrough of an agent consuming observability data (traces, signals, datasets) to autonomously detect, investigate, and propose fixes for production failures — using a shopping assistant budget-filter bug as the worked example. Shows Arize Skills integration, evaluation harnesses that check tool calls and external context, agent experiments that replay failure datasets, and a human-reviewable repair loop.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "TBK_pnQ6JD4",
+            "url": "https://youtu.be/TBK_pnQ6JD4",
+            "title": "AI R&D Is Approaching an Explosive Feedback Loop | Tom Davidson",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Tom Davidson on P Zero's \"Tasteval\" benchmark showing AI systems doubling in research taste every three months; explores recursive self-improvement vs foom dynamics and implications for lab productivity and national security.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-11T22:00:24.877067+00:00",
+        "tg_message_ids": [
+          226
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 2,
+            "backlog_size": 2,
+            "posting": 2,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "VmZquGwWbeU",
+            "url": "https://youtu.be/VmZquGwWbeU",
+            "title": "General Robots Will Be Solved by 2028 | Jay Chooi",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Robotics safety benchmarking (RoboHarm framework) comparing GPT-6 Astra and Claude; claims general-purpose robots solvable by 2028; discusses AI-induced economic disempowerment and multi-agent governance.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "iUzm_6alFT8",
+            "url": "https://youtu.be/iUzm_6alFT8",
+            "title": "The End of 30-Year Mortgage Servicing | Valon",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Valon's founders explain why they divested mortgage servicing to focus on software, and how AI agents need operational context (not just raw intelligence) to handle complex financial contracts. They discuss new products enabled by low-friction servicing infrastructure.",
+            "card_slug": null
+          }
+        }
+      }
+    ]
+  },
+  "2026-10-10": {
+    "runs": [
+      {
+        "run_at": "2026-10-10T10:00:27.308071+00:00",
+        "tg_message_ids": [
+          218
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "VQY9tnkxLhU",
+            "url": "https://youtu.be/VQY9tnkxLhU",
+            "title": "Why General LLMs Will Control Physical Robots | Thijs Simonian",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Stanford builder discusses scaling a Discord bot to 1.6M servers, getting hired at OpenAI's robotics team, and using Astra LLM to demonstrate general-purpose robot control without task-specific training.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-10T14:00:30.701962+00:00",
+        "tg_message_ids": [
+          219
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "Fv__Fc0quDw",
+            "url": "https://youtu.be/Fv__Fc0quDw",
+            "title": "The Lab Data Proves the Intelligence Explosion Is a Myth | Ramez Naam",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Ramez Naam argues AI recursive self-improvement faces diminishing returns based on OpenAI/Anthropic system cards data; covers feedback loop weakness, compute/data constraints, and five-year scaling outlook.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-10T18:00:40.265010+00:00",
+        "tg_message_ids": [
+          220
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "V7VDrElvt_w",
+            "url": "https://youtu.be/V7VDrElvt_w",
+            "title": "Why Simulation Fails for Dexterous Robots | Brian Potter",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Brian Potter on why simulation fails for robot dexterity, how Vision-Language-Action models + cheap hardware (UMI) are changing the constraint, and the connection to why prefab housing can't scale without general-purpose automation.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-10T22:00:53.950769+00:00",
+        "tg_message_ids": [
+          221
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "QNhmYYl9yYg",
+            "url": "https://youtu.be/QNhmYYl9yYg",
+            "title": "Why AI Has Not Changed the Economy Yet | Callum Williams",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Callum Williams (The Economist) examines why AI adoption remains low four years in—corporate budget constraints, slow business uptake, failed automation predictions—and what economic indicators would actually signal AI-driven growth.",
+            "card_slug": null
+          }
+        }
+      }
+    ]
+  },
+  "2026-10-09": {
+    "runs": [
+      {
+        "run_at": "2026-10-09T02:00:45.239236+00:00",
+        "tg_message_ids": [
+          211
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 4,
+            "scored_to_backlog": 4,
+            "backlog_size": 4,
+            "posting": 3,
+            "errors": [
+              "metadata-missing:akEqiXFo3GM"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "uuwDWRbxoYo",
+            "url": "https://youtu.be/uuwDWRbxoYo",
+            "title": "AI Writes More PRs. Who Validates Them? — Ali-Reza Adl-Tabatabai, Sonar",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Agent-based PR validation that automates code review and CI failures, reducing the bottleneck created by AI-generated code at scale.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "3XI90A3ENSg",
+            "url": "https://youtu.be/3XI90A3ENSg",
+            "title": "How a Remote Company Builds AI Fluency — Em Shreve, Automattic",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Automattic built a two-week in-person program (half workshops, half real project work) to scale AI fluency across 1,400 remote employees, with measurement at 72h/30/90 days and documented outputs (Zendesk connector, support teammate–built tool).",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "Emo5FGGY-wM",
+            "url": "https://youtu.be/Emo5FGGY-wM",
+            "title": "Why 80% Reliability Isn't Good Enough — Felipe Blanes, Amazon AGI Lab",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "The \"trust cliff\" — 80% reliability feels broken; ~92% feels trustworthy — and a four-step eval flywheel to close the gap between benchmarks and real customer behavior.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-09T06:00:20.198580+00:00",
+        "tg_message_ids": [
+          212
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 0,
+            "scored_to_backlog": 0,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": [
+              "metadata-missing:akEqiXFo3GM"
+            ]
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "NaOkR3VSfR4",
+            "url": "https://youtu.be/NaOkR3VSfR4",
+            "title": "Brains vs Hands: How to Run AI Agents Safely in Production — Viren Baraiya",
+            "author": "AI Engineer",
+            "source_type": "video",
+            "score": 1,
+            "hook": "LLM plans what happens next; a durable harness executes it deterministically — with approval gates, idempotent steps, and recorded side effects — framed as late-bound sagas compiled at runtime.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-09T07:08:07.334348+00:00",
+        "tg_message_ids": [
+          213
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 13,
+            "scored_to_backlog": 9,
+            "backlog_size": 9,
+            "posting": 4,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "_uM6r1ozG_M",
+            "url": "https://youtu.be/_uM6r1ozG_M",
+            "title": "Why AI Agents Deceive Users on Real Tasks | Anastasios Angelopoulos",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Arena's Alignment Index measures AI agent deception, unauthorized actions, and false attribution in real-world agentic workflows; CEO discusses how capable models paradoxically score higher on misalignment metrics and the difference between alignment engineering vs. misalignment science.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "1l51N_CV1Jw",
+            "url": "https://youtu.be/1l51N_CV1Jw",
+            "title": "Why MCP Protocol Alone Won't Fix AI Agents | Ayan Barua",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 1,
+            "hook": "MCP protocol limitations in enterprise AI integration; why real-time translation layers (not unified APIs) solve reliability bottlenecks connecting agents to legacy systems.",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "nBQPnvmaNcE",
+            "url": "https://youtu.be/nBQPnvmaNcE",
+            "title": "Harvard Professor Explains The Rules of Writing (Steven Pinker Interview)",
+            "author": "David Perell",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Pinker on writing craft (clarity, examples, visual language, why academic writing fails) and his takes on why AI-generated writing feels bland and how AI would rewrite his own books.",
+            "card_slug": "harvard-professor-explains-the-rules-of-writing-steven-pinke",
+            "card_path": "summaries/harvard-professor-explains-the-rules-of-writing-steven-pinke.md"
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "K_g_fIX_rAg",
+            "url": "https://youtu.be/K_g_fIX_rAg",
+            "title": "Sovereign AI Hits $138B as Nations Rush for Compute | Nathan Benaich",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Nathan Benaich covers the State of AI report findings: AI-assisted R&D, long-horizon task execution, robotics' \"GPT-2 moment\", clinical-stage AI drug discovery, and $138B sovereign AI investment trends. Also touches AI safety and 2027 predictions.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-09T07:12:34.407042+00:00",
+        "tg_message_ids": [
+          214
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 4,
+            "scored_to_backlog": 4,
+            "backlog_size": 9,
+            "posting": 6,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "81xWXkDxvkw",
+            "url": "https://youtu.be/81xWXkDxvkw",
+            "title": "Why AI Math Breakthroughs Upgrade RSI Timelines | Cheryl Wu",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Cheryl Wu (Elasticity Institute) analyzes OpenAI's math breakthroughs and Tasteval results, discusses measuring recursive self-improvement (RSI) in AI models, differentiates self-sustaining acceleration from intelligence explosion, and examines indicators like researcher headcount and compute reallocation under full automation.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "_tin4cNMsNc",
+            "url": "https://youtu.be/_tin4cNMsNc",
+            "title": "Why Frontier AI Evals Are Falling Behind | Vincent Chen",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Snorkel AI announces $30M Open Benchmarks Grants program to address evals lagging behind frontier model capabilities; covers three pillars (benchmark funding, red-team program, research fellowship) and discusses benchmark maintenance and AI alignment.",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "6WbiYkbmvMk",
+            "url": "https://youtu.be/6WbiYkbmvMk",
+            "title": "Why Open Science Is Dying at Frontier AI Labs | Nathan Lambert",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Nathan Lambert discusses Trillium Labs (a new nonprofit for frontier AI research), the collapse of open science at major labs, funding models for decentralized research, and how China's practical approach to AI differs from Western institutional dynamics.",
+            "card_slug": null
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "QUDlpMN-f5w",
+            "url": "https://youtu.be/QUDlpMN-f5w",
+            "title": "How to Become a Master Storyteller (Richard Powers Interview)",
+            "author": "David Perell",
+            "source_type": "video",
+            "score": 3,
+            "hook": "Richard Powers discusses character development, narrative structure, and writing craft across 40+ years and 14 novels — techniques for creating psychologically complex characters and managing tension in fiction.",
+            "card_slug": "how-to-become-a-master-storyteller-richard-powers-interview",
+            "card_path": "summaries/how-to-become-a-master-storyteller-richard-powers-interview.md"
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "TUMjnmfsPeM",
+            "url": "https://youtu.be/TUMjnmfsPeM",
+            "title": "Learn Copywriting in 76 Minutes – Harry Dry",
+            "author": "David Perell",
+            "source_type": "video",
+            "score": 3,
+            "hook": "Copywriting fundamentals (visualization, falsifiability, differentiation) with live ad-writing demos and analysis of famous campaigns (Apple, Economist, Tesla).",
+            "card_slug": "learn-copywriting-in-76-minutes-harry-dry",
+            "card_path": "summaries/learn-copywriting-in-76-minutes-harry-dry.md"
+          },
+          "6": {
+            "adapter": "youtube",
+            "source_id": "DoVQWA6TCoo",
+            "url": "https://youtu.be/DoVQWA6TCoo",
+            "title": "САМОУЧИТЕЛЬ КИНО",
+            "author": "РЕЖУПРАВЛЕНИЕ Жоры Крыжовникова",
+            "source_type": "video",
+            "score": 3,
+            "hook": "Russian-language lecture on screenwriting pedagogy — how to self-teach film dramaturgy through canonical films, books on craft, and analysis of narrative structure.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-09T10:00:46.175120+00:00",
+        "tg_message_ids": [
+          215
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 3,
+            "scored_to_backlog": 3,
+            "backlog_size": 6,
+            "posting": 5,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "4VbUw8pPYvQ",
+            "url": "https://youtu.be/4VbUw8pPYvQ",
+            "title": "Why AI Agents Won't Take Over Enterprise Yet | Tarek Alaruri",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Tarek Alaruri (Stuut CEO, $52.5M Series B) discusses why enterprise AI agents face adoption friction — human workflow bottlenecks, legacy system integration, and why the autonomous-agent narrative outpaces reality in finance automation.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "hTmnKouCL0M",
+            "url": "https://youtu.be/hTmnKouCL0M",
+            "title": "Your Camera Roll Is the Ultimate AI Context Layer | Marissa Mayer",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Marissa Mayer discusses Dazzle, a photo-based personal AI assistant that uses camera roll as context for task automation and personalized assistance, with attention to privacy and human-in-the-loop workflows.",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "o7T1mPEiqIY",
+            "url": "https://youtu.be/o7T1mPEiqIY",
+            "title": "«Движение и мозг: как разные типы физической активности влияют на когнитивное благополучие».",
+            "author": "Библиотека им. Н.А. Некрасова",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Lecture on the physiological mechanisms linking different types of physical exercise to brain structure, cognitive function, and prevention of age-related cognitive decline and neurodegeneration. Speaker is a neuropsychologist specializing in neurofeedback training.",
+            "card_slug": "движение-и-мозг-как-разные-типы-физической-активности-влияют",
+            "card_path": "summaries/движение-и-мозг-как-разные-типы-физической-активности-влияют.md"
+          },
+          "4": {
+            "adapter": "youtube",
+            "source_id": "ka2FHYwNoZo",
+            "url": "https://youtu.be/ka2FHYwNoZo",
+            "title": "Как сильные руководители губят бизнес без стратегии | Сергиенко, McKinsey",
+            "author": "Колосок",
+            "source_type": "video",
+            "score": 2,
+            "hook": "McKinsey ex-leader on why strong founders/executives become bottlenecks: delegation patterns, fear of strong teams, decision-making in crisis, three leadership models (authoritarian/delegating/consultative), and system thinking vs. heroic management.",
+            "card_slug": "как-сильные-руководители-губят-бизнес-без-стратегии-сергиенк",
+            "card_path": "summaries/как-сильные-руководители-губят-бизнес-без-стратегии-сергиенк.md"
+          },
+          "5": {
+            "adapter": "youtube",
+            "source_id": "1PBozHaz3Mo",
+            "url": "https://youtu.be/1PBozHaz3Mo",
+            "title": "The Deepest Conversation You’ll Ever Watch About Writing (Shafak & Macfarlane Interview)",
+            "author": "David Perell",
+            "source_type": "video",
+            "score": 3,
+            "hook": "Two literary writers discuss craft elements — emotion-to-words translation, linear vs non-linear structure, rhythm, nature writing, boredom, and reader experience — in a conversational format.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-09T14:00:52.940812+00:00",
+        "tg_message_ids": [
+          216
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 2,
+            "backlog_size": 3,
+            "posting": 3,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "50-r5Ya1W90",
+            "url": "https://youtu.be/50-r5Ya1W90",
+            "title": "How RL Creates General Problem Solving | Reflection AI",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Reflection AI CTO discusses Beam (501B parameter model trained on 10.5K GPUs), RL scaling mechanics for general problem-solving, agentic generalization, and how Western labs compete on frontier model velocity.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "LOQAgQMviZo",
+            "url": "https://youtu.be/LOQAgQMviZo",
+            "title": "General AI Drove a Real Car | Axiom Math",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Researchers from Axiom Math tested frontier LLMs (Astra and others) driving a real Toyota Corolla on a cone course, examining emergent spatial reasoning, latency constraints in physical control loops, and how models bypass safety guardrails.",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "f8zoVxnvY7k",
+            "url": "https://youtu.be/f8zoVxnvY7k",
+            "title": "7 убеждений, которые мешали зарабатывать, искать любовь и расти в карьере / Колосок",
+            "author": "Колосок",
+            "source_type": "video",
+            "score": 3,
+            "hook": "Seven limiting beliefs (unspecified) that the author claims affected earnings, relationships, and career growth; no concrete mechanisms or examples provided in the description.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-09T22:00:19.544278+00:00",
+        "tg_message_ids": [
+          217
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "Bq1jh2MmScI",
+            "url": "https://youtu.be/Bq1jh2MmScI",
+            "title": "Effect Maker Tutorial: Gaming 101 with @cloves_ar",
+            "author": "YouTube Creators",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Tutorial on YouTube's Effect Maker tool, demonstrating how to build interactive effects (quiz example shown). Covers the creator-facing workflow for a YouTube platform feature.",
+            "card_slug": "effect-maker-tutorial-gaming-101-with-cloves-ar",
+            "card_path": "summaries/effect-maker-tutorial-gaming-101-with-cloves-ar.md"
+          }
+        }
+      }
+    ]
+  },
+  "2026-10-13": {
+    "runs": [
+      {
+        "run_at": "2026-10-13T14:00:32.896865+00:00",
+        "tg_message_ids": [
+          232
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "cxCBk6uouHM",
+            "url": "https://youtu.be/cxCBk6uouHM",
+            "title": "Jenny Hoyos Locks in on New Live & Community Features",
+            "author": "Creator Insider",
+            "source_type": "video",
+            "score": 2,
+            "hook": "YouTube Live product head and creator discuss new live features (go live together, live showdowns, watch with videos, Hype with Jewels) and community/membership integrations. First-hand account from platform leadership.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-13T18:00:59.496178+00:00",
+        "tg_message_ids": [
+          233
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 3,
+            "scored_to_backlog": 3,
+            "backlog_size": 3,
+            "posting": 3,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "PyDLea2FZWM",
+            "url": "https://youtu.be/PyDLea2FZWM",
+            "title": "How did HubSpot lose 140M visits, and still keep growing? - Kieran Flanagan [HubSpot]",
+            "author": "Guillaume Moubeche",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Kieran Flanagan (HubSpot SVP) on rebuilding GTM for AI: HubSpot lost 80% organic traffic (140M visits) in one year but kept growing through AI experiments (3–10x conversion lifts), creator networks (350 creators, 5x growth in some), optimizing for ChatGPT/Gemini, and shifting from SEO to answer-engine distribution. Also covers taste/judgment in AI systems and why half of HubSpot's revenue now comes from free-tier users.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "zueuzhBkd9Y",
+            "url": "https://youtu.be/zueuzhBkd9Y",
+            "title": "I Tested Gemini 4 vs Opus 5.5 vs GPT-6 Astra vs Muse Wonder (5 Use Cases)",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Comparative testing of four frontier LLMs (Gemini 4, Opus 5.5, GPT-6 Astra, Muse Wonder) across five concrete use cases — 3D modeling in Blender, game development in three.js, animated storytelling, website design, and writing — with specific prompts and model-by-model winners named.",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "UvgvohGpq_4",
+            "url": "https://youtu.be/UvgvohGpq_4",
+            "title": "Accent-uate, Don't Compensate: Why Clarity Matters More Than Perfection",
+            "author": "Think Fast Talk Smart",
+            "source_type": "video",
+            "score": 3,
+            "hook": "Communication coach and linguist Peter Novak discusses accent bias, prosody techniques, and vocal delivery strategies for non-native English speakers in professional settings.",
+            "card_slug": null
+          }
+        }
+      }
+    ]
+  },
+  "2026-10-12": {
+    "runs": [
+      {
+        "run_at": "2026-10-12T02:00:18.212147+00:00",
+        "tg_message_ids": [
+          227
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "nxH07xzI1mw",
+            "url": "https://youtu.be/nxH07xzI1mw",
+            "title": "Machine Learning Engineering Is the Ultimate RL Task | Jennifer Zhao",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Jennifer Zhao (Preference Model, $16M seed) on using RL environments to train models for ML engineering tasks, reward hacking prevention, and recursive self-improvement bottlenecks in AI research.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-12T06:00:26.317958+00:00",
+        "tg_message_ids": [
+          228
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "qqCnoiOkgvU",
+            "url": "https://youtu.be/qqCnoiOkgvU",
+            "title": "Theoretical Physicist Quits String Theory for AI | Mario Martone",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Applied research lead at Elise AI breaks down managing real-time voice latency for 5M monthly calls, fine-tuning open-source models vs LLMs, and why LLMs fail at deterministic tasks like renewal risk prediction in housing and healthcare automation.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-12T10:00:32.382442+00:00",
+        "tg_message_ids": [
+          229
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "sGX-oAo-my8",
+            "url": "https://youtu.be/sGX-oAo-my8",
+            "title": "Why Small Businesses Use AI to Hire Faster | Nich Tremper",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Gusto data on small businesses adopting AI: 7% faster headcount expansion vs peers, strongest in sub-10-employee firms; hiring concentrated in non-tech sectors (community services, healthcare, trade contracting) rather than displacement.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-12T14:00:28.084478+00:00",
+        "tg_message_ids": [
+          230
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "4TOLm1g-gCE",
+            "url": "https://youtu.be/4TOLm1g-gCE",
+            "title": "Meta Muse: the AI agent people actually love",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Design director at Meta walks through Muse's shipped UI patterns — three-layer status display, generative feeds, main vs side chat architecture, and concrete use cases (shopping from Instagram saves, golf shot tracking, chess analysis). Covers the design reasoning for making agents feel like messaging apps, not AI interfaces.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-12T18:00:34.116891+00:00",
+        "tg_message_ids": [
+          231
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "8hhFOmxEbT0",
+            "url": "https://youtu.be/8hhFOmxEbT0",
+            "title": "Grok Bot Just Became The Best Personal Agent (10 Use Cases)",
+            "author": "Peter Yang",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Walkthrough of Grok Bot's recent upgrades (X access, email address, Claude Opus 5.5) with 10 use cases: X sentiment analysis, YouTube research dashboards, proactive email reports, community support automation, and a rap battle demo.",
+            "card_slug": null
+          }
+        }
+      }
+    ]
+  },
+  "2026-10-15": {
+    "runs": [
+      {
+        "run_at": "2026-10-15T06:00:31.096004+00:00",
+        "tg_message_ids": [
+          237
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 2,
+            "backlog_size": 2,
+            "posting": 2,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "BZV_-liPCMo",
+            "url": "https://youtu.be/BZV_-liPCMo",
+            "title": "Why Chatbots Are the Wrong Interface for Work | Arnab Bose",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Asana's CPO discusses why chatbots fail for work, presents agentic work management platform with shared context and memory, shows enterprise bottleneck reduction and task auto-evaluation.",
+            "card_slug": "why-chatbots-are-the-wrong-interface-for-work-arnab-bose",
+            "card_path": "summaries/why-chatbots-are-the-wrong-interface-for-work-arnab-bose.md"
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "ucnAP4hcc60",
+            "url": "https://youtu.be/ucnAP4hcc60",
+            "title": "Why DC Views Superintelligence as a National Security Threat",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Sam Hammond (Foundation for American Innovation) on how Washington is reframing AI as a national security issue — the Superintelligence Task Force, model weight security, antitrust defenses for lab coordination, and recruiting tech talent to government.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-15T10:00:23.126747+00:00",
+        "tg_message_ids": [
+          238
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "Y5SW-30FVTw",
+            "url": "https://youtu.be/Y5SW-30FVTw",
+            "title": "Robinhood Is Putting Hedge Fund Data in Retail Apps | Abhishek Fatehpuria",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Robinhood VP of Product walks through native AI agents and MCP integration on the platform — sandboxed accounts, trade approvals, retail access to institutional data, and how 24/7 markets change autonomous trading.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-15T18:00:22.936587+00:00",
+        "tg_message_ids": [
+          239
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "ne2Ol-o8HE4",
+            "url": "https://youtu.be/ne2Ol-o8HE4",
+            "title": "Why the Linear Sales Pipeline Is Dead | Nicolas Sharp",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 1,
+            "hook": "Attio CEO Nicolas Sharp walks through their hybrid CRM architecture: replacing linear sales pipelines with SQL query endpoints and agentic harnesses that let AI agents query customer data directly at scale while maintaining enterprise controls.",
+            "card_slug": null
+          }
+        }
+      }
+    ]
+  },
+  "2026-10-14": {
+    "runs": [
+      {
+        "run_at": "2026-10-14T06:00:29.262288+00:00",
+        "tg_message_ids": [
+          234
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 2,
+            "scored_to_backlog": 2,
+            "backlog_size": 2,
+            "posting": 2,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "ljhfUxgwfJE",
+            "url": "https://youtu.be/ljhfUxgwfJE",
+            "title": "Why AI Harnesses Must Separate From Models | Taylor Savage",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Taylor Savage (Factory Head of Product) discusses why AI agents are moving to cloud infrastructure, how orchestration primitives and isolated execution environments replace local setups, and the architectural case for separating harnesses from frontier model providers.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "ofJ0ZzVDAD4",
+            "url": "https://youtu.be/ofJ0ZzVDAD4",
+            "title": "Why Google Argon Launched to Cyber Defenders First | Tulsee Doshi",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Tulsee Doshi (Gemini product lead at Google DeepMind) walks through Argon's capabilities — 3D modeling, cybersecurity, code optimization, 1M token context window — and Google's rollout strategy including safety monitoring via chain-of-thought. Internal use cases and testing results covered.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-14T10:00:25.359762+00:00",
+        "tg_message_ids": [
+          235
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 1,
+            "scored_to_backlog": 1,
+            "backlog_size": 1,
+            "posting": 1,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "eWs1nkdnG7U",
+            "url": "https://youtu.be/eWs1nkdnG7U",
+            "title": "Voice Is the New UI for Physical AI | Brendan O'Driscoll",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Samsara VP of Product on Agent Studio GA — voice agents for fleet/logistics operations, no-code builder, how voice becomes the interface for physical AI systems, proprietary data advantage in enterprise adoption.",
+            "card_slug": null
+          }
+        }
+      },
+      {
+        "run_at": "2026-10-14T14:00:41.449339+00:00",
+        "tg_message_ids": [
+          236
+        ],
+        "tg_post_ok": true,
+        "adapters": {
+          "youtube": {
+            "fetched": 3,
+            "scored_to_backlog": 3,
+            "backlog_size": 3,
+            "posting": 3,
+            "errors": []
+          }
+        },
+        "digest_map": {
+          "1": {
+            "adapter": "youtube",
+            "source_id": "dChiPsd0uF4",
+            "url": "https://youtu.be/dChiPsd0uF4",
+            "title": "Is Meta’s Muse Wonder model any good?",
+            "author": "How I AI",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Benchmark evaluation of Meta's Muse Wonder across 20 tasks (coding, agentic workflows, writing, design, video editing); compares performance to Sonnet, Opus, Astra on specific categories; assessment of whether Muse fits into production agent workflows.",
+            "card_slug": null
+          },
+          "2": {
+            "adapter": "youtube",
+            "source_id": "eq5HvHIVtnM",
+            "url": "https://youtu.be/eq5HvHIVtnM",
+            "title": "Why AI Agents Will Demand 1,000x More Compute | Aaron Levie",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Aaron Levie on infrastructure scaling for AI agents — why enterprise agent workflows demand 100–1,000x more compute than personal assistants, and bottlenecks in deployment infrastructure.",
+            "card_slug": null
+          },
+          "3": {
+            "adapter": "youtube",
+            "source_id": "B_GH2qiKboU",
+            "url": "https://youtu.be/B_GH2qiKboU",
+            "title": "Why Frontier AI Models Fail at Biology | Alexander Amini",
+            "author": "MTS ",
+            "source_type": "video",
+            "score": 2,
+            "hook": "Liquid AI's CSO discusses their 24B MoE model (LFM 2.5), the tradeoff between local vs. cloud intelligence for robotics, and research showing specialized foundation models outperforming frontier LLMs on biological aging tasks.",
+            "card_slug": null
+          }
+        }
+      }
+    ]
   }
 }
