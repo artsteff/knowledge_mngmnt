@@ -123,6 +123,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-15T20:00:35.303651+00:00",
+      "tg_message_ids": [
+        351
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "zONxIHfiY9k",
+          "url": "https://youtu.be/zONxIHfiY9k",
+          "title": "Robots Will Train Mostly in Simulation by 2027 | Neil Nie",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Neil Nie (Verne Robotics) discusses V0.5 world action model for industrial robotics, GPT-6 Astra as a physical AI inflection point, on-device inference for safety, and the claim that simulation will overtake real-world data collection within a year.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
