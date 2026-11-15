@@ -50,6 +50,79 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-15T16:01:29.386723+00:00",
+      "tg_message_ids": [
+        350
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 5,
+          "scored_to_backlog": 5,
+          "backlog_size": 5,
+          "posting": 5,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "WY0cdD4gNoQ",
+          "url": "https://youtu.be/WY0cdD4gNoQ",
+          "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Mona Sarantakos (VP Product, Meta Superintelligence Labs) walks through Muse's launch — seven-month delay despite early start, the two activation levers that actually work, agent swarms for synthetic data, how leadership (Nat Friedman, Alex Wang, Zuckerberg) shaped the product, and the unpredicted shopping use case that drove growth.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "604T-74s3KE",
+          "url": "https://youtu.be/604T-74s3KE",
+          "title": "Full Tutorial: How to Fix AI Slop with Claude Design in 40 Minutes | Nate Parrott",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Nate Parrott (Anthropic designer) walks through Claude Design/Artifacts workflow, 5 tactics to avoid \"AI slop,\" prototyping speed, and how Anthropic tests design taste when AI can't judge it — with live demos of dashboards and motion videos.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "uAsAs8MoW9U",
+          "url": "https://youtu.be/uAsAs8MoW9U",
+          "title": "How to Build an Unforgettable Personal Brand | Chris Do",
+          "author": "The Nathan Barry Show",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Personal branding framework built on differentiation and internal identity work; covers the \"trust triangle\" for audience credibility, finding a \"voice phrase,\" and positioning against a nemesis. Mostly design/branding philosophy with one founder (Kit) as a case study.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "wRDKBO4WIeA",
+          "url": "https://youtu.be/wRDKBO4WIeA",
+          "title": "Why AI Research Acceleration Just Doubled | Eli Lifland & Brendan Halstead",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Eli Lifland and Brendan Halstead detail why they compressed AI research timelines based on METR and Anthropic findings — covering internal AI-driven research acceleration, gaps in recursive self-improvement models, and plausible arrival of superhuman AI researchers years ahead of estimates.",
+          "card_slug": null
+        },
+        "5": {
+          "adapter": "youtube",
+          "source_id": "mI3OCRNSLI0",
+          "url": "https://youtu.be/mI3OCRNSLI0",
+          "title": "Why Anthropic Hides Its AI R&D Speedup | Nathan Calvin",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Nathan Calvin analyzes METR evidence of Anthropic's AI R&D automation capabilities, discusses why the company keeps these methods private, examines recursive self-improvement risks, and proposes policy tools like compute caps to prevent loss of control.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
