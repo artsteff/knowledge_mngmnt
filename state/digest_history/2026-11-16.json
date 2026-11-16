@@ -79,6 +79,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-16T20:00:33.611156+00:00",
+      "tg_message_ids": [
+        354
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "F-STHfjiZwU",
+          "url": "https://youtu.be/F-STHfjiZwU",
+          "title": "How We Named Meta’s Muse and Google’s Antigravity",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "David Placek (Lexicon Branding) on how they name products (Meta's Muse, Google's Antigravity, Azure) using structural linguistics and cognitive science; why LLMs can't generate iconic names; Lexicon's internal process and common founder naming mistakes.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
