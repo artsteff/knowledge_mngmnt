@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-16T00:00:18.670041+00:00",
+      "tg_message_ids": [
+        352
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "h4uC2yzTSBM",
+          "url": "https://youtu.be/h4uC2yzTSBM",
+          "title": "AI Agents Can Now Automate Global Trade | Evan Smith",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Evan Smith (Altana CEO) discusses how AI agents map opaque global supply chains, reduce trade vulnerabilities, and why logistics giants are adopting autonomous AI brokers; covers enterprise ARR growth and economic security reshaping tech manufacturing.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
