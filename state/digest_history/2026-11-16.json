@@ -28,6 +28,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-16T16:00:34.598576+00:00",
+      "tg_message_ids": [
+        353
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "ZDpP7JXPlhc",
+          "url": "https://youtu.be/ZDpP7JXPlhc",
+          "title": "How I fight token fraud as an AI founder",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Solo founder of ChatPRD walks through six token fraud attack patterns (free trial farming, promo code reselling, relay wrapping, custom MCPs as compute workers), business and technical controls including real-time classification via Jev, why she killed free trials, and the operational/financial cost of defending an AI SaaS product.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "AZOhuwkSXzk",
+          "url": "https://youtu.be/AZOhuwkSXzk",
+          "title": "Selling AI on Hours Saved Is Dead | Ishan Mukherjee",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Rox CEO on enterprise AI revenue agents: why \"hours saved\" messaging fails, how to tie agent ROI to board outcomes in 60–90 days, and reskilling frontline workers from task execution to agent orchestration.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "_Jkx4a141wo",
+          "url": "https://youtu.be/_Jkx4a141wo",
+          "title": "Claude Code Is Still Limited by Human Speed | Shaun Clowes",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Shaun Clowes (IBM/Confluent GM) on why enterprise AI stalls after POC — real-time data infrastructure gap, legacy complexity, timeline to full autonomy (~5 years), and IBM's post-acquisition strategy for agents on streaming data.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
