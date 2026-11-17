@@ -1,0 +1,44 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-17T00:00:27.201381+00:00",
+      "tg_message_ids": [
+        355
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "0lwplEiFgtA",
+          "url": "https://youtu.be/0lwplEiFgtA",
+          "title": "AI Models Will Automate Their Own Research | Ryan Williams",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "MIT Professor Ryan Williams examines OpenAI and Anthropic's AI-generated math proofs (exponential time hypothesis), separates cross-literature synthesis from novel contributions, and discusses how labs likely use these capabilities internally for model self-improvement — with Navier-Stokes as a potential near-term Millennium Prize breakthrough.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "1wSD76G4eCs",
+          "url": "https://youtu.be/1wSD76G4eCs",
+          "title": "We Can Double World Compute Without Data Centers | H.J. Schmidtke",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Infrastructure efficiency thesis — data centers run 20–30% utilized; flow-level digital twins could recover 2x capacity; power (not chips) becomes the constraint; orbital DCs evaluated as a partial solution; heterogeneous compute and new materials forecast for near term.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
