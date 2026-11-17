@@ -79,6 +79,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-17T16:00:35.971440+00:00",
+      "tg_message_ids": [
+        357
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "laTrJDPTrsY",
+          "url": "https://youtu.be/laTrJDPTrsY",
+          "title": "Claude Could Only Go So Far Building a Xero Killer | Xero CEO",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Xero CEO discusses why thin AI wrappers fail vs. full-stack systems, shares a first-hand attempt to replicate Xero with Claude, defines trust requirements for financial AI agents, and argues AI multiplies rather than eliminates engineering jobs.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "vpU2obivYf4",
+          "url": "https://youtu.be/vpU2obivYf4",
+          "title": "Why AI Labs Misread Consumer Time | Paul Scherer",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Eigen CEO Paul Scherer argues that AI labs optimizing for \"transactional utility\" and time-saving miss what makes technology meaningful; discusses building AI around human connection and emotion instead, drawing on Michael Ende's Momo and work with Hollywood screenwriters.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
