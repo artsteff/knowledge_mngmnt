@@ -119,6 +119,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-17T20:00:37.500362+00:00",
+      "tg_message_ids": [
+        358
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "Vp-0PZHvrVQ",
+          "url": "https://youtu.be/Vp-0PZHvrVQ",
+          "title": "James Sinka & Berk Ozer Reactorfield w  Sophia Dew",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Reactorfield fellowship trains scientists to use AI agents (not chatbots) for research; Cohort 1 results include a Harvard PhD compressing a year into four weeks and a fusion company finding cheaper isotope pathways. Discussion covers lab adoption workflows, scientific funding models, and bottlenecks in AI-native research.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "VNdPqhhN3Wk",
+          "url": "https://youtu.be/VNdPqhhN3Wk",
+          "title": "Sam from Access Granted takes off on Creating for TV and new Shorts Series",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 2,
+          "hook": "YouTube PM and Creator Liaison discuss YouTube on TV: 4K production specs, living room audio design, voice commenting, Shorts Series format, and creator monetization/sponsorship strategy.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
