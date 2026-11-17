@@ -39,6 +39,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-17T08:00:43.756155+00:00",
+      "tg_message_ids": [
+        356
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "G8MZsPT5JUo",
+          "url": "https://youtu.be/G8MZsPT5JUo",
+          "title": "OpenAI Is Measuring Early Recursive Self-Improvement | Carl Shan",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "OpenAI researcher Carl Shan presents findings from a 1,800-scientist study on ChatGPT usage patterns—coding, analysis, ideation—and discusses OpenAI's measurement of recursive self-improvement and internal Codex adoption. Addresses why end-to-end autonomous research remains rare despite AI capability.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "8uwjWefO0hY",
+          "url": "https://youtu.be/8uwjWefO0hY",
+          "title": "Stop Sending Walls of Unread AI Slop | Dex Horthy",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Dex Horthy (Factory) discusses the \"No AI Slop Manifesto\" (720+ signatures), defining what constitutes low-quality AI output, why developers must review model outputs rather than trust blindly, and how junior engineers build technical judgment when coding with agents.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
