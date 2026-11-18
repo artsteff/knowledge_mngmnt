@@ -68,6 +68,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-18T16:00:31.202373+00:00",
+      "tg_message_ids": [
+        361
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "0Hvs6-XODgU",
+          "url": "https://youtu.be/0Hvs6-XODgU",
+          "title": "How To Build The Future: Eric Glyman, Co-CEO of Ramp",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Ramp's CEO discusses the business model that enabled out-investing competitors, their transition to AI agents for financial operations, building internal AI infrastructure (\"company brain\"), and organizational changes during AI transformation — including a hiring pause and new skill requirements.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
