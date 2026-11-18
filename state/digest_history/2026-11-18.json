@@ -28,6 +28,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-18T04:00:33.150441+00:00",
+      "tg_message_ids": [
+        360
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "fFS4bs2Q9_c",
+          "url": "https://youtu.be/fFS4bs2Q9_c",
+          "title": "One Founder Now Runs a Game Studio With 20 AI Bots | Walden Yan",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Cognition's Walden Yan walks through Devin Bots — autonomous agents managing parallel work streams with decision-making loops — and argues code review disappears as engineers shift to managing multi-agent teams and setting architectural guardrails rather than reviewing code.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "4-xSh1W84E8",
+          "url": "https://youtu.be/4-xSh1W84E8",
+          "title": "AI Is Still Far From Autonomous Research | Andrew Gordon Wilson",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Andrew Gordon Wilson (Perplexity Frontier Research lead, NYU) on why current AI systems fall short of autonomous research: covers model orchestration, training with \"scientific taste\" using simulated environments like Discover Physics, infrastructure scale (10,000 GPUs), and timelines for autonomous AI researchers.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
