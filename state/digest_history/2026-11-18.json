@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-18T00:00:19.348814+00:00",
+      "tg_message_ids": [
+        359
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "ZI5MdAUzlE0",
+          "url": "https://youtu.be/ZI5MdAUzlE0",
+          "title": "Why AI Hacking Makes Code Testing Obsolete | &Truth",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Formal verification and automated reasoning for proving software correctness; &Truth's $70M launch, work on securing C libraries (Linux, OpenSSL), and the case for mathematical proofs over testing in an AI-accelerated threat environment.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
