@@ -97,6 +97,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-18T20:00:33.056560+00:00",
+      "tg_message_ids": [
+        362
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "NTnV2dxIaDE",
+          "url": "https://youtu.be/NTnV2dxIaDE",
+          "title": "I Tested Astra 6.2 vs Fable 5.2 vs Gemini 4 (Full Breakdown)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Head-to-head comparison of Claude Fable 5.2, GPT-6.2 Astra, and Gemini 4 Carbon across five concrete tasks (3D video generation, game development, website redesign, creative writing, advice-giving under pushback); includes pricing analysis and verdict on which model excels where.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "kUwH2bEqiwA",
+          "url": "https://youtu.be/kUwH2bEqiwA",
+          "title": "Why My AI P(doom) Dropped From 70% to 8% | David A. Dalrymple",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "AI safety researcher argues chain-of-thought monitoring is ineffective, pivots alignment strategy to formal verification and training-time \"wisdom,\" and explains his P(doom) reduction from 70% to 8% based on RSI bottleneck timelines.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
