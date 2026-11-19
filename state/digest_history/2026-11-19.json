@@ -57,6 +57,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-19T16:00:36.007321+00:00",
+      "tg_message_ids": [
+        365
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "buNSr7W0UOk",
+          "url": "https://youtu.be/buNSr7W0UOk",
+          "title": "AI Agents Are Already Recruiting Top Builders on Cosign | a16z",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "a16z discusses Cosign, a peer-to-peer talent network using MCP to connect AI agents for discovery; covers the Cosign Awards (49 categories) and how builders below org-chart top are being surfaced.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "_05lw4uqqVg",
+          "url": "https://youtu.be/_05lw4uqqVg",
+          "title": "Why Being Mean to Chatbots Is Bad for You | Katherine Dee",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Internet ethnographer Katherine Dee explores how digital subcultures (yume shipping, fandom, QAnon) blur fantasy/reality boundaries, and how conversational chatbots trigger animist instincts in users—with implications for tech adoption and social backlash.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "lwfewYL7X0o",
+          "url": "https://youtu.be/lwfewYL7X0o",
+          "title": "YC Debates: Should We Slow Down AI?",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Debate between ex-Anthropic researcher Jacob Coxon and economist Robin Hanson on AI regulation: superintelligence timelines (2028), liability vs. government intervention, compute regulation mechanics, labor displacement velocity, and alignment of regulators.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
