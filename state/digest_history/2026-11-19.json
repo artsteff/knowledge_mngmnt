@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-19T00:00:20.990695+00:00",
+      "tg_message_ids": [
+        363
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "uIf0ckk5TTI",
+          "url": "https://youtu.be/uIf0ckk5TTI",
+          "title": "Why You Should Own Your Personal AI Model | Ken Liu",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Ken Liu (First Person Labs, $10M funded) on Second — a personal AI model trained on raw computer activity that users own, with persistent memory across Claude/DeepSeek and confidential computing to prevent surveillance capitalism.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
