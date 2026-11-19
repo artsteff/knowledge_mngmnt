@@ -28,6 +28,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-19T04:00:22.434956+00:00",
+      "tg_message_ids": [
+        364
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "IW7Ho9xq5Ag",
+          "url": "https://youtu.be/IW7Ho9xq5Ag",
+          "title": "2-Person Finance Teams Can Manage $500M With AI | Chargebee",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Chargebee co-founder discusses Arc, an agentic finance platform with human-in-the-loop controls; shares how their team runs 23 live agents on Claude/ChatGPT, why 2–3 person finance teams can manage $500M in revenue, and why banks are blocking external agents over security/authorization gaps.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
