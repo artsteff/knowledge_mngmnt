@@ -108,6 +108,68 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-19T20:00:38.388520+00:00",
+      "tg_message_ids": [
+        366
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 4,
+          "backlog_size": 4,
+          "posting": 4,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "iYIWuI5WfUo",
+          "url": "https://youtu.be/iYIWuI5WfUo",
+          "title": "I Tested Gemini 4 Neon vs Claude Opus 5.5 (Full Breakdown)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Head-to-head comparison of Gemini 4 Neon vs Claude Opus 5.5 across five concrete use cases (3D video, game development, website redesign, writing, advice-giving); verdict: Neon matches Opus on writing and everyday tasks, loses on 3D/design, with better personality than prior Gemini models.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "lJKbcgWkqLg",
+          "url": "https://youtu.be/lJKbcgWkqLg",
+          "title": "Nvidia Will Never Replace Jensen Huang | Kyle Chan",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Geopolitical analysis of US-China AI competition covering Trump-Xi APEC talks, China's domestic semiconductor strategy, Beijing's pullback from open-source frontier models over security concerns, and structural shifts in Nvidia's ecosystem post-Huang.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "q6XW9I_FnoA",
+          "url": "https://youtu.be/q6XW9I_FnoA",
+          "title": "I stopped buying stupid sh*t because of this book (now I save thousands)",
+          "author": "Christina Mychas",
+          "source_type": "video",
+          "score": 3,
+          "hook": "Personal spending habits and impulse-purchase reduction through a book recommendation; affiliate-linked products and newsletter signup.",
+          "card_slug": null
+        },
+        "4": {
+          "adapter": "youtube",
+          "source_id": "TNjXvHTSz_w",
+          "url": "https://youtu.be/TNjXvHTSz_w",
+          "title": "The 19 Minutes Every Ambitious Person Needs To Hear | Arnold Schwarzenegger Motivation",
+          "author": "Aerondight",
+          "source_type": "video",
+          "score": 3,
+          "hook": "Generic motivational speech about having a clear vision and committing fully to goals, no specifics on mechanism or application.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
