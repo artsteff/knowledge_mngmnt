@@ -97,6 +97,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-20T20:00:28.790715+00:00",
+      "tg_message_ids": [
+        370
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "p-a83P3FPC4",
+          "url": "https://youtu.be/p-a83P3FPC4",
+          "title": "New! Co-Views in Public Viewcount, YouTube Audio Library Update",
+          "author": "Creator Insider",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YouTube is adding co-views to public viewcount and introducing a co-view rate metric in Studio; Audio Library gets a redesign with new Discover page, search, unified filters, and downloaded tab.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "MsppYPIw0hg",
+          "url": "https://youtu.be/MsppYPIw0hg",
+          "title": "Inside the mind of Karl Ove Knausgård | BBC Global",
+          "author": "BBC Global",
+          "source_type": "video",
+          "score": 3,
+          "hook": "Literary biography — Knausgård on overcoming shame to write his autobiography series; BBC interview format.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
