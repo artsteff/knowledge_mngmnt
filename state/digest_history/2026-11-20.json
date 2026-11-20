@@ -57,6 +57,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-20T12:00:31.938447+00:00",
+      "tg_message_ids": [
+        369
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "Dx-c19qXdxM",
+          "url": "https://youtu.be/Dx-c19qXdxM",
+          "title": "Give Me 15 Minutes and I'll Make You Disgustingly Good at YouTube",
+          "author": "Jake Trinder",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Keynote covering YouTube channel growth mechanics end-to-end: idea generation, title/thumbnail strategy, scripting, recording, analytics review. Specific workflow but no mechanism detail or platform changes named in the description.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "k6e31Te-04Q",
+          "url": "https://youtu.be/k6e31Te-04Q",
+          "title": "The Only 38 Minutes You Need To Reinvent Yourself | Andrew Huberman Motivation",
+          "author": "Aerondight",
+          "source_type": "video",
+          "score": 3,
+          "hook": "Motivational speech compilation arguing that behavior precedes emotion and waiting for readiness is counterproductive; sourced from Andrew Huberman's Rich Roll appearance on neuroplasticity and dopamine.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
