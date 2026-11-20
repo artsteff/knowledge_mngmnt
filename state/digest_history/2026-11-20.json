@@ -28,6 +28,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-20T04:00:21.224312+00:00",
+      "tg_message_ids": [
+        368
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "bDUrm8UC5G4",
+          "url": "https://youtu.be/bDUrm8UC5G4",
+          "title": "Self-Driving Enterprises Will Happen in 2027 | Arnab Bose",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Asana's CPO argues organizational alignment (not raw model capability) is the bottleneck for enterprise AI deployment; shares FedEx and Washmen production results; discusses whether R&D teams expand or contract as AI scales product work.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
