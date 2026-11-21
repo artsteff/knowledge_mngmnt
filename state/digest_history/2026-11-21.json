@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-21T04:00:20.366488+00:00",
+      "tg_message_ids": [
+        371
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "wVrEL9M7Kr4",
+          "url": "https://youtu.be/wVrEL9M7Kr4",
+          "title": "All Math and Physics Mysteries Will Fall Soon | Joshua Achiam",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Joshua Achiam (ex-OpenAI Chief Futurist) discusses Anthropic's Riemann hypothesis breakthrough, superintelligence timelines and compute costs, Trump-Xi AI guardrails, AI-driven cyberattack risks, and US chip export controls on China.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
