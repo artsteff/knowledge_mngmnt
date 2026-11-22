@@ -28,6 +28,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-22T12:00:36.905515+00:00",
+      "tg_message_ids": [
+        376
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "y1_VXQrOos4",
+          "url": "https://youtu.be/y1_VXQrOos4",
+          "title": "Matthew McConaughey: The Art of Living a Meaningful Life",
+          "author": "Daily Stoic",
+          "source_type": "video",
+          "score": 3,
+          "hook": "McConaughey discusses poetry, stoicism, and personal values with Ryan Holiday; covers meaning-making, saying no, and authenticity.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
