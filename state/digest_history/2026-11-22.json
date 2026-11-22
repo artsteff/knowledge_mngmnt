@@ -57,6 +57,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-22T16:00:45.892863+00:00",
+      "tg_message_ids": [
+        377
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "Ka2c-DGJvWc",
+          "url": "https://youtu.be/Ka2c-DGJvWc",
+          "title": "What Should Engineers Do When AI Writes All the Code | Charles Lamanna (EVP Microsoft)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Charles Lamanna (Microsoft EVP for Copilot) on how engineering changes when AI writes code—context as the bottleneck, agents as the harshest customers, why alignment beats building speed, and rebuilding Office around Copilot.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "KVYdy65dt0s",
+          "url": "https://youtu.be/KVYdy65dt0s",
+          "title": "Frontier AI Models Score Just 34% on Real RSI | Abundant",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Abundant releases Frontier RSI benchmark testing whether frontier models (Gemini, Claude, OpenAI) can recursively self-improve on real LLM development tasks—kernel optimization, post-training, inference—with results showing 34% performance; discusses why existing RSI benchmarks use toy problems and founders' view that alignment and capabilities are orthogonal.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "hRtmV1mCBSE",
+          "url": "https://youtu.be/hRtmV1mCBSE",
+          "title": "The new rules of product management in the AI era | Sherif Mansour (Head of AI, Atlassian)",
+          "author": "Lenny's Podcast",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Sherif Mansour (Atlassian, 17y) on PM craft in AI: shared brain as core job, GM/scientist/artist PM archetypes, why direction (not throughput) is now the bottleneck, hiring juniors in an AI world, manager mistakes, and working with strong founders.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
