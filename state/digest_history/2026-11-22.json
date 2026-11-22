@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-22T00:00:22.563559+00:00",
+      "tg_message_ids": [
+        375
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "Ahi52SdK588",
+          "url": "https://youtu.be/Ahi52SdK588",
+          "title": "Congress Has a 60% Chance of Passing an RSI Ban | Peter Wildeford",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Policy forecaster breaks down bipartisan RSI ban efforts in Congress (60% passage odds) and California, plus analysis of AI-discovered vulnerabilities causing infrastructure outages from rushed patches.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
