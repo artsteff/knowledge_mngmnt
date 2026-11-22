@@ -108,6 +108,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-22T20:00:26.626068+00:00",
+      "tg_message_ids": [
+        378
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "RmCo_l4SFgQ",
+          "url": "https://youtu.be/RmCo_l4SFgQ",
+          "title": "Humanoid Robots Are the Wrong Form Factor | Ajay Agarwal",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Bain Capital partner argues humanoid robots are the wrong form factor for the next decade; discusses why coding agents are commoditizing software moats like CUDA and pushing founders toward physical industries instead.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
