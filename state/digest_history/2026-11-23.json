@@ -1,0 +1,44 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-23T00:00:37.074227+00:00",
+      "tg_message_ids": [
+        379
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 3,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "m0nDEOUj88k",
+          "url": "https://youtu.be/m0nDEOUj88k",
+          "title": "I Asked A Marketing Genius What Actually Makes People Buy",
+          "author": "Simon Squibb",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Rory Sutherland (Ogilvy, 40 years) on brand psychology: how to make offers easy to accept, why trends spread, memorability, naming strategy, differentiation vs. competition, premium positioning.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "IP6vSOdziGM",
+          "url": "https://youtu.be/IP6vSOdziGM",
+          "title": "Rory Sutherland: The Surprising Power of Irrational Leadership | HR4Leadership 2026",
+          "author": "Srdjan Vukcevic | Gentle Provocation",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Rory Sutherland on psychological reframing as competitive advantage—psychology as the abandoned variable, pricing as perception (Nespresso, Pampers), reframing problems (range anxiety vs. waiting), reverse benchmarking (Buc-ee's, Eleven Madison Park), and why founder-led businesses outperform on bold bets.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
