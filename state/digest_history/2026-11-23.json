@@ -79,6 +79,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-23T20:00:31.435173+00:00",
+      "tg_message_ids": [
+        381
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "MAngqVza390",
+          "url": "https://youtu.be/MAngqVza390",
+          "title": "Massive AI Data Centers Will Shift to Modular Compute | Palantir",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Palantir's approach to sovereign AI infrastructure via edge models and modular data centers; why massive centralized compute faces political/local backlash and how distributed \"compute co-ops\" could reshape the industry; role of forward deployed engineers in bridging exec vision to on-the-ground execution.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
