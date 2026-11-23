@@ -39,6 +39,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-23T16:00:33.806806+00:00",
+      "tg_message_ids": [
+        380
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "DuYVOYsoJcw",
+          "url": "https://youtu.be/DuYVOYsoJcw",
+          "title": "He built a personal AI Chief of Staff with OpenClaw",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "CTO built a multi-agent system (OpenClaw) that handles approvals, email triage, food ordering, travel, and smart home automation; covers soul files and subagent architecture, guardrails design, and cost tradeoff between GLM 5.3 Flash (~local) vs Anthropic ($500–600/month).",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "iDZqdw0W1uM",
+          "url": "https://youtu.be/iDZqdw0W1uM",
+          "title": "AI Will Soon Generate New Movies Live in Your Living Room",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Reactor CEO discusses PixVerse R2 (real-time world model for interactive generation), robotics integration with Runway ML, and how Hollywood studios are using live generation to let audiences explore existing franchises—moving from passive video generation to interactive experiences.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
