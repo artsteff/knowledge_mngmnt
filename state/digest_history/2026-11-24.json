@@ -1,0 +1,44 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-24T00:00:25.318963+00:00",
+      "tg_message_ids": [
+        382
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "29DOuy9Mvw4",
+          "url": "https://youtu.be/29DOuy9Mvw4",
+          "title": "what building a $3 million/year youtube business actually looks like",
+          "author": "AlexanderTheCreate",
+          "source_type": "video",
+          "score": 1,
+          "hook": "First-hand breakdown of YouTube creator economics at $3M ARR — likely covers channel metrics, monetization mix (AdSense, sponsorships, products), growth trajectory, and platform algorithm mechanics from a creator building a sustainable business.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "H7Daly20npA",
+          "url": "https://youtu.be/H7Daly20npA",
+          "title": "AI Agents Will Be Mandatory in 1 Year | Glenn Solomon",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Glenn Solomon (Notable Capital, early Anthropic investor) on why AI coding agents accelerate rather than replace developers, the IPO timing, and why startups must ship product improvements faster than frontier models advance to avoid obsolescence.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
