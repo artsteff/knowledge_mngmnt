@@ -68,6 +68,46 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-24T08:00:34.808524+00:00",
+      "tg_message_ids": [
+        384
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "CN8c1edTCew",
+          "url": "https://youtu.be/CN8c1edTCew",
+          "title": "Head of Instagram Reveals How the Top 1% Actually Work With AI",
+          "author": "Silicon Valley Girl",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Adam Mosseri (Head of Instagram) walks through his personal AI stack: email writing with learned voice patterns, meeting briefing systems, shared memory across tools, and decision stress-testing. Also covers Instagram's engagement metrics, what views actually measure, Trial Reels design intent, and creator feedback loops.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "Bv5ZTghjx0E",
+          "url": "https://youtu.be/Bv5ZTghjx0E",
+          "title": "AI Cyberattacks Have Jumped 5x in the Last Year | Wiz",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Wiz researchers discuss training Gemini 4 for autonomous penetration testing, claiming frontier models now outperform human security experts; they correlate a 4-5x surge in cyber incidents to AI-enabled attacks. Speed vs. creativity in exploit generation; defensive implications for companies.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
