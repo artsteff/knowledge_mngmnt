@@ -39,6 +39,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-24T04:00:21.650291+00:00",
+      "tg_message_ids": [
+        383
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "jKez48toV3U",
+          "url": "https://youtu.be/jKez48toV3U",
+          "title": "Anthropic’s IPO Means GPU Prices Will Keep Rising | Modal",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Modal CEO on Anthropic's IPO implications for GPU pricing, Modal's 400x sandbox revenue growth, inference-vs-training demand shift, and which AI applications will break out in the next 12 months.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
