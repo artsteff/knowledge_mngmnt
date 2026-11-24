@@ -108,6 +108,35 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-24T16:00:31.663855+00:00",
+      "tg_message_ids": [
+        385
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "7I8B7CQky0Y",
+          "url": "https://youtu.be/7I8B7CQky0Y",
+          "title": "Learn 95% of Google Antigravity in 17 Minutes (with Gemini 4 Neon)",
+          "author": "Peter Yang",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Tutorial on Google's Antigravity platform (appears to be an agentic framework) using Gemini 4 Neon — covers setup, orchestration with voice mode, building a reusable skill for video explainers, iteration with swarm/multi-agent patterns, and deployment to GitHub.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
