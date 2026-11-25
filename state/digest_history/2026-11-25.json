@@ -90,6 +90,52 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-25T20:00:56.040427+00:00",
+      "tg_message_ids": [
+        389
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": [
+            "metadata-missing:DPDk-sxFV7o",
+            "metadata-missing:PfTcgYwW14E",
+            "metadata-missing:oZYpzQQAnFw",
+            "metadata-missing:H43e72-2aAs",
+            "metadata-missing:UTbos4lQEUY"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "TDsj70D7Qoo",
+          "url": "https://youtu.be/TDsj70D7Qoo",
+          "title": "AI Agents Will Create More Bullshit Jobs | Tejas Bhakta",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Tejas Bhakta (Morph CEO) on multi-agent orchestration mechanics, GPU economics and prepay contract traps, AMD viability for inference, and the job market impact of frontier models on software engineers.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "ND8-9fOe9Hg",
+          "url": "https://youtu.be/ND8-9fOe9Hg",
+          "title": "OpenAI Models Run 15% Better in Codex | Ankur Goyal",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Ankur Goyal (Braintrust CEO) discusses Patterns, an AI observability agent for debugging; enterprise adoption trends including open-weight model gains and OpenAI's 15% performance edge in Codex; and predictions on enterprise data center builds.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
