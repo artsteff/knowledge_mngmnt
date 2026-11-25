@@ -1,0 +1,44 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-25T04:00:26.470420+00:00",
+      "tg_message_ids": [
+        387
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "mrYiJsfJWLk",
+          "url": "https://youtu.be/mrYiJsfJWLk",
+          "title": "AI Will Cure Disease and Push Space Frontiers | Sangeen Zeb",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Google Ventures partner discusses Sierra's $30B Series F valuation and enterprise growth trajectory; explores AI applications in healthcare, legal, and drug discovery through portfolio companies including Harvey and Isomorphic Labs.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "uE96N6rF7M4",
+          "url": "https://youtu.be/uE96N6rF7M4",
+          "title": "Why Vibe Coding Won’t Kill SaaS | Sukhinder Singh Cassidy",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Xero CEO on small business AI adoption patterns, why traditional SaaS won't be disrupted by \"vibe coding,\" market volatility in frontier AI spending, and enterprise vs SMB AI bifurcation forecast for 2027.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
