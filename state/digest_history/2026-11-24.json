@@ -25,7 +25,8 @@
           "source_type": "video",
           "score": 1,
           "hook": "First-hand breakdown of YouTube creator economics at $3M ARR — likely covers channel metrics, monetization mix (AdSense, sponsorships, products), growth trajectory, and platform algorithm mechanics from a creator building a sustainable business.",
-          "card_slug": null
+          "card_slug": "what-building-a-3-millionyear-youtube-business-actually-look",
+          "card_path": "summaries/what-building-a-3-millionyear-youtube-business-actually-look.md"
         },
         "2": {
           "adapter": "youtube",
