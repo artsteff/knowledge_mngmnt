@@ -39,6 +39,57 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-25T16:00:41.891519+00:00",
+      "tg_message_ids": [
+        388
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 4,
+          "scored_to_backlog": 3,
+          "backlog_size": 3,
+          "posting": 3,
+          "errors": []
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "HnUtw3IWT3k",
+          "url": "https://youtu.be/HnUtw3IWT3k",
+          "title": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
+          "author": "How I AI",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Blind benchmark across six frontier models (GPT-6.2, Claude Opus/Fable, Gemini Neon/Carbon) on 25 tasks; introduces \"Annoyance Bench\" eval built from agent session data; covers coding, creative, prototyping, speed-cost tradeoffs.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "ofPqO5CF4TU",
+          "url": "https://youtu.be/ofPqO5CF4TU",
+          "title": "Anthropic’s Margins Are Being Squeezed | Tomasz Tunguz",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Tomasz Tunguz analyzes AI lab unit economics post-Anthropic IPO: GPU costs rising, token prices falling, margin compression; predicts US compute bottleneck forces token imports by 2028–30; local models handling 90% of laptop tasks.",
+          "card_slug": null
+        },
+        "3": {
+          "adapter": "youtube",
+          "source_id": "IeNjttIZtzo",
+          "url": "https://youtu.be/IeNjttIZtzo",
+          "title": "Can True Art Survive the YouTube Algorithm?",
+          "author": "Colin and Samir",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Max Joseph (editor of Casey Neistat's \"Make It Count\") discusses how the YouTube algorithm rewards repetition vs. artistic integrity, the history of that 2012 Nike video's impact on the creator economy, and practical advice for artists navigating algorithmic constraints.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
