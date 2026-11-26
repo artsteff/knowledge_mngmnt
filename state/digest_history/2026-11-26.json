@@ -45,6 +45,41 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-26T20:00:46.970840+00:00",
+      "tg_message_ids": [
+        391
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": [
+            "metadata-missing:DPDk-sxFV7o",
+            "metadata-missing:PfTcgYwW14E",
+            "metadata-missing:oZYpzQQAnFw",
+            "metadata-missing:H43e72-2aAs",
+            "metadata-missing:UTbos4lQEUY"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "tcZNt0N9J1s",
+          "url": "https://youtu.be/tcZNt0N9J1s",
+          "title": "Frontier AI Models Will Never Have Real Taste | Canva",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 1,
+          "hook": "Canva's Head of Ecosystem walks through the general availability launch of their MCP server, REST API, and CLI for AI agents; discusses why specialized visual models (Craft, Brush) outperform general LLMs on taste and typography; and explains positioning as design infrastructure for agent-native workflows.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
