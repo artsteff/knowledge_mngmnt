@@ -1,0 +1,50 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-26T04:00:48.459155+00:00",
+      "tg_message_ids": [
+        390
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": [
+            "metadata-missing:DPDk-sxFV7o",
+            "metadata-missing:PfTcgYwW14E",
+            "metadata-missing:oZYpzQQAnFw",
+            "metadata-missing:H43e72-2aAs",
+            "metadata-missing:UTbos4lQEUY"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "sUk0W9vr7JY",
+          "url": "https://youtu.be/sUk0W9vr7JY",
+          "title": "AI Exploit Windows Have Dropped to Minutes | Jeetu Pate",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Cisco's Jeetu Patel discusses Shirudo, an open-source eBPF-based defense system built with OpenAI that autonomously blocks exploit paths in minutes while patches are tested; covers how autonomous agents change enterprise security posture and why trust infrastructure matters for scaling AI agents.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "131U-mttc0Y",
+          "url": "https://youtu.be/131U-mttc0Y",
+          "title": "Generative Brain Models Will Arrive in 12 Months | UCSF",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "UCSF neurosurgeon Eddie Chang discusses neural recordings showing the brain plans speech 250ms before vocalization, and frames the BCI industry shift from hardware-focused to generative world models of neural activity as the path to embodied interfaces by 2030.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
