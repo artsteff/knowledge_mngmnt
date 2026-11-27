@@ -1,0 +1,39 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-27T00:00:43.375150+00:00",
+      "tg_message_ids": [
+        392
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": [
+            "metadata-missing:DPDk-sxFV7o",
+            "metadata-missing:PfTcgYwW14E",
+            "metadata-missing:oZYpzQQAnFw",
+            "metadata-missing:H43e72-2aAs",
+            "metadata-missing:UTbos4lQEUY"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "pqD0K9bjhBs",
+          "url": "https://youtu.be/pqD0K9bjhBs",
+          "title": "AI Will Accelerate AI R&D Within 18 Months | Nathan Labenz",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Nathan Labenz argues AI R&D acceleration via math breakthroughs will trigger recursive self-improvement in 6–18 months; proposes perplexity caps as a pacing mechanism and flags alignment risks from unaligned models optimizing for high scores.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
