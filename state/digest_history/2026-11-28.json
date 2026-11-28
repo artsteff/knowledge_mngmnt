@@ -1,0 +1,40 @@
+{
+  "runs": [
+    {
+      "run_at": "2026-11-28T00:00:44.900857+00:00",
+      "tg_message_ids": [
+        394
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 1,
+          "scored_to_backlog": 1,
+          "backlog_size": 1,
+          "posting": 1,
+          "errors": [
+            "metadata-missing:up1xuwn_euk",
+            "metadata-missing:DPDk-sxFV7o",
+            "metadata-missing:PfTcgYwW14E",
+            "metadata-missing:oZYpzQQAnFw",
+            "metadata-missing:H43e72-2aAs",
+            "metadata-missing:UTbos4lQEUY"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "kJu2JpRW_7o",
+          "url": "https://youtu.be/kJu2JpRW_7o",
+          "title": "We Beat HackerOne Using China’s Open-Weight GLM | Pavel Gurvich",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Cybersecurity CEO discusses using open-weight Chinese LLM models to win HackerOne competition, shift from vulnerability discovery to mass-scale breach capability, and why legacy security vendors fail against AI-driven attacks.",
+          "card_slug": null
+        }
+      }
+    }
+  ]
+}
