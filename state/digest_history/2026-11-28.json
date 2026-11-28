@@ -35,6 +35,53 @@
           "card_slug": null
         }
       }
+    },
+    {
+      "run_at": "2026-11-28T16:00:56.093807+00:00",
+      "tg_message_ids": [
+        395
+      ],
+      "tg_post_ok": true,
+      "adapters": {
+        "youtube": {
+          "fetched": 2,
+          "scored_to_backlog": 2,
+          "backlog_size": 2,
+          "posting": 2,
+          "errors": [
+            "metadata-missing:up1xuwn_euk",
+            "metadata-missing:DPDk-sxFV7o",
+            "metadata-missing:PfTcgYwW14E",
+            "metadata-missing:oZYpzQQAnFw",
+            "metadata-missing:H43e72-2aAs",
+            "metadata-missing:UTbos4lQEUY"
+          ]
+        }
+      },
+      "digest_map": {
+        "1": {
+          "adapter": "youtube",
+          "source_id": "2e0fJekCBxk",
+          "url": "https://youtu.be/2e0fJekCBxk",
+          "title": "We Built An AI Coworker At YC That You Can Use For Free",
+          "author": "Y Combinator",
+          "source_type": "video",
+          "score": 1,
+          "hook": "YC Labs built QM, an open-source multiplayer agent harness. The video walks through what changed in YC's building approach over 6 months, demos the tool, covers token management and task patterns YC teams are actually using it for, and discusses implications for builders.",
+          "card_slug": null
+        },
+        "2": {
+          "adapter": "youtube",
+          "source_id": "RuqXjlK3S9M",
+          "url": "https://youtu.be/RuqXjlK3S9M",
+          "title": "Why I Reject Flirty AI Companions | Mina Fahmi",
+          "author": "MTS ",
+          "source_type": "video",
+          "score": 2,
+          "hook": "Mina Fahmi (ex-Meta, Magic Leap neural interfaces) discusses Stream, a whisper-activated AI ring, and why current AI companions create friction and parasocial traps; explores wearable design, sci-fi imagination, and \"thought symbiosis\" over flirty interfaces.",
+          "card_slug": null
+        }
+      }
     }
   ]
 }
